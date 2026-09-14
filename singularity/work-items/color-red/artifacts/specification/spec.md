@@ -4,27 +4,51 @@
   "workId": "color-red",
   "workType": "spec-driven-standard",
   "phase": "specification",
-  "generation": 0,
+  "generation": 1,
   "status": "in_progress",
-  "generatedBy": null,
-  "generatedAgent": null,
+  "generatedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "generatedAgent": "product-owner",
   "authorship": {
     "schemaVersion": 1,
-    "producer": "legacy-unspecified",
-    "channel": "legacy",
-    "governedAgentContext": null,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "product-owner"
+    },
     "kernelModel": {
       "invoked": false,
-      "status": "unavailable",
+      "status": "exact",
       "invocationIds": []
     },
     "externalAiUse": {
       "value": "unknown",
       "status": "unavailable"
     },
-    "source": null
+    "changeOrigins": [
+      "copilot"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "spec.md",
+      "mediaType": "text/markdown",
+      "sha256": "a9265e4020a97dd62bcf3bf1d0cea554f380b87299e1412d14ece33a3c9b0cfd",
+      "bytes": 4355
+    },
+    "generation": 1,
+    "publishedAt": "2026-09-14T23:56:01.230Z"
   },
-  "sourceCommit": null,
+  "sourceCommit": "e76f96edb90a18b67425164cdfcad818b16329db",
   "generationCommit": null,
   "publicationCommit": null,
   "configSha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b",
@@ -41,10 +65,55 @@
     "approved": null
   },
   "remoteAgent": null,
-  "clarification": null,
-  "telemetry": [],
+  "clarification": {
+    "generation": 1,
+    "path": "singularity/work-items/color-red/context/clarifications-specification-gen1.json",
+    "sha256": "09da96b351920435bf7202d416cb397532e3b32d9355743138fb086dc3b98489",
+    "promptSha256": "e155107e39983bca4436d9e1f80af3407cef642dfec7841f9c64a432ae959033",
+    "responses": 3,
+    "markers": [],
+    "recordedAt": "2026-09-14T23:54:06.412Z",
+    "recordedBy": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    }
+  },
+  "telemetry": [
+    {
+      "generation": 1,
+      "path": "singularity/work-items/color-red/telemetry/specification-gen1.json",
+      "sha256": "b9ad9bae9a2d75f512d743eb61eefbfd8c7624ed46b0b275837e7a86d7523a9f",
+      "status": "pending",
+      "models": [],
+      "providerCost": null
+    }
+  ],
   "remoteOutputs": [],
-  "usage": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-14T23:56:01.229Z",
+      "completedAt": "2026-09-14T23:56:01.229Z",
+      "agent": "product-owner",
+      "generation": 1
+    }
+  ],
   "sequenceOverrides": [],
   "approvals": [],
   "selfApproval": false,
@@ -54,109 +123,97 @@
 
 # Specification — color-red
 
-<!--
-Scenarios come first, and general requirements come after them `[SPK:REQ-068]`. That ordering is the
-template's opinion: a requirement written before anyone has described the situation it serves tends
-to describe the system instead of the need, and nobody notices until verification.
-
-Where the current Story evidence leaves something material unknown, say so with a marker rather
-than guessing. Use this syntax:
-
-    [NEEDS CLARIFICATION: <one question grounded in the current Story evidence>]
-
-Replace the angle-bracketed placeholder; never copy or ask it as written. The question must be one
-non-empty line and must arise from the pinned sources, approved upstream artifacts, repository world
-model, or a contradiction among them. Markers are extracted the same way clauses are, so a marker
-inside fenced or inline code is ignored `[SPK:REQ-063]`. This phase blocks publication while any
-marker is unresolved, and a marker is only resolved when a later generation removes it *and* records
-the answer `[SPK:REQ-067]` — deleting the text alone is an integrity failure, not an answer.
--->
-
 ## Agent brief
 
-<!--
-Summarize the approved intent for downstream agents in a compact, standalone form. Include the
-problem, intended outcome, principal actors, most important scenarios, hard constraints, and major
-exclusions. Do not introduce claims that are absent from the sections below. Exact requirements and
-boundary conditions are preserved separately by the governed projection.
--->
+The rule authoring page must present all visible, user-facing text in CSS red (`#ff0000`). The
+existing rule-authoring workflow, content, controls, permissions, and layout remain unchanged. The
+primary verification is a screenshot of the default rule authoring view after it has loaded.
 
 ## Actors
 
-Who uses this, and what authority does each hold?
+- **Page user:** Views and uses the existing rule authoring page. Existing access and authority are
+  unchanged by this visual change.
 
 ## User scenarios
 
-Prioritized. Each scenario leads with the situation, then its acceptance cases.
+### S1 — See the rule authoring page text in red
 
-### S1 — <the most important situation, in the user's words>
+**Priority:** P1  
+**Actor:** Page user  
+**Context:** The user opens the rule authoring page in its normal default state.
 
-**Priority:** P1
-**Actor:** <role>
-**Context:** <what is true before this begins>
+- **Given** the rule authoring page has loaded successfully
+  **When** the page user views its visible user-facing text
+  **Then** that text is rendered as CSS red (`#ff0000`).
 
-- **Given** <the starting state>
-  **When** <the actor does this>
-  **Then** <the observable outcome>
-
-- **Given** <a variation worth stating>
-  **When** <…>
-  **Then** <…>
-
-### S2 — <the next situation>
-
-**Priority:** P2
-
-- **Given** … **When** … **Then** …
+- **Given** the page is shown in the default rule authoring state used for verification
+  **When** a screenshot is captured
+  **Then** the screenshot visibly demonstrates the red text treatment without requiring a change
+  to the existing page workflow.
 
 ## Failure and empty states
 
-What happens the first time, with nothing there yet, and when each step fails. These are where
-specifications are usually silent and implementations usually improvise.
-
-- **Empty:** <no records yet>
-- **Failure:** <the dependency is unavailable>
-- **Partial:** <some of it worked>
+- **Empty:** If the default page has no authored rule content, all other visible user-facing text
+  still uses CSS red (`#ff0000`).
+- **Failure:** If the page cannot load, this change does not add a new recovery behavior; existing
+  loading or error behavior remains unchanged.
+- **Partial:** If some rule-authoring content is absent, every visible user-facing text element that
+  is present still uses CSS red (`#ff0000`).
 
 ## Permissions
 
-Who may do each thing, and what a reader without that authority sees instead.
+The change grants no new access and removes no access. A user who can currently view the rule
+authoring page sees the color change; a user who cannot access it remains subject to the existing
+permission behavior.
 
 ## Boundary conditions
 
-Limits, sizes, counts, timeouts, and what happens exactly at and beyond each one.
+- The scope is the rule authoring page only.
+- “All visible text” means every user-facing text element visible in the default rule authoring
+  view, including labels and controls; it does not include hidden or unloaded content.
+- The required color is exactly CSS `#ff0000`; no alternate red, gradient, opacity adjustment, or
+  color-dependent interaction is specified.
+- The page's existing viewport and default loaded state are the screenshot verification conditions.
 
 ## Requirements
 
-Numbered, testable, one obligation each. Cite the scenario each serves.
+- Render all visible user-facing text on the default rule authoring page in CSS `#ff0000` without
+  changing the page's existing behavior. (S1) [color-red:REQ-001]
+- Preserve the existing rule-authoring content, layout, controls, loading behavior, and permission
+  behavior while applying the color change. (S1) [color-red:REQ-002]
+- Limit the color change to the rule authoring page; unrelated pages and hidden or unloaded content
+  are outside this requirement. (S1) [color-red:REQ-003]
 
-- <requirement>. *(S1)* [color-red:REQ-001]
-- <requirement>. *(S1, S2)* [color-red:REQ-002]
+Acceptance criteria:
 
-Acceptance criteria use the same stable, namespaced form:
-
-- <observable acceptance outcome>. *(S1)* [color-red:AC-001]
+- A screenshot of the normally loaded default rule authoring view shows every visible user-facing
+  text element in CSS `#ff0000`. (S1) [color-red:AC-001]
+- The screenshot shows the existing rule authoring page structure and controls, with no required
+  workflow or permission change. (S1) [color-red:AC-002]
 
 ## Non-functional requirements
 
-Latency, throughput, availability, accessibility, privacy, retention. State the number and how it
-will be measured; "fast" is not a requirement.
-
-Use governed requirement anchors here too (for example `[color-red:REQ-003]`); `NFR-001` by
-itself is only a display label and is not a stable clause identity.
+- The color update must not add a measurable delay to the existing page load; verify by confirming
+  the default view reaches its existing loaded state under the same project startup conditions.
+  (S1) [color-red:REQ-004]
+- Text must remain legible and the existing page layout must not shift as a result of the color
+  update; verify in the required screenshot condition. (S1) [color-red:REQ-005]
 
 ## Constitution articles
 
-Cite the article IDs this specification is bound by `[SPK:REQ-100]`. The kernel validates that each
-cited ID exists at the pinned revision before publication `[SPK:REQ-101]`.
-
-- <ART-…>
+No constitution article IDs were supplied by the pinned Story or approved inputs, so this
+specification asserts no additional article binding.
 
 ## Assumptions
 
-What this specification takes as true without proving. An assumption that turns out false is a
-change request, not a defect — which is only true if it was written down.
+- The repository's existing rule authoring page is the page named by the pinned Story.
+- “Red” means CSS `#ff0000`, as confirmed at the clarification checkpoint.
+- The default rule authoring view at the existing project viewport is sufficient screenshot evidence,
+  as confirmed at the clarification checkpoint.
 
 ## Out of scope
 
-Named explicitly, so the boundary is reviewable rather than inferred.
+- Changing rule-authoring behavior, validation, persistence, or navigation.
+- Changing text content, typography, layout, icons, backgrounds, borders, or color treatment on
+  unrelated pages.
+- Adding new permissions, responsive breakpoints, themes, or screenshot tooling.

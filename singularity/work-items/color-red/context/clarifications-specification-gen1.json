@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "workId": "color-red",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/color-red/context/prompts/specification-gen1.md",
+  "promptSha256": "e155107e39983bca4436d9e1f80af3407cef642dfec7841f9c64a432ae959033",
+  "groundingRecordPath": "singularity/work-items/color-red/context/specification-gen1.json",
+  "groundingRecordSha256": "8264dadd517f905342b43f758dee003671c0b6fc6a63537f7829d57d7b2bd7bc",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Which text on the rule authoring page should become red?",
+      "answer": "All visible text: every user-facing text element on the rule authoring page.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "What exact red should the implementation use?",
+      "answer": "CSS red (#ff0000).",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "What screenshot condition should demonstrate acceptance?",
+      "answer": "The default rule authoring view in its normal loaded state at the existing project viewport.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-14T23:54:06.412Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}

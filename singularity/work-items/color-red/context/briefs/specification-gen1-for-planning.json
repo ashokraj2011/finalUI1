@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "workId": "color-red",
+  "producer": {
+    "phase": "specification",
+    "generation": 1
+  },
+  "consumer": {
+    "phase": "planning"
+  },
+  "source": {
+    "path": "singularity/work-items/color-red/artifacts/specification/spec.md",
+    "sha256": "71b7905ba19a48eccfbb2d4e976107fa2bf3951996232e428b30fbd7e0adf430",
+    "bytes": 8015
+  },
+  "policy": {
+    "projection": "approved-summary",
+    "preserve": [
+      "Requirements",
+      "Non-functional requirements",
+      "Boundary conditions"
+    ],
+    "maximumSummaryBytes": 32768,
+    "expansion": "hash-bound-reference",
+    "fallback": "whole"
+  },
+  "policySha256": "9973f68aa9533ea1b0053e309fb8ce11843f6510c2d4ed64c6823d5d336c65b7",
+  "status": "ready",
+  "summary": {
+    "heading": "Agent brief"
+  },
+  "preserved": [
+    "Requirements",
+    "Non-functional requirements",
+    "Boundary conditions"
+  ],
+  "rendered": {
+    "path": "singularity/work-items/color-red/context/briefs/specification-gen1-for-planning.md",
+    "sha256": "b3ebb2d90ffca0e5d1d22a5af712d53d90b31c0b8d416feffdbd4f31d006d72e",
+    "bytes": 2555
+  },
+  "generatedAt": "2026-09-14T23:56:01.267Z",
+  "integritySha256": "0eebbdfa4bd890a04913c9fed98b17dfc333c7bbbaea3792fd6d2161ababfe25"
+}
