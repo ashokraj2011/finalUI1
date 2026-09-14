@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "capabilityId": "anu-ui",
+  "capabilityPath": [
+    "anu-ui"
+  ],
+  "capabilityMapSha256": "57c667f951ea2d85be2fd66ff0238080078196487caf577cac71f2b89cef0591",
+  "requiredViews": [
+    "business",
+    "architecture",
+    "development",
+    "testing",
+    "security",
+    "release"
+  ],
+  "maxBytes": 262144,
+  "bytes": 0,
+  "repositories": [
+    {
+      "id": "finalui1",
+      "status": "local-grounding"
+    }
+  ],
+  "files": [],
+  "warnings": [
+    "Capability leases could not be read: Governed state at 'refs/remotes/origin/state' is unavailable; it was not treated as absent. Git could not list governed state at 'refs/remotes/origin/state'."
+  ],
+  "recordedAt": "2026-09-14T23:49:09.905Z"
+}
