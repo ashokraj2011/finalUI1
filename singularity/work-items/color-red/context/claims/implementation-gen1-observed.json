@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "kind": "observed",
+  "recordedAt": "2026-09-15T00:34:10.503Z",
+  "claims": {
+    "COLOR-RED:AC-001": {
+      "observedPaths": [
+        "src/app/app.component.html",
+        "src/styles.css"
+      ],
+      "testResults": [],
+      "commits": [
+        "d8794be8011cb3f451c7ceb3c08be25a6d7b5248"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "COLOR-RED:AC-002": {
+      "observedPaths": [
+        "src/app/app.component.html",
+        "src/app/app.component.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "d8794be8011cb3f451c7ceb3c08be25a6d7b5248"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "COLOR-RED:REQ-001": {
+      "observedPaths": [
+        "src/app/app.component.html",
+        "src/styles.css"
+      ],
+      "testResults": [],
+      "commits": [
+        "d8794be8011cb3f451c7ceb3c08be25a6d7b5248"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "COLOR-RED:REQ-002": {
+      "observedPaths": [
+        "src/app/app.component.html",
+        "src/app/app.component.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "d8794be8011cb3f451c7ceb3c08be25a6d7b5248"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "COLOR-RED:REQ-003": {
+      "observedPaths": [
+        "src/app/app.component.html",
+        "src/styles.css"
+      ],
+      "testResults": [],
+      "commits": [
+        "d8794be8011cb3f451c7ceb3c08be25a6d7b5248"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "COLOR-RED:REQ-004": {
+      "observedPaths": [
+        "src/app/app.component.html",
+        "src/app/app.component.ts",
+        "src/styles.css"
+      ],
+      "testResults": [],
+      "commits": [
+        "d8794be8011cb3f451c7ceb3c08be25a6d7b5248"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "COLOR-RED:REQ-005": {
+      "observedPaths": [
+        "src/app/app.component.html",
+        "src/styles.css"
+      ],
+      "testResults": [],
+      "commits": [
+        "d8794be8011cb3f451c7ceb3c08be25a6d7b5248"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    }
+  },
+  "workId": "color-red",
+  "phase": "implementation",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/color-red/context/code-delivery/implementation-gen1.json",
+    "sha256": "021d231c089cdf9dac46c8673432a1c685c04303ae9fef7fb840ebbb48cd224b",
+    "changeSetDigest": "sha256:cfc5f1049c1cbb46242d223a9568a86b51441e4e71012af357eb0a700c07cc83"
+  }
+}

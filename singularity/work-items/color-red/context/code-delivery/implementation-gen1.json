@@ -88,20 +88,39 @@
       {
         "clauseId": "COLOR-RED:AC-001",
         "testSource": "src/app/app.component.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "COLOR-RED:AC-002",
         "testSource": "src/app/app.component.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       }
     ]
   },
-  "testExecutions": [],
+  "testExecutions": [
+    {
+      "commandId": "angular-tests",
+      "receiptPath": "singularity/work-items/color-red/context/code-delivery/tests/implementation-gen1-angular-tests.json",
+      "receiptSha256": "70f9b99fe7a3479ce8b82878f75e8852d3c253219d355a26c6b07e8295b28cd1",
+      "status": "passed"
+    }
+  ],
   "tree": {
     "workingStateDigest": "sha256:16d42161c9b9999220194758e56cbe3717f88edd7dacc083d17f64b08ac08e65",
-    "generationCommit": null,
-    "generationTree": null
+    "generationCommit": "d8794be8011cb3f451c7ceb3c08be25a6d7b5248",
+    "generationTree": "17cc24930007552fbe8a1a6a58c5e4f90f66c6a6"
   },
   "model": {
     "task": "code",
@@ -120,6 +139,7 @@
     "observedAt": null,
     "generation": null
   },
-  "status": "pending-tests",
-  "capturedAt": "2026-09-15T00:32:19.708Z"
+  "status": "ready",
+  "capturedAt": "2026-09-15T00:32:19.708Z",
+  "validatedAt": "2026-09-15T00:34:10.492Z"
 }

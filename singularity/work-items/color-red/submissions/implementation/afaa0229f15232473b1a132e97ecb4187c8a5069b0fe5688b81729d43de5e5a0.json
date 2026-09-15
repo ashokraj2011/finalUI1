@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 2,
+  "workId": "color-red",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "color-red",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "color-red",
+  "submittedBranch": "color-red",
+  "submissionCommit": "d8794be8011cb3f451c7ceb3c08be25a6d7b5248",
+  "sourceCommit": "d8794be8011cb3f451c7ceb3c08be25a6d7b5248",
+  "sourceTreeSha256": "sha256:16d42161c9b9999220194758e56cbe3717f88edd7dacc083d17f64b08ac08e65",
+  "phase": "implementation",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "developer"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "changeOrigins": [
+      "copilot"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "implementation-summary.md",
+      "mediaType": "text/markdown",
+      "sha256": "7632afa09142ac6428789ec8f0db7672b8cf835b92df9a330cc32586e8fceac2",
+      "bytes": 2179
+    },
+    "generation": 1,
+    "publishedAt": "2026-09-15T00:32:19.708Z"
+  },
+  "artifacts": [
+    {
+      "path": "singularity/work-items/color-red/artifacts/implementation/implementation-summary.md",
+      "kind": "document",
+      "sha256": "1992165e0a2f7ca41798fb51aa9cb99e18e973202848515a274ae8e074787354",
+      "size": 14213,
+      "reference": {
+        "handle": "sfref:v1:story:color-red:31a8b5989f71ebd29aea3568f3e86f76bbc1c2a8a8b241ab9ef2bc19247e1cef",
+        "recordHash": "31a8b5989f71ebd29aea3568f3e86f76bbc1c2a8a8b241ab9ef2bc19247e1cef"
+      }
+    },
+    {
+      "path": "src/app/app.component.html",
+      "kind": "code",
+      "sha256": "6a947dcfb85a867cfadd81a11e4b7f1f47a4935f2b5a709c6df506970212f5f3",
+      "size": 8226
+    },
+    {
+      "path": "src/app/app.component.spec.ts",
+      "kind": "test",
+      "sha256": "a96f3aefa82d129ffae43a12c2f65797ba90e8004228205b4c6116565d027d12",
+      "size": 1659
+    },
+    {
+      "path": "src/app/app.component.ts",
+      "kind": "code",
+      "sha256": "81d1b7df24f7cf88344c0f84b6a3903bb306e037ff25a84f5b3ac5a773797dc2",
+      "size": 5598
+    },
+    {
+      "path": "src/styles.css",
+      "kind": "code",
+      "sha256": "b92d3a74a6f1c2182d0db11f33928fdeeeafca4504af22922b2cbaf85b7e1595",
+      "size": 3698
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:color-red:31a8b5989f71ebd29aea3568f3e86f76bbc1c2a8a8b241ab9ef2bc19247e1cef",
+      "recordHash": "31a8b5989f71ebd29aea3568f3e86f76bbc1c2a8a8b241ab9ef2bc19247e1cef",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "agentBriefs": [
+    {
+      "consumerPhase": "convergence",
+      "status": "fallback-whole",
+      "path": "singularity/work-items/color-red/context/briefs/implementation-gen1-for-convergence.json",
+      "renderedPath": null,
+      "sourceSha256": "8564ca8ac376a24d00d58fe767c2da1b162b83ca0ee9f305dbb75dfead0a54a0",
+      "sourceBytes": 14131,
+      "renderedSha256": null,
+      "integritySha256": "d8c33bc925ed2f873752ae4367b7b283a332640db7cac8be0577fb96ed0ccdc5"
+    },
+    {
+      "consumerPhase": "verification",
+      "status": "fallback-whole",
+      "path": "singularity/work-items/color-red/context/briefs/implementation-gen1-for-verification.json",
+      "renderedPath": null,
+      "sourceSha256": "8564ca8ac376a24d00d58fe767c2da1b162b83ca0ee9f305dbb75dfead0a54a0",
+      "sourceBytes": 14131,
+      "renderedSha256": null,
+      "integritySha256": "77ac56cc2adb08cdf6878736fd79ac2c23a46c38d9629f2cc9e898dd7bbea1d4"
+    }
+  ],
+  "checks": [
+    {
+      "id": "angular-tests",
+      "command": "npm test -- --watch=false --browsers=ChromeHeadless --no-progress",
+      "kind": "test",
+      "requirement": "required",
+      "workingDirectory": ".",
+      "externalModelPolicy": "never",
+      "timeoutMs": 1800000,
+      "sourceCommit": "d8794be8011cb3f451c7ceb3c08be25a6d7b5248",
+      "sourceTreeSha256": "sha256:16d42161c9b9999220194758e56cbe3717f88edd7dacc083d17f64b08ac08e65",
+      "startedAt": "2026-09-15T00:33:55.611Z",
+      "completedAt": "2026-09-15T00:34:10.419Z",
+      "status": "passed",
+      "exitCode": 0,
+      "stdout": "\n> logic-engine@0.0.0 test\n> ng test --watch=false --browsers=ChromeHeadless --no-progress\n\n15 09 2026 06:04:01.206:INFO [karma-server]: Karma v6.4.4 server started at http://localhost:9876/\n15 09 2026 06:04:01.208:INFO [launcher]: Launching browsers ChromeHeadless with concurrency unlimited\n15 09 2026 06:04:01.212:INFO [launcher]: Starting browser ChromeHeadless\n15 09 2026 06:04:02.363:INFO [Chrome Headless 153.0.0.0 (Mac OS 10.15.7)]: Connected on socket MIKgUDZodzVrpRHEAAAB with id 26574248\nChrome Headless 153.0.0.0 (Mac OS 10.15.7): Executed 0 of 84\u001b[32m SUCCESS\u001b[39m (0 secs / 0 secs)\n\u001b[1A\u001b[2KChrome Headless 153.0.0.0 (Mac OS 10.15.7): Executed 1 of 84\u001b[32m SUCCESS\u001b[39m (0 secs / 0.01 secs)\n\u001b[1A\u001b[2KChrome Headless 153.0.0.0 (Mac OS 10.15.7): Executed 2 of 84\u001b[32m SUCCESS\u001b[39m (0 secs / 0.012 secs)\n\u001b[1A\u001b[2KChrome Headless 153.0.0.0 (Mac OS 10.15.7): Executed 3 of 84\u001b[32m SUCCESS\u001b[39m (0 secs / 0.014 secs)\n\u001b[1A\u001b[2KChrome Headless 153.0.0.0 (Mac OS 10.15.7): Executed 4\n… diagnostic output truncated …\n of 84\u001b[32m SUCCESS\u001b[39m (0 secs / 6.577 secs)\nWARN: 'WARNING: sanitizing HTML stripped some content, see https://g.co/ng/security#xss'\n\u001b[1A\u001b[2KWARN: \u001b[36m'WARNING: sanitizing HTML stripped some content, see https://g.co/ng/security#xss'\u001b[39m\nChrome Headless 153.0.0.0 (Mac OS 10.15.7): Executed 83 of 84\u001b[32m SUCCESS\u001b[39m (0 secs / 6.577 secs)\nWARN: 'WARNING: sanitizing HTML stripped some content, see https://g.co/ng/security#xss'\n\u001b[1A\u001b[2KWARN: \u001b[36m'WARNING: sanitizing HTML stripped some content, see https://g.co/ng/security#xss'\u001b[39m\nChrome Headless 153.0.0.0 (Mac OS 10.15.7): Executed 83 of 84\u001b[32m SUCCESS\u001b[39m (0 secs / 6.577 secs)\nWARN: 'WARNING: sanitizing HTML stripped some content, see https://g.co/ng/security#xss'\n\u001b[1A\u001b[2KChrome Headless 153.0.0.0 (Mac OS 10.15.7): Executed 84 of 84\u001b[32m SUCCESS\u001b[39m (0 secs / 6.589 secs)\n\u001b[1A\u001b[2KChrome Headless 153.0.0.0 (Mac OS 10.15.7): Executed 84 of 84\u001b[32m SUCCESS\u001b[39m (6.61 secs / 6.589 secs)\n\u001b[32mTOTAL: 84 SUCCESS\u001b[39m\n",
+      "stderr": "",
+      "stdoutBytes": 37345,
+      "stderrBytes": 0,
+      "stdoutTruncated": false,
+      "stderrTruncated": false
+    }
+  ],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-15T00:32:19.708Z",
+      "completedAt": "2026-09-15T00:32:19.708Z",
+      "agent": "developer",
+      "generation": 1
+    }
+  ],
+  "approvals": [],
+  "visualAssurance": null,
+  "submissionEvidence": {
+    "architectureIntent": null,
+    "architectureDecision": null,
+    "codeDelivery": {
+      "path": "singularity/work-items/color-red/context/code-delivery/implementation-gen1.json",
+      "sha256": "021d231c089cdf9dac46c8673432a1c685c04303ae9fef7fb840ebbb48cd224b",
+      "changeSetPath": "singularity/work-items/color-red/context/code-delivery/implementation-gen1-changes.json",
+      "changeSetDigest": "sha256:cfc5f1049c1cbb46242d223a9568a86b51441e4e71012af357eb0a700c07cc83",
+      "status": "ready",
+      "autoCandidate": null,
+      "autoCandidateVerification": null
+    },
+    "testExecutions": [
+      {
+        "commandId": "angular-tests",
+        "path": "singularity/work-items/color-red/context/code-delivery/tests/implementation-gen1-angular-tests.json",
+        "sha256": "70f9b99fe7a3479ce8b82878f75e8852d3c253219d355a26c6b07e8295b28cd1",
+        "status": "passed"
+      }
+    ],
+    "claimMaps": [
+      {
+        "kind": "observed",
+        "generation": 1,
+        "path": "singularity/work-items/color-red/context/claims/implementation-gen1-observed.json",
+        "sha256": "8cf26ced3143cdb85789bc742a38c64e082e109d7ab0eaef0bf7c8be99849711"
+      }
+    ],
+    "checksSha256": "bde2eee11a542df6458331177593fc38a7c25ea8a5c70fe539b2d7e80654950c",
+    "artifactSetSha256": "0c1d2a5167091e37b53b1a4f4e1e8379caf1e1bfd83a0571c44098ad17122e7b"
+  },
+  "witnessReview": {
+    "enrollment": {
+      "schemaVersion": 1,
+      "mode": "disabled",
+      "witnessedClauses": {
+        "enabled": false,
+        "profiles": []
+      },
+      "testcaseExact": {
+        "mode": "disabled",
+        "profile": null,
+        "requiredAssurance": "unavailable",
+        "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+      },
+      "claimMapContractVersion": 2,
+      "cab": null,
+      "sgos": null,
+      "rollout": {
+        "id": "wel-v0.2-observe",
+        "version": 1,
+        "enrollment": "new-story-only"
+      },
+      "configurationAuthority": {
+        "repository": "https://github.com/ashokraj2011/finalUI1.git",
+        "branch": "sflow/config",
+        "commit": "1477b94f3436c82b0242e499786ee6974a7358ce",
+        "projectionSha256": "9a625536cb8239021e51daca2309047ce117f7fcd4024f688cef8e03eb0a8016"
+      }
+    },
+    "enrollmentClassification": "enrolled",
+    "enrollmentReason": null,
+    "clauseMappings": [],
+    "testcaseObservations": [
+      {
+        "commandId": "angular-tests",
+        "receiptSha256": "70f9b99fe7a3479ce8b82878f75e8852d3c253219d355a26c6b07e8295b28cd1",
+        "status": "unavailable",
+        "assurance": "unavailable",
+        "exact": false,
+        "verdict": "inconclusive",
+        "disposition": "witness-inconclusive",
+        "profile": null,
+        "occurrences": 0,
+        "outcomes": {
+          "passed": 0,
+          "failed": 0,
+          "skipped": 0,
+          "inconclusive": 0,
+          "ambiguous": 0
+        },
+        "catalogSha256": null,
+        "mappingProposalCount": 0,
+        "rawReports": [],
+        "notice": "testcase evidence did not satisfy the supported non-exact local-observation contract"
+      }
+    ]
+  },
+  "submittedAt": "2026-09-15T00:34:10.656Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "afaa0229f15232473b1a132e97ecb4187c8a5069b0fe5688b81729d43de5e5a0"
+}
