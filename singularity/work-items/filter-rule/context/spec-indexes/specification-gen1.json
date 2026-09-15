@@ -1,0 +1,224 @@
+{
+  "clauses": [
+    {
+      "anchor": "[filter-rule:REQ-001]",
+      "body": "2. The filter block shall allow the designer to select a supported attribute, an operator, and a value for at least the supported rule-model fields defined by the current schema.",
+      "bodySha256": "52bb8835c2c8fb9e71ccdac73400f08bc52f0487bfd85c713aece3f3e43d0606",
+      "dependsOn": [],
+      "id": "FILTER-RULE:REQ-001",
+      "namespace": "FILTER-RULE",
+      "number": 1,
+      "source": {
+        "line": 203,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[filter-rule:REQ-002]",
+      "body": "3. The filter block shall support comparison and range-based operators, and it shall reject unsupported combinations before the rule is saved.",
+      "bodySha256": "8ae4948fd0706b892f021a7e5a499cdcb8fa03f31c6e132b4d1e773c4531f5e3",
+      "dependsOn": [],
+      "id": "FILTER-RULE:REQ-002",
+      "namespace": "FILTER-RULE",
+      "number": 2,
+      "source": {
+        "line": 204,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[filter-rule:REQ-003]",
+      "body": "4. The filtered result set shall respect the configured sort order and shall present a deterministic ordering before the rule engine evaluates the final rule.",
+      "bodySha256": "5fd429868d7b080a22778d34b82f7eaaa95a45a9d7ee4290716f9c96e7b38176",
+      "dependsOn": [],
+      "id": "FILTER-RULE:REQ-003",
+      "namespace": "FILTER-RULE",
+      "number": 3,
+      "source": {
+        "line": 205,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[filter-rule:REQ-004]",
+      "body": "5. The filter block shall allow the designer to apply a first/last or range-based subset selection before evaluation without altering the original rule definition.",
+      "bodySha256": "da58487ea9cbd6eff9b2c02b48294d2072e9c36bfb0aec5ede3cc89a49f4245f",
+      "dependsOn": [],
+      "id": "FILTER-RULE:REQ-004",
+      "namespace": "FILTER-RULE",
+      "number": 4,
+      "source": {
+        "line": 206,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[filter-rule:REQ-005]",
+      "body": "6. The rule authoring UI shall show an explicit empty state when no records match the current filter and an explicit failure state when the filter cannot be evaluated.",
+      "bodySha256": "7ed0840816ff05d9709fc68b19c2763dae483f35f30928f4f5a4574ad4ac7fc2",
+      "dependsOn": [],
+      "id": "FILTER-RULE:REQ-005",
+      "namespace": "FILTER-RULE",
+      "number": 5,
+      "source": {
+        "line": 207,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[filter-rule:REQ-006]",
+      "body": "7. The system shall prevent saving incomplete or invalid filter configurations and shall require the designer to resolve the error before proceeding.",
+      "bodySha256": "1e752181a00dd799918e16bd25a619d4b3fd357559e716172f9b2f659e19258b",
+      "dependsOn": [],
+      "id": "FILTER-RULE:REQ-006",
+      "namespace": "FILTER-RULE",
+      "number": 6,
+      "source": {
+        "line": 208,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[filter-rule:REQ-007]",
+      "body": "8. A reader or reviewer shall be able to inspect the configured filter and ordering without being able to mutate it unless they possess design authority.",
+      "bodySha256": "781def469107ac50dc5d90d0f9b066d6a5a82bcfb4028bd9c87ed235dccf1876",
+      "dependsOn": [],
+      "id": "FILTER-RULE:REQ-007",
+      "namespace": "FILTER-RULE",
+      "number": 7,
+      "source": {
+        "line": 209,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[filter-rule:REQ-008]",
+      "body": "## Acceptance criteria\n\n- The designer can add a filter condition to a rule and save it so that the candidate record set is narrowed before evaluation.",
+      "bodySha256": "d2e721dcc2eddeb1280df33073fe06b30e8ac2d4b911ba4443d10bcd9470aaa0",
+      "dependsOn": [],
+      "id": "FILTER-RULE:REQ-008",
+      "namespace": "FILTER-RULE",
+      "number": 8,
+      "source": {
+        "line": 210,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[filter-rule:AC-001]",
+      "body": "- The UI blocks unsupported field/operator combinations and shows validation feedback instead of accepting an invalid filter.",
+      "bodySha256": "9d5a26eea5a8658c26fd1fec502063086bb09c3a35467245abdee58987b3094a",
+      "dependsOn": [],
+      "id": "FILTER-RULE:AC-001",
+      "namespace": "FILTER-RULE",
+      "number": 1,
+      "source": {
+        "line": 214,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[filter-rule:AC-002]",
+      "body": "- When multiple records match, the sorted subset is displayed in the chosen order before the rule engine runs.",
+      "bodySha256": "94ce05750047644b3d7184ddb7fe1a44f53a5e3154b5467350798d732e1c24ab",
+      "dependsOn": [],
+      "id": "FILTER-RULE:AC-002",
+      "namespace": "FILTER-RULE",
+      "number": 2,
+      "source": {
+        "line": 215,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[filter-rule:AC-003]",
+      "body": "- If the filter yields no records, the user sees the empty state and no rule evaluation is attempted on the empty candidate set.",
+      "bodySha256": "b45dc1124510c70e7e4b972e4765733b75729dd2ad3a9a511c08b2ae9019cfeb",
+      "dependsOn": [],
+      "id": "FILTER-RULE:AC-003",
+      "namespace": "FILTER-RULE",
+      "number": 3,
+      "source": {
+        "line": 216,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[filter-rule:AC-004]",
+      "body": "- If a dependency is unavailable or a field is invalid, the user sees the failure state and the rule cannot be saved until the issue is corrected.",
+      "bodySha256": "f0184e9adb15cc05cf79a2848b55f8855d66d281b22defa86671e1dbfec61df0",
+      "dependsOn": [],
+      "id": "FILTER-RULE:AC-004",
+      "namespace": "FILTER-RULE",
+      "number": 4,
+      "source": {
+        "line": 217,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[filter-rule:AC-005]",
+      "body": "## Non-functional requirements\n\n- The filter configuration and validation feedback shall complete without blocking the authoring interaction beyond the time needed to render the current rule state. [filter-rule:NFR-001]\n- The UI shall remain readable and operable for authors using standard accessibility controls and keyboard navigation when defining or validating filters. [filter-rule:NFR-002]\n- Filter state and validation messages shall be clear enough that a reviewer can understand the logic without reverse engineering the underlying rule engine. [filter-rule:NFR-003]\n\n## Constitution articles\n\n-",
+      "bodySha256": "cc2e7a710fe51c8e5bd65ab3e4e1d3b4575862c832f4f6e67171930478f1aacd",
+      "dependsOn": [],
+      "id": "FILTER-RULE:AC-005",
+      "namespace": "FILTER-RULE",
+      "number": 5,
+      "source": {
+        "line": 218,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[SPK:REQ-100]",
+      "body": "-",
+      "bodySha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112",
+      "dependsOn": [],
+      "id": "SPK:REQ-100",
+      "namespace": "SPK",
+      "number": 100,
+      "source": {
+        "line": 228,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[SPK:REQ-101]",
+      "body": "## Assumptions\n\n- The existing rule model already defines the supported set of fields available in the authoring UI.\n- The rule engine continues to consume a filtered subset as its input and does not require a redesign of evaluation semantics for this story.\n- The initial implementation targets a single sort attribute and deterministic ordering rather than multi-column sorting.\n\n## Out of scope\n\n- Replacing the rule engine evaluation model.\n- Introducing multi-tenant or cross-repository filter policy changes.\n- Reworking audit, security, or retention requirements outside the filter authoring flow.",
+      "bodySha256": "ea04545b7b012d0a9b2135922a9c5f228296cb8f3c94680f18ef91efb03a24ae",
+      "dependsOn": [],
+      "id": "SPK:REQ-101",
+      "namespace": "SPK",
+      "number": 101,
+      "source": {
+        "line": 229,
+        "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "5956f7164e0d7e2fa4b12cd903a533930d43f5939c6bae84a7a8ff58629d590e",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 11634,
+    "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md",
+    "sha256": "0d98d4f4cf83d7e2743da29a01767939f19991262ef77c32ef67d36577b326a4"
+  },
+  "workId": "filter-rule"
+}

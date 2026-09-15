@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "workId": "filter-rule",
+  "producer": {
+    "phase": "specification",
+    "generation": 1
+  },
+  "consumer": {
+    "phase": "convergence"
+  },
+  "source": {
+    "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md",
+    "sha256": "0d98d4f4cf83d7e2743da29a01767939f19991262ef77c32ef67d36577b326a4",
+    "bytes": 11634
+  },
+  "policy": {
+    "projection": "approved-summary",
+    "preserve": [
+      "Requirements",
+      "Non-functional requirements",
+      "Boundary conditions"
+    ],
+    "maximumSummaryBytes": 32768,
+    "expansion": "hash-bound-reference",
+    "fallback": "whole"
+  },
+  "policySha256": "9973f68aa9533ea1b0053e309fb8ce11843f6510c2d4ed64c6823d5d336c65b7",
+  "status": "ready",
+  "summary": {
+    "heading": "Agent brief"
+  },
+  "preserved": [
+    "Requirements",
+    "Non-functional requirements",
+    "Boundary conditions"
+  ],
+  "rendered": {
+    "path": "singularity/work-items/filter-rule/context/briefs/specification-gen1-for-convergence.md",
+    "sha256": "53ac43f27d1a7661f44febbd8ae9654f6d6eb0d3ae859ceae9739efe467482b1",
+    "bytes": 3704
+  },
+  "generatedAt": "2026-09-15T16:19:08.072Z",
+  "integritySha256": "f3d20fe52c8ea3e5b5c2bdd6b662db95b6da22b759b66178c99e1621acbdf28c"
+}

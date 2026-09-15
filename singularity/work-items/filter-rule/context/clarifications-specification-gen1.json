@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "workId": "filter-rule",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/filter-rule/context/prompts/specification-gen1.md",
+  "promptSha256": "f70501ce4ff4a8b90bb00c542aa4a22f6e6947072d17497da6a1993773782bfc",
+  "groundingRecordPath": "singularity/work-items/filter-rule/context/specification-gen1.json",
+  "groundingRecordSha256": "1a25bb3cb397f4df3424f1b9d3a7ce828ef8bc30773e6dadc8fe68e91f8311b6",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Which rule attributes should users be able to filter on in the authoring UI?",
+      "answer": "Use a predefined set from the existing rule model",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "Which operators should the filter support: equals, contains, greater/less than, date range, and/or nested conditions?",
+      "answer": "Range + comparisons + logical grouping",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "How should ordering and range selection work: sort by a field, direction, and first/last/N items?",
+      "answer": "Sort by one field + ascending/descending",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-15T15:23:53.363Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}
