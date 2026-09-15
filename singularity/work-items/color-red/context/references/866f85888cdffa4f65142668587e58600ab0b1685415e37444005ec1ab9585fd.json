@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/color-red/artifacts/planning/plan.md",
+    "phaseId": "planning"
+  },
+  "createdAt": "2026-09-15T00:20:07.725Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 13998,
+    "commitSha": "623ae0e43fe3ec4e8882436cedeb3c6d893aa090",
+    "sha256": "17fad6ad82013a16e99603454d08af73b29eea378a85011342c9e86aeef0262a"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "color-red",
+    "id": "color-red",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}

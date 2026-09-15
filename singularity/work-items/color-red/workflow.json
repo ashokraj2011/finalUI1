@@ -268,6 +268,201 @@
           },
           "status": "awaiting_review"
         }
+      },
+      {
+        "packetSha256": "5d48ad4f7464455e8b75a0277bfa59274111187eb829b9369550f1dcd574079c",
+        "phase": "planning",
+        "generation": 1,
+        "branch": "color-red",
+        "sourceTreeSha256": "sha256:b68050e90d8cb4e53450f429d707bb3bd072d4602cf361eddb59a9f252e7e346",
+        "path": "singularity/work-items/color-red/submissions/planning/5d48ad4f7464455e8b75a0277bfa59274111187eb829b9369550f1dcd574079c.json",
+        "submittedAt": "2026-09-15T00:20:07.645Z",
+        "projection": {
+          "schemaVersion": 2,
+          "workId": "color-red",
+          "epicId": null,
+          "planId": null,
+          "jiraIssueId": "color-red",
+          "initialJiraKey": null,
+          "currentJiraKey": null,
+          "canonicalBranch": "color-red",
+          "submittedBranch": "color-red",
+          "submissionCommit": "623ae0e43fe3ec4e8882436cedeb3c6d893aa090",
+          "sourceCommit": "623ae0e43fe3ec4e8882436cedeb3c6d893aa090",
+          "sourceTreeSha256": "sha256:b68050e90d8cb4e53450f429d707bb3bd072d4602cf361eddb59a9f252e7e346",
+          "phase": "planning",
+          "generation": 1,
+          "authorship": {
+            "schemaVersion": 1,
+            "producer": "governed-agent",
+            "channel": "copilot-host",
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "governedAgentContext": {
+              "agentId": "architect"
+            },
+            "kernelModel": {
+              "invoked": false,
+              "status": "exact",
+              "invocationIds": []
+            },
+            "externalAiUse": {
+              "value": "unknown",
+              "status": "unavailable"
+            },
+            "changeOrigins": [
+              "copilot"
+            ],
+            "source": {
+              "kind": "in-place",
+              "filename": "plan.md",
+              "mediaType": "text/markdown",
+              "sha256": "d4d11d308ddde8654ee4d9a476daaa11b012b710c28023a3e11d276b3afb7282",
+              "bytes": 7154
+            },
+            "generation": 1,
+            "publishedAt": "2026-09-15T00:18:41.878Z"
+          },
+          "artifacts": [
+            {
+              "path": "singularity/work-items/color-red/artifacts/planning/plan.md",
+              "kind": "document",
+              "sha256": "8c7646d56869c7df21b4aac2164c4811ed701186cb3e11167223f688c7245cb4",
+              "size": 14080,
+              "reference": {
+                "handle": "sfref:v1:story:color-red:866f85888cdffa4f65142668587e58600ab0b1685415e37444005ec1ab9585fd",
+                "recordHash": "866f85888cdffa4f65142668587e58600ab0b1685415e37444005ec1ab9585fd"
+              }
+            }
+          ],
+          "references": [
+            {
+              "handle": "sfref:v1:story:color-red:866f85888cdffa4f65142668587e58600ab0b1685415e37444005ec1ab9585fd",
+              "recordHash": "866f85888cdffa4f65142668587e58600ab0b1685415e37444005ec1ab9585fd",
+              "purpose": "review-evidence",
+              "required": true
+            }
+          ],
+          "agentBriefs": [
+            {
+              "consumerPhase": "convergence",
+              "status": "ready",
+              "path": "singularity/work-items/color-red/context/briefs/planning-gen1-for-convergence.json",
+              "renderedPath": "singularity/work-items/color-red/context/briefs/planning-gen1-for-convergence.md",
+              "sourceSha256": "17fad6ad82013a16e99603454d08af73b29eea378a85011342c9e86aeef0262a",
+              "sourceBytes": 13998,
+              "renderedSha256": "662e313f0d8748c4a001eba374650fd1a6cc349cac3407f1d855b8cda0478cee",
+              "integritySha256": "83adea0eee5165b246d5a21d82d193680705ac3732170aef5875e3776d4fbd69"
+            },
+            {
+              "consumerPhase": "implementation",
+              "status": "ready",
+              "path": "singularity/work-items/color-red/context/briefs/planning-gen1-for-implementation.json",
+              "renderedPath": "singularity/work-items/color-red/context/briefs/planning-gen1-for-implementation.md",
+              "sourceSha256": "17fad6ad82013a16e99603454d08af73b29eea378a85011342c9e86aeef0262a",
+              "sourceBytes": 13998,
+              "renderedSha256": "21054f0ec5c82dd24fe8d681adb14e50d915cb46adae1d205ca6d34290e4a0e7",
+              "integritySha256": "1b92a2d3523094890133c098e354aa6063bc06ccabe9551d0a4035d61813f3f9"
+            },
+            {
+              "consumerPhase": "verification",
+              "status": "ready",
+              "path": "singularity/work-items/color-red/context/briefs/planning-gen1-for-verification.json",
+              "renderedPath": "singularity/work-items/color-red/context/briefs/planning-gen1-for-verification.md",
+              "sourceSha256": "17fad6ad82013a16e99603454d08af73b29eea378a85011342c9e86aeef0262a",
+              "sourceBytes": 13998,
+              "renderedSha256": "bdc2f258ffc44af886cd8a0516c26690c7d079de8f14a1b11c926e7882b7f976",
+              "integritySha256": "342b852182edb8f4b7ea7907695dffd5546c281f56d79c81ac9817cef89e6958"
+            }
+          ],
+          "checks": [],
+          "usage": [
+            {
+              "status": "unavailable",
+              "source": "copilot-otel-unavailable",
+              "provider": null,
+              "model": null,
+              "requestedModel": null,
+              "resolvedModel": null,
+              "resolvedModelAssurance": "unavailable",
+              "inputTokens": null,
+              "outputTokens": null,
+              "cachedInputTokens": null,
+              "cacheWriteInputTokens": null,
+              "totalTokens": null,
+              "providerCost": null,
+              "costStatus": "unavailable",
+              "spans": null,
+              "startedAt": "2026-09-15T00:18:41.878Z",
+              "completedAt": "2026-09-15T00:18:41.878Z",
+              "agent": "architect",
+              "generation": 1
+            }
+          ],
+          "approvals": [],
+          "visualAssurance": null,
+          "submissionEvidence": {
+            "architectureIntent": null,
+            "architectureDecision": null,
+            "testExecutions": [],
+            "claimMaps": [
+              {
+                "kind": "planned",
+                "generation": 1,
+                "path": "singularity/work-items/color-red/context/claims/planning-gen1-planned.json",
+                "sha256": "509d6ee8abb7df8a3cbdcc00936540a1e4084170dac7caa5f82efeb625704b00"
+              }
+            ],
+            "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "artifactSetSha256": "30a0312eec3eaf59b1e99bcb4f8a74bf50b31f88975d27e0ee7eedb133d68bd3"
+          },
+          "witnessReview": {
+            "enrollment": {
+              "schemaVersion": 1,
+              "mode": "disabled",
+              "witnessedClauses": {
+                "enabled": false,
+                "profiles": []
+              },
+              "testcaseExact": {
+                "mode": "disabled",
+                "profile": null,
+                "requiredAssurance": "unavailable",
+                "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+              },
+              "claimMapContractVersion": 2,
+              "cab": null,
+              "sgos": null,
+              "rollout": {
+                "id": "wel-v0.2-observe",
+                "version": 1,
+                "enrollment": "new-story-only"
+              },
+              "configurationAuthority": {
+                "repository": "https://github.com/ashokraj2011/finalUI1.git",
+                "branch": "sflow/config",
+                "commit": "1477b94f3436c82b0242e499786ee6974a7358ce",
+                "projectionSha256": "9a625536cb8239021e51daca2309047ce117f7fcd4024f688cef8e03eb0a8016"
+              }
+            },
+            "enrollmentClassification": "enrolled",
+            "enrollmentReason": null,
+            "clauseMappings": [],
+            "testcaseObservations": []
+          },
+          "submittedAt": "2026-09-15T00:20:07.645Z",
+          "submittedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "status": "awaiting_review"
+        }
       }
     ]
   },
@@ -3319,7 +3514,7 @@
       "label": "Planning",
       "order": 1,
       "defaultAgent": "architect",
-      "status": "in_progress",
+      "status": "awaiting_approval",
       "requiredArtifact": {
         "path": "artifacts/planning/plan.md",
         "kind": "design",
@@ -3389,7 +3584,7 @@
       },
       "qualityCommands": [],
       "startedAt": "2026-09-15T00:13:53.912Z",
-      "submittedAt": null,
+      "submittedAt": "2026-09-15T00:20:07.645Z",
       "approvedAt": null,
       "approvedBy": null,
       "rejectedAt": null,
@@ -3498,10 +3693,10 @@
           "kind": "document",
           "status": "pending",
           "exists": true,
-          "size": 13998,
-          "sha256": "17fad6ad82013a16e99603454d08af73b29eea378a85011342c9e86aeef0262a",
+          "size": 14080,
+          "sha256": "8c7646d56869c7df21b4aac2164c4811ed701186cb3e11167223f688c7245cb4",
           "registeredAt": "2026-09-15T00:18:41.093Z",
-          "updatedAt": "2026-09-15T00:18:41.922Z"
+          "updatedAt": "2026-09-15T00:20:07.646Z"
         }
       ],
       "checks": [],
@@ -3605,7 +3800,10 @@
           "path": "singularity/work-items/color-red/context/claims/planning-gen1-planned.json",
           "sha256": "509d6ee8abb7df8a3cbdcc00936540a1e4084170dac7caa5f82efeb625704b00"
         }
-      }
+      },
+      "generationCommit": "623ae0e43fe3ec4e8882436cedeb3c6d893aa090",
+      "publicationCommit": "623ae0e43fe3ec4e8882436cedeb3c6d893aa090",
+      "validationVerdict": "not-required"
     },
     "implementation": {
       "id": "implementation",
@@ -4180,6 +4378,14 @@
       "event": "phase_generated",
       "phase": "planning",
       "detail": "generation 1"
+    },
+    {
+      "at": "2026-09-15T00:20:07.645Z",
+      "actor": "ashokraj2011",
+      "agent": "architect",
+      "event": "phase_submitted",
+      "phase": "planning",
+      "detail": "1 artifacts"
     }
   ],
   "measurement": {
@@ -4807,6 +5013,105 @@
           }
         },
         "createdAt": "2026-09-15T00:18:41.679Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "d591821a-2a70-4862-8d83-6f823c1bde59",
+        "type": "approval-requested",
+        "subject": {
+          "kind": "story",
+          "id": "color-red",
+          "branch": "color-red"
+        },
+        "phaseId": "planning",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "architect",
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-15T00:20:07.403Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "d591821a-2a70-4862-8d83-6f823c1bde59",
+        "eventType": "approval-requested",
+        "capabilityId": "anu-ui",
+        "subject": {
+          "branch": "color-red",
+          "generation": 1,
+          "phase": "planning",
+          "workId": "color-red",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "architect",
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "57c667f951ea2d85be2fd66ff0238080078196487caf577cac71f2b89cef0591",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b",
+          "lifecycleEventId": "d591821a-2a70-4862-8d83-6f823c1bde59",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "d591821a-2a70-4862-8d83-6f823c1bde59",
+            "type": "approval-requested",
+            "subject": {
+              "kind": "story",
+              "id": "color-red",
+              "branch": "color-red"
+            },
+            "phaseId": "planning",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "architect",
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-15T00:20:07.403Z"
+          }
+        },
+        "createdAt": "2026-09-15T00:20:07.416Z"
       }
     }
   ],
