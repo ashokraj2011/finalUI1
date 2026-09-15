@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "color-red1",
+  "phase": "implement",
+  "generation": 1,
+  "generationIntentId": "2106d387-0a9c-4503-9709-57356b72ab01",
+  "changeSet": {
+    "path": "singularity/work-items/color-red1/context/code-delivery/implement-gen1-changes.json",
+    "digest": "sha256:871239af930edb0265d15ae28b9b7d47bd649481466e6e91f059654fc0cd48af",
+    "sourcePaths": [
+      "src/app/components/data-schema/data-schema.component.ts"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "src/app/components/data-schema/data-schema.component.spec.ts"
+    ],
+    "supportingTestPaths": []
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "code-generator"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "product-source": 1,
+      "test-source": 1
+    },
+    "entries": [
+      {
+        "changeId": "sha256:c06730a23c6512ed1b122aa8d314086439992e082876a22d9869b89bbd418667",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "src/app/components/data-schema/data-schema.component.spec.ts",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:65d8c8293fc29d205aa6e28968831f070b19df03d78ba9ab53862bc9bbd553ad",
+        "status": "modified",
+        "oldPath": "src/app/components/data-schema/data-schema.component.ts",
+        "newPath": "src/app/components/data-schema/data-schema.component.ts",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [],
+    "bound": [],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": []
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:2bdf179d9ec3a71756273dc6914894ba2902ed453db480f4a606e74db44ef482",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": false,
+    "authorshipProducer": "deterministic",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-09-15T00:56:51.524Z"
+}

@@ -4,27 +4,51 @@
   "workId": "color-red1",
   "workType": "quick-fix",
   "phase": "implement",
-  "generation": 0,
+  "generation": 1,
   "status": "in_progress",
-  "generatedBy": null,
+  "generatedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
   "generatedAgent": null,
   "authorship": {
     "schemaVersion": 1,
-    "producer": "legacy-unspecified",
-    "channel": "legacy",
-    "governedAgentContext": null,
+    "producer": "deterministic",
+    "channel": "kernel-generator",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "developer"
+    },
     "kernelModel": {
       "invoked": false,
-      "status": "unavailable",
+      "status": "exact",
       "invocationIds": []
     },
     "externalAiUse": {
       "value": "unknown",
       "status": "unavailable"
     },
-    "source": null
+    "changeOrigins": [
+      "code-generator"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "implementation-summary.md",
+      "mediaType": "text/markdown",
+      "sha256": "6cad9720eeb743c47f80d111530c53a373f0a5f68727833cf6f1c782b3ebf63a",
+      "bytes": 515
+    },
+    "generation": 1,
+    "publishedAt": "2026-09-15T00:56:51.524Z"
   },
-  "sourceCommit": null,
+  "sourceCommit": "e923ce98ef6f57d21820fa82e4923bcb93f69513",
   "generationCommit": null,
   "publicationCommit": null,
   "configSha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b",
@@ -42,7 +66,16 @@
   },
   "remoteAgent": null,
   "clarification": null,
-  "telemetry": [],
+  "telemetry": [
+    {
+      "generation": 1,
+      "path": "singularity/work-items/color-red1/telemetry/implement-gen1.json",
+      "sha256": "5882c3825d8fe0b07cd704a39f4aaef6430ab30a0171cfed17d13bb91eb0289c",
+      "status": "not-invoked",
+      "models": [],
+      "providerCost": null
+    }
+  ],
   "remoteOutputs": [],
   "usage": [],
   "sequenceOverrides": [],
@@ -62,11 +95,12 @@
 - Title: change color to red
 - Work type: quick-fix
 - Phase: implement
-- Source commit: `5e4b873cc690d7639e281818c07801cdbae02840`
+- Source commit: `e923ce98ef6f57d21820fa82e4923bcb93f69513`
 
 ## Changed paths
 
-- No source paths are currently changed.
+- `src/app/components/data-schema/data-schema.component.spec.ts`
+- `src/app/components/data-schema/data-schema.component.ts`
 
 ## Configured checks
 

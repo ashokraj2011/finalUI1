@@ -13,8 +13,8 @@ import { SchemaField } from '../../types';
       <!-- Page Header -->
       <div class="bg-white border border-outline-variant rounded-xl p-5 shadow-xs flex items-center justify-between">
         <div>
-          <h2 class="font-serif text-lg font-bold text-on-surface">Data Schema Explorer</h2>
-          <p class="text-xs text-on-surface-variant leading-relaxed mt-1">
+          <h2 class="font-serif text-lg font-bold text-red-600">Data Schema Explorer</h2>
+          <p class="text-xs text-red-500 leading-relaxed mt-1">
             Define attributes, upload source glossaries (database, API, session, rulemetadata) and prepare schemas for rule authoring.
           </p>
         </div>

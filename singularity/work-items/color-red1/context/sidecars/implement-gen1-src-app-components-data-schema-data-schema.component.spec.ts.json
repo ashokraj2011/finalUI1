@@ -1,0 +1,35 @@
+{
+  "artifact": {
+    "bytes": 1047,
+    "path": "src/app/components/data-schema/data-schema.component.spec.ts",
+    "role": "test",
+    "sha256": "1fdd7a8b5db96a1196f5e2def4d00b05d93056cc5af9bc36ee30b4afa121936b"
+  },
+  "configuration": {
+    "revision": "1477b94f3436c82b0242e499786ee6974a7358ce",
+    "sha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b"
+  },
+  "generation": 1,
+  "inputs": [],
+  "integritySha256": "1fe1264b1ed77c12dc67c7d9e1495dc61c1ad484f89b3f14edddd29c451fab26",
+  "phase": "implement",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "deterministic"
+  },
+  "publication": {
+    "branch": "color-red1",
+    "commit": null,
+    "publishedAt": "2026-09-15T00:56:51.524Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "color-red1",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/color-red1/config/wfa/blobs/sha256/dff093133a1be4c93115cfbbb0d994c8ce391fc19279caee30b441ec27a05c0a",
+    "sha256": "dff093133a1be4c93115cfbbb0d994c8ce391fc19279caee30b441ec27a05c0a"
+  }
+}
