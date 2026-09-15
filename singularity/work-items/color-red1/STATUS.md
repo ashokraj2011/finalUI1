@@ -4,16 +4,19 @@
 - Work type: **quick-fix**
 - Capability: **anuui** (`anu-ui`)
 - Capability map: `57c667f951ea2d85be2fd66ff0238080078196487caf577cac71f2b89cef0591`
-- Overall status: **in_progress**
-- Current phase: **verify**
+- Overall status: **complete**
+- Current phase: **complete**
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
 | 1 | Implement (`implement`) | developer | **approved** | 1 | 0 | unavailable |
-| 2 | Verify (`verify`) | qa | **awaiting_approval** | 1 | 0 | unavailable |
+| 2 | Verify (`verify`) | qa | **approved** | 1 | 1 | unavailable |
+|  | ⚠ self-approval | Ashok Raj via quality-reviewers; agent qa | **warning** |  |  |  |
 
 ## Recent history
 
+- 2026-09-15T01:03:16.879Z — **phase_self_approved** (verify) by ashokraj2011 · governed agent qa: threshold reached; complete
+- 2026-09-15T01:03:16.879Z — **work_interval_closed** (verify) by ashokraj2011 · governed agent qa: interval INT-verify-G1-002 closed after phase approval
 - 2026-09-15T01:00:32.402Z — **phase_submitted** (verify) by ashokraj2011 · governed agent qa: 1 artifacts
 - 2026-09-15T01:00:32.401Z — **work_interval_reconciled** (verify) by system: aligned; 0 changed path(s)
 - 2026-09-15T01:00:04.134Z — **phase_generated** (verify) by ashokraj2011 · governed agent qa: generation 1

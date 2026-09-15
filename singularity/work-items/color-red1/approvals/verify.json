@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "phase": "verify",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "verify",
+      "at": "2026-09-15T01:03:16.879Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "qa",
+      "authorityGroup": "quality-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/color-red1/artifacts/verify/verification-summary.md",
+          "sha256": "31a8b230327883fc14d2634b43d2419c227f19aa35220c90825b193584333a39"
+        }
+      ],
+      "reviewPacketSha256": "3637401f88a0f274193c0e5bfb86979aca5cf33a6fb605e822262311041750e3",
+      "evidenceCommit": "b59ab17b2073f5406f408b8e7cc40f6229820c1b",
+      "artifactSetSha256": "ec0fa51939105ef3f00e22335579de64338af9df6635a6221ccce3af5599d54d",
+      "architectureIntent": null,
+      "architectureDecision": null,
+      "actionContext": {
+        "phase": "verify",
+        "label": "Verify",
+        "generation": 1,
+        "submittedAt": "2026-09-15T01:00:32.402Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/color-red1/artifacts/verify/verification-summary.md",
+            "sha256": "31a8b230327883fc14d2634b43d2419c227f19aa35220c90825b193584333a39"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "3637401f88a0f274193c0e5bfb86979aca5cf33a6fb605e822262311041750e3",
+        "submittedSourceCommit": "29cf9df5627331f8d5196bbf2c47b4c9432a69e7",
+        "planId": "6146effd0840d5220d76186b"
+      },
+      "selfApproval": true
+    }
+  ]
+}
