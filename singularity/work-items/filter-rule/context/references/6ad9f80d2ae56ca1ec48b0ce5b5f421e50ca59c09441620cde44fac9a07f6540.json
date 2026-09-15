@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/filter-rule/artifacts/specification/spec.md",
+    "phaseId": "specification"
+  },
+  "createdAt": "2026-09-15T16:21:50.606Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 11634,
+    "commitSha": "8bd236294731fdd851ccf9eda5a79c05c5d1158a",
+    "sha256": "0d98d4f4cf83d7e2743da29a01767939f19991262ef77c32ef67d36577b326a4"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "filter-rule",
+    "id": "filter-rule",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
