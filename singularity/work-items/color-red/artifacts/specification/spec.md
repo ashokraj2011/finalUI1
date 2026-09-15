@@ -4,7 +4,7 @@
   "workId": "color-red",
   "workType": "spec-driven-standard",
   "phase": "specification",
-  "generation": 1,
+  "generation": 2,
   "status": "in_progress",
   "generatedBy": {
     "name": "Ashok Raj",
@@ -45,10 +45,10 @@
       "sha256": "a9265e4020a97dd62bcf3bf1d0cea554f380b87299e1412d14ece33a3c9b0cfd",
       "bytes": 4355
     },
-    "generation": 1,
-    "publishedAt": "2026-09-14T23:56:01.230Z"
+    "generation": 2,
+    "publishedAt": "2026-09-15T00:03:39.997Z"
   },
-  "sourceCommit": "e76f96edb90a18b67425164cdfcad818b16329db",
+  "sourceCommit": "326e934be8aa923998fa6a1ef707d6292132c105",
   "generationCommit": null,
   "publicationCommit": null,
   "configSha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b",
@@ -66,13 +66,13 @@
   },
   "remoteAgent": null,
   "clarification": {
-    "generation": 1,
-    "path": "singularity/work-items/color-red/context/clarifications-specification-gen1.json",
-    "sha256": "09da96b351920435bf7202d416cb397532e3b32d9355743138fb086dc3b98489",
-    "promptSha256": "e155107e39983bca4436d9e1f80af3407cef642dfec7841f9c64a432ae959033",
-    "responses": 3,
+    "generation": 2,
+    "path": "singularity/work-items/color-red/context/clarifications-specification-gen2.json",
+    "sha256": "6b14ecb8a3991a81bfa3a200f4cf0a902a03bcc81edf2eab78ab88c799256e71",
+    "promptSha256": "3a1041dc2d7bc5bc6e608520826f2d889b0594cf0b3b93622b30e90a1d7001c3",
+    "responses": 1,
     "markers": [],
-    "recordedAt": "2026-09-14T23:54:06.412Z",
+    "recordedAt": "2026-09-15T00:03:02.256Z",
     "recordedBy": {
       "name": "Ashok Raj",
       "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -85,6 +85,14 @@
       "generation": 1,
       "path": "singularity/work-items/color-red/telemetry/specification-gen1.json",
       "sha256": "b9ad9bae9a2d75f512d743eb61eefbfd8c7624ed46b0b275837e7a86d7523a9f",
+      "status": "pending",
+      "models": [],
+      "providerCost": null
+    },
+    {
+      "generation": 2,
+      "path": "singularity/work-items/color-red/telemetry/specification-gen2.json",
+      "sha256": "802a004b6efacb6d80b11703b4056bb805a502da02d6fd3d56fe99b4125191a0",
       "status": "pending",
       "models": [],
       "providerCost": null
@@ -112,6 +120,27 @@
       "completedAt": "2026-09-14T23:56:01.229Z",
       "agent": "product-owner",
       "generation": 1
+    },
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-15T00:03:39.997Z",
+      "completedAt": "2026-09-15T00:03:39.997Z",
+      "agent": "product-owner",
+      "generation": 2
     }
   ],
   "sequenceOverrides": [],

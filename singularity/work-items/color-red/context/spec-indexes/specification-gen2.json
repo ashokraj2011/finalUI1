@@ -1,0 +1,112 @@
+{
+  "clauses": [
+    {
+      "anchor": "[color-red:REQ-001]",
+      "body": "- Preserve the existing rule-authoring content, layout, controls, loading behavior, and permission\n  behavior while applying the color change. (S1)",
+      "bodySha256": "89f7834fb6f54ce1ff4f218803eaf337bac26b51db4b8be7fdf525888afbafa3",
+      "dependsOn": [],
+      "id": "COLOR-RED:REQ-001",
+      "namespace": "COLOR-RED",
+      "number": 1,
+      "source": {
+        "line": 210,
+        "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[color-red:REQ-002]",
+      "body": "- Limit the color change to the rule authoring page; unrelated pages and hidden or unloaded content\n  are outside this requirement. (S1)",
+      "bodySha256": "585d0d273fc9f5197e291eae6ce437fa3fd5fb8bf2f08ccbcb516ff65b4795a8",
+      "dependsOn": [],
+      "id": "COLOR-RED:REQ-002",
+      "namespace": "COLOR-RED",
+      "number": 2,
+      "source": {
+        "line": 212,
+        "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[color-red:REQ-003]",
+      "body": "Acceptance criteria:\n\n- A screenshot of the normally loaded default rule authoring view shows every visible user-facing\n  text element in CSS `#ff0000`. (S1)",
+      "bodySha256": "e56f446bd7aa676a43302c8c3571a84ec44d56b99e4e01911266ed4725c24099",
+      "dependsOn": [],
+      "id": "COLOR-RED:REQ-003",
+      "namespace": "COLOR-RED",
+      "number": 3,
+      "source": {
+        "line": 214,
+        "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[color-red:AC-001]",
+      "body": "- The screenshot shows the existing rule authoring page structure and controls, with no required\n  workflow or permission change. (S1)",
+      "bodySha256": "9653122b3b0fa8b49d2a3d94b4a7feaea1dff4cda2e60ba94d08526aecf9a4f7",
+      "dependsOn": [],
+      "id": "COLOR-RED:AC-001",
+      "namespace": "COLOR-RED",
+      "number": 1,
+      "source": {
+        "line": 219,
+        "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[color-red:AC-002]",
+      "body": "## Non-functional requirements\n\n- The color update must not add a measurable delay to the existing page load; verify by confirming\n  the default view reaches its existing loaded state under the same project startup conditions.\n  (S1)",
+      "bodySha256": "fb5510da163546b45c463e24c85d0ebaf4eef5cab3d4e948554279e6e784dc80",
+      "dependsOn": [],
+      "id": "COLOR-RED:AC-002",
+      "namespace": "COLOR-RED",
+      "number": 2,
+      "source": {
+        "line": 221,
+        "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[color-red:REQ-004]",
+      "body": "- Text must remain legible and the existing page layout must not shift as a result of the color\n  update; verify in the required screenshot condition. (S1)",
+      "bodySha256": "08b4318dd57602e47d2e0e2562a771eca70bc97de84752b9484a8d7c0c0efd89",
+      "dependsOn": [],
+      "id": "COLOR-RED:REQ-004",
+      "namespace": "COLOR-RED",
+      "number": 4,
+      "source": {
+        "line": 227,
+        "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[color-red:REQ-005]",
+      "body": "## Constitution articles\n\nNo constitution article IDs were supplied by the pinned Story or approved inputs, so this\nspecification asserts no additional article binding.\n\n## Assumptions\n\n- The repository's existing rule authoring page is the page named by the pinned Story.\n- “Red” means CSS `#ff0000`, as confirmed at the clarification checkpoint.\n- The default rule authoring view at the existing project viewport is sufficient screenshot evidence,\n  as confirmed at the clarification checkpoint.\n\n## Out of scope\n\n- Changing rule-authoring behavior, validation, persistence, or navigation.\n- Changing text content, typography, layout, icons, backgrounds, borders, or color treatment on\n  unrelated pages.\n- Adding new permissions, responsive breakpoints, themes, or screenshot tooling.",
+      "bodySha256": "f0946e4b5b7a5110745c1aa7f22ec0fe1ebaee2eaf2595670d21e1377c8f6d6d",
+      "dependsOn": [],
+      "id": "COLOR-RED:REQ-005",
+      "namespace": "COLOR-RED",
+      "number": 5,
+      "source": {
+        "line": 229,
+        "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    }
+  ],
+  "generation": 2,
+  "indexSha256": "2f0f30036c11ae217da8d99c39db7f0fffbc7418e99186048e98c3841e1ab347",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 8918,
+    "path": "singularity/work-items/color-red/artifacts/specification/spec.md",
+    "sha256": "716b13d40929a72c407c41cbe8dd38d0533ff92fa9466feab594c80cf2cce9a3"
+  },
+  "workId": "color-red"
+}

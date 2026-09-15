@@ -9,7 +9,7 @@
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
-| 1 | Specification (`specification`) | product-owner | **in_progress** | 1 | 0 | unavailable |
+| 1 | Specification (`specification`) | product-owner | **in_progress** | 2 | 0 | unavailable |
 | 2 | Planning (`planning`) | architect | **not_started** | 0 | 0 | unavailable |
 | 3 | Implementation (`implementation`) | developer | **not_started** | 0 | 0 | unavailable |
 | 4 | Convergence (`convergence`) | architect | **not_started** | 0 | 0 | unavailable |
@@ -18,5 +18,6 @@
 
 ## Recent history
 
+- 2026-09-15T00:03:40.086Z — **phase_generated** (specification) by ashokraj2011 · governed agent product-owner: generation 2
 - 2026-09-14T23:56:01.318Z — **phase_generated** (specification) by ashokraj2011 · governed agent product-owner: generation 1
 - 2026-09-14T23:49:09.886Z — **work_started** (specification) by ashokraj2011 · governed agent product-owner: Created spec-driven-standard branch color-red

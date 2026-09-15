@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "workId": "color-red",
+  "phase": "specification",
+  "generation": 2,
+  "mode": "required",
+  "promptPath": "singularity/work-items/color-red/context/prompts/specification-gen2.md",
+  "promptSha256": "3a1041dc2d7bc5bc6e608520826f2d889b0594cf0b3b93622b30e90a1d7001c3",
+  "groundingRecordPath": "singularity/work-items/color-red/context/specification-gen2.json",
+  "groundingRecordSha256": "71e8c10a656406e080feb68818698cf2e4ac7a068dec8521a3f780910d41839a",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Confirm: all visible rule-authoring text is CSS #ff0000, verified in the default loaded screenshot, with existing behavior and layout unchanged.",
+      "answer": "Confirmed unchanged: keep all visible user-facing text on the rule authoring page in CSS #ff0000, verify with a screenshot of the default loaded view, and preserve existing behavior and layout.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-15T00:03:02.256Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}
