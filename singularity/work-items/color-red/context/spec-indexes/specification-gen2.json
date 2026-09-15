@@ -9,7 +9,7 @@
       "namespace": "COLOR-RED",
       "number": 1,
       "source": {
-        "line": 210,
+        "line": 317,
         "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -23,7 +23,7 @@
       "namespace": "COLOR-RED",
       "number": 2,
       "source": {
-        "line": 212,
+        "line": 319,
         "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -37,7 +37,7 @@
       "namespace": "COLOR-RED",
       "number": 3,
       "source": {
-        "line": 214,
+        "line": 321,
         "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -51,7 +51,7 @@
       "namespace": "COLOR-RED",
       "number": 1,
       "source": {
-        "line": 219,
+        "line": 326,
         "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -65,7 +65,7 @@
       "namespace": "COLOR-RED",
       "number": 2,
       "source": {
-        "line": 221,
+        "line": 328,
         "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -79,7 +79,7 @@
       "namespace": "COLOR-RED",
       "number": 4,
       "source": {
-        "line": 227,
+        "line": 334,
         "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -93,20 +93,20 @@
       "namespace": "COLOR-RED",
       "number": 5,
       "source": {
-        "line": 229,
+        "line": 336,
         "path": "singularity/work-items/color-red/artifacts/specification/spec.md"
       },
       "type": "REQ"
     }
   ],
   "generation": 2,
-  "indexSha256": "2f0f30036c11ae217da8d99c39db7f0fffbc7418e99186048e98c3841e1ab347",
+  "indexSha256": "8661e88b74cb4de44c72cdcfc3da83078cba2a41e7ed150b680f6a2e9993419b",
   "phase": "specification",
   "schemaVersion": 1,
   "source": {
-    "bytes": 8918,
+    "bytes": 13661,
     "path": "singularity/work-items/color-red/artifacts/specification/spec.md",
-    "sha256": "716b13d40929a72c407c41cbe8dd38d0533ff92fa9466feab594c80cf2cce9a3"
+    "sha256": "f46aa5cfab5e1638332bf127865bfb621d65b13bf151106dbaf25bd3c3a73e25"
   },
   "workId": "color-red"
 }
