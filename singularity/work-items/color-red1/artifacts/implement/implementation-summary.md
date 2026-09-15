@@ -5,7 +5,7 @@
   "workType": "quick-fix",
   "phase": "implement",
   "generation": 1,
-  "status": "in_progress",
+  "status": "approved",
   "generatedBy": {
     "name": "Ashok Raj",
     "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -49,8 +49,8 @@
     "publishedAt": "2026-09-15T00:56:51.524Z"
   },
   "sourceCommit": "e923ce98ef6f57d21820fa82e4923bcb93f69513",
-  "generationCommit": null,
-  "publicationCommit": null,
+  "generationCommit": "7ab03f700c54f4d0be9f435244bf252a8cd47b79",
+  "publicationCommit": "7ab03f700c54f4d0be9f435244bf252a8cd47b79",
   "configSha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b",
   "sourceSha256": "07485fe59d1a029902c4204111f53f373ee3c19fadef59c6045b2f5c48c99725",
   "template": {

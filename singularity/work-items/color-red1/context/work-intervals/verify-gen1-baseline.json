@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-interval-baseline",
+  "intervalId": "INT-verify-G1-002",
+  "workId": "color-red1",
+  "workType": "quick-fix",
+  "railId": "quick-fix",
+  "phaseId": "verify",
+  "generation": 1,
+  "branch": "color-red1",
+  "sourceBaseCommit": "7ab03f700c54f4d0be9f435244bf252a8cd47b79",
+  "configurationSha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b",
+  "sourceSha256": "07485fe59d1a029902c4204111f53f373ee3c19fadef59c6045b2f5c48c99725",
+  "templateSha256": "a21900d99d044d35de501f0e43888a8a3ebcfe860e702a5d1b3eec61fdd06f27",
+  "workflowSubjectRevision": "sha256:6b39432d23c207992f86e694eb83a87bf4ca8e935bcc4cc1bc3efd4f64ad29ce",
+  "protectedPaths": [
+    ".github/agents",
+    ".github/skills",
+    "plugin/agents",
+    "plugin/skills",
+    "singularity/agent-mappings.yml",
+    "singularity/agents",
+    "singularity/agents.lock.yml",
+    "singularity/impact.yml",
+    "singularity/prompts",
+    "singularity/templates",
+    "singularity/workflow.yml"
+  ],
+  "requiredChecks": [
+    {
+      "id": "git-diff-check",
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "modelPolicy": "never"
+    }
+  ],
+  "requiredChecksSha256": "sha256:b4888c54f17758b5cdd8c6c9b15bb8391e8ec7d8865bd6fcd39d04f17c2b3c2d",
+  "policySha256": "sha256:d01d0f105a804ba1478558ea3d209db9b395e3765281d9afcf78e29aba80d3ee",
+  "escalationLadderSha256": "sha256:d9972b383c7d4e2b3ffecd22b1adcdc07943a205f7ee5c19280969aa52b277c8",
+  "reconciliationPolicy": {
+    "changedPathLimit": 5,
+    "escalationTarget": "feature",
+    "localProvidersOnly": true
+  },
+  "baselineSha256": "d2ce4bd26606fc69d8d26b2a1106a0b9656f50d4771bcc85a872840b00bec982",
+  "createdAt": "2026-09-15T00:57:47.287Z",
+  "path": "singularity/work-items/color-red1/context/work-intervals/verify-gen1-baseline.json",
+  "status": "open"
+}

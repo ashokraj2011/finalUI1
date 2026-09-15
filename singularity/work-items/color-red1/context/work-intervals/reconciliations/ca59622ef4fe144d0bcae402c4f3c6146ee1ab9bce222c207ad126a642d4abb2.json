@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-reconciliation",
+  "workId": "color-red1",
+  "workType": "quick-fix",
+  "intervalId": "INT-implement-G1-001",
+  "phaseId": "implement",
+  "generation": 1,
+  "baselineSha256": "223db5766beef3cfbabdaf5e53404f9ce6f0fdf8d44c42fc53fd5af1e13f15da",
+  "baseline": {
+    "path": "singularity/work-items/color-red1/context/work-intervals/implement-gen1-baseline.json",
+    "sha256": "223db5766beef3cfbabdaf5e53404f9ce6f0fdf8d44c42fc53fd5af1e13f15da",
+    "verified": true,
+    "sourceBaseCommit": "5e4b873cc690d7639e281818c07801cdbae02840"
+  },
+  "sourceBaseCommit": "5e4b873cc690d7639e281818c07801cdbae02840",
+  "target": {
+    "branch": "color-red1",
+    "head": "7ab03f700c54f4d0be9f435244bf252a8cd47b79",
+    "includesWorktree": false,
+    "cleanApplicationTree": true,
+    "uncommittedApplicationPaths": []
+  },
+  "findings": [
+    {
+      "path": "src/app/components/data-schema/data-schema.component.spec.ts",
+      "status": "present",
+      "sha256": "1fdd7a8b5db96a1196f5e2def4d00b05d93056cc5af9bc36ee30b4afa121936b",
+      "bytes": 1047,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "src/app/components/data-schema/data-schema.component.ts",
+      "status": "present",
+      "sha256": "1efb8132551c16300584573cbe7a6121214ead8afa302b520ed4550e3d8ea119",
+      "bytes": 22760,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    }
+  ],
+  "summary": {
+    "changedPaths": 2,
+    "planned": 0,
+    "unplanned": 2,
+    "protected": 0
+  },
+  "decision": {
+    "status": "review",
+    "summaryStatus": "attention",
+    "eligibleForSubmission": true,
+    "reasons": [],
+    "escalationTarget": null
+  },
+  "reconciliationSha256": "ca59622ef4fe144d0bcae402c4f3c6146ee1ab9bce222c207ad126a642d4abb2",
+  "reconciledAt": "2026-09-15T00:57:47.273Z",
+  "final": true,
+  "recordedAt": "2026-09-15T00:57:47.274Z",
+  "path": "singularity/work-items/color-red1/context/work-intervals/reconciliations/ca59622ef4fe144d0bcae402c4f3c6146ee1ab9bce222c207ad126a642d4abb2.json"
+}

@@ -58,11 +58,18 @@
     "ambiguous": [],
     "bindings": []
   },
-  "testExecutions": [],
+  "testExecutions": [
+    {
+      "commandId": "angular-tests",
+      "receiptPath": "singularity/work-items/color-red1/context/code-delivery/tests/implement-gen1-angular-tests.json",
+      "receiptSha256": "f47c7e80e62c55686d2af93e2c73c282c505c7b4d9fec5e8b53111574c6da0b8",
+      "status": "passed"
+    }
+  ],
   "tree": {
     "workingStateDigest": "sha256:2bdf179d9ec3a71756273dc6914894ba2902ed453db480f4a606e74db44ef482",
-    "generationCommit": null,
-    "generationTree": null
+    "generationCommit": "7ab03f700c54f4d0be9f435244bf252a8cd47b79",
+    "generationTree": "f300f57979a50d09a528ed794865a496b9111cad"
   },
   "model": {
     "task": "code",
@@ -81,6 +88,7 @@
     "observedAt": null,
     "generation": null
   },
-  "status": "pending-tests",
-  "capturedAt": "2026-09-15T00:56:51.524Z"
+  "status": "ready",
+  "capturedAt": "2026-09-15T00:56:51.524Z",
+  "validatedAt": "2026-09-15T00:57:47.098Z"
 }
