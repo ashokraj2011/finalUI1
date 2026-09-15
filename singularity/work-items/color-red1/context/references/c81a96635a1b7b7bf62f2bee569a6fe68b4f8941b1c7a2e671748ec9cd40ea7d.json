@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/color-red1/artifacts/verify/verification-summary.md",
+    "phaseId": "verify"
+  },
+  "createdAt": "2026-09-15T01:00:32.528Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 4635,
+    "commitSha": "29cf9df5627331f8d5196bbf2c47b4c9432a69e7",
+    "sha256": "ae562b0943707ba7d87f65ce8dedce81d39c2cf078bac15bbcda4b5246a64cf9"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "color-red1",
+    "id": "color-red1",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}

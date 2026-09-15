@@ -10,10 +10,12 @@
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
 | 1 | Implement (`implement`) | developer | **approved** | 1 | 0 | unavailable |
-| 2 | Verify (`verify`) | qa | **in_progress** | 1 | 0 | unavailable |
+| 2 | Verify (`verify`) | qa | **awaiting_approval** | 1 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-09-15T01:00:32.402Z — **phase_submitted** (verify) by ashokraj2011 · governed agent qa: 1 artifacts
+- 2026-09-15T01:00:32.401Z — **work_interval_reconciled** (verify) by system: aligned; 0 changed path(s)
 - 2026-09-15T01:00:04.134Z — **phase_generated** (verify) by ashokraj2011 · governed agent qa: generation 1
 - 2026-09-15T00:57:47.275Z — **phase_completed_without_approval** (implement) by ashokraj2011 · governed agent developer: approval mode none; advanced to verify
 - 2026-09-15T00:57:47.287Z — **work_interval_started** (verify) by system: baseline d2ce4bd26606 at 7ab03f700c54
