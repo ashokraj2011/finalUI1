@@ -61,6 +61,12 @@ export class AppComponent {
 
   searchQuery: string = '';
 
+  get isDefaultRuleAuthoringView(): boolean {
+    return this.activeTab === 'rulesets'
+      && this.activeRuleType === 'general'
+      && this.rulesetsSubView === 'designer';
+  }
+
   // Alerts & Notifications Simulation
   notification: string | null = null;
 

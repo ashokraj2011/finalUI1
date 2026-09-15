@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "bytes": 1659,
+    "path": "src/app/app.component.spec.ts",
+    "role": "test",
+    "sha256": "a96f3aefa82d129ffae43a12c2f65797ba90e8004228205b4c6116565d027d12"
+  },
+  "configuration": {
+    "revision": "1477b94f3436c82b0242e499786ee6974a7358ce",
+    "sha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/planning/plan.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "461505a31ee4ed860a843b0eb69469fd3a08e64cd2efcc04b64ce804a712e81a",
+  "phase": "implementation",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "developer",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "color-red",
+    "commit": null,
+    "publishedAt": "2026-09-15T00:32:19.708Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "color-red",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/color-red/config/wfa/blobs/sha256/61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
+    "sha256": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c"
+  }
+}

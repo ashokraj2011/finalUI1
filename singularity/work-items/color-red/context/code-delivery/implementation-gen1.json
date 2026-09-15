@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "color-red",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "d7ac060b-525c-44ce-b827-6d9497013e7f",
+  "changeSet": {
+    "path": "singularity/work-items/color-red/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:cfc5f1049c1cbb46242d223a9568a86b51441e4e71012af357eb0a700c07cc83",
+    "sourcePaths": [
+      "src/app/app.component.html",
+      "src/app/app.component.ts",
+      "src/styles.css"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "src/app/app.component.spec.ts"
+    ],
+    "supportingTestPaths": []
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "copilot"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "product-source": 3,
+      "test-source": 1
+    },
+    "entries": [
+      {
+        "changeId": "sha256:4f36f1a548705630168ff3f8835a42e30d3546944e487b34fdc38782151a78eb",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "src/app/app.component.spec.ts",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:d86e0de419e99c12fcd586b93fd3dfa02ff7290dccdd4954fabfbedfcab27b4c",
+        "status": "modified",
+        "oldPath": "src/app/app.component.html",
+        "newPath": "src/app/app.component.html",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:81026a70abc85abaed67a042b6a6a1d677268722bcd4413abef53226ddc62e42",
+        "status": "modified",
+        "oldPath": "src/app/app.component.ts",
+        "newPath": "src/app/app.component.ts",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:8db82c591810f310743bbb4df106657813be3c55103cdd72b926b010571feb62",
+        "status": "modified",
+        "oldPath": "src/styles.css",
+        "newPath": "src/styles.css",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [
+      "COLOR-RED:AC-001",
+      "COLOR-RED:AC-002"
+    ],
+    "bound": [
+      "COLOR-RED:AC-001",
+      "COLOR-RED:AC-002"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "COLOR-RED:AC-001",
+        "testSource": "src/app/app.component.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "COLOR-RED:AC-002",
+        "testSource": "src/app/app.component.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:16d42161c9b9999220194758e56cbe3717f88edd7dacc083d17f64b08ac08e65",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": true,
+    "authorshipProducer": "governed-agent",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-09-15T00:32:19.708Z"
+}

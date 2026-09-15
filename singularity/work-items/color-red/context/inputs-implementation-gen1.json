@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "workId": "color-red",
+  "workType": "spec-driven-standard",
+  "phase": "implementation",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-15T00:32:19.700Z",
+  "renderedSha256": "14868e928cd1522f7ade264c5164898b5c9cda2dc76c82a196034832d1e15003",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/color-red/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 2,
+      "approvedAt": "2026-09-15T00:13:53.912Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "f46aa5cfab5e1638332bf127865bfb621d65b13bf151106dbaf25bd3c3a73e25",
+      "sha256": "f46aa5cfab5e1638332bf127865bfb621d65b13bf151106dbaf25bd3c3a73e25",
+      "bytes": 13661,
+      "source": {
+        "path": "singularity/work-items/color-red/artifacts/specification/spec.md",
+        "rawSha256": "sha256:f46aa5cfab5e1638332bf127865bfb621d65b13bf151106dbaf25bd3c3a73e25"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:d6e655ea11b3a9ccd3c6c6557d64aaf97e68c4ef64748fea0ac1196c2b8022d0",
+        "bytes": 2561,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:color-red:59bdac3b0001a04a297d6fd0d22eda836e08b8d9458dcb79c58c6ef2179a7743"
+      },
+      "injectedBytes": 2561,
+      "truncated": false,
+      "authoredBytes": 4355,
+      "managedBytesExcluded": 9306,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Requirements",
+          "Non-functional requirements",
+          "Boundary conditions"
+        ],
+        "maximumSummaryBytes": 32768,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/color-red/context/briefs/specification-gen2-for-implementation.md",
+        "briefSha256": "d6e655ea11b3a9ccd3c6c6557d64aaf97e68c4ef64748fea0ac1196c2b8022d0",
+        "expansionHandle": "sfref:v1:story:color-red:59bdac3b0001a04a297d6fd0d22eda836e08b8d9458dcb79c58c6ef2179a7743"
+      }
+    },
+    {
+      "phase": "planning",
+      "path": "artifacts/planning/plan.md",
+      "repositoryPath": "singularity/work-items/color-red/artifacts/planning/plan.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-15T00:23:02.671Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "1f9c60aec81d042b93b7ebc114f6231cd55de2c646cd11b9b4ed34b2d2dab561",
+      "sha256": "1f9c60aec81d042b93b7ebc114f6231cd55de2c646cd11b9b4ed34b2d2dab561",
+      "bytes": 17487,
+      "source": {
+        "path": "singularity/work-items/color-red/artifacts/planning/plan.md",
+        "rawSha256": "sha256:1f9c60aec81d042b93b7ebc114f6231cd55de2c646cd11b9b4ed34b2d2dab561"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:21054f0ec5c82dd24fe8d681adb14e50d915cb46adae1d205ca6d34290e4a0e7",
+        "bytes": 4265,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:color-red:866f85888cdffa4f65142668587e58600ab0b1685415e37444005ec1ab9585fd"
+      },
+      "injectedBytes": 4265,
+      "truncated": false,
+      "authoredBytes": 7154,
+      "managedBytesExcluded": 10333,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Test strategy",
+          "Risks and rollback"
+        ],
+        "maximumSummaryBytes": 24576,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/color-red/context/briefs/planning-gen1-for-implementation.md",
+        "briefSha256": "21054f0ec5c82dd24fe8d681adb14e50d915cb46adae1d205ca6d34290e4a0e7",
+        "expansionHandle": "sfref:v1:story:color-red:866f85888cdffa4f65142668587e58600ab0b1685415e37444005ec1ab9585fd"
+      }
+    }
+  ]
+}

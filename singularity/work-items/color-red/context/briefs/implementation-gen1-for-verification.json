@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "workId": "color-red",
+  "producer": {
+    "phase": "implementation",
+    "generation": 1
+  },
+  "consumer": {
+    "phase": "verification"
+  },
+  "source": {
+    "path": "singularity/work-items/color-red/artifacts/implementation/implementation-summary.md",
+    "sha256": "8564ca8ac376a24d00d58fe767c2da1b162b83ca0ee9f305dbb75dfead0a54a0",
+    "bytes": 14131
+  },
+  "policy": {
+    "projection": "approved-summary",
+    "preserve": [
+      "Changed components and decisions",
+      "Tests and operational notes"
+    ],
+    "maximumSummaryBytes": 24576,
+    "expansion": "hash-bound-reference",
+    "fallback": "whole"
+  },
+  "policySha256": "0f2f54d4589a3673eb27f166311f8295707a0eefd70287dbbbd5ea961a329aaf",
+  "status": "fallback-whole",
+  "summary": null,
+  "preserved": [],
+  "rendered": null,
+  "generatedAt": "2026-09-15T00:32:19.840Z",
+  "integritySha256": "77ac56cc2adb08cdf6878736fd79ac2c23a46c38d9629f2cc9e898dd7bbea1d4"
+}

@@ -46,6 +46,10 @@
   }
 }
 
+.rule-authoring-scope :where(h1, h2, h3, h4, h5, h6, p, span, label, button, a, input, textarea, select, option) {
+  color: #ff0000 !important;
+}
+
 @layer utilities {
   .animate-fade-in {
     animation: fade-in 0.2s ease-out;
