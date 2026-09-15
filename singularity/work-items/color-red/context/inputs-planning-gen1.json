@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "workId": "color-red",
+  "workType": "spec-driven-standard",
+  "phase": "planning",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-15T00:18:41.828Z",
+  "renderedSha256": "a10b76759357d84d9c18bb7a5a6b245d78292b8ec84bd27f9349783e50d81228",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/color-red/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 2,
+      "approvedAt": "2026-09-15T00:13:53.912Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "f46aa5cfab5e1638332bf127865bfb621d65b13bf151106dbaf25bd3c3a73e25",
+      "sha256": "f46aa5cfab5e1638332bf127865bfb621d65b13bf151106dbaf25bd3c3a73e25",
+      "bytes": 13661,
+      "source": {
+        "path": "singularity/work-items/color-red/artifacts/specification/spec.md",
+        "rawSha256": "sha256:f46aa5cfab5e1638332bf127865bfb621d65b13bf151106dbaf25bd3c3a73e25"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:3d2f608901af0a26f7ba31f0b3789bebf6d3aa89e12bf20b2b0f9b612169fd39",
+        "bytes": 2555,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:color-red:59bdac3b0001a04a297d6fd0d22eda836e08b8d9458dcb79c58c6ef2179a7743"
+      },
+      "injectedBytes": 2555,
+      "truncated": false,
+      "authoredBytes": 4355,
+      "managedBytesExcluded": 9306,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Requirements",
+          "Non-functional requirements",
+          "Boundary conditions"
+        ],
+        "maximumSummaryBytes": 32768,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/color-red/context/briefs/specification-gen2-for-planning.md",
+        "briefSha256": "3d2f608901af0a26f7ba31f0b3789bebf6d3aa89e12bf20b2b0f9b612169fd39",
+        "expansionHandle": "sfref:v1:story:color-red:59bdac3b0001a04a297d6fd0d22eda836e08b8d9458dcb79c58c6ef2179a7743"
+      }
+    }
+  ]
+}

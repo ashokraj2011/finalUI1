@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 12388,
+    "path": "singularity/work-items/color-red/artifacts/planning/plan.md",
+    "role": "document",
+    "sha256": "6c9cb4cd5838522e58d871a497def73df67ebd6967272d628284a1d36b668bc1"
+  },
+  "configuration": {
+    "revision": "1477b94f3436c82b0242e499786ee6974a7358ce",
+    "sha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "c376b6ee8e3849eb7337365b7b1ee4c9c54784ad508678409adc29ffa45e1d32",
+  "phase": "planning",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "architect",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "color-red",
+    "commit": null,
+    "publishedAt": "2026-09-15T00:18:41.878Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "color-red",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/color-red/config/wfa/blobs/sha256/e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
+    "sha256": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f"
+  }
+}
