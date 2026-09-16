@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "workId": "again-filter",
+  "workType": "chore",
+  "phase": "implementation",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-16T21:32:13.934Z",
+  "renderedSha256": "00f98213c46a704e80e35c16623ccc2b2d4111ede96625e6a86a73b62d1d6b77",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "intake",
+      "path": "artifacts/intake/intake.md",
+      "repositoryPath": "singularity/work-items/again-filter/artifacts/intake/intake.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-16T21:27:28.250Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "9792bc2a6c5cd706cf45fd0f2a7fd157b9d39fa250fa1c0aa2e6fcffa692099d",
+      "sha256": "9792bc2a6c5cd706cf45fd0f2a7fd157b9d39fa250fa1c0aa2e6fcffa692099d",
+      "bytes": 6785,
+      "source": {
+        "path": "singularity/work-items/again-filter/artifacts/intake/intake.md",
+        "rawSha256": "sha256:9792bc2a6c5cd706cf45fd0f2a7fd157b9d39fa250fa1c0aa2e6fcffa692099d"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:b7a6a37bd52b6c809aa4aacda8ddbb93431cfc3ebebd298589069e86b043afee",
+        "bytes": 1360,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:again-filter:081631410736d3efc4cd775b7432f8a6aafce3c7c1bc85fbc72488ae106573b1"
+      },
+      "injectedBytes": 1360,
+      "truncated": false,
+      "authoredBytes": 1360,
+      "managedBytesExcluded": 5425,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}
