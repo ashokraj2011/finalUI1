@@ -15,3 +15,4 @@ export * from './synthesize';
 export * from './lint';
 export * from './coverage';
 export * from './diff';
+export * from './filter';

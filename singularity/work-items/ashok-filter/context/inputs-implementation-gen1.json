@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "workId": "ashok-filter",
+  "workType": "spec-driven-standard",
+  "phase": "implementation",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-16T16:13:00.165Z",
+  "renderedSha256": "fd34b194f4973c0cb5a1fb7bfeb5454e2dc6643d12b1cae71f9bad0077f97358",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/ashok-filter/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-16T15:33:52.698Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "a18718e8b47102f475f9d957ef667378257d8ef0755f5a3c65298513a9a31c2c",
+      "sha256": "a18718e8b47102f475f9d957ef667378257d8ef0755f5a3c65298513a9a31c2c",
+      "bytes": 14711,
+      "source": {
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md",
+        "rawSha256": "sha256:a18718e8b47102f475f9d957ef667378257d8ef0755f5a3c65298513a9a31c2c"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:6479c02308a7ab82c9c9f258b167b9dd076bcc210d09734ef1ac4446e157b51f",
+        "bytes": 2583,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:ashok-filter:26bc37d3966c1c704b44f51891652a822e621069435217eea55074f6f3865668"
+      },
+      "injectedBytes": 2583,
+      "truncated": false,
+      "authoredBytes": 6266,
+      "managedBytesExcluded": 8445,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Requirements",
+          "Non-functional requirements",
+          "Boundary conditions"
+        ],
+        "maximumSummaryBytes": 32768,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/ashok-filter/context/briefs/specification-gen1-for-implementation.md",
+        "briefSha256": "6479c02308a7ab82c9c9f258b167b9dd076bcc210d09734ef1ac4446e157b51f",
+        "expansionHandle": "sfref:v1:story:ashok-filter:26bc37d3966c1c704b44f51891652a822e621069435217eea55074f6f3865668"
+      }
+    },
+    {
+      "phase": "planning",
+      "path": "artifacts/planning/plan.md",
+      "repositoryPath": "singularity/work-items/ashok-filter/artifacts/planning/plan.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-16T15:50:23.796Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "74dc6c374bcdcce26aa61a801dafb9711e730404270fc76c437eadd80ea94357",
+      "sha256": "74dc6c374bcdcce26aa61a801dafb9711e730404270fc76c437eadd80ea94357",
+      "bytes": 17287,
+      "source": {
+        "path": "singularity/work-items/ashok-filter/artifacts/planning/plan.md",
+        "rawSha256": "sha256:74dc6c374bcdcce26aa61a801dafb9711e730404270fc76c437eadd80ea94357"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:d1d5e7af9d07caaa196b73c2b6d3dd206c3875bbb4c2e917589751dcf0b6189e",
+        "bytes": 4296,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:ashok-filter:0d65355554891954158dc3ef418647dcbe0e49d2d91449a1cb3258e7f6d869f9"
+      },
+      "injectedBytes": 4296,
+      "truncated": false,
+      "authoredBytes": 6884,
+      "managedBytesExcluded": 10403,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Test strategy",
+          "Risks and rollback"
+        ],
+        "maximumSummaryBytes": 24576,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/ashok-filter/context/briefs/planning-gen1-for-implementation.md",
+        "briefSha256": "d1d5e7af9d07caaa196b73c2b6d3dd206c3875bbb4c2e917589751dcf0b6189e",
+        "expansionHandle": "sfref:v1:story:ashok-filter:0d65355554891954158dc3ef418647dcbe0e49d2d91449a1cb3258e7f6d869f9"
+      }
+    }
+  ]
+}

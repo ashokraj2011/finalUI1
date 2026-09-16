@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "bytes": 12533,
+    "path": "singularity/work-items/ashok-filter/artifacts/implementation/implementation-summary.md",
+    "role": "document",
+    "sha256": "e868f78c7c992788352a31ac28362ac60867b60bde926a2fdb51c78f874a065a"
+  },
+  "configuration": {
+    "revision": "1477b94f3436c82b0242e499786ee6974a7358ce",
+    "sha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/planning/plan.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "7c8cc4e49e2504b9855478a2f254f5c2e72a934ed6b4b20cece19d312f8b9767",
+  "phase": "implementation",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "developer",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "ashok-filter",
+    "commit": null,
+    "publishedAt": "2026-09-16T16:13:00.197Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "ashok-filter",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/ashok-filter/config/wfa/blobs/sha256/61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
+    "sha256": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c"
+  }
+}

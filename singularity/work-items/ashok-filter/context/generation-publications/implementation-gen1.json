@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "kind": "generation-publication",
+  "workId": "ashok-filter",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "da7e5829-80bf-44ea-ad1a-78325408739e",
+  "generationStart": {
+    "path": "singularity/work-items/ashok-filter/context/generation-start/implementation-gen1.json",
+    "sha256": "sha256:fcbce76ad2100e7caa9ab79e20430f1908d1d50e5f46a3557b104b1d631737a7"
+  },
+  "changeSet": {
+    "path": "singularity/work-items/ashok-filter/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:69d3b9c87915da3e9cbad34f9cfde84d90b39097388195376f3f0a163a040202"
+  },
+  "resultDigest": "sha256:8ebcced7ad5b9da087ccbaa2dea15fc617e766299f80908e26edf6515b49c8bf",
+  "architectureIntent": null,
+  "architectureDecision": null,
+  "baseline": {
+    "commit": "2f685796949601859792031d18f68126d8171398",
+    "tree": "f3de3134e4d6b63fd91df07ccc482a33181e1f22"
+  },
+  "transactionId": "7a2d5eec-d0a3-4c75-9eb4-537e21f80870",
+  "eventId": "430de101-97b7-4ba6-ae4f-a5f1bf4de461",
+  "eventSha256": "sha256:012888dd56f9a496f5ad27c5a660a950cdee027256064023289eae9a03005932",
+  "commitBinding": {
+    "method": "containing-governed-transaction",
+    "commit": "$self",
+    "tree": "$self",
+    "parent": "54d4bbc3fbc389851562dcab8cce274193d81f4a"
+  },
+  "publishedAt": "2026-09-16T16:13:00.197Z",
+  "recordSha256": "sha256:b5ace94c30a79eb0f2c2e0085351fd11ee290b09d56f90704eac52858b9ad7dc"
+}

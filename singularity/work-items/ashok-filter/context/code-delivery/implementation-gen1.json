@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "ashok-filter",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "da7e5829-80bf-44ea-ad1a-78325408739e",
+  "changeSet": {
+    "path": "singularity/work-items/ashok-filter/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:69d3b9c87915da3e9cbad34f9cfde84d90b39097388195376f3f0a163a040202",
+    "sourcePaths": [
+      "src/app/kernel/filter.ts",
+      "src/app/kernel/index.ts"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "src/app/kernel/filter.spec.ts"
+    ],
+    "supportingTestPaths": []
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "copilot"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "product-source": 2,
+      "test-source": 1
+    },
+    "entries": [
+      {
+        "changeId": "sha256:b3d58452bf19c140d1de7e10dda721a06e484327c5e0103dd0542e5ec73bd778",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "src/app/kernel/filter.spec.ts",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:5f03bddf3d254803d0fa2b9657faadd4f03bf0915c81918c0cd65712a957d351",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "src/app/kernel/filter.ts",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:0ed8abf3f954b00be6f73622c366faab762f2ce1d8ee3244312bf11be4186927",
+        "status": "modified",
+        "oldPath": "src/app/kernel/index.ts",
+        "newPath": "src/app/kernel/index.ts",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [
+      "ASHOK-FILTER:AC-001",
+      "ASHOK-FILTER:AC-002",
+      "ASHOK-FILTER:AC-003",
+      "ASHOK-FILTER:AC-004",
+      "ASHOK-FILTER:AC-005"
+    ],
+    "bound": [
+      "ASHOK-FILTER:AC-001",
+      "ASHOK-FILTER:AC-002",
+      "ASHOK-FILTER:AC-003",
+      "ASHOK-FILTER:AC-004",
+      "ASHOK-FILTER:AC-005"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "ASHOK-FILTER:AC-001",
+        "testSource": "src/app/kernel/filter.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "ASHOK-FILTER:AC-002",
+        "testSource": "src/app/kernel/filter.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "ASHOK-FILTER:AC-003",
+        "testSource": "src/app/kernel/filter.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "ASHOK-FILTER:AC-004",
+        "testSource": "src/app/kernel/filter.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "ASHOK-FILTER:AC-005",
+        "testSource": "src/app/kernel/filter.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:698088ce6530f1083980eb19647edf48dc5e290ffe5d117e5cc1256e3570b6f8",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": true,
+    "authorshipProducer": "governed-agent",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-09-16T16:13:00.197Z"
+}
