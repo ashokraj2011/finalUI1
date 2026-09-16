@@ -2304,25 +2304,148 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
-      "generatedAgent": null,
-      "authorship": [],
-      "usage": [],
-      "telemetry": [],
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "generatedAgent": "product-owner",
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "governed-agent",
+          "channel": "copilot-host",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "product-owner"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "changeOrigins": [
+            "copilot"
+          ],
+          "source": {
+            "kind": "in-place",
+            "filename": "intake.md",
+            "mediaType": "text/markdown",
+            "sha256": "57bc89e64b3d0d9012b1472d47e120c274e0cf49c1ef7bc22b2b7359e51814ee",
+            "bytes": 1749
+          },
+          "generation": 1,
+          "publishedAt": "2026-09-16T20:36:03.877Z"
+        }
+      ],
+      "usage": [
+        {
+          "status": "unavailable",
+          "source": "copilot-otel-unavailable",
+          "provider": null,
+          "model": null,
+          "requestedModel": null,
+          "resolvedModel": null,
+          "resolvedModelAssurance": "unavailable",
+          "inputTokens": null,
+          "outputTokens": null,
+          "cachedInputTokens": null,
+          "cacheWriteInputTokens": null,
+          "totalTokens": null,
+          "providerCost": null,
+          "costStatus": "unavailable",
+          "spans": null,
+          "startedAt": "2026-09-16T20:36:03.877Z",
+          "completedAt": "2026-09-16T20:36:03.877Z",
+          "agent": "product-owner",
+          "generation": 1
+        }
+      ],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/new-filter/telemetry/intake-gen1.json",
+          "sha256": "47fe3bd215bc19aaec909e86af58a992517736c4bbc080dd23fca130d889b530",
+          "status": "pending",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
-      "generationPublications": [],
+      "generationPublications": [
+        {
+          "generation": 1,
+          "publishedAt": "2026-09-16T20:36:03.877Z",
+          "changeSetDigest": null,
+          "resultDigest": "sha256:3d66070ddd439285680b4a464e0a81192fd545bfcd150216a37e12f27c43d5a2",
+          "resultDigestVersion": 3,
+          "architectureIntent": null,
+          "architectureDecision": null,
+          "record": {
+            "path": "singularity/work-items/new-filter/context/generation-publications/intake-gen1.json",
+            "sha256": "sha256:1cce8f00cbf34b7d3fda07a857a3e5cad3ab3e52f6773293445f783b251804fb"
+          }
+        }
+      ],
       "submissionArchitectureDecision": null,
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/new-filter/artifacts/intake/intake.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 5375,
+          "sha256": "18694015dac3fe6b59906aac8d8a076480faa76608834caee0187d24b17cf47f",
+          "registeredAt": "2026-09-16T20:36:02.429Z",
+          "updatedAt": "2026-09-16T20:36:03.928Z"
+        }
+      ],
       "checks": [],
       "authoringBaseline": {
         "generation": 1,
         "path": "artifacts/intake/intake.md",
         "fingerprint": "sha256:33ac37a5b9e8e7921a9af43aa08861bfa736dcd416d266c725600ea368758e85",
         "bytes": 287
-      }
+      },
+      "remoteOutputs": [],
+      "sidecars": [
+        {
+          "path": "singularity/work-items/new-filter/context/sidecars/intake-gen1-singularity-work-items-new-filter-artifacts-intake-intake.md.json",
+          "artifact": "singularity/work-items/new-filter/artifacts/intake/intake.md",
+          "integritySha256": "3ea8712ac70bc044b6542bd5f47cd70bc031bfa73bb28be153d8bd074ebeef38"
+        }
+      ],
+      "clarifications": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/new-filter/context/clarifications-intake-gen1.json",
+          "sha256": "3803d6ef1b00fe617cf1df19b08047c9536e1f3102f7fc23950bad8d11dae1b7",
+          "promptSha256": "9df52e234a4e55f2db3007cffcefc043a4a2a971fb10f94a69c8e5764f11aca9",
+          "responses": 2,
+          "markers": [],
+          "recordedAt": "2026-09-16T20:35:47.033Z",
+          "recordedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          }
+        }
+      ],
+      "sourceCommit": "807e0b6f406336e41fbd1065af5acbb5802231bf"
     },
     "implementation": {
       "id": "implementation",
@@ -2408,7 +2531,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "verification": {
       "id": "verification",
@@ -2497,7 +2621,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "conformance": {
       "id": "conformance",
@@ -2610,19 +2735,48 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     }
   },
   "usage": {
     "mode": "exact-or-unavailable",
     "totalTokens": 0,
-    "records": 0,
+    "records": 1,
     "exactRecords": 0,
-    "unavailableRecords": 0,
-    "byPhase": {},
-    "byAgent": {},
-    "byWorkType": {},
-    "byWorkItem": {}
+    "unavailableRecords": 1,
+    "byPhase": {
+      "intake": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byAgent": {
+      "product-owner": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byWorkType": {
+      "chore": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byWorkItem": {
+      "new-filter": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    }
   },
   "telemetry": {
     "schemaVersion": 1,
@@ -2646,6 +2800,14 @@
       "event": "work_started",
       "phase": "intake",
       "detail": "Created chore branch new-filter"
+    },
+    {
+      "at": "2026-09-16T20:36:03.981Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_generated",
+      "phase": "intake",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -2770,6 +2932,112 @@
         },
         "createdAt": "2026-09-16T20:18:59.921Z"
       }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "a8b969b4-4e5f-4099-8cd7-26855706d96a",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "new-filter",
+          "branch": "new-filter"
+        },
+        "phaseId": "intake",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-16T20:36:03.028Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "a8b969b4-4e5f-4099-8cd7-26855706d96a",
+        "eventType": "artifact-generated",
+        "capabilityId": "anu-ui",
+        "subject": {
+          "branch": "new-filter",
+          "generation": 1,
+          "phase": "intake",
+          "workId": "new-filter",
+          "workType": "chore"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "57c667f951ea2d85be2fd66ff0238080078196487caf577cac71f2b89cef0591",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b",
+          "lifecycleEventId": "a8b969b4-4e5f-4099-8cd7-26855706d96a",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "d4632690fa411f3926eee1bfd474f5907aae5efdd31313576acdac04e8934441",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "a8b969b4-4e5f-4099-8cd7-26855706d96a",
+            "type": "artifact-generated",
+            "subject": {
+              "kind": "story",
+              "id": "new-filter",
+              "branch": "new-filter"
+            },
+            "phaseId": "intake",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": null,
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-16T20:36:03.028Z"
+          }
+        },
+        "createdAt": "2026-09-16T20:36:03.033Z"
+      }
     }
-  ]
+  ],
+  "repairBudgets": {},
+  "workIntervals": {
+    "schemaVersion": 1,
+    "current": null,
+    "history": [],
+    "escalations": []
+  }
 }

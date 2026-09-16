@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "workId": "new-filter",
+  "phase": "intake",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/new-filter/context/prompts/intake-gen1.md",
+  "promptSha256": "9df52e234a4e55f2db3007cffcefc043a4a2a971fb10f94a69c8e5764f11aca9",
+  "groundingRecordPath": "singularity/work-items/new-filter/context/intake-gen1.json",
+  "groundingRecordSha256": "afa04a26acebd4c392d5538c9fa3ea0beef38a184357b8a9c28a3b5624749710",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "What is the maintenance outcome for the new-filter chore, and which area or feature should it affect?",
+      "answer": "it should affect the rule creation visual designer",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "What is the completion criterion or validation for this chore so the Intake artifact can be precise?",
+      "answer": "screenshot and testing",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-16T20:35:47.033Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}
