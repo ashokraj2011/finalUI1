@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md",
+    "phaseId": "specification"
+  },
+  "createdAt": "2026-09-16T22:06:39.204Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 9379,
+    "commitSha": "9a649cac12c0432ccad1ed717db4420685ae51c2",
+    "sha256": "5b368a30ba919e0250db73a7cd4bc616ab9b2f521f4f5084be27f3009743be3a"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "spec-filter",
+    "id": "spec-filter",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
