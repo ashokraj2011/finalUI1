@@ -9,7 +9,7 @@
       "namespace": "SPEC-FILTER",
       "number": 1,
       "source": {
-        "line": 193,
+        "line": 300,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -23,7 +23,7 @@
       "namespace": "SPEC-FILTER",
       "number": 2,
       "source": {
-        "line": 195,
+        "line": 302,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -37,7 +37,7 @@
       "namespace": "SPEC-FILTER",
       "number": 3,
       "source": {
-        "line": 196,
+        "line": 303,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -51,7 +51,7 @@
       "namespace": "SPEC-FILTER",
       "number": 4,
       "source": {
-        "line": 197,
+        "line": 304,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -65,7 +65,7 @@
       "namespace": "SPEC-FILTER",
       "number": 5,
       "source": {
-        "line": 198,
+        "line": 305,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -79,7 +79,7 @@
       "namespace": "SPEC-FILTER",
       "number": 6,
       "source": {
-        "line": 200,
+        "line": 307,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -93,7 +93,7 @@
       "namespace": "SPEC-FILTER",
       "number": 7,
       "source": {
-        "line": 202,
+        "line": 309,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -107,7 +107,7 @@
       "namespace": "SPEC-FILTER",
       "number": 1,
       "source": {
-        "line": 207,
+        "line": 314,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -121,7 +121,7 @@
       "namespace": "SPEC-FILTER",
       "number": 2,
       "source": {
-        "line": 208,
+        "line": 315,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -135,7 +135,7 @@
       "namespace": "SPEC-FILTER",
       "number": 3,
       "source": {
-        "line": 210,
+        "line": 317,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -149,7 +149,7 @@
       "namespace": "SPEC-FILTER",
       "number": 4,
       "source": {
-        "line": 212,
+        "line": 319,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -163,7 +163,7 @@
       "namespace": "SPEC-FILTER",
       "number": 8,
       "source": {
-        "line": 217,
+        "line": 324,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -177,20 +177,20 @@
       "namespace": "SPEC-FILTER",
       "number": 9,
       "source": {
-        "line": 220,
+        "line": 327,
         "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
     }
   ],
   "generation": 1,
-  "indexSha256": "70d926cb31e346ed31c286840f0446b8b443759172d930cb3e406abcebb5b3b7",
+  "indexSha256": "466764fa16cfdb051643221faee04ec763cd9302331317530509a49f32b8d25e",
   "phase": "specification",
   "schemaVersion": 1,
   "source": {
-    "bytes": 9379,
+    "bytes": 14142,
     "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md",
-    "sha256": "5b368a30ba919e0250db73a7cd4bc616ab9b2f521f4f5084be27f3009743be3a"
+    "sha256": "912910d2869c45498a236338fff05be3a3ae16324e837751ac5b15bde1ddfde8"
   },
   "workId": "spec-filter"
 }
