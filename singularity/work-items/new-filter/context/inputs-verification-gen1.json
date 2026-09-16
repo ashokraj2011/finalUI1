@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "workId": "new-filter",
+  "workType": "chore",
+  "phase": "verification",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-16T20:48:58.785Z",
+  "renderedSha256": "bfbd47b6a9b0d5a5b218ee92df01c332308029f704172fc87726e9b7163887c2",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "implementation",
+      "path": "artifacts/implementation/implementation-summary.md",
+      "repositoryPath": "singularity/work-items/new-filter/artifacts/implementation/implementation-summary.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-16T20:46:26.680Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "83773b21c9d1a41fbaf125d5029361b185997e543bdcc7015715ffd43b4be777",
+      "sha256": "83773b21c9d1a41fbaf125d5029361b185997e543bdcc7015715ffd43b4be777",
+      "bytes": 10382,
+      "source": {
+        "path": "singularity/work-items/new-filter/artifacts/implementation/implementation-summary.md",
+        "rawSha256": "sha256:83773b21c9d1a41fbaf125d5029361b185997e543bdcc7015715ffd43b4be777"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:e99810a637e9af85f73d72ee79b2a038dff07b86d89a62c57691db2664164de2",
+        "bytes": 2553,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:new-filter:29ed5ab1458c81bee9fb47deb5d9790244ea4ef68eb597b63891dc8430137f0d"
+      },
+      "injectedBytes": 2553,
+      "truncated": false,
+      "authoredBytes": 2553,
+      "managedBytesExcluded": 7829,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}
