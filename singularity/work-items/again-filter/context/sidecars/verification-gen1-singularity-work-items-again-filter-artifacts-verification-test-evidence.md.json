@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 7087,
+    "path": "singularity/work-items/again-filter/artifacts/verification/test-evidence.md",
+    "role": "document",
+    "sha256": "a611a061ef6f1db3cbbcbb749fd0775c850561272154366982b81ee295be07c4"
+  },
+  "configuration": {
+    "revision": "1477b94f3436c82b0242e499786ee6974a7358ce",
+    "sha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/implementation/implementation-summary.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "a559654c7c1614122c54f2f5f4284983090dcd99d3639af781f31ff0b15abd83",
+  "phase": "verification",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "qa",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "again-filter",
+    "commit": null,
+    "publishedAt": "2026-09-16T21:47:22.517Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "again-filter",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/again-filter/config/wfa/blobs/sha256/46a93cccc0edf7b3d878f05f212ed68350c26cedb33d96b3c447ac38bde20c40",
+    "sha256": "46a93cccc0edf7b3d878f05f212ed68350c26cedb33d96b3c447ac38bde20c40"
+  }
+}
