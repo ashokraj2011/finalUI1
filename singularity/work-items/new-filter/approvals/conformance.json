@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "phase": "conformance",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "conformance",
+      "at": "2026-09-16T21:02:47.911Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "qa",
+      "authorityGroup": "quality-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/new-filter/artifacts/conformance/spec-code-comparison.md",
+          "sha256": "7bd7e8d3504b170a3f33af2a7e61ee44db460334bd62f857b2ea07bf47c81d0b"
+        }
+      ],
+      "reviewPacketSha256": "291a6d32dfcec9847980bc9b5a032278a1f81022379edc42fa30685a2d3069bd",
+      "evidenceCommit": "77398f54d906d43b0f210950a41b5111e0da336c",
+      "artifactSetSha256": "9a17a3db2f84080899b11a1a500b371529f4d8400d797e87651cdc6c03fdd664",
+      "architectureIntent": null,
+      "architectureDecision": null,
+      "actionContext": {
+        "phase": "conformance",
+        "label": "Spec-to-code conformance",
+        "generation": 1,
+        "submittedAt": "2026-09-16T21:00:26.591Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/new-filter/artifacts/conformance/spec-code-comparison.md",
+            "sha256": "7bd7e8d3504b170a3f33af2a7e61ee44db460334bd62f857b2ea07bf47c81d0b"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "291a6d32dfcec9847980bc9b5a032278a1f81022379edc42fa30685a2d3069bd",
+        "submittedSourceCommit": "874fcfe17fd660ddd9dd9bfab98c80ff64fce7bc",
+        "planId": "d756a7cd49b72846ecaa5281"
+      },
+      "selfApproval": true
+    }
+  ]
+}
