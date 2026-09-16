@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "workId": "spec-filter",
+  "workType": "spec-driven-standard",
+  "phase": "planning",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-16T22:13:44.693Z",
+  "renderedSha256": "30d27d645b2ac1be69fb28880a8e8d3350cf16c5b5a167095405ad94520513f6",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/spec-filter/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-16T22:10:56.140Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "912910d2869c45498a236338fff05be3a3ae16324e837751ac5b15bde1ddfde8",
+      "sha256": "912910d2869c45498a236338fff05be3a3ae16324e837751ac5b15bde1ddfde8",
+      "bytes": 14142,
+      "source": {
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md",
+        "rawSha256": "sha256:912910d2869c45498a236338fff05be3a3ae16324e837751ac5b15bde1ddfde8"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:b88958d45af63b5079fa8b2c9263669b1fe7edbd63e28a2359fb06a4deaefea0",
+        "bytes": 3301,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:spec-filter:9087c020acec28af4eef01373515609f1d4ab8bece0ef34b69e0ce5128e040a5"
+      },
+      "injectedBytes": 3301,
+      "truncated": false,
+      "authoredBytes": 5711,
+      "managedBytesExcluded": 8431,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Requirements",
+          "Non-functional requirements",
+          "Boundary conditions"
+        ],
+        "maximumSummaryBytes": 32768,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/spec-filter/context/briefs/specification-gen1-for-planning.md",
+        "briefSha256": "b88958d45af63b5079fa8b2c9263669b1fe7edbd63e28a2359fb06a4deaefea0",
+        "expansionHandle": "sfref:v1:story:spec-filter:9087c020acec28af4eef01373515609f1d4ab8bece0ef34b69e0ce5128e040a5"
+      }
+    }
+  ]
+}
