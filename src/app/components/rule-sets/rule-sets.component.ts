@@ -53,7 +53,7 @@ interface RuleGrammar {
 
 /* ─── Constants ───────────────────────────────────────────── */
 
-const OPERATORS   = ['>', '<', '>=', '<=', '==', '!=', 'in', 'not_in', 'contains', 'starts_with'];
+const OPERATORS   = ['>', '<', '>=', '<=', '==', '!=', 'in', 'not_in', 'contains', 'not_contains', 'starts_with', 'exists', 'not_exists'];
 const ACTIONS     = ['Flag for Review', 'Decline Transaction', 'Route to Analyst', 'Return Record', 'Trigger Alert'];
 const TEAMS       = ['Risk & Fraud', 'Compliance', 'Payments', 'KYC Operations', 'Credit Underwriting', 'Platform Eng'];
 const DAYS_OF_WEEK = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
@@ -778,7 +778,7 @@ export class RuleSetsComponent implements OnInit {
       if (!term.filter.orderBy) warnings.push('Order by attribute is required for range selection.');
       if (term.filter.rangeStart < 1 || term.filter.rangeEnd < term.filter.rangeStart) warnings.push('Range start/end is invalid.');
     }
-    if (term.filter.criteria.some(c => !c.field || !c.op || c.value === '')) warnings.push('Completed filter criteria are required before evaluation.');
+    if (term.filter.criteria.some(c => !c.field || !c.op || (!['exists', 'not_exists'].includes(c.op) && c.value === ''))) warnings.push('Completed filter criteria are required before evaluation.');
     return warnings;
   }
 

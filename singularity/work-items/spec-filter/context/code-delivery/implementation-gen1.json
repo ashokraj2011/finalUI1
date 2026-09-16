@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "spec-filter",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "32f9945a-2a30-4bd8-9dff-698bc2ea5437",
+  "changeSet": {
+    "path": "singularity/work-items/spec-filter/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:f08958a90cd95076d3a3681af92fa54c091c953ad12e13de2751092272abab1c",
+    "sourcePaths": [
+      "src/app/components/rule-sets/rule-sets.component.ts",
+      "src/app/services/rule-engine.service.ts"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "src/app/services/rule-engine.service.spec.ts"
+    ],
+    "supportingTestPaths": []
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "copilot"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "product-source": 2,
+      "test-source": 1
+    },
+    "entries": [
+      {
+        "changeId": "sha256:af905ef1051687c1592fc7433d4c032e7c54b5d567cdb2678cd081e9f2a38d83",
+        "status": "modified",
+        "oldPath": "src/app/components/rule-sets/rule-sets.component.ts",
+        "newPath": "src/app/components/rule-sets/rule-sets.component.ts",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:74adebb110fa4cc8600adff262600f8103a27e0fd9748014aaa6792c93695958",
+        "status": "modified",
+        "oldPath": "src/app/services/rule-engine.service.spec.ts",
+        "newPath": "src/app/services/rule-engine.service.spec.ts",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:c0b0b4749f6e0acebd8c094c20c34ece0f87d57c0a7b33603141c1cd756a717c",
+        "status": "modified",
+        "oldPath": "src/app/services/rule-engine.service.ts",
+        "newPath": "src/app/services/rule-engine.service.ts",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [
+      "SPEC-FILTER:AC-001",
+      "SPEC-FILTER:AC-002",
+      "SPEC-FILTER:AC-003",
+      "SPEC-FILTER:AC-004"
+    ],
+    "bound": [
+      "SPEC-FILTER:AC-001",
+      "SPEC-FILTER:AC-002",
+      "SPEC-FILTER:AC-003",
+      "SPEC-FILTER:AC-004"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "SPEC-FILTER:AC-001",
+        "testSource": "src/app/services/rule-engine.service.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "SPEC-FILTER:AC-002",
+        "testSource": "src/app/services/rule-engine.service.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "SPEC-FILTER:AC-003",
+        "testSource": "src/app/services/rule-engine.service.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "SPEC-FILTER:AC-004",
+        "testSource": "src/app/services/rule-engine.service.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:5b330bbd0ea71bf9eaf346f68b4c81537e6957c61181d2640ebf6d92522266f0",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": true,
+    "authorshipProducer": "governed-agent",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-09-16T22:37:43.799Z"
+}

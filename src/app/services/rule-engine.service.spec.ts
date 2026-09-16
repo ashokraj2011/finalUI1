@@ -96,6 +96,7 @@ describe('RuleEngineService', () => {
   });
 
   describe('filterRows', () => {
+    // @ac:SPEC-FILTER:AC-003
     it('applies criteria, ordering, and first/last/range selection before downstream evaluation', () => {
       const rows = [
         { id: 1, score: 30, country: 'US' },
@@ -125,6 +126,32 @@ describe('RuleEngineService', () => {
       ]);
     });
 
+    // @ac:SPEC-FILTER:AC-002
+    it('supports the full rule-condition operator set, including presence and negative-match checks', () => {
+      const rows = [
+        { id: 1, status: 'ACTIVE', email: 'alice@example.com' },
+        { id: 2, status: undefined, email: 'bob@example.com' },
+        { id: 3, status: 'BLOCKED', email: 'carol@example.com' },
+      ];
+
+      expect(service.filterRows(rows, {
+        criteria: [{ field: 'status', op: 'exists', value: '' }],
+        orderBy: 'id',
+        selectionMode: 'all',
+      })).toEqual([
+        { id: 1, status: 'ACTIVE', email: 'alice@example.com' },
+        { id: 3, status: 'BLOCKED', email: 'carol@example.com' },
+      ]);
+
+      expect(service.filterRows(rows, {
+        criteria: [{ field: 'email', op: 'not_contains', value: '@example.com' }],
+        orderBy: 'id',
+        selectionMode: 'all',
+      })).toEqual([]);
+    });
+
+    // @ac:SPEC-FILTER:AC-001
+    // @ac:SPEC-FILTER:AC-004
     it('rejects invalid or incomplete filter configs', () => {
       expect(service.validateFilter({
         criteria: [],
@@ -139,6 +166,11 @@ describe('RuleEngineService', () => {
         rangeStart: 3,
         rangeEnd: 1,
       })).toContain('range');
+      expect(service.validateFilter({
+        criteria: [{ field: 'status', op: 'exists', value: '' }],
+        orderBy: 'id',
+        selectionMode: 'all',
+      })).not.toContain('criteria');
     });
   });
 

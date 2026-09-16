@@ -162,7 +162,8 @@ export class RuleEngineService {
     const errs: string[] = [];
     if (!config) return ['filter'];
 
-    if (config.criteria && config.criteria.some((c) => !c || !c.field || !c.op || c.value === '')) {
+    const requiresValue = (op: string) => !['exists', 'not_exists'].includes(op);
+    if (config.criteria && config.criteria.some((c) => !c || !c.field || !c.op || (requiresValue(c.op) && c.value === ''))) {
       errs.push('criteria');
     }
 
@@ -227,31 +228,37 @@ export class RuleEngineService {
 
   private matchesCriterion<T extends Record<string, any>>(row: T, criterion: FilterCriterion): boolean {
     const raw = row[criterion.field];
-    const value = criterion.value;
-    const actual = typeof raw === 'string' || typeof raw === 'number' || typeof raw === 'boolean' ? raw : String(raw ?? '');
+    const value = criterion.value ?? '';
+    const actual = raw === null || raw === undefined ? undefined : raw;
     const expected = value;
 
     switch (criterion.op) {
+      case 'exists':
+        return actual !== undefined && actual !== null;
+      case 'not_exists':
+        return actual === undefined || actual === null;
       case '==':
-        return String(actual) === String(expected);
+        return String(actual ?? '') === String(expected);
       case '!=':
-        return String(actual) !== String(expected);
+        return String(actual ?? '') !== String(expected);
       case '>':
-        return Number(actual) > Number(expected);
+        return Number(actual ?? NaN) > Number(expected);
       case '<':
-        return Number(actual) < Number(expected);
+        return Number(actual ?? NaN) < Number(expected);
       case '>=':
-        return Number(actual) >= Number(expected);
+        return Number(actual ?? NaN) >= Number(expected);
       case '<=':
-        return Number(actual) <= Number(expected);
+        return Number(actual ?? NaN) <= Number(expected);
       case 'contains':
-        return String(actual).toLowerCase().includes(String(expected).toLowerCase());
+        return String(actual ?? '').toLowerCase().includes(String(expected).toLowerCase());
+      case 'not_contains':
+        return !String(actual ?? '').toLowerCase().includes(String(expected).toLowerCase());
       case 'starts_with':
-        return String(actual).toLowerCase().startsWith(String(expected).toLowerCase());
+        return String(actual ?? '').toLowerCase().startsWith(String(expected).toLowerCase());
       case 'in':
-        return String(expected).split(',').map((part) => part.trim()).includes(String(actual));
+        return String(expected).split(',').map((part) => part.trim()).includes(String(actual ?? ''));
       case 'not_in':
-        return !String(expected).split(',').map((part) => part.trim()).includes(String(actual));
+        return !String(expected).split(',').map((part) => part.trim()).includes(String(actual ?? ''));
       default:
         return true;
     }

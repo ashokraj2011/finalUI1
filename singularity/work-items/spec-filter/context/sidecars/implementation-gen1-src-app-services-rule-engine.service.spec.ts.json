@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "bytes": 8041,
+    "path": "src/app/services/rule-engine.service.spec.ts",
+    "role": "test",
+    "sha256": "e4f615c12ba970960ff2dcf7878ddda04d3d31157e716553f458b2ea1fc0b3d2"
+  },
+  "configuration": {
+    "revision": "1477b94f3436c82b0242e499786ee6974a7358ce",
+    "sha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/planning/plan.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "3b613b0eccb166dd15c6382c129ed4304a3e0db60776164bf968bacee4ccdd06",
+  "phase": "implementation",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "developer",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "spec-filter",
+    "commit": null,
+    "publishedAt": "2026-09-16T22:37:43.799Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "spec-filter",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/spec-filter/config/wfa/blobs/sha256/61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
+    "sha256": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c"
+  }
+}

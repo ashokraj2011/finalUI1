@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "generation-start",
+  "generationIntentId": "32f9945a-2a30-4bd8-9dff-698bc2ea5437",
+  "workId": "spec-filter",
+  "phase": "implementation",
+  "generation": 1,
+  "task": "code",
+  "status": "open",
+  "baseline": {
+    "commit": "e0bbae5ddab8ba02f2f57e45d7dec49562ab598b",
+    "tree": "3eda4a21061c24342159606dcc810220f011d589",
+    "initialChangeSetDigest": "sha256:39c9ade84165c545009f0157f20318ff8102c96be253c072b0b34e383bec07a7",
+    "mode": "clean",
+    "previousGenerationCommit": null
+  },
+  "grounding": {
+    "compositionSha256": null,
+    "promptSha256": null
+  },
+  "inputs": {
+    "renderedSha256": "5bfead5e5bf256896274d9f96c25002e50c2b6abad5347917b3150917e20c7b0"
+  },
+  "sourceBoundary": "unrestricted",
+  "startedAt": "2026-09-16T22:31:47.169Z",
+  "startedBy": {
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "agent": "developer"
+  },
+  "telemetryCursor": {
+    "key": "spec-filter:implementation:1",
+    "startedAt": "2026-09-16T22:31:47.168Z"
+  },
+  "adoption": null,
+  "receiptSha256": "sha256:e09b6eba1beb3b7208825529e0379cb998621bc50c84492cd77d014e3834aaef"
+}

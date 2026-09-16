@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "workId": "spec-filter",
+  "workType": "spec-driven-standard",
+  "phase": "implementation",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-16T22:37:43.770Z",
+  "renderedSha256": "5bfead5e5bf256896274d9f96c25002e50c2b6abad5347917b3150917e20c7b0",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/spec-filter/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-16T22:10:56.140Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "912910d2869c45498a236338fff05be3a3ae16324e837751ac5b15bde1ddfde8",
+      "sha256": "912910d2869c45498a236338fff05be3a3ae16324e837751ac5b15bde1ddfde8",
+      "bytes": 14142,
+      "source": {
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md",
+        "rawSha256": "sha256:912910d2869c45498a236338fff05be3a3ae16324e837751ac5b15bde1ddfde8"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:5916c0736b040b607fc5974bb3a7c01d1767cfd853774c42b96ee063e50cd254",
+        "bytes": 3307,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:spec-filter:9087c020acec28af4eef01373515609f1d4ab8bece0ef34b69e0ce5128e040a5"
+      },
+      "injectedBytes": 3307,
+      "truncated": false,
+      "authoredBytes": 5711,
+      "managedBytesExcluded": 8431,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Requirements",
+          "Non-functional requirements",
+          "Boundary conditions"
+        ],
+        "maximumSummaryBytes": 32768,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/spec-filter/context/briefs/specification-gen1-for-implementation.md",
+        "briefSha256": "5916c0736b040b607fc5974bb3a7c01d1767cfd853774c42b96ee063e50cd254",
+        "expansionHandle": "sfref:v1:story:spec-filter:9087c020acec28af4eef01373515609f1d4ab8bece0ef34b69e0ce5128e040a5"
+      }
+    },
+    {
+      "phase": "planning",
+      "path": "artifacts/planning/plan.md",
+      "repositoryPath": "singularity/work-items/spec-filter/artifacts/planning/plan.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-16T22:30:22.781Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "db5dc7164b5364c6f5e5e25234932d4ae62021ec0d47a1b19ddef63c4b341760",
+      "sha256": "db5dc7164b5364c6f5e5e25234932d4ae62021ec0d47a1b19ddef63c4b341760",
+      "bytes": 17887,
+      "source": {
+        "path": "singularity/work-items/spec-filter/artifacts/planning/plan.md",
+        "rawSha256": "sha256:db5dc7164b5364c6f5e5e25234932d4ae62021ec0d47a1b19ddef63c4b341760"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:5ee447badf3bf6297354001ee1955f289c17d92d16840f7169d3b28d9082b50e",
+        "bytes": 3774,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:spec-filter:18a4efb41c264ff6782a8060445b3249df886cc0adcf5867e15e65f49bbe580e"
+      },
+      "injectedBytes": 3774,
+      "truncated": false,
+      "authoredBytes": 6776,
+      "managedBytesExcluded": 11111,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Test strategy",
+          "Risks and rollback"
+        ],
+        "maximumSummaryBytes": 24576,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/spec-filter/context/briefs/planning-gen1-for-implementation.md",
+        "briefSha256": "5ee447badf3bf6297354001ee1955f289c17d92d16840f7169d3b28d9082b50e",
+        "expansionHandle": "sfref:v1:story:spec-filter:18a4efb41c264ff6782a8060445b3249df886cc0adcf5867e15e65f49bbe580e"
+      }
+    }
+  ]
+}
