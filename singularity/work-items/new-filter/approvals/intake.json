@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "phase": "intake",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "intake",
+      "at": "2026-09-16T20:38:41.614Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "product-owner",
+      "authorityGroup": "product-approvers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/new-filter/artifacts/intake/intake.md",
+          "sha256": "84d0449642467ca94f7e8594b453f8a1c94c494607f24b81671b99aaacbfca7b"
+        }
+      ],
+      "reviewPacketSha256": "a4ee4f625287b49f4828cc7a36b7b4f23b0577cbb85e7e9e05f3faa7742992ff",
+      "evidenceCommit": "715b972cd216ea3ade63036526e39ae6c23f7aeb",
+      "artifactSetSha256": "5a42eb39a058d165786c157cca0aa94974f10c235fa7b9c78d76aefcff490131",
+      "architectureIntent": null,
+      "architectureDecision": null,
+      "actionContext": {
+        "phase": "intake",
+        "label": "Intake",
+        "generation": 1,
+        "submittedAt": "2026-09-16T20:36:46.130Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/new-filter/artifacts/intake/intake.md",
+            "sha256": "84d0449642467ca94f7e8594b453f8a1c94c494607f24b81671b99aaacbfca7b"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "a4ee4f625287b49f4828cc7a36b7b4f23b0577cbb85e7e9e05f3faa7742992ff",
+        "submittedSourceCommit": "24a9e1ab09382d5a6e4684fa24f95d7b8b5aaee9",
+        "planId": "2c0e78a1f51010fc63b7cd50"
+      },
+      "selfApproval": true
+    }
+  ]
+}
