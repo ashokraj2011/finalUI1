@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "workId": "again-filter",
+  "phase": "intake",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/again-filter/context/prompts/intake-gen1.md",
+  "promptSha256": "e711012beecc6dc6088d337c4b77d88f6971dc0cf6bb9196cef52b81699f82f5",
+  "groundingRecordPath": "singularity/work-items/again-filter/context/intake-gen1.json",
+  "groundingRecordSha256": "b296d74f0bca3ecaaaa5e186f3f1e195f0a78d6b101527dc103153ef1f5a31b9",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Where should the new filter block appear in the Rule Visual Designer?",
+      "answer": "Add it to the available block palette and support placement on the designer canvas; do not add it to Functions.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "Which row-selection modes must the filter support?",
+      "answer": "First, last, and range selection after ordering.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "What screenshot evidence should acceptance require?",
+      "answer": "A screenshot of the Rule Visual Designer showing the filter block and its controls.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-16T21:21:16.753Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}

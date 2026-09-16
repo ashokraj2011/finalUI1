@@ -4,27 +4,51 @@
   "workId": "again-filter",
   "workType": "chore",
   "phase": "intake",
-  "generation": 0,
+  "generation": 1,
   "status": "in_progress",
-  "generatedBy": null,
-  "generatedAgent": null,
+  "generatedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "generatedAgent": "product-owner",
   "authorship": {
     "schemaVersion": 1,
-    "producer": "legacy-unspecified",
-    "channel": "legacy",
-    "governedAgentContext": null,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "product-owner"
+    },
     "kernelModel": {
       "invoked": false,
-      "status": "unavailable",
+      "status": "exact",
       "invocationIds": []
     },
     "externalAiUse": {
       "value": "unknown",
       "status": "unavailable"
     },
-    "source": null
+    "changeOrigins": [
+      "copilot"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "intake.md",
+      "mediaType": "text/markdown",
+      "sha256": "b7a6a37bd52b6c809aa4aacda8ddbb93431cfc3ebebd298589069e86b043afee",
+      "bytes": 1360
+    },
+    "generation": 1,
+    "publishedAt": "2026-09-16T21:22:10.118Z"
   },
-  "sourceCommit": null,
+  "sourceCommit": "7168ac0664da42b0a37003be40bfd07341786aba",
   "generationCommit": null,
   "publicationCommit": null,
   "configSha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b",
@@ -41,10 +65,55 @@
     "approved": null
   },
   "remoteAgent": null,
-  "clarification": null,
-  "telemetry": [],
+  "clarification": {
+    "generation": 1,
+    "path": "singularity/work-items/again-filter/context/clarifications-intake-gen1.json",
+    "sha256": "d828d5cc9cf3cd4702b759b88c6b962daca3bf33af192d17a3718228c65ce5b0",
+    "promptSha256": "e711012beecc6dc6088d337c4b77d88f6971dc0cf6bb9196cef52b81699f82f5",
+    "responses": 3,
+    "markers": [],
+    "recordedAt": "2026-09-16T21:21:16.753Z",
+    "recordedBy": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    }
+  },
+  "telemetry": [
+    {
+      "generation": 1,
+      "path": "singularity/work-items/again-filter/telemetry/intake-gen1.json",
+      "sha256": "10800677c1ab526842029be4ca41ed6d8a3134717e6b926c45eea2196bd6241a",
+      "status": "pending",
+      "models": [],
+      "providerCost": null
+    }
+  ],
   "remoteOutputs": [],
-  "usage": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-16T21:22:10.117Z",
+      "completedAt": "2026-09-16T21:22:10.117Z",
+      "agent": "product-owner",
+      "generation": 1
+    }
+  ],
   "sequenceOverrides": [],
   "approvals": [],
   "selfApproval": false,
@@ -56,12 +125,15 @@
 
 ## Objective
 
-TODO: Describe the maintenance outcome.
+Add a Filter block to the Rule Visual Designer so records can be ordered by a configured attribute and reduced to the first, last, or a configured range before rule evaluation. The block must be available in the designer block palette and placeable on the designer canvas; it must not be added to Functions.
 
 ## Scope and validation
 
-TODO: Define affected areas, constraints, and evidence of completion.
+- [again-filter:REQ-001] Implement the Rule Visual Designer Filter block with ordering configuration and first, last, and range row-selection modes.
+- Keep the Filter block out of the Functions area and preserve existing Function behavior.
+- [again-filter:AC-001] Start the application, open the Rule Visual Designer, and capture a screenshot showing the Filter block and its controls. Attach the screenshot to the test results.
+- Validate that the designer remains usable and that existing Functions continue to render without the new block.
 
 ## Risk and rollback
 
-TODO: State the primary operational risk and the rollback or containment approach.
+The primary risk is that designer registration or configuration changes could affect existing blocks or rule-evaluation ordering. Contain the change behind the existing designer block registration and Filter configuration path, and verify the Functions view remains unchanged. Roll back by reverting the Filter block and its registration/configuration changes if the designer or existing rule behavior regresses.
