@@ -1,0 +1,11 @@
+version: 1
+capabilities:
+  anu-ui:
+    name: anuui
+    kind: delivery
+    parent: null
+    repository: finalui1
+    jira:
+      projectKey: ANU
+    teams:
+      - ANU
