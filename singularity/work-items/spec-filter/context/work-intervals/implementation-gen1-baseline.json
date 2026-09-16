@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-interval-baseline",
+  "intervalId": "INT-implementation-G1-001",
+  "workId": "spec-filter",
+  "workType": "spec-driven-standard",
+  "railId": "spec-driven-standard",
+  "phaseId": "implementation",
+  "generation": 1,
+  "branch": "spec-filter",
+  "sourceBaseCommit": "e0bbae5ddab8ba02f2f57e45d7dec49562ab598b",
+  "configurationSha256": "79f5f674d3f48ebd1e393f47343c5334e27d3115c0075314da19942ec67acc4b",
+  "sourceSha256": "a53fda7bb970a5aff173f82c2ce099b46406773e726358a6d5373bea32a2b09f",
+  "templateSha256": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
+  "workflowSubjectRevision": "sha256:39adf35939b870478a71a9f3f7b1fc98fe4f02b56f7282b1bedddb25403179e9",
+  "protectedPaths": [
+    ".github/agents",
+    ".github/skills",
+    "plugin/agents",
+    "plugin/skills",
+    "singularity/agent-mappings.yml",
+    "singularity/agents",
+    "singularity/agents.lock.yml",
+    "singularity/impact.yml",
+    "singularity/prompts",
+    "singularity/templates",
+    "singularity/workflow.yml"
+  ],
+  "requiredChecks": [],
+  "requiredChecksSha256": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "policySha256": "sha256:765359ef451b6354734b65b54640fc0fc1bd099d72527daa23821e4d31d478c7",
+  "escalationLadderSha256": null,
+  "reconciliationPolicy": {
+    "changedPathLimit": 5,
+    "escalationTarget": null,
+    "localProvidersOnly": true
+  },
+  "baselineSha256": "709b6ee6a81d35d50ef7ef753124618e2533c36e99a308ecbaa0a71ea3aac3f1",
+  "createdAt": "2026-09-16T22:30:22.800Z",
+  "path": "singularity/work-items/spec-filter/context/work-intervals/implementation-gen1-baseline.json",
+  "status": "open"
+}
