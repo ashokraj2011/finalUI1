@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/again-filter/artifacts/intake/intake.md",
+    "phaseId": "intake"
+  },
+  "createdAt": "2026-09-16T21:23:43.997Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 4994,
+    "commitSha": "d9b23150e03461e69d101055a6eacf9e0d06d38e",
+    "sha256": "dd6271d7485f4e6d0c5c2e85f2a62feafec156ceb44a738601f531a75aa11d9a"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "again-filter",
+    "id": "again-filter",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
