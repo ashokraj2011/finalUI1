@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-reconciliation",
+  "workId": "new-filter",
+  "workType": "chore",
+  "intervalId": "INT-implementation-G1-001",
+  "phaseId": "implementation",
+  "generation": 1,
+  "baselineSha256": "6e051879c21d88da28af2ba1ef71e2174e6a8b039a74622abea6b68cd5edce4c",
+  "baseline": {
+    "path": "singularity/work-items/new-filter/context/work-intervals/implementation-gen1-baseline.json",
+    "sha256": "6e051879c21d88da28af2ba1ef71e2174e6a8b039a74622abea6b68cd5edce4c",
+    "verified": true,
+    "sourceBaseCommit": "715b972cd216ea3ade63036526e39ae6c23f7aeb"
+  },
+  "sourceBaseCommit": "715b972cd216ea3ade63036526e39ae6c23f7aeb",
+  "target": {
+    "branch": "new-filter",
+    "head": "446956689d199dcf63c1e1e1741140c1b8f1437f",
+    "includesWorktree": false,
+    "cleanApplicationTree": true,
+    "uncommittedApplicationPaths": []
+  },
+  "findings": [],
+  "summary": {
+    "changedPaths": 0,
+    "planned": 0,
+    "unplanned": 0,
+    "protected": 0
+  },
+  "decision": {
+    "status": "aligned",
+    "summaryStatus": "clear",
+    "eligibleForSubmission": true,
+    "reasons": [],
+    "escalationTarget": null
+  },
+  "reconciliationSha256": "95b604e87d098f303b8c445d8f29a4e76a8acee7226656692cab50cb856b2a20",
+  "reconciledAt": "2026-09-16T20:43:55.399Z",
+  "final": true,
+  "recordedAt": "2026-09-16T20:43:55.399Z",
+  "path": "singularity/work-items/new-filter/context/work-intervals/reconciliations/95b604e87d098f303b8c445d8f29a4e76a8acee7226656692cab50cb856b2a20.json"
+}
