@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 2,
+  "kind": "observed",
+  "recordedAt": "2026-09-16T22:41:15.937Z",
+  "claims": {
+    "SPEC-FILTER:AC-001": {
+      "observedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "testResults": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:AC-002": {
+      "observedPaths": [
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "testResults": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:AC-003": {
+      "observedPaths": [
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "testResults": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "matched",
+      "deviation": null
+    },
+    "SPEC-FILTER:AC-004": {
+      "observedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "testResults": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:REQ-001": {
+      "observedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:REQ-002": {
+      "observedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:REQ-003": {
+      "observedPaths": [
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:REQ-004": {
+      "observedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts",
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:REQ-005": {
+      "observedPaths": [
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:REQ-006": {
+      "observedPaths": [
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:REQ-007": {
+      "observedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts",
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:REQ-008": {
+      "observedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    },
+    "SPEC-FILTER:REQ-009": {
+      "observedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts",
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "testResults": [],
+      "commits": [
+        "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c"
+      ],
+      "verdict": "partial",
+      "deviation": null
+    }
+  },
+  "workId": "spec-filter",
+  "phase": "implementation",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/spec-filter/context/code-delivery/implementation-gen1.json",
+    "sha256": "2708945be58f8ea1b312b5765715701e0fe98c109e40968dbb9f25f4a861bd7b",
+    "changeSetDigest": "sha256:f08958a90cd95076d3a3681af92fa54c091c953ad12e13de2751092272abab1c"
+  }
+}

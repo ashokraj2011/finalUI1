@@ -81,30 +81,61 @@
       {
         "clauseId": "SPEC-FILTER:AC-001",
         "testSource": "src/app/services/rule-engine.service.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "SPEC-FILTER:AC-002",
         "testSource": "src/app/services/rule-engine.service.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "SPEC-FILTER:AC-003",
         "testSource": "src/app/services/rule-engine.service.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "SPEC-FILTER:AC-004",
         "testSource": "src/app/services/rule-engine.service.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       }
     ]
   },
-  "testExecutions": [],
+  "testExecutions": [
+    {
+      "commandId": "angular-tests",
+      "receiptPath": "singularity/work-items/spec-filter/context/code-delivery/tests/implementation-gen1-angular-tests.json",
+      "receiptSha256": "657f9bfb35133710423b64beeb9d18fc8cc448f2554a153ded7c46a556806873",
+      "status": "passed"
+    }
+  ],
   "tree": {
     "workingStateDigest": "sha256:5b330bbd0ea71bf9eaf346f68b4c81537e6957c61181d2640ebf6d92522266f0",
-    "generationCommit": null,
-    "generationTree": null
+    "generationCommit": "bbd08b0a0a1fc4084216be3bb2bf2ed3f5c2358c",
+    "generationTree": "7ee525dbde78ca4f5664ca610ac44c4f0d31e16e"
   },
   "model": {
     "task": "code",
@@ -123,6 +154,7 @@
     "observedAt": null,
     "generation": null
   },
-  "status": "pending-tests",
-  "capturedAt": "2026-09-16T22:37:43.799Z"
+  "status": "ready",
+  "capturedAt": "2026-09-16T22:37:43.799Z",
+  "validatedAt": "2026-09-16T22:41:15.930Z"
 }
