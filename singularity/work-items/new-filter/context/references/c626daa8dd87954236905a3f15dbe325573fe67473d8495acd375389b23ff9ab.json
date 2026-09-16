@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/new-filter/artifacts/verification/test-evidence.md",
+    "phaseId": "verification"
+  },
+  "createdAt": "2026-09-16T20:54:38.287Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 8888,
+    "commitSha": "7e61adfc1bcab850f8e5ff0c46d9c54d9c9e4cce",
+    "sha256": "4d0fee6ad0d1b4f6847bd21faf6be688b25320c821b2c7786e753051317df2fb"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "new-filter",
+    "id": "new-filter",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
