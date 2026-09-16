@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "workId": "ashok-filter",
+  "producer": {
+    "phase": "planning",
+    "generation": 1
+  },
+  "consumer": {
+    "phase": "verification"
+  },
+  "source": {
+    "path": "singularity/work-items/ashok-filter/artifacts/planning/plan.md",
+    "sha256": "88d6148a207643ef48915d50dba6aa6aa5142f07c9572b09935c07c768acec97",
+    "bytes": 13774
+  },
+  "policy": {
+    "projection": "approved-summary",
+    "preserve": [
+      "Test strategy",
+      "Risks and rollback"
+    ],
+    "maximumSummaryBytes": 24576,
+    "expansion": "hash-bound-reference",
+    "fallback": "whole"
+  },
+  "policySha256": "3be38d5830ce8251e825433809d4d6266af8d8991a82f424eef968933f33475b",
+  "status": "ready",
+  "summary": {
+    "heading": "Agent brief"
+  },
+  "preserved": [
+    "Test strategy",
+    "Risks and rollback"
+  ],
+  "rendered": {
+    "path": "singularity/work-items/ashok-filter/context/briefs/planning-gen1-for-verification.md",
+    "sha256": "b9440c4ec558fd88f525997404ea12cabff6239fa2bb8775a8d5d2098f215b4c",
+    "bytes": 4294
+  },
+  "generatedAt": "2026-09-16T15:46:43.674Z",
+  "integritySha256": "016bcafe13fce82bc252f1ae5e63117a557d8613ceae176d7b3afb4393c1b51e"
+}

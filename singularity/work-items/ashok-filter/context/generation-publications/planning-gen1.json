@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "kind": "generation-publication",
+  "workId": "ashok-filter",
+  "phase": "planning",
+  "generation": 1,
+  "generationIntentId": null,
+  "generationStart": null,
+  "changeSet": {
+    "path": null,
+    "digest": null
+  },
+  "resultDigest": "sha256:2d7e54c99e1ceb42fd0ce95929679bd43dc9b41dc8c770c05dbc16352831e756",
+  "architectureIntent": null,
+  "architectureDecision": null,
+  "baseline": {
+    "commit": "0bd6e177fda5b5e3eb698a441a9190da31e17495",
+    "tree": "90d2655588ca487922c2e19b5e6519dd77e63469"
+  },
+  "transactionId": "3ca9d2fc-21e3-49b8-a322-af647cbd0986",
+  "eventId": "ec5fb74f-700f-4a97-8c9a-7b7c443bc929",
+  "eventSha256": "sha256:098a923e0b7775af661fe1ff55e61574b08a8f75ea0ad2f21d251f10f539d71d",
+  "commitBinding": {
+    "method": "containing-governed-transaction",
+    "commit": "$self",
+    "tree": "$self",
+    "parent": "0bd6e177fda5b5e3eb698a441a9190da31e17495"
+  },
+  "publishedAt": "2026-09-16T15:46:43.633Z",
+  "recordSha256": "sha256:90d877dbf491075d6405ad5a2a8dfc14a97272bd087f6a6cb79e20809f710444"
+}

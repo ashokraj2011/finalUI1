@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "workId": "ashok-filter",
+  "workType": "spec-driven-standard",
+  "phase": "planning",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-16T15:46:43.590Z",
+  "renderedSha256": "3198f6b2c6bf1f62e1dce9dafb3b20474f0d5d0eb6ed6d5c3fb9adb5f49f7d97",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/ashok-filter/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-16T15:33:52.698Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "a18718e8b47102f475f9d957ef667378257d8ef0755f5a3c65298513a9a31c2c",
+      "sha256": "a18718e8b47102f475f9d957ef667378257d8ef0755f5a3c65298513a9a31c2c",
+      "bytes": 14711,
+      "source": {
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md",
+        "rawSha256": "sha256:a18718e8b47102f475f9d957ef667378257d8ef0755f5a3c65298513a9a31c2c"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:c8d51f5c29e32f12e094289af7c6de291abc3b02e724c51f4debaa77062c909a",
+        "bytes": 2577,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:ashok-filter:26bc37d3966c1c704b44f51891652a822e621069435217eea55074f6f3865668"
+      },
+      "injectedBytes": 2577,
+      "truncated": false,
+      "authoredBytes": 6266,
+      "managedBytesExcluded": 8445,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Requirements",
+          "Non-functional requirements",
+          "Boundary conditions"
+        ],
+        "maximumSummaryBytes": 32768,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/ashok-filter/context/briefs/specification-gen1-for-planning.md",
+        "briefSha256": "c8d51f5c29e32f12e094289af7c6de291abc3b02e724c51f4debaa77062c909a",
+        "expansionHandle": "sfref:v1:story:ashok-filter:26bc37d3966c1c704b44f51891652a822e621069435217eea55074f6f3865668"
+      }
+    }
+  ]
+}
