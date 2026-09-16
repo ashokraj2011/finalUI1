@@ -1,0 +1,182 @@
+{
+  "clauses": [
+    {
+      "anchor": "[ashok-filter:REQ-001]",
+      "body": "- The filter block shall allow selection of searchable entity attributes. *(S1)*",
+      "bodySha256": "85cffdb4cd0db012964c318c239bf7c86a8ec25adc06708531bd97d9c4b74e22",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:REQ-001",
+      "namespace": "ASHOK-FILTER",
+      "number": 1,
+      "source": {
+        "line": 196,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[ashok-filter:REQ-002]",
+      "body": "- The filter block shall allow comparison and range operators supported by the underlying entity\n  capability. *(S1)*",
+      "bodySha256": "4018c2563264bb18eee9a80705decd5f0ddbd674fe974e9c99bdcf8c065e83c6",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:REQ-002",
+      "namespace": "ASHOK-FILTER",
+      "number": 2,
+      "source": {
+        "line": 198,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[ashok-filter:REQ-003]",
+      "body": "- The filter configuration shall be exposed to the evaluation flow only after the current user\n  configuration is represented in the UI. *(S1)*",
+      "bodySha256": "d2b0984a0514c71c793533695c89e4dfb6fcf565fb08840dd6a828f5160c6546",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:REQ-003",
+      "namespace": "ASHOK-FILTER",
+      "number": 3,
+      "source": {
+        "line": 200,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[ashok-filter:REQ-004]",
+      "body": "- The UI shall support ascending and descending result ordering. *(S2)*",
+      "bodySha256": "1dae953ac046c5c79bac6682b58d9f3305e08b02400c413d1f1f500e6d8eba6a",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:REQ-004",
+      "namespace": "ASHOK-FILTER",
+      "number": 4,
+      "source": {
+        "line": 202,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[ashok-filter:REQ-005]",
+      "body": "- The UI shall support an optional result limit using SQL-like limit semantics. *(S2)*",
+      "bodySha256": "aca1f47a43e36c923b2e02b8cc26d1db9bea992fbdac01317278231b2c5e9f6e",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:REQ-005",
+      "namespace": "ASHOK-FILTER",
+      "number": 5,
+      "source": {
+        "line": 203,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[ashok-filter:REQ-006]",
+      "body": "- A filtering or evaluation failure shall be represented as a failure state rather than a\n  successful result. *(S1, S2)*",
+      "bodySha256": "ccfac7013f0e0550560aab8a60aedb6eb8c7a5b4002749d87f63ece68af1b844",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:REQ-006",
+      "namespace": "ASHOK-FILTER",
+      "number": 6,
+      "source": {
+        "line": 205,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[ashok-filter:REQ-007]",
+      "body": "## Acceptance criteria\n\n- A screenshot shows the dedicated filter block before evaluation, with attribute, operator, and\n  value controls visible. *(S1)*",
+      "bodySha256": "754cf7fb12f3e6fd20cd3776b7f5a70eed3f4d566e6fd2478eb75441c54f8e45",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:REQ-007",
+      "namespace": "ASHOK-FILTER",
+      "number": 7,
+      "source": {
+        "line": 207,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[ashok-filter:AC-001]",
+      "body": "- Testing demonstrates that changing the selected attribute, operator, or value changes the\n  configuration consumed by evaluation. *(S1)*",
+      "bodySha256": "0834e2da50c0c3cf87446207990b658c5d2758f783cc322cffc7400d9e825529",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:AC-001",
+      "namespace": "ASHOK-FILTER",
+      "number": 1,
+      "source": {
+        "line": 212,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[ashok-filter:AC-002]",
+      "body": "- Testing demonstrates ascending and descending result ordering and verifies that a supplied limit\n  constrains the result set. *(S2)*",
+      "bodySha256": "84e37f81b874831125bbc7aeac9ef0fe6b7d3b7948be0cbb4381be832f4676be",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:AC-002",
+      "namespace": "ASHOK-FILTER",
+      "number": 2,
+      "source": {
+        "line": 214,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[ashok-filter:AC-003]",
+      "body": "- Testing demonstrates that a filtering or evaluation failure is surfaced as a failure state and\n  is not reported as successful evaluation. *(S1, S2)*",
+      "bodySha256": "36695239b28dd67532b6f75f32548290dfda094021c18a9700d817b2e18a9224",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:AC-003",
+      "namespace": "ASHOK-FILTER",
+      "number": 3,
+      "source": {
+        "line": 216,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[ashok-filter:AC-004]",
+      "body": "- The final screenshot and test viewport/scenario set are recorded before approval. *(S1, S2)*",
+      "bodySha256": "1092ae9e9572edffdc9d142936d5f0993f5cd34d389f6e8017f514252035cfdf",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:AC-004",
+      "namespace": "ASHOK-FILTER",
+      "number": 4,
+      "source": {
+        "line": 218,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[ashok-filter:AC-005]",
+      "body": "## Non-functional requirements\n\nNo measurable latency, throughput, availability, accessibility, privacy, or retention target is\npresent in the pinned Story or clarification responses. These targets remain open rather than\nbeing invented here.\n\n## Constitution articles\n\nNo constitution article IDs were provided by the pinned Story or clarification responses.\n\n## Assumptions\n\n- The rule engine exposes entity attributes and supported operators to the filter block.\n- The evaluation flow can consume a structured filter configuration before rule evaluation.\n- SQL-like ordering means a selected field is ordered in ascending or descending direction.\n\n## Open questions\n\n- Which roles may configure and use the filter, and what does an unauthorized reader see?\n- What exact UI and recovery action represent no matching records?\n- What behavior and labeling apply to partially completed filtering?\n- What numeric limit range, default, and boundary behavior apply?\n- Which viewport and test scenario set are required for the screenshot and testing evidence?\n- Which measurable non-functional targets and constitution articles govern this Story?\n\n## Out of scope\n\n- Redesigning the rule evaluation engine.\n- Defining attributes or operators that are not exposed by the underlying entity capability.\n- Establishing an authorization model without a confirmed role decision.\n- Choosing empty, partial, non-functional, or constitution policies that the Story does not state.",
+      "bodySha256": "933bf457128c0c283c89dd25f0295a53c4fc1d89d4e3fdbb2fd0aec6d57a33e0",
+      "dependsOn": [],
+      "id": "ASHOK-FILTER:AC-005",
+      "namespace": "ASHOK-FILTER",
+      "number": 5,
+      "source": {
+        "line": 220,
+        "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "ab8eccf22ea27c353628d40b51103abfcc6fa436478b845257988129d14a843c",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 9938,
+    "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md",
+    "sha256": "8cb7d9de0b1f37d4f251ab7a328d0b971612f3b424ad097c7f7c0442417ad054"
+  },
+  "workId": "ashok-filter"
+}

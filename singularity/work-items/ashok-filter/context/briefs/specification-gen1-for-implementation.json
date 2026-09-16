@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "workId": "ashok-filter",
+  "producer": {
+    "phase": "specification",
+    "generation": 1
+  },
+  "consumer": {
+    "phase": "implementation"
+  },
+  "source": {
+    "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md",
+    "sha256": "8cb7d9de0b1f37d4f251ab7a328d0b971612f3b424ad097c7f7c0442417ad054",
+    "bytes": 9938
+  },
+  "policy": {
+    "projection": "approved-summary",
+    "preserve": [
+      "Requirements",
+      "Non-functional requirements",
+      "Boundary conditions"
+    ],
+    "maximumSummaryBytes": 32768,
+    "expansion": "hash-bound-reference",
+    "fallback": "whole"
+  },
+  "policySha256": "9973f68aa9533ea1b0053e309fb8ce11843f6510c2d4ed64c6823d5d336c65b7",
+  "status": "ready",
+  "summary": {
+    "heading": "Agent brief"
+  },
+  "preserved": [
+    "Requirements",
+    "Non-functional requirements",
+    "Boundary conditions"
+  ],
+  "rendered": {
+    "path": "singularity/work-items/ashok-filter/context/briefs/specification-gen1-for-implementation.md",
+    "sha256": "6479c02308a7ab82c9c9f258b167b9dd076bcc210d09734ef1ac4446e157b51f",
+    "bytes": 2583
+  },
+  "generatedAt": "2026-09-16T15:27:31.653Z",
+  "integritySha256": "735936101d9da5dfc3358b28a54c01e71b130538ac1e54930111a0f4319ab38d"
+}

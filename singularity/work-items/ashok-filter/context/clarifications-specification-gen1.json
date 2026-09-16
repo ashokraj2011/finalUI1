@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "workId": "ashok-filter",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/ashok-filter/context/prompts/specification-gen1.md",
+  "promptSha256": "e0e9193885c618e1df9103f580af857fcd8bfcdd56ce09633590fda8bb7c79f7",
+  "groundingRecordPath": "singularity/work-items/ashok-filter/context/specification-gen1.json",
+  "groundingRecordSha256": "8216f1fe2444cffe1716de30cacdce29a141794ba95d978a7e0a5773cfec2eb6",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Who may configure and use the filter block, and what should users without that authority see?",
+      "answer": "unknown",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "Which searchable attributes and comparison/range operators must the UI support for this Story?",
+      "answer": "all the attributes of the entity and all operators available",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "How should users choose sorting, and what is the default order when no sort is selected?",
+      "answer": "just like sql desc,asc and limit",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-004",
+      "question": "What should the UI show for no matching records, an unavailable evaluation dependency, and partially completed filtering?",
+      "answer": "failure",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-005",
+      "question": "What exact screenshot and testing evidence should count as acceptance, and which viewport or test scenarios are required?",
+      "answer": "yes",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-16T15:25:58.147Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}

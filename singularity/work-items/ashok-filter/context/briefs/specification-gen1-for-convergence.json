@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "workId": "ashok-filter",
+  "producer": {
+    "phase": "specification",
+    "generation": 1
+  },
+  "consumer": {
+    "phase": "convergence"
+  },
+  "source": {
+    "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md",
+    "sha256": "8cb7d9de0b1f37d4f251ab7a328d0b971612f3b424ad097c7f7c0442417ad054",
+    "bytes": 9938
+  },
+  "policy": {
+    "projection": "approved-summary",
+    "preserve": [
+      "Requirements",
+      "Non-functional requirements",
+      "Boundary conditions"
+    ],
+    "maximumSummaryBytes": 32768,
+    "expansion": "hash-bound-reference",
+    "fallback": "whole"
+  },
+  "policySha256": "9973f68aa9533ea1b0053e309fb8ce11843f6510c2d4ed64c6823d5d336c65b7",
+  "status": "ready",
+  "summary": {
+    "heading": "Agent brief"
+  },
+  "preserved": [
+    "Requirements",
+    "Non-functional requirements",
+    "Boundary conditions"
+  ],
+  "rendered": {
+    "path": "singularity/work-items/ashok-filter/context/briefs/specification-gen1-for-convergence.md",
+    "sha256": "885f83ec74741f2b144f59c3fd2ad5431b4ce8a0d8902b556fa50304a4d5fc2e",
+    "bytes": 2580
+  },
+  "generatedAt": "2026-09-16T15:27:31.653Z",
+  "integritySha256": "5077483533eeabfbce5baf61c9d77f5805dbaa8a89ce2cba89b73a9f64cbbba3"
+}
