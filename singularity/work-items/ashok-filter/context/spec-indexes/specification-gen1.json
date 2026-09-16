@@ -9,7 +9,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 1,
       "source": {
-        "line": 196,
+        "line": 303,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -23,7 +23,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 2,
       "source": {
-        "line": 198,
+        "line": 305,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -37,7 +37,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 3,
       "source": {
-        "line": 200,
+        "line": 307,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -51,7 +51,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 4,
       "source": {
-        "line": 202,
+        "line": 309,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -65,7 +65,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 5,
       "source": {
-        "line": 203,
+        "line": 310,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -79,7 +79,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 6,
       "source": {
-        "line": 205,
+        "line": 312,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -93,7 +93,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 7,
       "source": {
-        "line": 207,
+        "line": 314,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -107,7 +107,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 1,
       "source": {
-        "line": 212,
+        "line": 319,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -121,7 +121,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 2,
       "source": {
-        "line": 214,
+        "line": 321,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -135,7 +135,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 3,
       "source": {
-        "line": 216,
+        "line": 323,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -149,7 +149,7 @@
       "namespace": "ASHOK-FILTER",
       "number": 4,
       "source": {
-        "line": 218,
+        "line": 325,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -163,20 +163,20 @@
       "namespace": "ASHOK-FILTER",
       "number": 5,
       "source": {
-        "line": 220,
+        "line": 327,
         "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md"
       },
       "type": "AC"
     }
   ],
   "generation": 1,
-  "indexSha256": "ab8eccf22ea27c353628d40b51103abfcc6fa436478b845257988129d14a843c",
+  "indexSha256": "fc94341643ca45acb67f785cb143bbcf4defc57b77b27ddf5571d4528581b35c",
   "phase": "specification",
   "schemaVersion": 1,
   "source": {
-    "bytes": 9938,
+    "bytes": 14711,
     "path": "singularity/work-items/ashok-filter/artifacts/specification/spec.md",
-    "sha256": "8cb7d9de0b1f37d4f251ab7a328d0b971612f3b424ad097c7f7c0442417ad054"
+    "sha256": "a18718e8b47102f475f9d957ef667378257d8ef0755f5a3c65298513a9a31c2c"
   },
   "workId": "ashok-filter"
 }
