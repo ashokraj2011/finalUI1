@@ -1,0 +1,258 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-09-16T15:56:51.331Z",
+  "generated_date": "16 September 2026",
+  "builder_version": "2.1-light",
+  "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
+  "repository_commit": "d0d69293f719cbf94b9aca782958fd746430931b",
+  "repository_branch": "ashok-filter",
+  "working_tree_clean": false,
+  "generated_for_phase": "implementation",
+  "analysis_depth": "light",
+  "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
+  "generator": {
+    "type": "deterministic-local",
+    "model": null,
+    "model_tokens": 0
+  },
+  "core": {
+    "brief": "core/summary.brief.md",
+    "summary": "core/summary.md",
+    "model": {
+      "path": "core/model.json"
+    },
+    "tiers": {
+      "brief": {
+        "status": "ready",
+        "path": "core/summary.brief.md",
+        "bytes": 680,
+        "sha256": "90e729a2b228d05a16d996043da49116eb2ac083ce883160c6205b16ed89eb71"
+      },
+      "full": {
+        "status": "ready",
+        "path": "core/summary.md",
+        "bytes": 4216,
+        "sha256": "ecfa4ad232bf7c6d053a6b30d9bf1c6179679932bb1ab2a865760bf0eac766a9"
+      }
+    }
+  },
+  "path_index": {
+    "path": "index/path-map.json",
+    "bytes": 2600,
+    "sha256": "9e6318169cbb0fff1c7b68257517ddc86046da988fdf24d66445a7902e61a862"
+  },
+  "views": {
+    "architecture": {
+      "path": "views/architecture.md",
+      "brief_path": "views/architecture.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/architecture.brief.md",
+          "bytes": 293,
+          "sha256": "0b1a4cda5089c69140570033c21b9b814a49d5464251c2e821277302c2a03cc3"
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/architecture.md",
+          "bytes": 1135,
+          "sha256": "2957620384fdae261fcf484e61718934083a099af11d0f64d469a5c4af6a5ed3"
+        }
+      }
+    },
+    "business": {
+      "path": "views/business.md",
+      "brief_path": "views/business.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/business.brief.md",
+          "bytes": 280,
+          "sha256": "d8156b3eb9a8b4ef5ceef4a0181df9dc475655cfd929fafb2b7df6df3f6adca9"
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/business.md",
+          "bytes": 884,
+          "sha256": "15cfbdc13a8bb2251c264da995a5bb4f5bc9d43b956e6219a7b41d1ab13e6445"
+        }
+      }
+    },
+    "development": {
+      "path": "views/development.md",
+      "brief_path": "views/development.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/development.brief.md",
+          "bytes": 280,
+          "sha256": "b4c551fea01bab30e68c7944089b7d6122a0e7e63e8ed66007eb1cae3088b31a"
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/development.md",
+          "bytes": 1576,
+          "sha256": "808e549610aa64b123ef140d9e3c4659636663a0cfcf3cec2a6c0609d68fda34"
+        }
+      }
+    },
+    "operations": {
+      "path": "views/operations.md",
+      "brief_path": "views/operations.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/operations.brief.md",
+          "bytes": 291,
+          "sha256": "f351c0d95f022912fa643fe1b6f7729862a01726f07502b5511a420336e9b28c"
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/operations.md",
+          "bytes": 1116,
+          "sha256": "aad3f28a3fa0379e1bd218df960e7b03b7c5265e9090e3572a38d5166e0860fa"
+        }
+      }
+    },
+    "release": {
+      "path": "views/release.md",
+      "brief_path": "views/release.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/release.brief.md",
+          "bytes": 281,
+          "sha256": "de2d2bc834bd65c3102085d06334711cf454cf51c00b1c705839f7dfb2423b3d"
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/release.md",
+          "bytes": 840,
+          "sha256": "70d3fc9130bfde73c6f0d0fc4c7bfca28652ca8120e5c96d758133143bd9d1f9"
+        }
+      }
+    },
+    "security": {
+      "path": "views/security.md",
+      "brief_path": "views/security.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/security.brief.md",
+          "bytes": 289,
+          "sha256": "ddbf4fc90d9d550a5f0575b4bff4185a4e43b02dfcb12c491457bd885b4f5c3c"
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/security.md",
+          "bytes": 1125,
+          "sha256": "b29cec926998a5ae4733aa8d77ebeb3575c505e6568d1021b57ef89e4ee54ec2"
+        }
+      }
+    },
+    "testing": {
+      "path": "views/testing.md",
+      "brief_path": "views/testing.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/testing.brief.md",
+          "bytes": 326,
+          "sha256": "5319df0c526af416792186200da33b494570a65c1113e35bab4a9a48b96c3e5f"
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/testing.md",
+          "bytes": 1193,
+          "sha256": "0610f09a77effaab9b292d6a4a06e551cf0d3a08ec8fcab5e9fa6b0231581899"
+        }
+      }
+    }
+  },
+  "views_generated": [
+    "architecture",
+    "business",
+    "development",
+    "operations",
+    "release",
+    "security",
+    "testing"
+  ],
+  "requested_views": [
+    "architecture",
+    "business",
+    "development",
+    "operations",
+    "release",
+    "security",
+    "testing"
+  ],
+  "domains": [],
+  "task_guides": [],
+  "evidence": {
+    "path": "evidence/evidence.jsonl",
+    "bytes": 398,
+    "sha256": "60a4ee02d71af149d7b2b8d9ed3657d63b6254dbff852812d3cb281fb1629662"
+  },
+  "generation": {
+    "parallel": false,
+    "strategy": "deterministic-light",
+    "max_workers": 0,
+    "discovery_views": [],
+    "degraded_views": [],
+    "resumed_views": [],
+    "pending_views_at_start": []
+  },
+  "materializations": [
+    {
+      "id": "light-1789574212584",
+      "generated_at": "2026-09-16T15:56:51.331Z",
+      "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
+      "provider": null,
+      "requested": [
+        "architecture/brief",
+        "architecture/full",
+        "business/brief",
+        "business/full",
+        "core/brief",
+        "core/full",
+        "development/brief",
+        "development/full",
+        "operations/brief",
+        "operations/full",
+        "release/brief",
+        "release/full",
+        "security/brief",
+        "security/full",
+        "testing/brief",
+        "testing/full"
+      ],
+      "produced": [
+        "architecture/brief",
+        "architecture/full",
+        "business/brief",
+        "business/full",
+        "core/brief",
+        "core/full",
+        "development/brief",
+        "development/full",
+        "operations/brief",
+        "operations/full",
+        "release/brief",
+        "release/full",
+        "security/brief",
+        "security/full",
+        "testing/brief",
+        "testing/full"
+      ],
+      "reused": []
+    }
+  ]
+}
