@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/ashok-filter/artifacts/planning/plan.md",
+    "phaseId": "planning"
+  },
+  "createdAt": "2026-09-16T15:47:28.575Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 13774,
+    "commitSha": "149c1c65620d993363a98e5b53c2af7bb99c9bba",
+    "sha256": "88d6148a207643ef48915d50dba6aa6aa5142f07c9572b09935c07c768acec97"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "ashok-filter",
+    "id": "ashok-filter",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
