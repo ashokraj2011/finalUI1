@@ -1,0 +1,196 @@
+{
+  "clauses": [
+    {
+      "anchor": "[spec-filter:REQ-001]",
+      "body": "- The Filter block shall be placeable before the existing Visual Designer terms and shall pass its\n  result to those terms. *(S1)*",
+      "bodySha256": "4cc86cf76fdd203579ef97e3aa032965ae6796c73abca4b999ac470aa7b8383d",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:REQ-001",
+      "namespace": "SPEC-FILTER",
+      "number": 1,
+      "source": {
+        "line": 193,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter:REQ-002]",
+      "body": "- The Filter block shall support all operators available to rule conditions. *(S1)*",
+      "bodySha256": "abccc394da9dc3be2ecfb660f549ffd9608f3c6761c9bae3ef72ba14e1b0489f",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:REQ-002",
+      "namespace": "SPEC-FILTER",
+      "number": 2,
+      "source": {
+        "line": 195,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter:REQ-003]",
+      "body": "- The Filter block shall allow records to be ordered using a selected record attribute. *(S2)*",
+      "bodySha256": "b7da78f8d51b33343476b2ab5185271df2f0223f831038623f6e4d259bfe677c",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:REQ-003",
+      "namespace": "SPEC-FILTER",
+      "number": 3,
+      "source": {
+        "line": 196,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter:REQ-004]",
+      "body": "- The Filter block shall allow selection of the first row, last row, or a configured range of rows. *(S2)*",
+      "bodySha256": "3d4a9319517d29bc3fba98295826a07d15aee194d1f9e7f498c99bfd39956f83",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:REQ-004",
+      "namespace": "SPEC-FILTER",
+      "number": 4,
+      "source": {
+        "line": 197,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter:REQ-005]",
+      "body": "- The rule engine shall apply filtering, ordering, and row selection before evaluating downstream\n  Visual Designer terms. *(S1, S2)*",
+      "bodySha256": "68f0ef15c8d305c5e1c617050407c81846d92eed388ef19318bb392e4997a285",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:REQ-005",
+      "namespace": "SPEC-FILTER",
+      "number": 5,
+      "source": {
+        "line": 198,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter:REQ-006]",
+      "body": "- The UI shall expose invalid or incomplete Filter block configuration instead of silently evaluating\n  it as a valid filter. *(S1)*",
+      "bodySha256": "72d013857ba1ffe91cdd746174debebbe88739565b1b93092b1adf03fbe3f3f7",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:REQ-006",
+      "namespace": "SPEC-FILTER",
+      "number": 6,
+      "source": {
+        "line": 200,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter:REQ-007]",
+      "body": "Acceptance criteria:\n\n- A Filter block can be added and configured before terms in the Rule Visual Designer, and it is not\n  added to Functions. *(S1)*",
+      "bodySha256": "acd459c39d2dec239f726fe33b066424a0b2899150256c3e297bfbded814bb8d",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:REQ-007",
+      "namespace": "SPEC-FILTER",
+      "number": 7,
+      "source": {
+        "line": 202,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter:AC-001]",
+      "body": "- All rule-condition operators are available when configuring Filter block criteria. *(S1)*",
+      "bodySha256": "9e61fd85c76b4ca06b18dc7a67e80512ec55e1843cb5a4dbc908ce63b2f4e57d",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:AC-001",
+      "namespace": "SPEC-FILTER",
+      "number": 1,
+      "source": {
+        "line": 207,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[spec-filter:AC-002]",
+      "body": "- Ordering by an attribute and selecting first, last, or a range produces the corresponding row set\n  for downstream terms. *(S2)*",
+      "bodySha256": "53960bfb0b940e73f50bd45713637bd61c5f86373c2ee1d7fe7e786199c13351",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:AC-002",
+      "namespace": "SPEC-FILTER",
+      "number": 2,
+      "source": {
+        "line": 208,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[spec-filter:AC-003]",
+      "body": "- The implementation is manually verified with screenshots of the relevant Visual Designer states and\n  a summary of the generated code. *(S1, S2)*",
+      "bodySha256": "4bc75d703de3b111ddc0b4d97be3f0924a2608421729d6c2c395cb379442e085",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:AC-003",
+      "namespace": "SPEC-FILTER",
+      "number": 3,
+      "source": {
+        "line": 210,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[spec-filter:AC-004]",
+      "body": "## Non-functional requirements\n\n- The Filter block shall preserve the existing Visual Designer interaction and visual conventions;\n  conformance is checked during manual verification. *(S1)*",
+      "bodySha256": "053067a501226f5b227158dc4d579981b2d8c2b819804f0a93dc1c43cb2462ba",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:AC-004",
+      "namespace": "SPEC-FILTER",
+      "number": 4,
+      "source": {
+        "line": 212,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[spec-filter:REQ-008]",
+      "body": "- The filter configuration shall be understandable from the rendered controls and shall expose\n  validation feedback for invalid or incomplete values; conformance is checked during manual\n  verification. *(S1)*",
+      "bodySha256": "d80aa3e4c59d44a0f556c2591036081ae66aa42222be5b9d398740c3860cce30",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:REQ-008",
+      "namespace": "SPEC-FILTER",
+      "number": 8,
+      "source": {
+        "line": 217,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter:REQ-009]",
+      "body": "## Constitution articles\n\nThe configured constitution policy is `warn`, and the referenced `singularity/constitution.md` file is\nnot present in the governed repository snapshot. No constitution article IDs are cited.\n\n## Assumptions\n\n- Existing rule-condition operators and record attributes are the source of truth for the Filter block\n  controls.\n- Existing Visual Designer term evaluation can consume the Filter block output without changing the\n  Functions surface.\n- Screenshot capture and generated-code review are performed manually as stated by the clarification.\n\n## Out of scope\n\n- Adding or changing filter behavior in Functions.\n- Redesigning unrelated Visual Designer terms or rule-condition operators.\n- Defining automated screenshot tooling or a new generated-code format.",
+      "bodySha256": "cf24db83a920e7f5552adaac9f423599f514a5eb2e4375ab1af90006044ad372",
+      "dependsOn": [],
+      "id": "SPEC-FILTER:REQ-009",
+      "namespace": "SPEC-FILTER",
+      "number": 9,
+      "source": {
+        "line": 220,
+        "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "70d926cb31e346ed31c286840f0446b8b443759172d930cb3e406abcebb5b3b7",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 9379,
+    "path": "singularity/work-items/spec-filter/artifacts/specification/spec.md",
+    "sha256": "5b368a30ba919e0250db73a7cd4bc616ab9b2f521f4f5084be27f3009743be3a"
+  },
+  "workId": "spec-filter"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "workId": "spec-filter",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/spec-filter/context/prompts/specification-gen1.md",
+  "promptSha256": "81f5afdb712d674e2eb9c61b7000f2686ac253b21cb96a75801624782fb034ab",
+  "groundingRecordPath": "singularity/work-items/spec-filter/context/specification-gen1.json",
+  "groundingRecordSha256": "78318ce7b242e0a1c111f7169a53fc2abc51f53183f913da73f61d838cf72d21",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Which filter and selection controls must the new Visual Designer block support?",
+      "answer": "All operators, just like any rule conditions.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "Where should the block appear in the Rule Visual Designer, and how should it connect to the rule evaluation flow?",
+      "answer": "It appears before the terms in the Visual Designer, so filtering happens before term evaluation.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "Which UI states and viewport(s) must the acceptance screenshots cover, and what generated-code summary is required?",
+      "answer": "The implementation will be manually verified; capture the relevant Visual Designer states and summarize the generated code.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-16T22:03:33.110Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}
