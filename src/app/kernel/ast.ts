@@ -41,6 +41,26 @@ export interface RuleRefTerm {
 
 export type Term = ComparisonTerm | LogicalTerm | RuleRefTerm;
 
+export type FilterSelectionMode = 'all' | 'first' | 'last' | 'range';
+export type FilterDirection = 'asc' | 'desc';
+
+export interface FilterCriterion {
+  id?: string;
+  field: string;
+  op: string;
+  value: string;
+}
+
+export interface FilterConfig {
+  criteria: FilterCriterion[];
+  orderBy: string;
+  orderDirection: FilterDirection;
+  selectionMode: FilterSelectionMode;
+  selectionCount: number;
+  rangeStart: number;
+  rangeEnd: number;
+}
+
 export interface Rule {
   rule_id: string;
   name: string;

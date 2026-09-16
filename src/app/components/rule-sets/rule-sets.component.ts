@@ -20,12 +20,24 @@ interface ScheduleConfig {
   daysOfWeek: string[];   // ['Mon','Tue',...]
 }
 
+interface FilterConfigState {
+  enabled: boolean;
+  criteria: Condition[];
+  orderBy: string;
+  orderDirection: 'asc' | 'desc';
+  selectionMode: 'all' | 'first' | 'last' | 'range';
+  selectionCount: number;
+  rangeStart: number;
+  rangeEnd: number;
+}
+
 interface Term {
   id: string;
   operator: 'AND' | 'OR';
-  termType: 'general' | 'schedule';
+  termType: 'general' | 'schedule' | 'filter';
   conditions: Condition[];
   schedule?: ScheduleConfig;
+  filter?: FilterConfigState;
 }
 
 interface RuleGrammar {
@@ -192,8 +204,10 @@ const DEFAULT_SCHEDULE: ScheduleConfig = {
                     <span class="text-[9px] font-extrabold px-2.5 py-0.5 rounded-full border tracking-wide select-none"
                       [ngClass]="term.termType === 'schedule'
                         ? 'bg-amber-50 text-amber-700 border-amber-200'
-                        : 'bg-surface-container text-on-surface-variant border-outline-variant'">
-                      {{ term.termType === 'schedule' ? '⏰ Schedule' : '⚙ General' }}
+                        : term.termType === 'filter'
+                          ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
+                          : 'bg-surface-container text-on-surface-variant border-outline-variant'">
+                      {{ term.termType === 'schedule' ? '⏰ Schedule' : term.termType === 'filter' ? '⏷ Filter' : '⚙ General' }}
                     </span>
 
                     <!-- Operator toggle (general only) -->
@@ -268,6 +282,68 @@ const DEFAULT_SCHEDULE: ScheduleConfig = {
                   </div>
 
                   <!-- ── Schedule: date/time config (Apple Grid alignment) ── -->
+                  <div *ngIf="term.termType === 'filter' && term.filter" class="p-5 space-y-5">
+                    <div class="space-y-4">
+                      <div class="flex items-center justify-between gap-2">
+                        <label class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">Criteria</label>
+                        <button type="button" (click)="addFilterCriterion(term.id)" class="text-xs font-bold text-emerald-700 hover:text-emerald-900 cursor-pointer border-none bg-transparent">
+                          + Add criterion
+                        </button>
+                      </div>
+
+                      <div *ngFor="let cond of term.filter.criteria; let ci = index" class="flex items-center gap-2.5 bg-white border border-emerald-200 rounded-xl p-2.5">
+                        <select [(ngModel)]="cond.field" class="h-8 text-[11px] border border-outline-variant rounded-lg bg-surface-container-low min-w-[190px] focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 px-2 cursor-pointer">
+                          <option *ngFor="let f of getFieldOptions()" [value]="f">{{ f }}</option>
+                        </select>
+                        <select [(ngModel)]="cond.op" class="h-8 text-[11px] border border-outline-variant rounded-lg bg-surface-container-low font-bold text-center min-w-[90px] focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 px-2 cursor-pointer">
+                          <option *ngFor="let op of operators" [value]="op">{{ op }}</option>
+                        </select>
+                        <input [(ngModel)]="cond.value" type="text" placeholder="value…" class="h-8 text-[11px] border border-outline-variant rounded-lg px-3 font-mono focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 outline-none flex-1 min-w-[80px] bg-white" />
+                        <button type="button" (click)="removeFilterCriterion(term.id, ci)" class="text-on-surface-variant hover:text-red-600 p-1.5 rounded-lg cursor-pointer border-none bg-transparent">✕</button>
+                      </div>
+
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div>
+                          <label class="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-1.5">Order by</label>
+                          <select [(ngModel)]="term.filter.orderBy" class="h-8 w-full text-[11px] border border-outline-variant rounded-lg bg-surface-container-low px-2 cursor-pointer">
+                            <option value="">Select attribute</option>
+                            <option *ngFor="let f of getFieldOptions()" [value]="f">{{ f }}</option>
+                          </select>
+                        </div>
+                        <div>
+                          <label class="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-1.5">Direction</label>
+                          <select [(ngModel)]="term.filter.orderDirection" class="h-8 w-full text-[11px] border border-outline-variant rounded-lg bg-surface-container-low px-2 cursor-pointer">
+                            <option value="asc">Ascending</option>
+                            <option value="desc">Descending</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div>
+                        <label class="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-1.5">Selection</label>
+                        <div class="flex flex-wrap gap-2">
+                          <button type="button" (click)="term.filter.selectionMode = 'all'" [ngClass]="term.filter.selectionMode === 'all' ? 'bg-emerald-600 text-white' : 'bg-surface-container text-on-surface-variant'" class="px-2.5 py-1.5 rounded-lg text-[10px] font-bold cursor-pointer border border-outline-variant/60">All</button>
+                          <button type="button" (click)="term.filter.selectionMode = 'first'" [ngClass]="term.filter.selectionMode === 'first' ? 'bg-emerald-600 text-white' : 'bg-surface-container text-on-surface-variant'" class="px-2.5 py-1.5 rounded-lg text-[10px] font-bold cursor-pointer border border-outline-variant/60">First</button>
+                          <button type="button" (click)="term.filter.selectionMode = 'last'" [ngClass]="term.filter.selectionMode === 'last' ? 'bg-emerald-600 text-white' : 'bg-surface-container text-on-surface-variant'" class="px-2.5 py-1.5 rounded-lg text-[10px] font-bold cursor-pointer border border-outline-variant/60">Last</button>
+                          <button type="button" (click)="term.filter.selectionMode = 'range'" [ngClass]="term.filter.selectionMode === 'range' ? 'bg-emerald-600 text-white' : 'bg-surface-container text-on-surface-variant'" class="px-2.5 py-1.5 rounded-lg text-[10px] font-bold cursor-pointer border border-outline-variant/60">Range</button>
+                        </div>
+                        <div *ngIf="term.filter.selectionMode === 'first' || term.filter.selectionMode === 'last'" class="mt-2 flex items-center gap-2">
+                          <label class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">Count</label>
+                          <input type="number" min="1" [(ngModel)]="term.filter.selectionCount" class="h-8 w-20 text-[11px] border border-outline-variant rounded-lg px-2 bg-white" />
+                        </div>
+                        <div *ngIf="term.filter.selectionMode === 'range'" class="mt-2 flex items-center gap-2">
+                          <input type="number" min="1" [(ngModel)]="term.filter.rangeStart" class="h-8 w-16 text-[11px] border border-outline-variant rounded-lg px-2 bg-white" />
+                          <span class="text-[10px] text-on-surface-variant">to</span>
+                          <input type="number" min="1" [(ngModel)]="term.filter.rangeEnd" class="h-8 w-16 text-[11px] border border-outline-variant rounded-lg px-2 bg-white" />
+                        </div>
+                      </div>
+
+                      <div *ngIf="getFilterWarnings(term).length" class="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-[10px] text-amber-800">
+                        <div *ngFor="let warning of getFilterWarnings(term)">{{ warning }}</div>
+                      </div>
+                    </div>
+                  </div>
+
                   <div *ngIf="term.termType === 'schedule' && term.schedule" class="p-5 space-y-5">
 
                     <!-- Time & Date Grid -->
@@ -383,6 +459,20 @@ const DEFAULT_SCHEDULE: ScheduleConfig = {
                       <div>
                         <div class="text-xs font-bold text-primary">General conditions</div>
                         <div class="text-[10px] text-on-surface-variant mt-0.5">Filter on transaction context parameters</div>
+                      </div>
+                    </button>
+
+                    <!-- Filter option -->
+                    <button type="button" (click)="addTerm('filter')"
+                      class="flex-1 flex flex-col items-center gap-2.5 px-4 py-6 hover:bg-emerald-500/[0.04] cursor-pointer transition-all border-none bg-transparent group">
+                      <div class="w-12 h-12 rounded-xl bg-emerald-100 group-hover:bg-emerald-200 flex items-center justify-center transition-all">
+                        <svg class="w-6 h-6 text-emerald-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M3 5h18l-6.5 7.5v6L9.5 21v-8.5z"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <div class="text-xs font-bold text-emerald-800">Filter rows</div>
+                        <div class="text-[10px] text-on-surface-variant mt-0.5">Apply conditions, sort, and select the relevant subset</div>
                       </div>
                     </button>
 
@@ -555,7 +645,7 @@ export class RuleSetsComponent implements OnInit {
 
   /* ── Term operations ──────────────────────────────────────── */
 
-  addTerm(type: 'general' | 'schedule') {
+  addTerm(type: 'general' | 'schedule' | 'filter') {
     const newTerm: Term = {
       id: this.uid(),
       operator: 'AND',
@@ -564,6 +654,16 @@ export class RuleSetsComponent implements OnInit {
         ? [{ id: this.uid(), field: DEFAULT_FIELDS[0], op: '>', value: '' }]
         : [],
       schedule: type === 'schedule' ? { ...DEFAULT_SCHEDULE } : undefined,
+      filter: type === 'filter' ? {
+        enabled: true,
+        criteria: [{ id: this.uid(), field: DEFAULT_FIELDS[0], op: '==', value: '' }],
+        orderBy: '',
+        orderDirection: 'asc',
+        selectionMode: 'all',
+        selectionCount: 1,
+        rangeStart: 1,
+        rangeEnd: 1,
+      } : undefined,
     };
     this.rule.terms = [...this.rule.terms, newTerm];
     this.showAddTermMenu = false;
@@ -582,10 +682,24 @@ export class RuleSetsComponent implements OnInit {
     });
   }
 
+  addFilterCriterion(termId: string) {
+    this.rule.terms = this.rule.terms.map(t => {
+      if (t.id !== termId || !t.filter) return t;
+      return { ...t, filter: { ...t.filter, criteria: [...t.filter.criteria, { id: this.uid(), field: DEFAULT_FIELDS[0], op: '==', value: '' }] } };
+    });
+  }
+
   removeCondition(termId: string, condId: string) {
     this.rule.terms = this.rule.terms.map(t => {
       if (t.id !== termId) return t;
       return { ...t, conditions: t.conditions.filter(c => c.id !== condId) };
+    });
+  }
+
+  removeFilterCriterion(termId: string, index: number) {
+    this.rule.terms = this.rule.terms.map(t => {
+      if (t.id !== termId || !t.filter) return t;
+      return { ...t, filter: { ...t.filter, criteria: t.filter.criteria.filter((_, i) => i !== index) } };
     });
   }
 
@@ -651,6 +765,21 @@ export class RuleSetsComponent implements OnInit {
 
   getTotalConditions(): number {
     return this.rule.terms.reduce((s, t) => s + t.conditions.length, 0);
+  }
+
+  getFilterWarnings(term: Term): string[] {
+    if (term.termType !== 'filter' || !term.filter) return [];
+    const warnings: string[] = [];
+    if (term.filter.selectionMode === 'first' || term.filter.selectionMode === 'last') {
+      if (!term.filter.orderBy) warnings.push('Order by attribute is required for first/last selection.');
+      if (term.filter.selectionCount < 1) warnings.push('Selection count must be at least 1.');
+    }
+    if (term.filter.selectionMode === 'range') {
+      if (!term.filter.orderBy) warnings.push('Order by attribute is required for range selection.');
+      if (term.filter.rangeStart < 1 || term.filter.rangeEnd < term.filter.rangeStart) warnings.push('Range start/end is invalid.');
+    }
+    if (term.filter.criteria.some(c => !c.field || !c.op || c.value === '')) warnings.push('Completed filter criteria are required before evaluation.');
+    return warnings;
   }
 
   getJsonPreview(): string {

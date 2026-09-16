@@ -95,6 +95,53 @@ describe('RuleEngineService', () => {
     });
   });
 
+  describe('filterRows', () => {
+    it('applies criteria, ordering, and first/last/range selection before downstream evaluation', () => {
+      const rows = [
+        { id: 1, score: 30, country: 'US' },
+        { id: 2, score: 80, country: 'CA' },
+        { id: 3, score: 60, country: 'US' },
+        { id: 4, score: 10, country: 'AU' },
+      ];
+
+      const filtered = service.filterRows(rows, {
+        criteria: [{ field: 'country', op: '==', value: 'US' }],
+        orderBy: 'score',
+        selectionMode: 'last',
+        selectionCount: 1,
+      });
+      expect(filtered).toEqual([{ id: 3, score: 60, country: 'US' }]);
+
+      const ranged = service.filterRows(rows, {
+        criteria: [],
+        orderBy: 'score',
+        selectionMode: 'range',
+        rangeStart: 1,
+        rangeEnd: 2,
+      });
+      expect(ranged).toEqual([
+        { id: 4, score: 10, country: 'AU' },
+        { id: 1, score: 30, country: 'US' },
+      ]);
+    });
+
+    it('rejects invalid or incomplete filter configs', () => {
+      expect(service.validateFilter({
+        criteria: [],
+        orderBy: '',
+        selectionMode: 'first',
+        selectionCount: 0,
+      })).toContain('orderBy');
+      expect(service.validateFilter({
+        criteria: [],
+        orderBy: 'score',
+        selectionMode: 'range',
+        rangeStart: 3,
+        rangeEnd: 1,
+      })).toContain('range');
+    });
+  });
+
   describe('syncGlossary', () => {
     // service.schema is the shared SAMPLE_SCHEMA singleton also used by kernel.spec.ts,
     // so any mutation here must be undone or it leaks into other spec files.

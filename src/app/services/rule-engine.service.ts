@@ -23,7 +23,10 @@ import {
   isRuleRefTerm,
   operatorDisplay,
   AttrType,
-  NamespaceSource
+  NamespaceSource,
+  FilterConfig,
+  FilterCriterion,
+  FilterSelectionMode,
 } from '../kernel';
 
 /**
@@ -152,5 +155,105 @@ export class RuleEngineService {
   /** Human-readable label for a comparison term. */
   comparisonLabel(term: ComparisonTerm): string {
     return comparisonLabel(term);
+  }
+
+  /** Validate a visual-designer filter configuration before it is used. */
+  validateFilter(config: Partial<FilterConfig> | null | undefined): string[] {
+    const errs: string[] = [];
+    if (!config) return ['filter'];
+
+    if (config.criteria && config.criteria.some((c) => !c || !c.field || !c.op || c.value === '')) {
+      errs.push('criteria');
+    }
+
+    const selectionMode = (config.selectionMode ?? 'all') as FilterSelectionMode;
+    const orderBy = (config.orderBy ?? '').trim();
+
+    if ((selectionMode === 'first' || selectionMode === 'last' || selectionMode === 'range') && !orderBy) {
+      errs.push('orderBy');
+    }
+
+    const selectionCount = Number(config.selectionCount ?? 0);
+    if ((selectionMode === 'first' || selectionMode === 'last') && (!Number.isFinite(selectionCount) || selectionCount < 1)) {
+      errs.push('selectionCount');
+    }
+
+    if (selectionMode === 'range') {
+      const start = Number(config.rangeStart ?? 0);
+      const end = Number(config.rangeEnd ?? 0);
+      if (!Number.isFinite(start) || !Number.isFinite(end) || start < 1 || end < start) {
+        errs.push('range');
+      }
+    }
+
+    return errs;
+  }
+
+  /** Apply a Visual Designer filter config to a row collection. */
+  filterRows<T extends Record<string, any>>(rows: T[], config: Partial<FilterConfig> | null | undefined): T[] {
+    if (!Array.isArray(rows) || rows.length === 0 || !config) return rows;
+
+    const criteria = (config.criteria ?? []).filter((c) => !!c && !!c.field && !!c.op);
+    const selectionMode = (config.selectionMode ?? 'all') as FilterSelectionMode;
+    const orderBy = (config.orderBy ?? '').trim();
+
+    let filtered = rows.filter((row) => criteria.every((criterion) => this.matchesCriterion(row, criterion)));
+    if (orderBy) {
+      const direction = (config.orderDirection ?? 'asc') === 'desc' ? -1 : 1;
+      filtered = [...filtered].sort((a, b) => {
+        const aVal = a[orderBy];
+        const bVal = b[orderBy];
+        const aNum = typeof aVal === 'number' ? aVal : Number(aVal);
+        const bNum = typeof bVal === 'number' ? bVal : Number(bVal);
+        if (Number.isFinite(aNum) && Number.isFinite(bNum)) return (aNum - bNum) * direction;
+        return String(aVal ?? '').localeCompare(String(bVal ?? '')) * direction;
+      });
+    }
+
+    if (selectionMode === 'all') return filtered;
+    if (selectionMode === 'first') {
+      const count = Math.max(1, Number(config.selectionCount ?? 1));
+      return filtered.slice(0, count);
+    }
+    if (selectionMode === 'last') {
+      const count = Math.max(1, Number(config.selectionCount ?? 1));
+      return filtered.slice(-count);
+    }
+
+    const start = Math.max(1, Number(config.rangeStart ?? 1));
+    const end = Math.max(start, Number(config.rangeEnd ?? start));
+    return filtered.slice(start - 1, end);
+  }
+
+  private matchesCriterion<T extends Record<string, any>>(row: T, criterion: FilterCriterion): boolean {
+    const raw = row[criterion.field];
+    const value = criterion.value;
+    const actual = typeof raw === 'string' || typeof raw === 'number' || typeof raw === 'boolean' ? raw : String(raw ?? '');
+    const expected = value;
+
+    switch (criterion.op) {
+      case '==':
+        return String(actual) === String(expected);
+      case '!=':
+        return String(actual) !== String(expected);
+      case '>':
+        return Number(actual) > Number(expected);
+      case '<':
+        return Number(actual) < Number(expected);
+      case '>=':
+        return Number(actual) >= Number(expected);
+      case '<=':
+        return Number(actual) <= Number(expected);
+      case 'contains':
+        return String(actual).toLowerCase().includes(String(expected).toLowerCase());
+      case 'starts_with':
+        return String(actual).toLowerCase().startsWith(String(expected).toLowerCase());
+      case 'in':
+        return String(expected).split(',').map((part) => part.trim()).includes(String(actual));
+      case 'not_in':
+        return !String(expected).split(',').map((part) => part.trim()).includes(String(actual));
+      default:
+        return true;
+    }
   }
 }
