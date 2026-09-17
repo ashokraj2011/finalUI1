@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "kind": "observed",
+  "recordedAt": "2026-09-17T04:56:42.884Z",
+  "claims": {},
+  "workId": "x-usecase",
+  "phase": "implementation",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/x-usecase/context/code-delivery/implementation-gen1.json",
+    "sha256": "52941a01f22c0e55f591d2545c70d20337b8f3db0f03fb880fdaafcb33fba5e9",
+    "changeSetDigest": "sha256:ba092699cfe9cdfb678803df18b12dd065baff22396c75345c8112209190bd69"
+  }
+}

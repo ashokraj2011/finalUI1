@@ -68,25 +68,50 @@
       {
         "clauseId": "X-USECASE:AC-001",
         "testSource": "src/app/app.component.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "X-USECASE:AC-002",
         "testSource": "src/app/app.component.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "X-USECASE:AC-003",
         "testSource": "src/app/app.component.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       }
     ]
   },
-  "testExecutions": [],
+  "testExecutions": [
+    {
+      "commandId": "angular-tests",
+      "receiptPath": "singularity/work-items/x-usecase/context/code-delivery/tests/implementation-gen1-angular-tests.json",
+      "receiptSha256": "165c3f2287deeda4fd17ac3c911fb9b20cebb9c0e2416888d66c629c2e1c39b5",
+      "status": "passed"
+    }
+  ],
   "tree": {
     "workingStateDigest": "sha256:9d74e770e2e6710bb9ee123ac1540d2dd8a51b67ba3e40db28cd9bbba213f02a",
-    "generationCommit": null,
-    "generationTree": null
+    "generationCommit": "07728ffa50d04ecf5152234c396ff95ed3459d9d",
+    "generationTree": "230c2b7c7401b98c5606090a636833c849d99101"
   },
   "model": {
     "task": "code",
@@ -105,6 +130,7 @@
     "observedAt": null,
     "generation": null
   },
-  "status": "pending-tests",
-  "capturedAt": "2026-09-17T04:55:15.438Z"
+  "status": "ready",
+  "capturedAt": "2026-09-17T04:55:15.438Z",
+  "validatedAt": "2026-09-17T04:56:42.877Z"
 }

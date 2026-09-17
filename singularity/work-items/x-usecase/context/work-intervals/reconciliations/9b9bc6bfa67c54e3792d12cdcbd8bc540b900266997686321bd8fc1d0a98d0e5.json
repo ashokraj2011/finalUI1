@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-reconciliation",
+  "workId": "x-usecase",
+  "workType": "classic-delivery",
+  "intervalId": "INT-implementation-G1-001",
+  "phaseId": "implementation",
+  "generation": 1,
+  "baselineSha256": "8f300ae58c34c33bfbaad6904392829d34d24dbc80ef8a4fed4ff0720fea9530",
+  "baseline": {
+    "path": "singularity/work-items/x-usecase/context/work-intervals/implementation-gen1-baseline.json",
+    "sha256": "8f300ae58c34c33bfbaad6904392829d34d24dbc80ef8a4fed4ff0720fea9530",
+    "verified": true,
+    "sourceBaseCommit": "20926463cbb29efa28020fcf6da5b0aacb7ff31c"
+  },
+  "sourceBaseCommit": "20926463cbb29efa28020fcf6da5b0aacb7ff31c",
+  "target": {
+    "branch": "x-usecase",
+    "head": "07728ffa50d04ecf5152234c396ff95ed3459d9d",
+    "includesWorktree": false,
+    "cleanApplicationTree": true,
+    "uncommittedApplicationPaths": []
+  },
+  "findings": [
+    {
+      "path": "src/app/app.component.html",
+      "status": "present",
+      "sha256": "565d7e5dbf422d88a3c35c2cd621a6fb3a1b623c082541307f988f3d77e6ded4",
+      "bytes": 8199,
+      "verdict": "planned",
+      "clauseIds": [
+        "X-USECASE:AC-001",
+        "X-USECASE:AC-002"
+      ],
+      "protected": false
+    },
+    {
+      "path": "src/app/app.component.spec.ts",
+      "status": "present",
+      "sha256": "96725792d9d1bed4a5cd9d8f856dd34f8f9005c5e7aeebc86d997cac6efa2264",
+      "bytes": 3003,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    }
+  ],
+  "summary": {
+    "changedPaths": 2,
+    "planned": 1,
+    "unplanned": 1,
+    "protected": 0
+  },
+  "decision": {
+    "status": "review",
+    "summaryStatus": "attention",
+    "eligibleForSubmission": true,
+    "reasons": [],
+    "escalationTarget": null
+  },
+  "reconciliationSha256": "9b9bc6bfa67c54e3792d12cdcbd8bc540b900266997686321bd8fc1d0a98d0e5",
+  "reconciledAt": "2026-09-17T04:56:42.980Z",
+  "final": true,
+  "recordedAt": "2026-09-17T04:56:42.981Z",
+  "path": "singularity/work-items/x-usecase/context/work-intervals/reconciliations/9b9bc6bfa67c54e3792d12cdcbd8bc540b900266997686321bd8fc1d0a98d0e5.json"
+}
