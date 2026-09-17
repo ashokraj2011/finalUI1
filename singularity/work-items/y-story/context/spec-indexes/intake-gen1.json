@@ -9,7 +9,7 @@
       "namespace": "Y-STORY",
       "number": 1,
       "source": {
-        "line": 135,
+        "line": 180,
         "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
       },
       "type": "REQ"
@@ -23,7 +23,7 @@
       "namespace": "Y-STORY",
       "number": 2,
       "source": {
-        "line": 135,
+        "line": 180,
         "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
       },
       "type": "REQ"
@@ -37,7 +37,7 @@
       "namespace": "Y-STORY",
       "number": 3,
       "source": {
-        "line": 138,
+        "line": 183,
         "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
       },
       "type": "REQ"
@@ -51,7 +51,7 @@
       "namespace": "Y-STORY",
       "number": 4,
       "source": {
-        "line": 140,
+        "line": 185,
         "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
       },
       "type": "REQ"
@@ -65,7 +65,7 @@
       "namespace": "Y-STORY",
       "number": 1,
       "source": {
-        "line": 176,
+        "line": 221,
         "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
       },
       "type": "AC"
@@ -79,7 +79,7 @@
       "namespace": "Y-STORY",
       "number": 2,
       "source": {
-        "line": 177,
+        "line": 222,
         "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
       },
       "type": "AC"
@@ -93,7 +93,7 @@
       "namespace": "Y-STORY",
       "number": 3,
       "source": {
-        "line": 178,
+        "line": 223,
         "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
       },
       "type": "AC"
@@ -115,20 +115,20 @@
       "namespace": "Y-STORY",
       "number": 4,
       "source": {
-        "line": 179,
+        "line": 224,
         "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
       },
       "type": "AC"
     }
   ],
   "generation": 1,
-  "indexSha256": "6d4d7ba5c1e908dae619c7877b7599d9503fffa2f57efa3b250d3f92786f09b7",
+  "indexSha256": "9760ac3185903fc5237210398eb595a7a0eb97583e6df01d5249f0aedd0766fc",
   "phase": "intake",
   "schemaVersion": 1,
   "source": {
-    "bytes": 9408,
+    "bytes": 11189,
     "path": "singularity/work-items/y-story/artifacts/intake/intake.md",
-    "sha256": "f233831dd15b6c5138871c20dfc920062dd3515d10b3e5a0f1842a1b3c4707e8"
+    "sha256": "619cbd3f9bc56cdd12d0698afa6901b4565f30d689d29f9657d8bd78f59e7ee5"
   },
   "workId": "y-story"
 }
