@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "x-usecase",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "3a2d3c01-eb7d-433a-86ad-fefd392fe65e",
+  "changeSet": {
+    "path": "singularity/work-items/x-usecase/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:ba092699cfe9cdfb678803df18b12dd065baff22396c75345c8112209190bd69",
+    "sourcePaths": [
+      "src/app/app.component.html"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "src/app/app.component.spec.ts"
+    ],
+    "supportingTestPaths": []
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "copilot"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "product-source": 1,
+      "test-source": 1
+    },
+    "entries": [
+      {
+        "changeId": "sha256:7033f25af4f8c6f9305f3fe2b151c6285d01c8ad5fecbe21dbd9e09f070544ab",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "src/app/app.component.spec.ts",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:6bf520b021d54711443ca576a2d8bf3a21634128f68eaa984776fe49403da125",
+        "status": "modified",
+        "oldPath": "src/app/app.component.html",
+        "newPath": "src/app/app.component.html",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [
+      "X-USECASE:AC-001",
+      "X-USECASE:AC-002",
+      "X-USECASE:AC-003"
+    ],
+    "bound": [
+      "X-USECASE:AC-001",
+      "X-USECASE:AC-002",
+      "X-USECASE:AC-003"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "X-USECASE:AC-001",
+        "testSource": "src/app/app.component.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "X-USECASE:AC-002",
+        "testSource": "src/app/app.component.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "X-USECASE:AC-003",
+        "testSource": "src/app/app.component.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:9d74e770e2e6710bb9ee123ac1540d2dd8a51b67ba3e40db28cd9bbba213f02a",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": true,
+    "authorshipProducer": "governed-agent",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-09-17T04:55:15.438Z"
+}

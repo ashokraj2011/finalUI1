@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "kind": "repository-change-set",
+  "subject": {
+    "workId": "x-usecase",
+    "phase": "implementation",
+    "generation": 1,
+    "generationIntentId": "3a2d3c01-eb7d-433a-86ad-fefd392fe65e"
+  },
+  "base": {
+    "commit": "20926463cbb29efa28020fcf6da5b0aacb7ff31c",
+    "tree": "d1373292754c35cd6c472591a7f54d40fb45854b"
+  },
+  "target": {
+    "head": "58822178a3d922a7766fe772d5c9600292df57e6",
+    "includesIndex": true,
+    "includesWorktree": true,
+    "includesUntracked": true,
+    "caseInsensitivePaths": true
+  },
+  "entries": [
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/x-usecase/approvals/intake.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "95c68ba4322be424a7d4968a00cca11540e63100",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:077ef2bd6294e3b55f9cc544755d182325dd865b4454485c879c0d24d4836164",
+        "bytes": 1778
+      },
+      "changeId": "sha256:2219f7607eed31ba83524d85713f1b51c098107708e954a5ad51751e8c8e7ec9"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/x-usecase/approvals/intake/2026-09-17T04-47-15-282Z-approved.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "effeb410328a45588aaf70e47ce30252628729dd",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:92529db8920bb16659a7361b95dfd1ebbb7412cd465d0f728f195011cae44bca",
+        "bytes": 1534
+      },
+      "changeId": "sha256:dfe0a81577d39aeeb9592d1d3c8e5ecdcb41eb0d88263ecd068e9b081f47c9af"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/x-usecase/artifacts/implementation/implementation-summary.md",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:083cfa89af50f6e2db961961f97bce7d1c045871b753ccbcde195e4cc9206435",
+        "bytes": 11388
+      },
+      "changeId": "sha256:5ac9aad844c140d93835215b1069ad3f5e147791a953d4808a89b657defd5c69"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/x-usecase/context/generation-start/implementation-gen1.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:0f91288a89b1c7aad4fd0e5e13374c32f17365a0b5915c4b0f9d2dccc3f7d9c5",
+        "bytes": 1245
+      },
+      "changeId": "sha256:f6f1b19021eee479e587addf7100f8cc073d4479cedbcee6d902c4c1c68705ed"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/x-usecase/context/inputs-implementation-gen1.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:879f0f84fecb6d2f334ff9e8516cdad7fb32e36b1a8dbd5ffb497c4a4b1ee03f",
+        "bytes": 1609
+      },
+      "changeId": "sha256:17807a7d88b3505ff37ea6af0d525a2cfd27fb732507719057f94842ae718271"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/x-usecase/context/ledger-intents/0f414f43-a5c8-4963-ba0e-27566751219c.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "ba5aadcbdb44cad33ae56bf91a44c1f7ea10066f",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:38c04c11b5eac72ec2835139fa952c6361b47088d645c23fc0efa6683a0b0cea",
+        "bytes": 2111
+      },
+      "changeId": "sha256:a658fa44f37050f2ca8dd325a1b7b3855b4675fdcec267cc3391adb333f44a97"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/x-usecase/context/work-intervals/implementation-gen1-baseline.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "0b1963e9f4614e86bd3de515382418b29a955ce2",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:f15f90f9122a5f15e63a8f060c8ef3011da4822f7129335ef9cfa99ce9a36a3f",
+        "bytes": 1665
+      },
+      "changeId": "sha256:537713aa15f95500ff4add3c50983120c2c6a6a15d1b6dc3a706d318702cda4e"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "src/app/app.component.spec.ts",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:96725792d9d1bed4a5cd9d8f856dd34f8f9005c5e7aeebc86d997cac6efa2264",
+        "bytes": 3003
+      },
+      "changeId": "sha256:7033f25af4f8c6f9305f3fe2b151c6285d01c8ad5fecbe21dbd9e09f070544ab"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/x-usecase/STATUS.md",
+      "newPath": "singularity/work-items/x-usecase/STATUS.md",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "6e2a4435a95ed2c232e06b391577000c766816a2",
+      "newObject": "3372d2eb2810ca5e933f8e3f588680d7267fa0e0",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:6d087b2f9a882fe7db62c2c01e4f498b0d31f89219ce3888eab466b171e5bc33",
+        "bytes": 1495
+      },
+      "changeId": "sha256:247eb166a9c42c287e61859becbca6277ec82cab60624af4fae63a74c0e82c0c"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
+      "newPath": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "53eb4b40a1bbbc8f4c67bca36282ca90982cf3f4",
+      "newObject": "3ee456df6d33ed9ebe6754451ab653e43fb549c6",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:369172b14be5dc40577afe04d79df876db62dcd79049daa463887074e789ad3c",
+        "bytes": 9942
+      },
+      "changeId": "sha256:3885bf5266c34bf9fa11baca112fac0039e2182ea5ce852efcfd04e30795bdf8"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/x-usecase/context/spec-indexes/intake-gen1.json",
+      "newPath": "singularity/work-items/x-usecase/context/spec-indexes/intake-gen1.json",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "6eb1f52b3f50a518290bf9a1a46809689ccde9bc",
+      "newObject": "83c3b2b1e061ab02fd004fe9e97204fd9c7209e7",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:1ea320b485e6b28c68d89749a103e27f3c177a6e433d619177fc1201a2358aba",
+        "bytes": 4125
+      },
+      "changeId": "sha256:b766279728c1722d7da063ee5e8855956cb524b94b94ece3f43d10dc396deb89"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/x-usecase/workflow.json",
+      "newPath": "singularity/work-items/x-usecase/workflow.json",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "710aa20dac19b861b685b2b0729b36a16ddcfe28",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:8a6b7dc2426548daa891e94ff805751b6f18cc8386191a445294b96bc4b75e4b",
+        "bytes": 134305
+      },
+      "changeId": "sha256:f04b0d666b7254643b369a312d1af6a3df6ba1a205a23cb0d7a2758af00c12b4"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "src/app/app.component.html",
+      "newPath": "src/app/app.component.html",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "6a684432642940485006f7d0dac3b4af88a6b1a3",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:565d7e5dbf422d88a3c35c2cd621a6fb3a1b623c082541307f988f3d77e6ded4",
+        "bytes": 8199
+      },
+      "changeId": "sha256:6bf520b021d54711443ca576a2d8bf3a21634128f68eaa984776fe49403da125"
+    }
+  ],
+  "digest": "sha256:ba092699cfe9cdfb678803df18b12dd065baff22396c75345c8112209190bd69"
+}
