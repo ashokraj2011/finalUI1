@@ -13,11 +13,12 @@
 |  | ⚠ self-approval | Ashok Raj via product-approvers; agent product-owner | **warning** |  |  |  |
 | 2 | Code (`implementation`) | developer | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via engineering-reviewers; agent developer | **warning** |  |  |  |
-| 3 | Testing (`testing`) | qa | **in_progress** | 1 | 0 | unavailable |
+| 3 | Testing (`testing`) | qa | **awaiting_approval** | 1 | 0 | unavailable |
 | 4 | Code checking (`conformance`) | qa | **not_started** | 0 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-09-17T05:06:52.932Z — **phase_submitted** (testing) by ashokraj2011 · governed agent qa: 1 artifacts
 - 2026-09-17T05:05:50.333Z — **phase_generated** (testing) by ashokraj2011 · governed agent qa: generation 1
 - 2026-09-17T05:02:42.919Z — **phase_self_approved** (implementation) by ashokraj2011 · governed agent developer: threshold reached; advanced to testing
 - 2026-09-17T05:02:42.919Z — **work_interval_closed** (implementation) by ashokraj2011 · governed agent developer: interval INT-implementation-G1-001 closed after phase approval
