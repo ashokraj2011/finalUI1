@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "workId": "x-usecase",
+  "phase": "intake",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/x-usecase/context/prompts/intake-gen1.md",
+  "promptSha256": "89a8e430391f2c783f8f121dd148d35613d2106d2bbf177e899f9cfd2209d418",
+  "groundingRecordPath": "singularity/work-items/x-usecase/context/intake-gen1.json",
+  "groundingRecordSha256": "a4de39bc4704f5dd440da5b0095a9b872a659e5c255418f017bc74583d26d7a2",
+  "responses": [
+    {
+      "id": "problem",
+      "question": "What user problem is this Rule Engine console meant to solve?",
+      "answer": "Creating rule definition",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "outcome",
+      "question": "What concrete end state or outcome should the app deliver after this Story?",
+      "answer": "Show the filter block in page where the rule is authored",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "scope",
+      "question": "What is explicitly in scope and out of scope for this Story?",
+      "answer": "Rule evaluation is out of scope",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "acceptance",
+      "question": "What observable acceptance criteria should mark the work as done?",
+      "answer": "Screenshot",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "tests",
+      "question": "How will we validate success: build, browser smoke test, or specific automated checks?",
+      "answer": "build, browser smoke test",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-17T04:42:19.484Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "kind": "planned",
+  "recordedAt": "2026-09-17T04:44:02.489Z",
+  "claims": {
+    "X-USECASE:AC-001": {
+      "expectedPaths": [
+        "src/app/app.component.html",
+        "src/app/app.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "no dedicated UI test file exists; validated by npm run build and a manual browser smoke check",
+      "deviation": null
+    },
+    "X-USECASE:AC-002": {
+      "expectedPaths": [
+        "src/app/app.component.html",
+        "src/app/app.component.ts",
+        "src/app/components/rule-canvas/rule-canvas.component.ts",
+        "src/app/components/rule-config/rule-config.component.ts",
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "no dedicated UI test file exists; validated by npm run build and a manual browser smoke check",
+      "deviation": null
+    },
+    "X-USECASE:AC-003": {
+      "expectedPaths": [
+        "src/app/components/history-logs/history-logs.component.ts",
+        "src/app/components/validator/shell/shell.component.ts",
+        "src/app/data.ts",
+        "src/app/services/rule-store.service.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "no dedicated UI test file exists; validated by npm run build and a manual browser smoke check",
+      "deviation": null
+    }
+  },
+  "workId": "x-usecase",
+  "phase": "intake",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
+    "sha256": "6b5fa63789b2493d44d1bba9974322fdffa6cff45fc45687200b76ac8a4d64c7",
+    "bytes": 8157
+  }
+}

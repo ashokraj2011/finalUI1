@@ -1,0 +1,59 @@
+{
+  "clauses": [
+    {
+      "anchor": "[x-usecase:AC-001]",
+      "body": "| The application presents a consistent Rule Engine console shell with sidebar navigation, top bar, and context-aware header updates when switching between Schema, Rulesets, Functions, Validator, History, and Settings. |\n|",
+      "bodySha256": "8a4c0f72c0101969d6c880d18ee10e9e175f4dd06378e4d662353eee612cd6a7",
+      "dependsOn": [],
+      "id": "X-USECASE:AC-001",
+      "namespace": "X-USECASE",
+      "number": 1,
+      "source": {
+        "line": 157,
+        "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[x-usecase:AC-002]",
+      "body": "| The Rulesets area supports both General Logic and Decision Table modes and exposes designer, canvas, and configuration sub-views that respond to the active mode selection without page reloads. |\n|",
+      "bodySha256": "6d816351b1a403014550a05d73f852654e355a13338e00cf59b263894bac118b",
+      "dependsOn": [],
+      "id": "X-USECASE:AC-002",
+      "namespace": "X-USECASE",
+      "number": 2,
+      "source": {
+        "line": 158,
+        "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[x-usecase:AC-003]",
+      "body": "| The user can observe feedback and status notifications from rule actions, such as a publish operation or system state change, and the validator/history views surface active execution and testing artifacts for review. |\n\n## Planned implementation evidence\n\n| Clause | Expected paths | Planned tests |\n|---|---|---|\n| `x-usecase:AC-001` | `src/app/app.component.ts`, `src/app/app.component.html` | not-applicable: no dedicated UI test file exists; validated by npm run build and a manual browser smoke check |\n| `x-usecase:AC-002` | `src/app/app.component.ts`, `src/app/app.component.html`, `src/app/components/rule-sets/rule-sets.component.ts`, `src/app/components/rule-canvas/rule-canvas.component.ts`, `src/app/components/rule-config/rule-config.component.ts` | not-applicable: no dedicated UI test file exists; validated by npm run build and a manual browser smoke check |\n| `x-usecase:AC-003` | `src/app/data.ts`, `src/app/components/history-logs/history-logs.component.ts`, `src/app/components/validator/shell/shell.component.ts`, `src/app/services/rule-store.service.ts` | not-applicable: no dedicated UI test file exists; validated by npm run build and a manual browser smoke check |\n\n## Initial evidence\n\nThe request is grounded in the repository’s Angular application structure and the existing Rule Engine UI implementation:\n\n- `README.md` identifies the project as a Rule Engine and Angular application entry point.\n- `package.json` confirms the app is an Angular 17 project using `ng build`, `ng test`, and a local server startup flow.\n- `src/app/app.component.ts` defines the active navigation tabs, subviews, notification handling, and rule-engine state integration.\n- `src/app/app.component.html` renders the sidebar, top nav, and multiple dashboard views for schema, rulesets, functions, validator, and history.\n- `src/app/data.ts` and the component set under `src/app/components/` provide the initial decision rules, schema fields, flow nodes, and execution log fixtures used by the console.",
+      "bodySha256": "b5a4d02d9b9db7b60c3d4f59304768edf9a92e986126bf7f8b44de62cc79cb17",
+      "dependsOn": [
+        "X-USECASE:AC-001",
+        "X-USECASE:AC-002"
+      ],
+      "id": "X-USECASE:AC-003",
+      "namespace": "X-USECASE",
+      "number": 3,
+      "source": {
+        "line": 159,
+        "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md"
+      },
+      "type": "AC"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "c062e6f8d2652944057a39b88fe27200693e3815380de557d11a0fc5c2d2ab19",
+  "phase": "intake",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 8157,
+    "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
+    "sha256": "6b5fa63789b2493d44d1bba9974322fdffa6cff45fc45687200b76ac8a4d64c7"
+  },
+  "workId": "x-usecase"
+}
