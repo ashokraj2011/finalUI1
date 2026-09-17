@@ -2595,7 +2595,8 @@
         "path": "artifacts/specification/spec.md",
         "fingerprint": "sha256:3747487b9370c9b74578456a8be4124991aedcf55ac203684a84accf179ca035",
         "bytes": 3763
-      }
+      },
+      "remoteOutputs": []
     },
     "planning": {
       "id": "planning",
@@ -2690,7 +2691,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "implementation": {
       "id": "implementation",
@@ -2799,7 +2801,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "convergence": {
       "id": "convergence",
@@ -2920,7 +2923,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "verification": {
       "id": "verification",
@@ -3046,7 +3050,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "release": {
       "id": "release",
@@ -3142,7 +3147,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     }
   },
   "usage": {
@@ -3303,5 +3309,12 @@
         "createdAt": "2026-09-17T00:34:25.910Z"
       }
     }
-  ]
+  ],
+  "repairBudgets": {},
+  "workIntervals": {
+    "schemaVersion": 1,
+    "current": null,
+    "history": [],
+    "escalations": []
+  }
 }

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "workId": "spec-filter2",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/spec-filter2/context/prompts/specification-gen1.md",
+  "promptSha256": "56a57f65463674cc27bc3ec3efc923e2a1dc729fd4a23362e26ce7a1e32d6d53",
+  "groundingRecordPath": "singularity/work-items/spec-filter2/context/specification-gen1.json",
+  "groundingRecordSha256": "3439d15206b50d13c31b35a3b689f2bccefa5eaf1ed107f85ac19525aaa394a1",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Should the filter block affect the rows used by rule evaluation, or is it only a designer setting?",
+      "answer": "The filter block should be applied before rule evaluation so only the selected rows enter the rule engine; the UI should also expose the same configuration while the rule is being authored.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-17T01:14:15.626Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}
