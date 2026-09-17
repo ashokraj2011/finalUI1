@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "spec-filter2",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "70797770-af3d-468a-84b4-72420bc43649",
+  "changeSet": {
+    "path": "singularity/work-items/spec-filter2/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:1b16d8c53673fd36fa927cd7f335415908bfbbed9be68b32eb8c16f1ea0fbc59",
+    "sourcePaths": [
+      "src/app/services/rule-engine.service.ts",
+      "src/app/types.ts"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "src/app/services/rule-engine.service.spec.ts"
+    ],
+    "supportingTestPaths": []
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "copilot"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "product-source": 2,
+      "test-source": 1
+    },
+    "entries": [
+      {
+        "changeId": "sha256:f2f715a18dd21661722218fb9f9b4ade3f5f19770668b9c5134e79424b21b398",
+        "status": "modified",
+        "oldPath": "src/app/services/rule-engine.service.spec.ts",
+        "newPath": "src/app/services/rule-engine.service.spec.ts",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:9985862ad96ff1af98e6ada0e2614ab9120eebb7c8c237b5bff7db3d03efbcfe",
+        "status": "modified",
+        "oldPath": "src/app/services/rule-engine.service.ts",
+        "newPath": "src/app/services/rule-engine.service.ts",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:190ca727b50ed05f8cf22dc51a6ae785c71fc7b88202f02d9a267980d01bb5ba",
+        "status": "modified",
+        "oldPath": "src/app/types.ts",
+        "newPath": "src/app/types.ts",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [
+      "SPEC-FILTER2:AC-001",
+      "SPEC-FILTER2:AC-002",
+      "SPEC-FILTER2:AC-003"
+    ],
+    "bound": [
+      "SPEC-FILTER2:AC-001",
+      "SPEC-FILTER2:AC-002",
+      "SPEC-FILTER2:AC-003"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "SPEC-FILTER2:AC-001",
+        "testSource": "src/app/services/rule-engine.service.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "SPEC-FILTER2:AC-002",
+        "testSource": "src/app/services/rule-engine.service.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "SPEC-FILTER2:AC-003",
+        "testSource": "src/app/services/rule-engine.service.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:5ff5559e6221731a4da5fec647a4532d5fd384f603c4e05a11f490ad4ff54b4e",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": true,
+    "authorshipProducer": "governed-agent",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-09-17T02:02:08.421Z"
+}

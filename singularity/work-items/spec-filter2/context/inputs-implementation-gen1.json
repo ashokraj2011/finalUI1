@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "workId": "spec-filter2",
+  "workType": "spec-driven-standard",
+  "phase": "implementation",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-17T02:02:08.387Z",
+  "renderedSha256": "ad836a2ed5c4cc6aa32569abcd2f8b7e7b0ac7b8e41996f9a7a0525ee1110c60",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/spec-filter2/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-17T01:40:09.430Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "8cff71a2ee7b52547da09076faf3f4f0384412b677d9cc067728ec83e0f79699",
+      "sha256": "8cff71a2ee7b52547da09076faf3f4f0384412b677d9cc067728ec83e0f79699",
+      "bytes": 16053,
+      "source": {
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md",
+        "rawSha256": "sha256:8cff71a2ee7b52547da09076faf3f4f0384412b677d9cc067728ec83e0f79699"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:4f8ef38d4db311b4dd33eed208f3aab3507a7e8accf58264a56cf1b59e11ff96",
+        "bytes": 3613,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:spec-filter2:04978f42433dc9372653abfe19f51313c80d21516d2ebebeb4d37f3eaf5d7c86"
+      },
+      "injectedBytes": 3613,
+      "truncated": false,
+      "authoredBytes": 7608,
+      "managedBytesExcluded": 8445,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Requirements",
+          "Non-functional requirements",
+          "Boundary conditions"
+        ],
+        "maximumSummaryBytes": 32768,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-implementation.md",
+        "briefSha256": "4f8ef38d4db311b4dd33eed208f3aab3507a7e8accf58264a56cf1b59e11ff96",
+        "expansionHandle": "sfref:v1:story:spec-filter2:04978f42433dc9372653abfe19f51313c80d21516d2ebebeb4d37f3eaf5d7c86"
+      }
+    },
+    {
+      "phase": "planning",
+      "path": "artifacts/planning/plan.md",
+      "repositoryPath": "singularity/work-items/spec-filter2/artifacts/planning/plan.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-17T01:52:55.773Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "ba31b9e0deaf2cda9709b4fdedf6e99d9526d9e2d7b50793f58bd09d5c8a6472",
+      "sha256": "ba31b9e0deaf2cda9709b4fdedf6e99d9526d9e2d7b50793f58bd09d5c8a6472",
+      "bytes": 18259,
+      "source": {
+        "path": "singularity/work-items/spec-filter2/artifacts/planning/plan.md",
+        "rawSha256": "sha256:ba31b9e0deaf2cda9709b4fdedf6e99d9526d9e2d7b50793f58bd09d5c8a6472"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:d7cba6e5e21467ebd466417998d31948cbf461594ad51de3dc900630f8c1b776",
+        "bytes": 4029,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:spec-filter2:2d5e9147c2076358fb8742a6a7ca239bcaebb6ce26336f02bc0bfdac2614092d"
+      },
+      "injectedBytes": 4029,
+      "truncated": false,
+      "authoredBytes": 6826,
+      "managedBytesExcluded": 11433,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Test strategy",
+          "Risks and rollback"
+        ],
+        "maximumSummaryBytes": 24576,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/spec-filter2/context/briefs/planning-gen1-for-implementation.md",
+        "briefSha256": "d7cba6e5e21467ebd466417998d31948cbf461594ad51de3dc900630f8c1b776",
+        "expansionHandle": "sfref:v1:story:spec-filter2:2d5e9147c2076358fb8742a6a7ca239bcaebb6ce26336f02bc0bfdac2614092d"
+      }
+    }
+  ]
+}

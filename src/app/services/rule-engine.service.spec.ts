@@ -95,6 +95,69 @@ describe('RuleEngineService', () => {
     });
   });
 
+  describe('record filtering', () => {
+    it('filters, sorts, and selects the expected rows before evaluation @ac:SPEC-FILTER2:AC-001', () => {
+      const rows = [
+        { id: 1, score: 10, status: 'open' },
+        { id: 2, score: 50, status: 'open' },
+        { id: 3, score: 20, status: 'closed' },
+        { id: 4, score: 40, status: 'open' },
+      ];
+
+      const filtered = service.applyRecordFilter(rows, {
+        collection: 'transactions',
+        field: 'status',
+        operator: 'equal_to',
+        value: 'open',
+        sortField: 'score',
+        sortDirection: 'desc',
+        selectionMode: 'first',
+        selectionCount: 2,
+      });
+
+      expect(filtered.map((row: any) => row.id)).toEqual([2, 4]);
+    });
+
+    it('applies a bounded range selection after sorting @ac:SPEC-FILTER2:AC-002', () => {
+      const rows = [
+        { id: 1, score: 10 },
+        { id: 2, score: 20 },
+        { id: 3, score: 30 },
+        { id: 4, score: 40 },
+      ];
+
+      const filtered = service.applyRecordFilter(rows, {
+        collection: 'transactions',
+        field: 'score',
+        operator: 'greater_than',
+        value: 0,
+        sortField: 'score',
+        sortDirection: 'asc',
+        selectionMode: 'range',
+        rangeStart: 1,
+        rangeEnd: 3,
+      });
+
+      expect(filtered.map((row: any) => row.id)).toEqual([2, 3]);
+    });
+
+    it('keeps empty and partial data states visible instead of silently discarding them @ac:SPEC-FILTER2:AC-003', () => {
+      const rows: any[] = [];
+      const filtered = service.applyRecordFilter(rows, {
+        collection: 'transactions',
+        field: 'score',
+        operator: 'greater_than',
+        value: 0,
+        sortField: 'score',
+        sortDirection: 'desc',
+        selectionMode: 'all',
+      });
+
+      expect(filtered).toEqual([]);
+      expect(service.describeSelectionState({ selectionMode: 'all', sortDirection: 'desc' })).toContain('all');
+    });
+  });
+
   describe('syncGlossary', () => {
     // service.schema is the shared SAMPLE_SCHEMA singleton also used by kernel.spec.ts,
     // so any mutation here must be undone or it leaks into other spec files.

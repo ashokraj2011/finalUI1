@@ -9,6 +9,7 @@ import {
   Term,
   TestDataSnapshot,
 } from '../models/types';
+import { RecordFilterConfig, RecordFilterState } from '../types';
 import {
   Evaluator,
   Finding,
@@ -152,5 +153,78 @@ export class RuleEngineService {
   /** Human-readable label for a comparison term. */
   comparisonLabel(term: ComparisonTerm): string {
     return comparisonLabel(term);
+  }
+
+  /** Apply a record filter before evaluation using the same semantics as the visual filter tool. */
+  applyRecordFilter<T extends Record<string, any>>(rows: T[], config: RecordFilterConfig): T[] {
+    const mode = config.selectionMode ?? 'all';
+    const sortField = config.sortField || config.field;
+    const sortDirection = config.sortDirection ?? 'asc';
+    const normalizedRows = (rows || []).filter((row) => {
+      if (!config.field) return true;
+      const actual = row?.[config.field];
+
+      switch (config.operator) {
+        case 'equal_to':
+          return actual === config.value;
+        case 'not_equal_to':
+          return actual !== config.value;
+        case 'greater_than':
+          return actual > config.value;
+        case 'greater_than_equal':
+          return actual >= config.value;
+        case 'less_than':
+          return actual < config.value;
+        case 'less_than_equal':
+          return actual <= config.value;
+        case 'contains':
+          return String(actual ?? '').includes(String(config.value ?? ''));
+        case 'not_contains':
+          return !String(actual ?? '').includes(String(config.value ?? ''));
+        case 'in':
+          return Array.isArray(config.value) ? config.value.includes(actual) : String(actual) === String(config.value);
+        case 'not_in':
+          return Array.isArray(config.value) ? !config.value.includes(actual) : String(actual) !== String(config.value);
+        default:
+          return true;
+      }
+    });
+
+    const sorted = [...normalizedRows].sort((a, b) => {
+      const aValue = a?.[sortField];
+      const bValue = b?.[sortField];
+      const aNum = typeof aValue === 'number' ? aValue : Number(aValue ?? 0);
+      const bNum = typeof bValue === 'number' ? bValue : Number(bValue ?? 0);
+      if (aValue == null && bValue == null) return 0;
+      if (aValue == null) return 1;
+      if (bValue == null) return -1;
+      if (typeof aValue === 'string' && typeof bValue === 'string') {
+        return sortDirection === 'desc' ? bValue.localeCompare(aValue) : aValue.localeCompare(bValue);
+      }
+      return sortDirection === 'desc' ? bNum - aNum : aNum - bNum;
+    });
+
+    switch (mode) {
+      case 'first':
+        return sorted.slice(0, Math.max(0, config.selectionCount ?? sorted.length));
+      case 'last':
+        return sorted.slice(-Math.max(0, config.selectionCount ?? sorted.length));
+      case 'range': {
+        const start = Math.max(0, config.rangeStart ?? 0);
+        const end = Math.max(start, config.rangeEnd ?? sorted.length);
+        return sorted.slice(start, end);
+      }
+      case 'all':
+      default:
+        return sorted;
+    }
+  }
+
+  describeSelectionState(config: Partial<RecordFilterState>): string {
+    const mode = config.selectionMode ?? 'all';
+    const count = config.selectionCount ?? 0;
+    const start = config.rangeStart ?? 0;
+    const end = config.rangeEnd ?? start;
+    return `${mode} filter` + (mode === 'first' || mode === 'last' ? ` (${count})` : mode === 'range' ? ` (${start}-${end})` : '');
   }
 }

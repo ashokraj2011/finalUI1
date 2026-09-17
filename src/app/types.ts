@@ -81,3 +81,29 @@ export interface ExecutionTraceLog {
     details: string;
   }[];
 }
+
+export type FilterSelectionMode = 'all' | 'first' | 'last' | 'range';
+export type FilterSortDirection = 'asc' | 'desc';
+
+export interface RecordFilterConfig {
+  collection: string;
+  field: string;
+  operator: string;
+  value: any;
+  sortField?: string;
+  sortDirection?: FilterSortDirection;
+  selectionMode?: FilterSelectionMode;
+  selectionCount?: number;
+  rangeStart?: number;
+  rangeEnd?: number;
+}
+
+export interface RecordFilterState {
+  hasFilter: boolean;
+  selectionMode: FilterSelectionMode;
+  sortField?: string;
+  sortDirection?: FilterSortDirection;
+  rangeStart?: number;
+  rangeEnd?: number;
+  selectionCount?: number;
+}

@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "kind": "repository-change-set",
+  "subject": {
+    "workId": "spec-filter2",
+    "phase": "implementation",
+    "generation": 1,
+    "generationIntentId": "70797770-af3d-468a-84b4-72420bc43649"
+  },
+  "base": {
+    "commit": "0554b8d9632aea5dcaa4c60e8fce4c5594bc215f",
+    "tree": "85c8d03c7af12690048bf4fa25979ad23b8fa0d1"
+  },
+  "target": {
+    "head": "7569d398f7499cca98b22e8b142f0f7d72234201",
+    "includesIndex": true,
+    "includesWorktree": true,
+    "includesUntracked": true,
+    "caseInsensitivePaths": true
+  },
+  "entries": [
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/spec-filter2/approvals/planning.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "0527ee77571aaddbff138ab8aff90ac888b35946",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:336537fb24984e989cdaa5dfb56d0699bd31ae3bfa677299c1aadd201c3fe577",
+        "bytes": 3508
+      },
+      "changeId": "sha256:d3e4619976aa01f95ee63bbf96f755bea5fd413aa55f0a173d5cc36e73e7bba0"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/spec-filter2/approvals/planning/2026-09-17T01-52-55-773Z-approved.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "4f5d4733bc3da57a4c7e42c6c9947c5ddc91e3a4",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:27114410ba9a5073b6b769cdd9a1301c7f7c9fbf1ef707c1fe35cdc381da5e4a",
+        "bytes": 3154
+      },
+      "changeId": "sha256:e45e1d0ce794f26a4acced5a7b796fd197fc852d270afa3021b13b58288d0c58"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/spec-filter2/artifacts/implementation/implementation-summary.md",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:5ab7dec3b72cc4e1149f0317e69b0668814c85bb2c5a18529c57a92afb87f6fd",
+        "bytes": 13949
+      },
+      "changeId": "sha256:6a96b949102342609496a4730d5cbf9940846bc0c044be5eda37b2108a10fe73"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/spec-filter2/context/generation-start/implementation-gen1.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:fe89b7fb443c41707a9cd5454865b09d378321d726ab089f32a152a322dfbb6a",
+        "bytes": 1251
+      },
+      "changeId": "sha256:5bba0f3c60b2fcc5bc9da59f92f53f29e3ba2583d10a441aa2d315adec4e5485"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/spec-filter2/context/implementation-gen1.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:7062abe9b9369f4f3d5e27c59aa42a8d7a75e7bd58b171914530399e849071c3",
+        "bytes": 90435
+      },
+      "changeId": "sha256:39097d04986ec43c3e384bf1dce187f9f430c3c1d66d8987828022379d57707a"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/spec-filter2/context/inputs-implementation-gen1.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:ad2310ab2de253dbc3806fae175d51eb18b4aea0e1d7c2cd852b2d390bc7c10b",
+        "bytes": 4083
+      },
+      "changeId": "sha256:c281aebbfe7fdb42dd7302df5c0dae99b6f139e77c2f42a673b943df27297fc7"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/spec-filter2/context/ledger-intents/30445b2c-74ab-4461-846b-9499489fae78.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "62ae75eef8b31fb38b3038a877c991ac5c821087",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:8a4264b69c64c6a59a49e864f4b7f150626cb9a4ee09fecd3be5e4183acbbe5d",
+        "bytes": 2133
+      },
+      "changeId": "sha256:07a6a79b7a6242316a93a4667de211b4ddeae54c9c614cb4481c72f1616f9570"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/spec-filter2/context/prompts/implementation-gen1.md",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:64356d6b79875863fae2c955169f9aa21b511f1ae2237f9c078afe931a0792cc",
+        "bytes": 32664
+      },
+      "changeId": "sha256:28f815ac49998651fbe511e2cfca4d29dbb62e368c9284cbcdbe1e841fea8848"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/spec-filter2/context/work-intervals/implementation-gen1-baseline.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "0be0a80afcef2c1c1ad8b2bb66adc4270fe29caa",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:ca631049ae48a18d33f8e77f849ac97818eacce4cde95221a8b09428a52952c0",
+        "bytes": 1682
+      },
+      "changeId": "sha256:cb0be415c8312dd3291c387ceadb1da0bd4abb8a00be25ef91357d935885ee8e"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/spec-filter2/STATUS.md",
+      "newPath": "singularity/work-items/spec-filter2/STATUS.md",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "58e04819e5043ecac6852d870ff3ca0caa1d5011",
+      "newObject": "9db0d749243d723d86ef8e0b95b104d731ec5b71",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:751d7e4af0af490886605cd5d25a7b40d50f99e49a0ad66409b3d569de0a488e",
+        "bytes": 2230
+      },
+      "changeId": "sha256:a2a56d25277b6481d7542b3adb41ef0ce993f13c7a32602b40a6395306a075f2"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/spec-filter2/artifacts/planning/plan.md",
+      "newPath": "singularity/work-items/spec-filter2/artifacts/planning/plan.md",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "c6bc0ab7cc137c06e13f68c30a9ddd5cf9743166",
+      "newObject": "7981db3261c913ed2318beab8152dc677b2b9c2a",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:ba31b9e0deaf2cda9709b4fdedf6e99d9526d9e2d7b50793f58bd09d5c8a6472",
+        "bytes": 18259
+      },
+      "changeId": "sha256:17b8e327d69957711f46a71c94642682a5f0f4e371a0192c3f262bb35c711e18"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/spec-filter2/workflow.json",
+      "newPath": "singularity/work-items/spec-filter2/workflow.json",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "22bda4663ffd2a06a87a01b9d34a253f9306615f",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:43e287c00cda0a497d4554bbab1bb2e55ba54088b1d47f2e6ddab504efb3bb89",
+        "bytes": 191645
+      },
+      "changeId": "sha256:a8e73802b582e0469af2f20059735c9523a30f81f862900a6e15f31109d3e941"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "src/app/services/rule-engine.service.spec.ts",
+      "newPath": "src/app/services/rule-engine.service.spec.ts",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "da711aea260927f8c5551c37b2c1e6e7b6afed04",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:63ff93b8e9629e0f25cdeb462859a7eac790952d0bcedaf9ec5f26846f505b0f",
+        "bytes": 7418
+      },
+      "changeId": "sha256:f2f715a18dd21661722218fb9f9b4ade3f5f19770668b9c5134e79424b21b398"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "src/app/services/rule-engine.service.ts",
+      "newPath": "src/app/services/rule-engine.service.ts",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "e8159d4b72266445dceabbeb155e0bdc9e8c8336",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:1fe3f5e23301f4b4cae31beee79f25f577e21f6dd6ef14fe618e06d97b70c855",
+        "bytes": 8619
+      },
+      "changeId": "sha256:9985862ad96ff1af98e6ada0e2614ab9120eebb7c8c237b5bff7db3d03efbcfe"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "src/app/types.ts",
+      "newPath": "src/app/types.ts",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "ff89172cd3859c41923deee68f2d20752b43d086",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:36f53339d8c81e800bc2965c804c13e22e001d1b72c99a4d1c8cb5e474cd0603",
+        "bytes": 2391
+      },
+      "changeId": "sha256:190ca727b50ed05f8cf22dc51a6ae785c71fc7b88202f02d9a267980d01bb5ba"
+    }
+  ],
+  "digest": "sha256:1b16d8c53673fd36fa927cd7f335415908bfbbed9be68b32eb8c16f1ea0fbc59"
+}
