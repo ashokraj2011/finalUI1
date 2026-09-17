@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-reconciliation",
+  "workId": "spec-filter2",
+  "workType": "spec-driven-standard",
+  "intervalId": "INT-implementation-G1-001",
+  "phaseId": "implementation",
+  "generation": 1,
+  "baselineSha256": "b2d8c8e065ead6e69dbb8057e2751b813575ce478725946d6643d970e04946c1",
+  "baseline": {
+    "path": "singularity/work-items/spec-filter2/context/work-intervals/implementation-gen1-baseline.json",
+    "sha256": "b2d8c8e065ead6e69dbb8057e2751b813575ce478725946d6643d970e04946c1",
+    "verified": true,
+    "sourceBaseCommit": "0554b8d9632aea5dcaa4c60e8fce4c5594bc215f"
+  },
+  "sourceBaseCommit": "0554b8d9632aea5dcaa4c60e8fce4c5594bc215f",
+  "target": {
+    "branch": "spec-filter2",
+    "head": "ccf18637d57201cf6456b9a7d62c3b260944e6b9",
+    "includesWorktree": false,
+    "cleanApplicationTree": true,
+    "uncommittedApplicationPaths": []
+  },
+  "findings": [
+    {
+      "path": "src/app/services/rule-engine.service.spec.ts",
+      "status": "present",
+      "sha256": "63ff93b8e9629e0f25cdeb462859a7eac790952d0bcedaf9ec5f26846f505b0f",
+      "bytes": 7418,
+      "verdict": "planned",
+      "clauseIds": [
+        "SPEC-FILTER2:AC-001",
+        "SPEC-FILTER2:AC-002",
+        "SPEC-FILTER2:AC-003",
+        "SPEC-FILTER2:REQ-001",
+        "SPEC-FILTER2:REQ-002",
+        "SPEC-FILTER2:REQ-003",
+        "SPEC-FILTER2:REQ-004",
+        "SPEC-FILTER2:REQ-005",
+        "SPEC-FILTER2:REQ-006",
+        "SPEC-FILTER2:REQ-007",
+        "SPEC-FILTER2:REQ-008",
+        "SPK:REQ-100",
+        "SPK:REQ-101"
+      ],
+      "protected": false
+    },
+    {
+      "path": "src/app/services/rule-engine.service.ts",
+      "status": "present",
+      "sha256": "1fe3f5e23301f4b4cae31beee79f25f577e21f6dd6ef14fe618e06d97b70c855",
+      "bytes": 8619,
+      "verdict": "planned",
+      "clauseIds": [
+        "SPEC-FILTER2:AC-002",
+        "SPEC-FILTER2:AC-003",
+        "SPEC-FILTER2:REQ-005",
+        "SPEC-FILTER2:REQ-007",
+        "SPEC-FILTER2:REQ-008",
+        "SPEC-FILTER2:REQ-010",
+        "SPK:REQ-100"
+      ],
+      "protected": false
+    },
+    {
+      "path": "src/app/types.ts",
+      "status": "present",
+      "sha256": "36f53339d8c81e800bc2965c804c13e22e001d1b72c99a4d1c8cb5e474cd0603",
+      "bytes": 2391,
+      "verdict": "planned",
+      "clauseIds": [
+        "SPEC-FILTER2:AC-001",
+        "SPEC-FILTER2:REQ-006",
+        "SPEC-FILTER2:REQ-008"
+      ],
+      "protected": false
+    }
+  ],
+  "summary": {
+    "changedPaths": 3,
+    "planned": 3,
+    "unplanned": 0,
+    "protected": 0
+  },
+  "decision": {
+    "status": "aligned",
+    "summaryStatus": "clear",
+    "eligibleForSubmission": true,
+    "reasons": [],
+    "escalationTarget": null
+  },
+  "reconciliationSha256": "481789afb02b06b31a1b4c3c8b7a7f55c9591f5f4cdd7ea97c615cce7c6af16d",
+  "reconciledAt": "2026-09-17T02:11:29.710Z",
+  "final": true,
+  "recordedAt": "2026-09-17T02:11:29.710Z",
+  "path": "singularity/work-items/spec-filter2/context/work-intervals/reconciliations/481789afb02b06b31a1b4c3c8b7a7f55c9591f5f4cdd7ea97c615cce7c6af16d.json"
+}
