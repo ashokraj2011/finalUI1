@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 2,
+  "kind": "planned",
+  "recordedAt": "2026-09-17T01:46:34.069Z",
+  "claims": {
+    "SPEC-FILTER2:REQ-001": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:REQ-002": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:REQ-003": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:REQ-004": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:REQ-005": {
+      "expectedPaths": [
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:REQ-006": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts",
+        "src/app/types.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:REQ-007": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts",
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "tests": [
+        "src/app/kernel/kernel.spec.ts",
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:REQ-008": {
+      "expectedPaths": [
+        "src/app/services/rule-engine.service.ts",
+        "src/app/types.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:REQ-009": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts"
+      ],
+      "tests": [
+        "src/app/components/sidebar/sidebar.component.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:REQ-010": {
+      "expectedPaths": [
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "tests": [
+        "src/app/kernel/kernel.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:AC-001": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts",
+        "src/app/types.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:AC-002": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts",
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPEC-FILTER2:AC-003": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts",
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "tests": [
+        "src/app/kernel/kernel.spec.ts",
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPK:REQ-100": {
+      "expectedPaths": [
+        "src/app/components/rule-sets/rule-sets.component.ts",
+        "src/app/services/rule-engine.service.ts"
+      ],
+      "tests": [
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPK:REQ-101": {
+      "expectedPaths": [
+        "singularity/work-items/spec-filter2/artifacts/planning/plan.md"
+      ],
+      "tests": [
+        "src/app/kernel/kernel.spec.ts",
+        "src/app/services/rule-engine.service.spec.ts"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    }
+  },
+  "workId": "spec-filter2",
+  "phase": "planning",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/spec-filter2/artifacts/planning/plan.md",
+    "sha256": "8223d5463f7ae0697b519cad6ed2f465f8ce7f5d8a55e749c39daafee5b2e06e",
+    "bytes": 14746
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "workId": "spec-filter2",
+  "workType": "spec-driven-standard",
+  "phase": "planning",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-17T01:46:33.983Z",
+  "renderedSha256": "89d8dcbbb1aa90f9d36655fefe9e90313db3293afef3bba122fe5017d712a103",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/spec-filter2/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-17T01:40:09.430Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "8cff71a2ee7b52547da09076faf3f4f0384412b677d9cc067728ec83e0f79699",
+      "sha256": "8cff71a2ee7b52547da09076faf3f4f0384412b677d9cc067728ec83e0f79699",
+      "bytes": 16053,
+      "source": {
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md",
+        "rawSha256": "sha256:8cff71a2ee7b52547da09076faf3f4f0384412b677d9cc067728ec83e0f79699"
+      },
+      "representation": {
+        "kind": "summary",
+        "sha256": "sha256:f0498e67300394f01a23f39487679882a286ec42d5242add178bb11fc25d5e97",
+        "bytes": 3607,
+        "complete": false,
+        "expansionHandle": "sfref:v1:story:spec-filter2:04978f42433dc9372653abfe19f51313c80d21516d2ebebeb4d37f3eaf5d7c86"
+      },
+      "injectedBytes": 3607,
+      "truncated": false,
+      "authoredBytes": 7608,
+      "managedBytesExcluded": 8445,
+      "projection": {
+        "kind": "approved-summary",
+        "preserve": [
+          "Requirements",
+          "Non-functional requirements",
+          "Boundary conditions"
+        ],
+        "maximumSummaryBytes": 32768,
+        "expansion": "hash-bound-reference",
+        "fallback": "whole",
+        "briefPath": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-planning.md",
+        "briefSha256": "f0498e67300394f01a23f39487679882a286ec42d5242add178bb11fc25d5e97",
+        "expansionHandle": "sfref:v1:story:spec-filter2:04978f42433dc9372653abfe19f51313c80d21516d2ebebeb4d37f3eaf5d7c86"
+      }
+    }
+  ]
+}
