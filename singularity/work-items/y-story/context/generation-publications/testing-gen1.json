@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "kind": "generation-publication",
+  "workId": "y-story",
+  "phase": "testing",
+  "generation": 1,
+  "generationIntentId": null,
+  "generationStart": null,
+  "changeSet": {
+    "path": null,
+    "digest": null
+  },
+  "resultDigest": "sha256:d74ad0f6d5bf8f5dbabdc50dbb68ab73a039de2e27e611c6b6ed147dde571cbf",
+  "architectureIntent": null,
+  "architectureDecision": null,
+  "baseline": {
+    "commit": "2d68a4e38ee4423a4f1e5739a74237af0679f87b",
+    "tree": "595826ff50249c858dc9ffa64b69632609d63ae7"
+  },
+  "transactionId": "823d861f-0ac4-45d7-9356-0e687c700492",
+  "eventId": "3bd246c3-7913-488f-b9bc-b6dd11c7e82d",
+  "eventSha256": "sha256:4257b21d2a0a826564fedd735242c735fef1ade0df75b8c8257e9fa97ca4237e",
+  "commitBinding": {
+    "method": "containing-governed-transaction",
+    "commit": "$self",
+    "tree": "$self",
+    "parent": "2d68a4e38ee4423a4f1e5739a74237af0679f87b"
+  },
+  "publishedAt": "2026-09-17T06:32:07.080Z",
+  "recordSha256": "sha256:bebdeccbb81be197a333099a7601f5f7b10bc1b88b8b31195a886b5f4dc9647c"
+}
