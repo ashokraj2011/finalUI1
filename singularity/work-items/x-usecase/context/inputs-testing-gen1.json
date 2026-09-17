@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "workId": "x-usecase",
+  "workType": "classic-delivery",
+  "phase": "testing",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-17T05:05:50.208Z",
+  "renderedSha256": "ddca6602ff67ee050b49b4124b4805606234ea70931c2c14cc6336cfe952fc27",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "intake",
+      "path": "artifacts/intake/intake.md",
+      "repositoryPath": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-17T04:47:15.282Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "369172b14be5dc40577afe04d79df876db62dcd79049daa463887074e789ad3c",
+      "sha256": "369172b14be5dc40577afe04d79df876db62dcd79049daa463887074e789ad3c",
+      "bytes": 9942,
+      "source": {
+        "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
+        "rawSha256": "sha256:369172b14be5dc40577afe04d79df876db62dcd79049daa463887074e789ad3c"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:aa99ac26047f48ecd75e8ea98815b0e4eb3ca50469e7ad183edd6a8f0f89058a",
+        "bytes": 4513,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:x-usecase:f76fb9bea9047fe923096b68c3b8d744f664b94b962b1e2ec3b5c8a08c7107ce"
+      },
+      "injectedBytes": 4513,
+      "truncated": false,
+      "authoredBytes": 4513,
+      "managedBytesExcluded": 5429,
+      "projection": {
+        "kind": "full"
+      }
+    },
+    {
+      "phase": "implementation",
+      "path": "artifacts/implementation/implementation-summary.md",
+      "repositoryPath": "singularity/work-items/x-usecase/artifacts/implementation/implementation-summary.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-17T05:02:42.919Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "97b7ca73201cb10d8d71af8937d772129363e568bc9bc0fc0b2acc03b74afede",
+      "sha256": "97b7ca73201cb10d8d71af8937d772129363e568bc9bc0fc0b2acc03b74afede",
+      "bytes": 15589,
+      "source": {
+        "path": "singularity/work-items/x-usecase/artifacts/implementation/implementation-summary.md",
+        "rawSha256": "sha256:97b7ca73201cb10d8d71af8937d772129363e568bc9bc0fc0b2acc03b74afede"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:69c6a0c8a44f2ca4a0dd92f42e1a91daae6234430568ecc1c0897d7a719fab91",
+        "bytes": 4285,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:x-usecase:90fc20d73898463891afcc13d74ea94cc6b2a2a9f2cfbd0d88699ca1840071fb"
+      },
+      "injectedBytes": 4285,
+      "truncated": false,
+      "authoredBytes": 4285,
+      "managedBytesExcluded": 11304,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}
