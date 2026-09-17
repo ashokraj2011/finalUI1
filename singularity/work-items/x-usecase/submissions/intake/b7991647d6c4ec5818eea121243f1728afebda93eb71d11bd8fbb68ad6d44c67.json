@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 2,
+  "workId": "x-usecase",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "x-usecase",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "x-usecase",
+  "submittedBranch": "x-usecase",
+  "submissionCommit": "3352f9e5d1591fa6f9fc0169b4c4b54d00b3f2d2",
+  "sourceCommit": "3352f9e5d1591fa6f9fc0169b4c4b54d00b3f2d2",
+  "sourceTreeSha256": "sha256:b68050e90d8cb4e53450f429d707bb3bd072d4602cf361eddb59a9f252e7e346",
+  "phase": "intake",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "product-owner"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "changeOrigins": [
+      "copilot"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "intake.md",
+      "mediaType": "text/markdown",
+      "sha256": "aa99ac26047f48ecd75e8ea98815b0e4eb3ca50469e7ad183edd6a8f0f89058a",
+      "bytes": 4513
+    },
+    "generation": 1,
+    "publishedAt": "2026-09-17T04:44:02.447Z"
+  },
+  "artifacts": [
+    {
+      "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
+      "kind": "document",
+      "sha256": "b3268e08a056a7b24f06617454eb8c429eb1b7507ac5de058c89e9379ee3c78d",
+      "size": 8239,
+      "reference": {
+        "handle": "sfref:v1:story:x-usecase:f76fb9bea9047fe923096b68c3b8d744f664b94b962b1e2ec3b5c8a08c7107ce",
+        "recordHash": "f76fb9bea9047fe923096b68c3b8d744f664b94b962b1e2ec3b5c8a08c7107ce"
+      }
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:x-usecase:f76fb9bea9047fe923096b68c3b8d744f664b94b962b1e2ec3b5c8a08c7107ce",
+      "recordHash": "f76fb9bea9047fe923096b68c3b8d744f664b94b962b1e2ec3b5c8a08c7107ce",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "agentBriefs": [],
+  "checks": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-17T04:44:02.447Z",
+      "completedAt": "2026-09-17T04:44:02.447Z",
+      "agent": "product-owner",
+      "generation": 1
+    }
+  ],
+  "approvals": [],
+  "visualAssurance": null,
+  "submissionEvidence": {
+    "architectureIntent": null,
+    "architectureDecision": null,
+    "testExecutions": [],
+    "claimMaps": [
+      {
+        "kind": "planned",
+        "generation": 1,
+        "path": "singularity/work-items/x-usecase/context/claims/intake-gen1-planned.json",
+        "sha256": "97f80168f127956293ea40c7a7098459317f1ca4ac24c17bffd885bc56890b68"
+      }
+    ],
+    "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "artifactSetSha256": "c4f7d3e293360ea7e5088e4d4849e8283c4436a534871a239a1a15cf41dee59f"
+  },
+  "witnessReview": {
+    "enrollment": {
+      "schemaVersion": 1,
+      "mode": "disabled",
+      "witnessedClauses": {
+        "enabled": false,
+        "profiles": []
+      },
+      "testcaseExact": {
+        "mode": "disabled",
+        "profile": null,
+        "requiredAssurance": "unavailable",
+        "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+      },
+      "claimMapContractVersion": 2,
+      "cab": null,
+      "sgos": null,
+      "rollout": {
+        "id": "wel-v0.2-observe",
+        "version": 1,
+        "enrollment": "new-story-only"
+      },
+      "configurationAuthority": {
+        "repository": "https://github.com/ashokraj2011/finalUI1.git",
+        "branch": "sflow/config",
+        "commit": "9fff0fa2ce50df2c656b2551aef16cb2a5f41555",
+        "projectionSha256": "56d51573febdba782593f49259d847b8d2f0b0049a2de47bc89d6aff91ca6cb6"
+      }
+    },
+    "enrollmentClassification": "enrolled",
+    "enrollmentReason": null,
+    "clauseMappings": [],
+    "testcaseObservations": []
+  },
+  "submittedAt": "2026-09-17T04:44:54.219Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "b7991647d6c4ec5818eea121243f1728afebda93eb71d11bd8fbb68ad6d44c67"
+}
