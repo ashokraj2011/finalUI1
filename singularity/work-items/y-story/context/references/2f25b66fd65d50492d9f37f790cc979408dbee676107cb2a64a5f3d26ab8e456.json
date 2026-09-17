@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "conformance-report",
+    "path": "singularity/work-items/y-story/artifacts/conformance/spec-code-comparison.md",
+    "phaseId": "conformance"
+  },
+  "createdAt": "2026-09-17T06:56:00.423Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 26356,
+    "commitSha": "a15f3731062efc81b2b28cf322d6f6b6f1bc0453",
+    "sha256": "64cafffe8b6269b844455e11ab4043495d8664b22ff63e7735f680fce08e0d96"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "y-story",
+    "id": "y-story",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
