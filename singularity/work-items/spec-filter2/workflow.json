@@ -2577,18 +2577,115 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
-      "generatedAgent": null,
-      "authorship": [],
-      "usage": [],
-      "telemetry": [],
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "generatedAgent": "product-owner",
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "governed-agent",
+          "channel": "copilot-host",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "product-owner"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "changeOrigins": [
+            "copilot"
+          ],
+          "source": {
+            "kind": "in-place",
+            "filename": "spec.md",
+            "mediaType": "text/markdown",
+            "sha256": "555b9ff8a07e231a22ae11f051def99cbf500822d2df227cdd7534567fc4b29e",
+            "bytes": 7608
+          },
+          "generation": 1,
+          "publishedAt": "2026-09-17T01:25:35.328Z"
+        }
+      ],
+      "usage": [
+        {
+          "status": "unavailable",
+          "source": "copilot-otel-unavailable",
+          "provider": null,
+          "model": null,
+          "requestedModel": null,
+          "resolvedModel": null,
+          "resolvedModelAssurance": "unavailable",
+          "inputTokens": null,
+          "outputTokens": null,
+          "cachedInputTokens": null,
+          "cacheWriteInputTokens": null,
+          "totalTokens": null,
+          "providerCost": null,
+          "costStatus": "unavailable",
+          "spans": null,
+          "startedAt": "2026-09-17T01:25:35.328Z",
+          "completedAt": "2026-09-17T01:25:35.328Z",
+          "agent": "product-owner",
+          "generation": 1
+        }
+      ],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/spec-filter2/telemetry/specification-gen1.json",
+          "sha256": "8be2ea6d594c3688b456fecfd0866b59e5b35d437df39604202ebbae98318b30",
+          "status": "pending",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
-      "generationPublications": [],
+      "generationPublications": [
+        {
+          "generation": 1,
+          "publishedAt": "2026-09-17T01:25:35.328Z",
+          "changeSetDigest": null,
+          "resultDigest": "sha256:a32b695e89850e30f743cf8f4e9bdb92ef880064bddf6c164ec7f285c851a7fb",
+          "resultDigestVersion": 3,
+          "architectureIntent": null,
+          "architectureDecision": null,
+          "record": {
+            "path": "singularity/work-items/spec-filter2/context/generation-publications/specification-gen1.json",
+            "sha256": "sha256:6f0f538c0e48acedbb58f9bfa5adb8fe742ee43e3bee2ef2317df4851971d6bb"
+          }
+        }
+      ],
       "submissionArchitectureDecision": null,
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 11280,
+          "sha256": "c0e218dd8735b95f7f44ec33ea0111311a0279c3ea3be9f333d42139a1165055",
+          "registeredAt": "2026-09-17T01:25:35.361Z",
+          "updatedAt": "2026-09-17T01:25:35.361Z"
+        }
+      ],
       "checks": [],
       "authoringBaseline": {
         "generation": 1,
@@ -2596,7 +2693,129 @@
         "fingerprint": "sha256:3747487b9370c9b74578456a8be4124991aedcf55ac203684a84accf179ca035",
         "bytes": 3763
       },
-      "remoteOutputs": []
+      "remoteOutputs": [],
+      "sidecars": [],
+      "clarifications": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/spec-filter2/context/clarifications-specification-gen1.json",
+          "sha256": "3d0aee502a73592b8e4861cdf03af3c395aab92e926cc09173dd24dcb1897415",
+          "promptSha256": "56a57f65463674cc27bc3ec3efc923e2a1dc729fd4a23362e26ce7a1e32d6d53",
+          "responses": 1,
+          "markers": [],
+          "recordedAt": "2026-09-17T01:14:15.626Z",
+          "recordedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          }
+        }
+      ],
+      "markers": [
+        {
+          "generation": 1,
+          "artifactPath": "singularity/work-items/spec-filter2/artifacts/specification/spec.md",
+          "artifactSha256": "27ef4d463ed8c2ba4bb63b454acbc28cbc81cf0132dcef826e90b8142383be50",
+          "policySha256": "f52b980ffcaf26cf59e2d5c7fb15b38c1bb7fef7e37f4a81603bdfe0b55006ab",
+          "markerMode": "block",
+          "qualityMode": "enforce",
+          "open": [],
+          "findings": 0,
+          "recordedAt": "2026-09-17T01:25:35.328Z"
+        }
+      ],
+      "sourceCommit": "85a60524da7923312c3d35d50a32f5098e4c2108",
+      "agentBriefs": [
+        {
+          "generation": 1,
+          "consumerPhase": "convergence",
+          "status": "ready",
+          "path": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-convergence.json",
+          "renderedPath": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-convergence.md",
+          "sourceSha256": "c0e218dd8735b95f7f44ec33ea0111311a0279c3ea3be9f333d42139a1165055",
+          "sourceBytes": 11280,
+          "renderedSha256": "5e4dce76b833f6510502c067561bf4739b94b92de9e2c697c1730458bd0e693b",
+          "integritySha256": "f8f47e5ccff6e3c2dcc17ab96a9719b8ea37922b885cdca67c7c911eeaddbddc"
+        },
+        {
+          "generation": 1,
+          "consumerPhase": "implementation",
+          "status": "ready",
+          "path": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-implementation.json",
+          "renderedPath": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-implementation.md",
+          "sourceSha256": "c0e218dd8735b95f7f44ec33ea0111311a0279c3ea3be9f333d42139a1165055",
+          "sourceBytes": 11280,
+          "renderedSha256": "4f8ef38d4db311b4dd33eed208f3aab3507a7e8accf58264a56cf1b59e11ff96",
+          "integritySha256": "6a3890e2062a39fac6d1d1a53fca0a308bc720b354520e8703e5cc967ebef55c"
+        },
+        {
+          "generation": 1,
+          "consumerPhase": "planning",
+          "status": "ready",
+          "path": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-planning.json",
+          "renderedPath": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-planning.md",
+          "sourceSha256": "c0e218dd8735b95f7f44ec33ea0111311a0279c3ea3be9f333d42139a1165055",
+          "sourceBytes": 11280,
+          "renderedSha256": "f0498e67300394f01a23f39487679882a286ec42d5242add178bb11fc25d5e97",
+          "integritySha256": "6112fa41e487cd84acc16f10dbec02f5b79b05d5a1cdd5b89131d7471a55b40f"
+        },
+        {
+          "generation": 1,
+          "consumerPhase": "verification",
+          "status": "ready",
+          "path": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-verification.json",
+          "renderedPath": "singularity/work-items/spec-filter2/context/briefs/specification-gen1-for-verification.md",
+          "sourceSha256": "c0e218dd8735b95f7f44ec33ea0111311a0279c3ea3be9f333d42139a1165055",
+          "sourceBytes": 11280,
+          "renderedSha256": "c17851a7e47afe5c315a7fbcc8bf7310517e67982ab28ab71cea4e9a698067a8",
+          "integritySha256": "8d1f76ba072b9763c6a7b35887815dd4ed95c2b1c70d373af9c4ae836970d04b"
+        }
+      ],
+      "artifactSet": {
+        "schemaVersion": 1,
+        "resultType": "artifact-set-catalog",
+        "setId": "spec-driven-specification",
+        "primary": "singularity/work-items/spec-filter2/artifacts/specification/spec.md",
+        "members": [
+          {
+            "path": "singularity/work-items/spec-filter2/artifacts/specification/checklists/requirements.md",
+            "member": "checklists/requirements.md",
+            "role": "specification-quality",
+            "required": false,
+            "authority": "advisory",
+            "directory": false,
+            "exists": false,
+            "sha256": null,
+            "bytes": null,
+            "files": null
+          },
+          {
+            "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md",
+            "member": "spec.md",
+            "role": "specification",
+            "required": true,
+            "authority": "governed",
+            "directory": false,
+            "exists": true,
+            "sha256": "c0e218dd8735b95f7f44ec33ea0111311a0279c3ea3be9f333d42139a1165055",
+            "bytes": 11280,
+            "files": null
+          }
+        ],
+        "bundleSha256": "f3d276a6908b33b13f818b6a3648d939d47375fbe898403bac93706136e28cea",
+        "missingRequired": [],
+        "generation": 1,
+        "preserved": [],
+        "changed": []
+      },
+      "specIndex": {
+        "generation": 1,
+        "path": "singularity/work-items/spec-filter2/context/spec-indexes/specification-gen1.json",
+        "clauses": 15,
+        "indexSha256": "08f3747b634bd489249d48703c49d1fbb33e279ec26a06c845a075163f0b0bf0",
+        "sourceSha256": "c0e218dd8735b95f7f44ec33ea0111311a0279c3ea3be9f333d42139a1165055"
+      }
     },
     "planning": {
       "id": "planning",
@@ -3154,13 +3373,41 @@
   "usage": {
     "mode": "exact-or-unavailable",
     "totalTokens": 0,
-    "records": 0,
+    "records": 1,
     "exactRecords": 0,
-    "unavailableRecords": 0,
-    "byPhase": {},
-    "byAgent": {},
-    "byWorkType": {},
-    "byWorkItem": {}
+    "unavailableRecords": 1,
+    "byPhase": {
+      "specification": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byAgent": {
+      "product-owner": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byWorkType": {
+      "spec-driven-standard": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byWorkItem": {
+      "spec-filter2": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    }
   },
   "telemetry": {
     "schemaVersion": 1,
@@ -3184,6 +3431,14 @@
       "event": "work_started",
       "phase": "specification",
       "detail": "Created spec-driven-standard branch spec-filter2"
+    },
+    {
+      "at": "2026-09-17T01:25:35.406Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_generated",
+      "phase": "specification",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -3307,6 +3562,105 @@
           }
         },
         "createdAt": "2026-09-17T00:34:25.910Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "b8a992f7-a569-48a3-84b9-8a87d8707545",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "spec-filter2",
+          "branch": "spec-filter2"
+        },
+        "phaseId": "specification",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-17T01:25:34.433Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "b8a992f7-a569-48a3-84b9-8a87d8707545",
+        "eventType": "artifact-generated",
+        "capabilityId": "anu-ui",
+        "subject": {
+          "branch": "spec-filter2",
+          "generation": 1,
+          "phase": "specification",
+          "workId": "spec-filter2",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "57c667f951ea2d85be2fd66ff0238080078196487caf577cac71f2b89cef0591",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "e2cd41272a10adc40d0f004b35c269b0a9b1f8a911865ad7fe9709423e0fa2b0",
+          "lifecycleEventId": "b8a992f7-a569-48a3-84b9-8a87d8707545",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "b8a992f7-a569-48a3-84b9-8a87d8707545",
+            "type": "artifact-generated",
+            "subject": {
+              "kind": "story",
+              "id": "spec-filter2",
+              "branch": "spec-filter2"
+            },
+            "phaseId": "specification",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": null,
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-17T01:25:34.433Z"
+          }
+        },
+        "createdAt": "2026-09-17T01:25:34.443Z"
       }
     }
   ],

@@ -1,0 +1,224 @@
+{
+  "clauses": [
+    {
+      "anchor": "[spec-filter2:REQ-001]",
+      "body": "- The filter block must support source collection selection, field comparison, operator, and value entry, matching the same pattern used by the function filter library in the app. *(S1)*",
+      "bodySha256": "0b4e3b3d7f481b7a28c27e6bebff4ce8ea1c00a916907e6b52d8ba161bfd1950",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-001",
+      "namespace": "SPEC-FILTER2",
+      "number": 1,
+      "source": {
+        "line": 188,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter2:REQ-002]",
+      "body": "- The filter block must support ordering by an attribute and direction before row selection so the rule author can choose a sorted record sequence. *(S2)*",
+      "bodySha256": "8758f9315a7ce61d1b27874244881f7c53c132b32ff704744c9ff39ddaff3439",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-002",
+      "namespace": "SPEC-FILTER2",
+      "number": 2,
+      "source": {
+        "line": 189,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter2:REQ-003]",
+      "body": "- The filter block must support selection modes of all, first, last, and range rows, including a bounded start and end index for range selection. *(S2)*",
+      "bodySha256": "96e208062060376ceaf6fc1347739566fbfa37c88d85e612bbbcd26ccfe10232",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-003",
+      "namespace": "SPEC-FILTER2",
+      "number": 3,
+      "source": {
+        "line": 190,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter2:REQ-004]",
+      "body": "- The system must apply the filtered dataset before rule evaluation so downstream decision logic evaluates only the selected records, not the full source set. *(S2)*",
+      "bodySha256": "d4206736e699c86be090da2d9c7da110212395cef5595925129b4cdae7c6bae2",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-004",
+      "namespace": "SPEC-FILTER2",
+      "number": 4,
+      "source": {
+        "line": 191,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter2:REQ-005]",
+      "body": "- The filter configuration must be editable, persisted with the rule definition, and visible in the same designer view used to author the rule. *(S1, S2)*",
+      "bodySha256": "7deabcebafcd95677aaf84b644fccdccb2bbbf4c47ddaf23152f4dbea4d433d4",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-005",
+      "namespace": "SPEC-FILTER2",
+      "number": 5,
+      "source": {
+        "line": 192,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter2:REQ-006]",
+      "body": "- The UI must handle empty, failure, and partial data states without silently producing misleading rule results. *(S2)*",
+      "bodySha256": "65db222a6e98671e32aa63da977f926bf083bb3a61889c81aa966ba220fe937a",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-006",
+      "namespace": "SPEC-FILTER2",
+      "number": 6,
+      "source": {
+        "line": 193,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter2:REQ-007]",
+      "body": "## Acceptance criteria\n\n- In the visual designer, a user can add a filter block to a rule term and configure `sourceCollection`, `filterField`, `filterOperator`, `filterValue`, `sortByField`, `sortDirection`, and `selectionType` without leaving the designer. *(S1)*",
+      "bodySha256": "53a3e4aaf2c27fb42438536e314bf1c46c86446a3ab552b9bb40a887bdd26fdb",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-007",
+      "namespace": "SPEC-FILTER2",
+      "number": 7,
+      "source": {
+        "line": 194,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter2:AC-001]",
+      "body": "- When a user chooses `first`, `last`, or `range`, the filtered rows are ordered and narrowed before the rule engine evaluates them, so only the selected subset participates in the result. *(S2)*",
+      "bodySha256": "2e46ceba9401ba7339f41a83773a4c968ce43c3a34f0f4821667986d2998b135",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:AC-001",
+      "namespace": "SPEC-FILTER2",
+      "number": 1,
+      "source": {
+        "line": 198,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[spec-filter2:AC-002]",
+      "body": "- When the source collection is empty or unavailable, the system displays a clear empty or failure state and prevents misleading rule evaluation with unrelated records. *(S2)*",
+      "bodySha256": "e997597c2d6b83a481e91bd38d56be9a5c079745b4a8a3841fa6e4daaeeff08d",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:AC-002",
+      "namespace": "SPEC-FILTER2",
+      "number": 2,
+      "source": {
+        "line": 199,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[spec-filter2:AC-003]",
+      "body": "## Non-functional requirements\n\n- **Availability and correctness:** the authoring UI must maintain the existing rule validation flow and must not block rule creation when the filter is configured normally. The filter must be deterministic across repeated saves and reloads.",
+      "bodySha256": "95d09b62fdef5adffc95b33e1308139146d62527790083c5aa39a8331f8afc6f",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:AC-003",
+      "namespace": "SPEC-FILTER2",
+      "number": 3,
+      "source": {
+        "line": 200,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[spec-filter2:REQ-008]",
+      "body": "- **Accessibility:** controls for the filter block must use the same keyboard and visible focus patterns as other configuration panels in the rule studio.",
+      "bodySha256": "62b6f68fc472a072828ab2bc82a5e4d935ea24b96b7300d257756a12f7c5fc0a",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-008",
+      "namespace": "SPEC-FILTER2",
+      "number": 8,
+      "source": {
+        "line": 204,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter2:REQ-009]",
+      "body": "- **Observability:** the design must show enough state to diagnose whether the selected records were empty, partially loaded, or filtered by criteria.",
+      "bodySha256": "7751c25d142a30d3a6199badbc5fdcac3fc0de7acf0d0c062da4409b88863ed6",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-009",
+      "namespace": "SPEC-FILTER2",
+      "number": 9,
+      "source": {
+        "line": 205,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[spec-filter2:REQ-010]",
+      "body": "## Constitution articles\n\n-",
+      "bodySha256": "c7907ebcaf40bc6ff05a8e45ab2ba5ffa499d46f7a10bd894e7560d1dbba2ac4",
+      "dependsOn": [],
+      "id": "SPEC-FILTER2:REQ-010",
+      "namespace": "SPEC-FILTER2",
+      "number": 10,
+      "source": {
+        "line": 206,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[SPK:REQ-100]",
+      "body": "The rule studio must preserve user intent and rule authoring context without silently broadening scope.\n-",
+      "bodySha256": "f5f6db73ce9ac31d738f54b545155576b72e36c9bf21ec85b33b72050d337515",
+      "dependsOn": [],
+      "id": "SPK:REQ-100",
+      "namespace": "SPK",
+      "number": 100,
+      "source": {
+        "line": 210,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[SPK:REQ-101]",
+      "body": "Publication is blocked until the specification is complete and contains no unresolved template placeholders.\n\n## Assumptions\n\n- The existing app already exposes a rule canvas and function-filter patterns that can serve as the baseline for the visual designer filter block.\n- Rule evaluation is front-end driven for this story and does not require a separate backend schema migration.\n- `all`, `first`, `last`, and `range` are the supported selection semantics for the current release.\n\n## Out of scope\n\n- Adding a new global function to the functions library itself.\n- Changing the server-side rule engine contract or data ingestion model.\n- Supporting arbitrary custom selection expressions beyond the defined `first`, `last`, `range`, and `all` modes.",
+      "bodySha256": "7505f574eed4e76a0289da49fc6f5372561d916771d2771b937934bb6433f97c",
+      "dependsOn": [],
+      "id": "SPK:REQ-101",
+      "namespace": "SPK",
+      "number": 101,
+      "source": {
+        "line": 211,
+        "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "08f3747b634bd489249d48703c49d1fbb33e279ec26a06c845a075163f0b0bf0",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 11280,
+    "path": "singularity/work-items/spec-filter2/artifacts/specification/spec.md",
+    "sha256": "c0e218dd8735b95f7f44ec33ea0111311a0279c3ea3be9f333d42139a1165055"
+  },
+  "workId": "spec-filter2"
+}
