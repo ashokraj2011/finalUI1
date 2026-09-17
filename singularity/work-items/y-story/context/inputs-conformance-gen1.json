@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "workId": "y-story",
+  "workType": "classic-delivery",
+  "phase": "conformance",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-17T06:54:59.093Z",
+  "renderedSha256": "0a847cf04bd97bee2514416db88004451a2f340507d0d814f7d6f9dbf901404a",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "intake",
+      "path": "artifacts/intake/intake.md",
+      "repositoryPath": "singularity/work-items/y-story/artifacts/intake/intake.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-17T05:30:02.715Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "619cbd3f9bc56cdd12d0698afa6901b4565f30d689d29f9657d8bd78f59e7ee5",
+      "sha256": "619cbd3f9bc56cdd12d0698afa6901b4565f30d689d29f9657d8bd78f59e7ee5",
+      "bytes": 11189,
+      "source": {
+        "path": "singularity/work-items/y-story/artifacts/intake/intake.md",
+        "rawSha256": "sha256:619cbd3f9bc56cdd12d0698afa6901b4565f30d689d29f9657d8bd78f59e7ee5"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:9fb7e793306e3a18c7062b568aea196bd24c8f7d3267e4ec507f4d31c9724bc9",
+        "bytes": 5772,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:y-story:cdde6f274d0264d930ebcefc10cf3f420e29ce3bb86876e519eb07692262d7d5"
+      },
+      "injectedBytes": 5772,
+      "truncated": false,
+      "authoredBytes": 5772,
+      "managedBytesExcluded": 5417,
+      "projection": {
+        "kind": "full"
+      }
+    },
+    {
+      "phase": "implementation",
+      "path": "artifacts/implementation/implementation-summary.md",
+      "repositoryPath": "singularity/work-items/y-story/artifacts/implementation/implementation-summary.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-17T06:28:12.724Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "a9691b0871eba8370b4a442214910d95b1402622b0bbbcb6653fb953210d1128",
+      "sha256": "a9691b0871eba8370b4a442214910d95b1402622b0bbbcb6653fb953210d1128",
+      "bytes": 17421,
+      "source": {
+        "path": "singularity/work-items/y-story/artifacts/implementation/implementation-summary.md",
+        "rawSha256": "sha256:a9691b0871eba8370b4a442214910d95b1402622b0bbbcb6653fb953210d1128"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:4240c12459c43be28419803f9ae7faaca7d2824b377a7dae3a0b6c3335ab9d42",
+        "bytes": 4758,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:y-story:5c598a4bf19346c904a52f9a48ee6107c4958e0360325011ee2772f37f3d9d04"
+      },
+      "injectedBytes": 4758,
+      "truncated": false,
+      "authoredBytes": 4758,
+      "managedBytesExcluded": 12663,
+      "projection": {
+        "kind": "full"
+      }
+    },
+    {
+      "phase": "testing",
+      "path": "artifacts/testing/test-evidence.md",
+      "repositoryPath": "singularity/work-items/y-story/artifacts/testing/test-evidence.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-17T06:40:35.404Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "4a78210446e85f611ccdfdf0da226ee43ccc89cbc43793fab54550f919027b54",
+      "sha256": "4a78210446e85f611ccdfdf0da226ee43ccc89cbc43793fab54550f919027b54",
+      "bytes": 21390,
+      "source": {
+        "path": "singularity/work-items/y-story/artifacts/testing/test-evidence.md",
+        "rawSha256": "sha256:4a78210446e85f611ccdfdf0da226ee43ccc89cbc43793fab54550f919027b54"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:6348ca843adfef5b332cc76ba0d5e6fcee2ec80edcdfda8d320d0241b4caab4e",
+        "bytes": 4185,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:y-story:fdde6df95ccc3a9d20dd83700c504f60b74611536f6e93a794c25a280751c7b1"
+      },
+      "injectedBytes": 4185,
+      "truncated": false,
+      "authoredBytes": 4185,
+      "managedBytesExcluded": 17205,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}

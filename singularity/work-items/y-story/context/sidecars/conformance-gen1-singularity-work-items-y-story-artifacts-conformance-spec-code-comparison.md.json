@@ -1,0 +1,51 @@
+{
+  "artifact": {
+    "bytes": 24681,
+    "path": "singularity/work-items/y-story/artifacts/conformance/spec-code-comparison.md",
+    "role": "conformance-report",
+    "sha256": "b34470299eb052e94c01ef68d9759d19c705e61cf7ba1aac0d4de415f27e8e7e"
+  },
+  "configuration": {
+    "revision": "9fff0fa2ce50df2c656b2551aef16cb2a5f41555",
+    "sha256": "7bc73fa79087e21f5579672cdae93a210e7bd8934505bdd31dc38223793a6c16"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/implementation/implementation-summary.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/intake/intake.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/testing/test-evidence.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "c2f9ca91360df993f0157a237c221618f12e9b5fd34038a3770a58b7bba53c96",
+  "phase": "conformance",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "qa",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "y-story",
+    "commit": null,
+    "publishedAt": "2026-09-17T06:54:59.170Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "y-story",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/y-story/config/wfa/blobs/sha256/326a133f1626dd1de9385f37742eaba4a960f2f2549feaca3f4cd87c3027d834",
+    "sha256": "326a133f1626dd1de9385f37742eaba4a960f2f2549feaca3f4cd87c3027d834"
+  }
+}
