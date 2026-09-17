@@ -1,0 +1,134 @@
+{
+  "clauses": [
+    {
+      "anchor": "[y-story:REQ-001]",
+      "body": "), positioned immediately before the first Term block (",
+      "bodySha256": "9ae1543afbda1407c16250428bce3b2a42625a014d71d4d65968254348985fa2",
+      "dependsOn": [],
+      "id": "Y-STORY:REQ-001",
+      "namespace": "Y-STORY",
+      "number": 1,
+      "source": {
+        "line": 135,
+        "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[y-story:REQ-002]",
+      "body": ").\nThe Filter block lets a designer pick one or more attributes to order the record set by\n(ascending/descending) and then choose a selection mode — first N rows, last N rows, or an\nexplicit row range — over the ordered set (",
+      "bodySha256": "fd9586d3fb72e05099a8ca0fc1e6ca0170960e77734c7369abd8c166be7e908c",
+      "dependsOn": [],
+      "id": "Y-STORY:REQ-002",
+      "namespace": "Y-STORY",
+      "number": 2,
+      "source": {
+        "line": 135,
+        "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[y-story:REQ-003]",
+      "body": "). The available attributes reuse\nthe same attribute list already offered by the existing Term/condition pickers\n(",
+      "bodySha256": "71e3ac2ff1c894a2ff878c12d6c2793b5aef9f63065d0ca432d839abf7fceffb",
+      "dependsOn": [],
+      "id": "Y-STORY:REQ-003",
+      "namespace": "Y-STORY",
+      "number": 3,
+      "source": {
+        "line": 138,
+        "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[y-story:REQ-004]",
+      "body": ").\n\nMeasurable outcome: after adding a Filter block, running `npm start` and opening the app in a\nbrowser, a designer can see the Filter block above Term 1 in General Logic, configure ordering\nattributes and a first/last/range selection, and see that configuration persist in the node's\nmodel exactly like existing Term configuration does.\n\n## Scope and constraints\n\nIn scope:\n- A new Filter block UI in the rule designer's General Logic section (canvas component), rendered\n  above Term 1, with: attribute-based ordering (one or more attributes, ascending/descending) and\n  a row-selection mode of `first`, `last`, or `range` (start/end row numbers).\n- Wiring the Filter block's configuration into the existing node/decision-logic model so it is\n  stored and re-rendered the same way Term data is today.\n- Reusing the existing attribute source already used by Term/condition pickers — no new attribute\n  metadata source is introduced.\n\nOut of scope:\n- Any backend/API/server change (`server/` is untouched); this is a UI-layer-only change.\n- Actual runtime evaluation/execution semantics of the filter against real data — this Story only\n  adds the configuration block and its stored model, per the Story's own acceptance criteria\n  (\"stop after coding, start the server and show the app in browser\").\n- Automated test suites; acceptance is manual visual verification in the browser per clarified\n  scope.\n\nConstraints:\n- Must follow the existing rule-canvas component's structural and styling conventions (same file:\n  `src/app/components/rule-canvas/rule-canvas.component.ts`) so the Filter block looks and behaves\n  consistently with the existing Term blocks.\n- No changes to `server/` or any HTTP/API contract.\n\n## Acceptance criteria\n\n| Clause | Observable outcome |\n|---|---|\n|",
+      "bodySha256": "63caaa2433d7533d9db0fcb053e31374b9ca7522e24dce874b8ceb396101d9f4",
+      "dependsOn": [],
+      "id": "Y-STORY:REQ-004",
+      "namespace": "Y-STORY",
+      "number": 4,
+      "source": {
+        "line": 140,
+        "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[y-story:AC-001]",
+      "body": "| Opening a rule/node's General Logic in the rule designer canvas shows a Filter block positioned above Term 1. |\n|",
+      "bodySha256": "df3d183cddc704147bd64372c9acd4393b36ef6e9f94f6b575075faeb7d1854a",
+      "dependsOn": [],
+      "id": "Y-STORY:AC-001",
+      "namespace": "Y-STORY",
+      "number": 1,
+      "source": {
+        "line": 176,
+        "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[y-story:AC-002]",
+      "body": "| The Filter block lets the user choose one or more ordering attributes (ascending/descending) from the same attribute list used by Term conditions. |\n|",
+      "bodySha256": "98bc08954677552abf46cb63bb91f7587c5020d29a45d9da1a88943063e42940",
+      "dependsOn": [],
+      "id": "Y-STORY:AC-002",
+      "namespace": "Y-STORY",
+      "number": 2,
+      "source": {
+        "line": 177,
+        "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[y-story:AC-003]",
+      "body": "| The Filter block lets the user choose a selection mode of first N, last N, or an explicit row range, and this choice is stored in the node's decision-logic model. |\n|",
+      "bodySha256": "532c321c970dc3acd20710460bb74886c972fe4c86c1b96cbe510a0ab477a680",
+      "dependsOn": [],
+      "id": "Y-STORY:AC-003",
+      "namespace": "Y-STORY",
+      "number": 3,
+      "source": {
+        "line": 178,
+        "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[y-story:AC-004]",
+      "body": "| After `npm start`, the app loads in the browser with no console errors introduced by the new Filter block, and the configured Filter block state is visible/persisted when reopening the node. |\n\n## Planned implementation evidence\n\n| Clause | Expected paths | Planned tests |\n|---|---|---|\n| `y-story:REQ-001` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria (no automated test suite in scope) |\n| `y-story:REQ-002` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |\n| `y-story:REQ-003` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |\n| `y-story:REQ-004` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |\n| `y-story:AC-001` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria (no automated test suite in scope) |\n| `y-story:AC-002` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |\n| `y-story:AC-003` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |\n| `y-story:AC-004` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |\n\n## Initial evidence\n\n- Story request (`singularity/work-items/y-story/USER-STORY.md`): add a filter block in the rule\n  designer's General Logic, before Term 1, ordering records by attributes and selecting\n  first/last/range rows; acceptance criteria is to start the server and show the app in the\n  browser.\n- Repository evidence: `src/app/components/rule-canvas/rule-canvas.component.ts` implements the\n  General Logic UI, including the per-term \"Term N\" header binding, `addTerm`/`removeTerm`, and the\n  `decisionLogic.terms` model that a Filter block must integrate with the same way.\n- Recorded clarifications (`singularity/work-items/y-story/context/clarifications-intake-gen1.json`):\n  placement before Term 1; filter semantics (order + first/last/range); attribute source reuse;\n  UI-only scope; manual verification acceptance.",
+      "bodySha256": "bd561875185cc0c40f39532339d2bdecd6a06ca1b2315c8446668e464bd921f4",
+      "dependsOn": [
+        "Y-STORY:AC-001",
+        "Y-STORY:AC-002",
+        "Y-STORY:AC-003",
+        "Y-STORY:REQ-001",
+        "Y-STORY:REQ-002",
+        "Y-STORY:REQ-003",
+        "Y-STORY:REQ-004"
+      ],
+      "id": "Y-STORY:AC-004",
+      "namespace": "Y-STORY",
+      "number": 4,
+      "source": {
+        "line": 179,
+        "path": "singularity/work-items/y-story/artifacts/intake/intake.md"
+      },
+      "type": "AC"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "6d4d7ba5c1e908dae619c7877b7599d9503fffa2f57efa3b250d3f92786f09b7",
+  "phase": "intake",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 9408,
+    "path": "singularity/work-items/y-story/artifacts/intake/intake.md",
+    "sha256": "f233831dd15b6c5138871c20dfc920062dd3515d10b3e5a0f1842a1b3c4707e8"
+  },
+  "workId": "y-story"
+}

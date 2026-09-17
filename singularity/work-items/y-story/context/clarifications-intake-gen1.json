@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "workId": "y-story",
+  "phase": "intake",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/y-story/context/prompts/intake-gen1.md",
+  "promptSha256": "da60efb89b4e807f923238d419decedb6ec52d144f4332ad53d137139879aff3",
+  "groundingRecordPath": "singularity/work-items/y-story/context/intake-gen1.json",
+  "groundingRecordSha256": "3e47499e249f3aba1cb705bc1a6831fbc66345b51d02525673c45f39d2a74917",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Where should the filter block be placed relative to existing blocks?",
+      "answer": "In the Rule Designer's General Logic section, positioned before the existing Term 1 block.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "What should the filter block let a user configure?",
+      "answer": "Order records by one or more attributes (asc/desc); select first N rows after ordering; select last N rows after ordering; select a row range (e.g. rows 5-10) after ordering.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "Which attributes/fields should be selectable for ordering and filtering in this block?",
+      "answer": "The same attribute list already used by existing Terms/conditions in the rule designer.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-004",
+      "question": "Is this strictly a front-end UI component with no backend/API changes required?",
+      "answer": "Yes, UI-only, no backend changes.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-005",
+      "question": "Is manual visual verification (no automated tests) sufficient to accept this Story?",
+      "answer": "Yes, manual run and visual check in the browser is sufficient.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-17T05:24:26.231Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}

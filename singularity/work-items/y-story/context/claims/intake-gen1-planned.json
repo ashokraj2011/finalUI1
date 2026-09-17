@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "kind": "planned",
+  "recordedAt": "2026-09-17T05:26:22.940Z",
+  "claims": {
+    "Y-STORY:REQ-001": {
+      "expectedPaths": [
+        "src/app/components/rule-canvas/rule-canvas.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "manual browser verification per Story acceptance criteria (no automated test suite in scope)",
+      "deviation": null
+    },
+    "Y-STORY:REQ-002": {
+      "expectedPaths": [
+        "src/app/components/rule-canvas/rule-canvas.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "manual browser verification per Story acceptance criteria",
+      "deviation": null
+    },
+    "Y-STORY:REQ-003": {
+      "expectedPaths": [
+        "src/app/components/rule-canvas/rule-canvas.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "manual browser verification per Story acceptance criteria",
+      "deviation": null
+    },
+    "Y-STORY:REQ-004": {
+      "expectedPaths": [
+        "src/app/components/rule-canvas/rule-canvas.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "manual browser verification per Story acceptance criteria",
+      "deviation": null
+    },
+    "Y-STORY:AC-001": {
+      "expectedPaths": [
+        "src/app/components/rule-canvas/rule-canvas.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "manual browser verification per Story acceptance criteria (no automated test suite in scope)",
+      "deviation": null
+    },
+    "Y-STORY:AC-002": {
+      "expectedPaths": [
+        "src/app/components/rule-canvas/rule-canvas.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "manual browser verification per Story acceptance criteria",
+      "deviation": null
+    },
+    "Y-STORY:AC-003": {
+      "expectedPaths": [
+        "src/app/components/rule-canvas/rule-canvas.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "manual browser verification per Story acceptance criteria",
+      "deviation": null
+    },
+    "Y-STORY:AC-004": {
+      "expectedPaths": [
+        "src/app/components/rule-canvas/rule-canvas.component.ts"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "manual browser verification per Story acceptance criteria",
+      "deviation": null
+    }
+  },
+  "workId": "y-story",
+  "phase": "intake",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/y-story/artifacts/intake/intake.md",
+    "sha256": "f233831dd15b6c5138871c20dfc920062dd3515d10b3e5a0f1842a1b3c4707e8",
+    "bytes": 9408
+  }
+}
