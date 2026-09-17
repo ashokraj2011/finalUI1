@@ -5,7 +5,7 @@
   "workType": "classic-delivery",
   "phase": "intake",
   "generation": 1,
-  "status": "awaiting_approval",
+  "status": "approved",
   "generatedBy": {
     "name": "Ashok Raj",
     "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -115,8 +115,53 @@
     }
   ],
   "sequenceOverrides": [],
-  "approvals": [],
-  "selfApproval": false,
+  "approvals": [
+    {
+      "decision": "approved",
+      "phase": "intake",
+      "at": "2026-09-17T04:47:15.282Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "product-owner",
+      "authorityGroup": "product-approvers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
+          "sha256": "b3268e08a056a7b24f06617454eb8c429eb1b7507ac5de058c89e9379ee3c78d"
+        }
+      ],
+      "reviewPacketSha256": "b7991647d6c4ec5818eea121243f1728afebda93eb71d11bd8fbb68ad6d44c67",
+      "evidenceCommit": "20926463cbb29efa28020fcf6da5b0aacb7ff31c",
+      "artifactSetSha256": "c4f7d3e293360ea7e5088e4d4849e8283c4436a534871a239a1a15cf41dee59f",
+      "architectureIntent": null,
+      "architectureDecision": null,
+      "actionContext": {
+        "phase": "intake",
+        "label": "Intake",
+        "generation": 1,
+        "submittedAt": "2026-09-17T04:44:54.219Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
+            "sha256": "b3268e08a056a7b24f06617454eb8c429eb1b7507ac5de058c89e9379ee3c78d"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "b7991647d6c4ec5818eea121243f1728afebda93eb71d11bd8fbb68ad6d44c67",
+        "submittedSourceCommit": "3352f9e5d1591fa6f9fc0169b4c4b54d00b3f2d2",
+        "planId": "097218d7ea96a6c5815043b8"
+      },
+      "selfApproval": true
+    }
+  ],
+  "selfApproval": true,
   "conformanceTree": null
 }
 -->

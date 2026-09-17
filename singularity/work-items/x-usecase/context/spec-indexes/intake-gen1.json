@@ -9,7 +9,7 @@
       "namespace": "X-USECASE",
       "number": 1,
       "source": {
-        "line": 157,
+        "line": 202,
         "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md"
       },
       "type": "AC"
@@ -23,7 +23,7 @@
       "namespace": "X-USECASE",
       "number": 2,
       "source": {
-        "line": 158,
+        "line": 203,
         "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md"
       },
       "type": "AC"
@@ -40,20 +40,20 @@
       "namespace": "X-USECASE",
       "number": 3,
       "source": {
-        "line": 159,
+        "line": 204,
         "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md"
       },
       "type": "AC"
     }
   ],
   "generation": 1,
-  "indexSha256": "c062e6f8d2652944057a39b88fe27200693e3815380de557d11a0fc5c2d2ab19",
+  "indexSha256": "4591095c3fb415eae69474a0e9ff014acc81336d559dee3ef029ca3be066a611",
   "phase": "intake",
   "schemaVersion": 1,
   "source": {
-    "bytes": 8157,
+    "bytes": 9942,
     "path": "singularity/work-items/x-usecase/artifacts/intake/intake.md",
-    "sha256": "6b5fa63789b2493d44d1bba9974322fdffa6cff45fc45687200b76ac8a4d64c7"
+    "sha256": "369172b14be5dc40577afe04d79df876db62dcd79049daa463887074e789ad3c"
   },
   "workId": "x-usecase"
 }
