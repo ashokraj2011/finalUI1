@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 72408,
+    "path": "src/app/components/rule-canvas/rule-canvas.component.ts",
+    "role": "code",
+    "sha256": "453acd799f9bce2b6c784a90ab56051652d88b223a07f130dd7d398895764c97"
+  },
+  "configuration": {
+    "revision": "9fff0fa2ce50df2c656b2551aef16cb2a5f41555",
+    "sha256": "7bc73fa79087e21f5579672cdae93a210e7bd8934505bdd31dc38223793a6c16"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/intake/intake.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "79bbcc57637844bc1a16f34ad0eb02157bae781bcb460d4ab4cc89a4b0d4321d",
+  "phase": "implementation",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "developer",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "y-story",
+    "commit": null,
+    "publishedAt": "2026-09-17T05:40:13.640Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "y-story",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/y-story/config/wfa/blobs/sha256/61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
+    "sha256": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c"
+  }
+}

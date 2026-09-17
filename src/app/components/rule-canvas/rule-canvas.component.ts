@@ -22,9 +22,24 @@ interface FlowTerm {
   conditions: FlowCondition[];
 }
 
+interface FilterOrderAttribute {
+  id: string;
+  field: string;
+  direction: 'asc' | 'desc';
+}
+
+interface FilterBlock {
+  orderBy: FilterOrderAttribute[];
+  selectionMode: 'first' | 'last' | 'range';
+  rowCount: number;
+  rangeStart: number;
+  rangeEnd: number;
+}
+
 interface DecisionLogic {
   operator: 'AND' | 'OR';
   terms: FlowTerm[];
+  filter: FilterBlock;
 }
 
 interface ExtCanvasNode extends CanvasNode {
@@ -398,6 +413,71 @@ const NODE_HEIGHT = 100; // approx, used for port centre calc
                     </div>
                   </div>
 
+                  <!-- Filter block (ordering + row selection), always shown above Term 1 -->
+                  <div class="border border-border-subtle rounded-lg overflow-hidden mb-3 bg-indigo-500/[0.03]">
+                    <div class="flex items-center gap-2 px-2 py-1.5 bg-surface-container-low border-b border-border-subtle">
+                      <span class="text-[9px] font-extrabold text-on-surface-variant uppercase tracking-wider">Filter</span>
+                    </div>
+                    <div class="p-2 space-y-2">
+                      <div *ngFor="let attr of node.decisionLogic?.filter?.orderBy" class="flex items-center gap-1">
+                        <select [ngModel]="attr.field" (ngModelChange)="setFilterAttributeField(node, attr, $event)"
+                          class="flex-1 h-6 text-[10px] border border-border-subtle rounded bg-white font-mono px-1 cursor-pointer min-w-0">
+                          <option *ngFor="let f of fieldOptions" [value]="f">{{ f }}</option>
+                        </select>
+                        <div class="flex bg-white p-0.5 rounded border border-border-subtle h-6 items-center shrink-0">
+                          <button type="button"
+                            [ngClass]="attr.direction === 'asc' ? 'bg-indigo-600 text-white' : 'text-on-surface-variant'"
+                            (click)="setFilterAttributeDirection(node, attr, 'asc')"
+                            class="px-1.5 h-5 rounded text-[8px] font-extrabold cursor-pointer border-none">ASC</button>
+                          <button type="button"
+                            [ngClass]="attr.direction === 'desc' ? 'bg-indigo-600 text-white' : 'text-on-surface-variant'"
+                            (click)="setFilterAttributeDirection(node, attr, 'desc')"
+                            class="px-1.5 h-5 rounded text-[8px] font-extrabold cursor-pointer border-none">DESC</button>
+                        </div>
+                        <button (click)="removeFilterAttribute(node, attr.id)" class="text-on-surface-variant hover:text-red-600 cursor-pointer border-none bg-transparent shrink-0">
+                          <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/></svg>
+                        </button>
+                      </div>
+
+                      <button (click)="addFilterAttribute(node)"
+                        class="text-[10px] text-indigo-600 hover:text-indigo-800 font-bold flex items-center gap-1 cursor-pointer border-none bg-transparent">
+                        <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                        Add Order Attribute
+                      </button>
+
+                      <div class="flex items-center gap-2 pt-2 mt-1 border-t border-border-subtle flex-wrap">
+                        <span class="text-[9px] font-extrabold text-on-surface-variant uppercase tracking-wider shrink-0">Select</span>
+                        <div class="flex bg-white p-0.5 rounded border border-border-subtle h-6 items-center">
+                          <button type="button"
+                            [ngClass]="node.decisionLogic?.filter?.selectionMode === 'first' ? 'bg-indigo-600 text-white' : 'text-on-surface-variant'"
+                            (click)="setFilterSelectionMode(node, 'first')"
+                            class="px-1.5 h-5 rounded text-[8px] font-extrabold cursor-pointer border-none">FIRST</button>
+                          <button type="button"
+                            [ngClass]="node.decisionLogic?.filter?.selectionMode === 'last' ? 'bg-indigo-600 text-white' : 'text-on-surface-variant'"
+                            (click)="setFilterSelectionMode(node, 'last')"
+                            class="px-1.5 h-5 rounded text-[8px] font-extrabold cursor-pointer border-none">LAST</button>
+                          <button type="button"
+                            [ngClass]="node.decisionLogic?.filter?.selectionMode === 'range' ? 'bg-indigo-600 text-white' : 'text-on-surface-variant'"
+                            (click)="setFilterSelectionMode(node, 'range')"
+                            class="px-1.5 h-5 rounded text-[8px] font-extrabold cursor-pointer border-none">RANGE</button>
+                        </div>
+
+                        <ng-container *ngIf="node.decisionLogic?.filter?.selectionMode !== 'range'; else filterRangeInputs">
+                          <input type="number" min="1" [ngModel]="node.decisionLogic?.filter?.rowCount" (ngModelChange)="updateFilterRowCount(node, $event)"
+                            class="w-14 h-6 text-[10px] border border-border-subtle rounded px-1.5 font-mono outline-none focus:border-indigo-400 bg-white" />
+                          <span class="text-[9px] text-on-surface-variant">rows</span>
+                        </ng-container>
+                        <ng-template #filterRangeInputs>
+                          <input type="number" min="1" [ngModel]="node.decisionLogic?.filter?.rangeStart" (ngModelChange)="updateFilterRangeStart(node, $event)"
+                            class="w-12 h-6 text-[10px] border border-border-subtle rounded px-1.5 font-mono outline-none focus:border-indigo-400 bg-white" />
+                          <span class="text-[9px] text-on-surface-variant">to</span>
+                          <input type="number" min="1" [ngModel]="node.decisionLogic?.filter?.rangeEnd" (ngModelChange)="updateFilterRangeEnd(node, $event)"
+                            class="w-12 h-6 text-[10px] border border-border-subtle rounded px-1.5 font-mono outline-none focus:border-indigo-400 bg-white" />
+                        </ng-template>
+                      </div>
+                    </div>
+                  </div>
+
                   <!-- Terms -->
                   <div class="space-y-3">
                     <ng-container *ngFor="let term of node.decisionLogic?.terms; let ti = index">
@@ -708,10 +788,13 @@ export class RuleCanvasComponent implements OnInit {
   /*  Lifecycle                                                           */
   /* ------------------------------------------------------------------ */
   ngOnInit() {
-    // Ensure every Decision node has decisionLogic initialised
+    // Ensure every Decision node has decisionLogic (and its filter block) initialised
     this.nodes = this.nodes.map(n => {
       if (n.type === 'Decision' && !n.decisionLogic) {
         return { ...n, decisionLogic: this.defaultDecisionLogic() };
+      }
+      if (n.type === 'Decision' && n.decisionLogic && !n.decisionLogic.filter) {
+        return { ...n, decisionLogic: { ...n.decisionLogic, filter: this.defaultFilterBlock() } };
       }
       return n;
     });
@@ -728,7 +811,18 @@ export class RuleCanvasComponent implements OnInit {
             { id: this.uid(), field: 'User.risk_score', op: '>', value: '80' }
           ]
         }
-      ]
+      ],
+      filter: this.defaultFilterBlock()
+    };
+  }
+
+  private defaultFilterBlock(): FilterBlock {
+    return {
+      orderBy: [],
+      selectionMode: 'first',
+      rowCount: 10,
+      rangeStart: 1,
+      rangeEnd: 10
     };
   }
 
@@ -959,6 +1053,72 @@ export class RuleCanvasComponent implements OnInit {
         t.id === term.id ? { ...t, conditions: t.conditions.filter(c => c.id !== condId) } : t
       );
       return { ...n, decisionLogic: { ...n.decisionLogic!, terms } };
+    });
+  }
+
+  /* ------------------------------------------------------------------ */
+  /*  Filter block editing                                                */
+  /* ------------------------------------------------------------------ */
+  addFilterAttribute(node: ExtCanvasNode) {
+    const newAttr: FilterOrderAttribute = { id: this.uid(), field: FIELD_OPTIONS[0], direction: 'asc' };
+    this.nodes = this.nodes.map(n => {
+      if (n.id !== node.id) return n;
+      const filter = n.decisionLogic!.filter;
+      return { ...n, decisionLogic: { ...n.decisionLogic!, filter: { ...filter, orderBy: [...filter.orderBy, newAttr] } } };
+    });
+  }
+
+  removeFilterAttribute(node: ExtCanvasNode, attrId: string) {
+    this.nodes = this.nodes.map(n => {
+      if (n.id !== node.id) return n;
+      const filter = n.decisionLogic!.filter;
+      return { ...n, decisionLogic: { ...n.decisionLogic!, filter: { ...filter, orderBy: filter.orderBy.filter(a => a.id !== attrId) } } };
+    });
+  }
+
+  setFilterAttributeField(node: ExtCanvasNode, attr: FilterOrderAttribute, field: string) {
+    this.nodes = this.nodes.map(n => {
+      if (n.id !== node.id) return n;
+      const filter = n.decisionLogic!.filter;
+      const orderBy = filter.orderBy.map(a => a.id === attr.id ? { ...a, field } : a);
+      return { ...n, decisionLogic: { ...n.decisionLogic!, filter: { ...filter, orderBy } } };
+    });
+  }
+
+  setFilterAttributeDirection(node: ExtCanvasNode, attr: FilterOrderAttribute, direction: 'asc' | 'desc') {
+    this.nodes = this.nodes.map(n => {
+      if (n.id !== node.id) return n;
+      const filter = n.decisionLogic!.filter;
+      const orderBy = filter.orderBy.map(a => a.id === attr.id ? { ...a, direction } : a);
+      return { ...n, decisionLogic: { ...n.decisionLogic!, filter: { ...filter, orderBy } } };
+    });
+  }
+
+  setFilterSelectionMode(node: ExtCanvasNode, selectionMode: 'first' | 'last' | 'range') {
+    this.nodes = this.nodes.map(n => {
+      if (n.id !== node.id) return n;
+      return { ...n, decisionLogic: { ...n.decisionLogic!, filter: { ...n.decisionLogic!.filter, selectionMode } } };
+    });
+  }
+
+  updateFilterRowCount(node: ExtCanvasNode, rowCount: number) {
+    this.nodes = this.nodes.map(n => {
+      if (n.id !== node.id) return n;
+      return { ...n, decisionLogic: { ...n.decisionLogic!, filter: { ...n.decisionLogic!.filter, rowCount: Number(rowCount) || 0 } } };
+    });
+  }
+
+  updateFilterRangeStart(node: ExtCanvasNode, rangeStart: number) {
+    this.nodes = this.nodes.map(n => {
+      if (n.id !== node.id) return n;
+      return { ...n, decisionLogic: { ...n.decisionLogic!, filter: { ...n.decisionLogic!.filter, rangeStart: Number(rangeStart) || 0 } } };
+    });
+  }
+
+  updateFilterRangeEnd(node: ExtCanvasNode, rangeEnd: number) {
+    this.nodes = this.nodes.map(n => {
+      if (n.id !== node.id) return n;
+      return { ...n, decisionLogic: { ...n.decisionLogic!, filter: { ...n.decisionLogic!.filter, rangeEnd: Number(rangeEnd) || 0 } } };
     });
   }
 

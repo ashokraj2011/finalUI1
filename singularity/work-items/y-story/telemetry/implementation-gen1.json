@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "workId": "y-story",
+  "workType": "classic-delivery",
+  "phase": "implementation",
+  "generation": 1,
+  "capturedAt": "2026-09-17T05:40:13.684Z",
+  "source": "copilot-otel",
+  "rawTraceCommitted": false,
+  "spanCount": 0,
+  "rawBytesRead": 0,
+  "startedAt": "2026-09-17T05:32:04.935Z",
+  "completedAt": "2026-09-17T05:40:13.640Z",
+  "pending": true,
+  "warnings": [
+    "No completed Copilot chat spans were available before publication.",
+    "The active Copilot turn has not been exported yet; telemetry will be reconciled automatically before submission."
+  ],
+  "privacyDiagnostics": [],
+  "launches": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-17T05:40:13.640Z",
+      "completedAt": "2026-09-17T05:40:13.640Z",
+      "agent": "developer",
+      "generation": 1
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+<!-- singularity-flow:metadata
+{
+  "schemaVersion": 1,
+  "workId": "y-story",
+  "workType": "classic-delivery",
+  "phase": "implementation",
+  "generation": 1,
+  "status": "in_progress",
+  "generatedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "generatedAgent": "developer",
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "developer"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "changeOrigins": [
+      "copilot"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "implementation-summary.md",
+      "mediaType": "text/markdown",
+      "sha256": "4240c12459c43be28419803f9ae7faaca7d2824b377a7dae3a0b6c3335ab9d42",
+      "bytes": 4758
+    },
+    "generation": 1,
+    "publishedAt": "2026-09-17T05:40:13.640Z"
+  },
+  "sourceCommit": "02b0f2cdf90ee85f2b62e91048740db2617f6d46",
+  "generationCommit": null,
+  "publicationCommit": null,
+  "configSha256": "7bc73fa79087e21f5579672cdae93a210e7bd8934505bdd31dc38223793a6c16",
+  "sourceSha256": "1c22ed7a584554ed9d0b88b49b0186bdd8c0ecebdb5bfd8f2616ab981d77d258",
+  "template": {
+    "path": "singularity/work-items/y-story/config/wfa/blobs/sha256/61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
+    "sha256": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
+    "source": "workflow-snapshot",
+    "sourcePath": "singularity/templates/common/implementation.md"
+  },
+  "inputs": {
+    "generation": 1,
+    "path": "singularity/work-items/y-story/context/inputs-implementation-gen1.json",
+    "sha256": "a4694e6ae7f5fd4afe34e89b834c29edf21f58fc4f06604e90b2ff551315a57b",
+    "renderedSha256": "eeaf9e561fa4c4345a332b6a4e8cca797ebd074219deebcfa1af2ee176e77b64",
+    "mode": "enforce"
+  },
+  "designSources": {
+    "sets": [],
+    "approved": null
+  },
+  "remoteAgent": null,
+  "clarification": null,
+  "telemetry": [
+    {
+      "generation": 1,
+      "path": "singularity/work-items/y-story/telemetry/implementation-gen1.json",
+      "sha256": "830a63aad82c448d2e9d403c1a84d2a64c7d9d7e6f5c210167fe3eb6b125c866",
+      "status": "pending",
+      "models": [],
+      "providerCost": null
+    }
+  ],
+  "remoteOutputs": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-17T05:40:13.640Z",
+      "completedAt": "2026-09-17T05:40:13.640Z",
+      "agent": "developer",
+      "generation": 1
+    }
+  ],
+  "sequenceOverrides": [],
+  "approvals": [],
+  "selfApproval": false,
+  "conformanceTree": null
+}
+-->
+
+# y-story — Implementation Summary
+
+## Agent brief
+
+<!--
+Summarize the implemented outcome, consequential decisions, changed surfaces, validation result,
+remaining limitations, and rollout considerations for downstream agents. Keep it evidence-based;
+the detailed changed-components and test sections are preserved separately.
+-->
+
+## Implemented outcome
+
+A new Filter block is now rendered in the Decision node's General Logic properties panel,
+positioned immediately above Term 1 ([y-story:AC-001], [y-story:REQ-001], [y-story:REQ-002]). The
+block lets a designer add/remove one or more ordering attributes, each with an ASC/DESC toggle,
+drawn from the same `fieldOptions` list already used by Term conditions ([y-story:AC-002],
+[y-story:REQ-003], [y-story:REQ-004]). Below the ordering attributes, a FIRST/LAST/RANGE
+selection-mode toggle is shown: FIRST/LAST expose a single row-count input, RANGE exposes
+start/end row-number inputs ([y-story:AC-003]). All Filter state lives on
+`node.decisionLogic.filter` and is included in the existing `[ngModel]`/immutable-update pattern
+used for Terms, so it persists and re-renders on reselecting the node exactly like Term data
+([y-story:AC-004]).
+
+Verified via `npm run build` (clean) and `npm start` (server + client boot with no errors),
+followed by manual browser verification: added a Decision node, confirmed the Filter block above
+Term 1, added an order attribute, switched selection mode to RANGE, and observed no console
+errors beyond a pre-existing, unrelated Angular `sanitizing HTML` warning present before this
+change (icon `[innerHTML]` bindings elsewhere in the component).
+
+## Changed components and decisions
+
+All changes are in `src/app/components/rule-canvas/rule-canvas.component.ts` (UI-layer only; no
+`server/` changes, per Story scope):
+
+- Added `FilterOrderAttribute` and `FilterBlock` interfaces and extended `DecisionLogic` with a
+  required `filter: FilterBlock` field, so it participates in the same typed model as `terms`.
+- Added `defaultFilterBlock()` (empty `orderBy`, `selectionMode: 'first'`, `rowCount: 10`,
+  `rangeStart: 1`, `rangeEnd: 10`) and wired it into `defaultDecisionLogic()` for newly created
+  Decision nodes.
+- Extended `ngOnInit()` backfill logic so pre-existing Decision nodes that already have
+  `decisionLogic` but no `filter` (e.g. nodes from the sample flow data) get a default filter block
+  added non-destructively, without touching their existing `terms`.
+- Added CRUD methods following the existing immutable `nodes.map(...)` update pattern used by
+  `addTerm`/`removeTerm`/`addCondition`: `addFilterAttribute`, `removeFilterAttribute`,
+  `setFilterAttributeField`, `setFilterAttributeDirection`, `setFilterSelectionMode`,
+  `updateFilterRowCount`, `updateFilterRangeStart`, `updateFilterRangeEnd`.
+- Added the Filter block template section inside the existing `*ngIf="node.type === 'Decision'"`
+  block, placed directly above the `<!-- Terms -->` `space-y-3` container so it always renders
+  before Term 1, reusing the same Tailwind classes, `fieldOptions` source, and button-toggle
+  pattern as the Term/condition UI.
+- No deviation from the approved scope: reused the existing attribute source, no server/API
+  changes, and `decisionLogic` (including the new `filter` field) is already included wholesale in
+  `getFlowJson()`'s serialization, so no separate wiring was needed for persistence/export.
+
+## Tests and operational notes
+
+Per the Story's approved scope ("Automated test suites" is explicitly out of scope; acceptance is
+manual visual verification), no automated test files were added. Evidence instead:
+
+- `npm run build` — clean, `Application bundle generation complete.` (exit 0).
+- `npm start` — server (`Express API Server listening on port 65421`) and client
+  (`ng serve` at `http://localhost:4200/`) both start without error.
+- Manual browser verification (covers [y-story:AC-001], [y-story:AC-002], [y-story:AC-003],
+  [y-story:AC-004]): added a Decision node in the DAG Canvas view, confirmed the Filter block
+  renders above Term 1 with an "Add Order Attribute" control and a FIRST/LAST/RANGE toggle; added
+  an order attribute (field selector + ASC/DESC), switched to RANGE and confirmed start/end row
+  inputs appear; no new console errors were introduced (the only console output was a pre-existing
+  Angular `sanitizing HTML` warning unrelated to this change); removed the test node afterward.
+- Limitations: filter ordering/selection is stored in the model only; no runtime evaluation against
+  real data was implemented, matching the Story's explicit out-of-scope note. No feature flag or
+  rollout gating was introduced — the block is always shown for Decision nodes, consistent with
+  Term 1 always being shown.
+
+<!-- singularity-flow:inputs:start -->
+
+# Approved phase inputs
+
+## Approved phase input: intake
+
+<!-- source=singularity/work-items/y-story/artifacts/intake/intake.md sha256=619cbd3f9bc56cdd12d0698afa6901b4565f30d689d29f9657d8bd78f59e7ee5 status=captured projection=full representation-sha256=sha256:9fb7e793306e3a18c7062b568aea196bd24c8f7d3267e4ec507f4d31c9724bc9 expansion=sfref:v1:story:y-story:cdde6f274d0264d930ebcefc10cf3f420e29ce3bb86876e519eb07692262d7d5 -->
+
+# y-story — Classic delivery intake
+
+## Request and outcome
+
+Rule designers configure General Logic in the visual rule designer using an ordered list of
+"Term" blocks (Term 1, Term 2, ...), each holding AND/OR-joined conditions on record attributes.
+There is currently no way to order or subset the underlying record set itself before those terms
+evaluate it — a designer who wants "the 3 most recent records" or "the last N rows" has no
+supported block for that.
+
+This Story adds a new **Filter block** to General Logic in the rule designer canvas
+([y-story:REQ-001]), positioned immediately before the first Term block ([y-story:REQ-002]).
+The Filter block lets a designer pick one or more attributes to order the record set by
+(ascending/descending) and then choose a selection mode — first N rows, last N rows, or an
+explicit row range — over the ordered set ([y-story:REQ-003]). The available attributes reuse
+the same attribute list already offered by the existing Term/condition pickers
+([y-story:REQ-004]).
+
+Measurable outcome: after adding a Filter block, running `npm start` and opening the app in a
+browser, a designer can see the Filter block above Term 1 in General Logic, configure ordering
+attributes and a first/last/range selection, and see that configuration persist in the node's
+model exactly like existing Term configuration does.
+
+## Scope and constraints
+
+In scope:
+- A new Filter block UI in the rule designer's General Logic section (canvas component), rendered
+  above Term 1, with: attribute-based ordering (one or more attributes, ascending/descending) and
+  a row-selection mode of `first`, `last`, or `range` (start/end row numbers).
+- Wiring the Filter block's configuration into the existing node/decision-logic model so it is
+  stored and re-rendered the same way Term data is today.
+- Reusing the existing attribute source already used by Term/condition pickers — no new attribute
+  metadata source is introduced.
+
+Out of scope:
+- Any backend/API/server change (`server/` is untouched); this is a UI-layer-only change.
+- Actual runtime evaluation/execution semantics of the filter against real data — this Story only
+  adds the configuration block and its stored model, per the Story's own acceptance criteria
+  ("stop after coding, start the server and show the app in browser").
+- Automated test suites; acceptance is manual visual verification in the browser per clarified
+  scope.
+
+Constraints:
+- Must follow the existing rule-canvas component's structural and styling conventions (same file:
+  `src/app/components/rule-canvas/rule-canvas.component.ts`) so the Filter block looks and behaves
+  consistently with the existing Term blocks.
+- No changes to `server/` or any HTTP/API contract.
+
+## Acceptance criteria
+
+| Clause | Observable outcome |
+|---|---|
+| [y-story:AC-001] | Opening a rule/node's General Logic in the rule designer canvas shows a Filter block positioned above Term 1. |
+| [y-story:AC-002] | The Filter block lets the user choose one or more ordering attributes (ascending/descending) from the same attribute list used by Term conditions. |
+| [y-story:AC-003] | The Filter block lets the user choose a selection mode of first N, last N, or an explicit row range, and this choice is stored in the node's decision-logic model. |
+| [y-story:AC-004] | After `npm start`, the app loads in the browser with no console errors introduced by the new Filter block, and the configured Filter block state is visible/persisted when reopening the node. |
+
+## Planned implementation evidence
+
+| Clause | Expected paths | Planned tests |
+|---|---|---|
+| `y-story:REQ-001` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria (no automated test suite in scope) |
+| `y-story:REQ-002` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |
+| `y-story:REQ-003` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |
+| `y-story:REQ-004` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |
+| `y-story:AC-001` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria (no automated test suite in scope) |
+| `y-story:AC-002` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |
+| `y-story:AC-003` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |
+| `y-story:AC-004` | `src/app/components/rule-canvas/rule-canvas.component.ts` | not-applicable: manual browser verification per Story acceptance criteria |
+
+## Initial evidence
+
+- Story request (`singularity/work-items/y-story/USER-STORY.md`): add a filter block in the rule
+  designer's General Logic, before Term 1, ordering records by attributes and selecting
+  first/last/range rows; acceptance criteria is to start the server and show the app in the
+  browser.
+- Repository evidence: `src/app/components/rule-canvas/rule-canvas.component.ts` implements the
+  General Logic UI, including the per-term "Term N" header binding, `addTerm`/`removeTerm`, and the
+  `decisionLogic.terms` model that a Filter block must integrate with the same way.
+- Recorded clarifications (`singularity/work-items/y-story/context/clarifications-intake-gen1.json`):
+  placement before Term 1; filter semantics (order + first/last/range); attribute source reuse;
+  UI-only scope; manual verification acceptance.
+
+> Exact source expansion: `sfref:v1:story:y-story:cdde6f274d0264d930ebcefc10cf3f420e29ce3bb86876e519eb07692262d7d5`. Use `singularity-flow show sfref:v1:story:y-story:cdde6f274d0264d930ebcefc10cf3f420e29ce3bb86876e519eb07692262d7d5 --section "<heading>"` only when exact wording is needed.
+
+<!-- singularity-flow:inputs:end -->

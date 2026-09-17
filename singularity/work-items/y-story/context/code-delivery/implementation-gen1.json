@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "y-story",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "83b0ea83-2fa8-4ac5-bbb9-943d0211154e",
+  "changeSet": {
+    "path": "singularity/work-items/y-story/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:89c462d0d057ad574ac498a6bdaf162b080c0bdc75a4aa2a586bb6616e95de93",
+    "sourcePaths": [
+      "src/app/components/rule-canvas/rule-canvas.component.ts"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "src/app/components/rule-canvas/rule-canvas.component.spec.ts"
+    ],
+    "supportingTestPaths": []
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "copilot"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "product-source": 1,
+      "test-source": 1
+    },
+    "entries": [
+      {
+        "changeId": "sha256:a38ccaa0fd67c10bd9d7061cb56e820dd8349d19e59ea799c2b59b26391a9524",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:3e6358cd14e690c80074fccc0966b4397e3330a705b91e1e95ee3c3d976c3b00",
+        "status": "modified",
+        "oldPath": "src/app/components/rule-canvas/rule-canvas.component.ts",
+        "newPath": "src/app/components/rule-canvas/rule-canvas.component.ts",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [
+      "Y-STORY:AC-001",
+      "Y-STORY:AC-002",
+      "Y-STORY:AC-003",
+      "Y-STORY:AC-004"
+    ],
+    "bound": [
+      "Y-STORY:AC-001",
+      "Y-STORY:AC-002",
+      "Y-STORY:AC-003",
+      "Y-STORY:AC-004"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "Y-STORY:AC-001",
+        "testSource": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "Y-STORY:AC-002",
+        "testSource": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "Y-STORY:AC-003",
+        "testSource": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "Y-STORY:AC-004",
+        "testSource": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:ce17d5e8dbdaa39dfe561b68ebf82dc884209ffce1003e3deb5b6d2bfcf768d5",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": true,
+    "authorshipProducer": "governed-agent",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-09-17T05:40:13.640Z"
+}
