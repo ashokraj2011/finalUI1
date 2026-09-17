@@ -48,7 +48,173 @@
     "currentJiraKey": null,
     "branchCompletionPolicy": "pr",
     "requiredChecks": [],
-    "childBranches": []
+    "childBranches": [],
+    "submissions": [
+      {
+        "packetSha256": "67b27a618b8b7c9970a2cb357d93281be44756c6816bfec188b783227550acaa",
+        "phase": "intake",
+        "generation": 1,
+        "branch": "y-story",
+        "sourceTreeSha256": "sha256:b68050e90d8cb4e53450f429d707bb3bd072d4602cf361eddb59a9f252e7e346",
+        "path": "singularity/work-items/y-story/submissions/intake/67b27a618b8b7c9970a2cb357d93281be44756c6816bfec188b783227550acaa.json",
+        "submittedAt": "2026-09-17T05:27:25.827Z",
+        "projection": {
+          "schemaVersion": 2,
+          "workId": "y-story",
+          "epicId": null,
+          "planId": null,
+          "jiraIssueId": "y-story",
+          "initialJiraKey": null,
+          "currentJiraKey": null,
+          "canonicalBranch": "y-story",
+          "submittedBranch": "y-story",
+          "submissionCommit": "3c3463469b300def1a907b2f639851be82155e6f",
+          "sourceCommit": "3c3463469b300def1a907b2f639851be82155e6f",
+          "sourceTreeSha256": "sha256:b68050e90d8cb4e53450f429d707bb3bd072d4602cf361eddb59a9f252e7e346",
+          "phase": "intake",
+          "generation": 1,
+          "authorship": {
+            "schemaVersion": 1,
+            "producer": "governed-agent",
+            "channel": "copilot-host",
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "governedAgentContext": {
+              "agentId": "product-owner"
+            },
+            "kernelModel": {
+              "invoked": false,
+              "status": "exact",
+              "invocationIds": []
+            },
+            "externalAiUse": {
+              "value": "unknown",
+              "status": "unavailable"
+            },
+            "changeOrigins": [
+              "copilot"
+            ],
+            "source": {
+              "kind": "in-place",
+              "filename": "intake.md",
+              "mediaType": "text/markdown",
+              "sha256": "9fb7e793306e3a18c7062b568aea196bd24c8f7d3267e4ec507f4d31c9724bc9",
+              "bytes": 5772
+            },
+            "generation": 1,
+            "publishedAt": "2026-09-17T05:26:22.895Z"
+          },
+          "artifacts": [
+            {
+              "path": "singularity/work-items/y-story/artifacts/intake/intake.md",
+              "kind": "document",
+              "sha256": "3d87e5331f50a559be312b0e0a7c4fde78f8fa33260c1940016a1f97dbe16391",
+              "size": 9490,
+              "reference": {
+                "handle": "sfref:v1:story:y-story:cdde6f274d0264d930ebcefc10cf3f420e29ce3bb86876e519eb07692262d7d5",
+                "recordHash": "cdde6f274d0264d930ebcefc10cf3f420e29ce3bb86876e519eb07692262d7d5"
+              }
+            }
+          ],
+          "references": [
+            {
+              "handle": "sfref:v1:story:y-story:cdde6f274d0264d930ebcefc10cf3f420e29ce3bb86876e519eb07692262d7d5",
+              "recordHash": "cdde6f274d0264d930ebcefc10cf3f420e29ce3bb86876e519eb07692262d7d5",
+              "purpose": "review-evidence",
+              "required": true
+            }
+          ],
+          "agentBriefs": [],
+          "checks": [],
+          "usage": [
+            {
+              "status": "unavailable",
+              "source": "copilot-otel-unavailable",
+              "provider": null,
+              "model": null,
+              "requestedModel": null,
+              "resolvedModel": null,
+              "resolvedModelAssurance": "unavailable",
+              "inputTokens": null,
+              "outputTokens": null,
+              "cachedInputTokens": null,
+              "cacheWriteInputTokens": null,
+              "totalTokens": null,
+              "providerCost": null,
+              "costStatus": "unavailable",
+              "spans": null,
+              "startedAt": "2026-09-17T05:26:22.895Z",
+              "completedAt": "2026-09-17T05:26:22.895Z",
+              "agent": "product-owner",
+              "generation": 1
+            }
+          ],
+          "approvals": [],
+          "visualAssurance": null,
+          "submissionEvidence": {
+            "architectureIntent": null,
+            "architectureDecision": null,
+            "testExecutions": [],
+            "claimMaps": [
+              {
+                "kind": "planned",
+                "generation": 1,
+                "path": "singularity/work-items/y-story/context/claims/intake-gen1-planned.json",
+                "sha256": "d68257694f261b454270e09cdfcc5fa54086fbe523973273d6c4a0e6653ed158"
+              }
+            ],
+            "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "artifactSetSha256": "56af804fff8f5fbee1d454d90def4f639f2abb370ba555a38a8c7a103c240c36"
+          },
+          "witnessReview": {
+            "enrollment": {
+              "schemaVersion": 1,
+              "mode": "disabled",
+              "witnessedClauses": {
+                "enabled": false,
+                "profiles": []
+              },
+              "testcaseExact": {
+                "mode": "disabled",
+                "profile": null,
+                "requiredAssurance": "unavailable",
+                "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+              },
+              "claimMapContractVersion": 2,
+              "cab": null,
+              "sgos": null,
+              "rollout": {
+                "id": "wel-v0.2-observe",
+                "version": 1,
+                "enrollment": "new-story-only"
+              },
+              "configurationAuthority": {
+                "repository": "https://github.com/ashokraj2011/finalUI1.git",
+                "branch": "sflow/config",
+                "commit": "9fff0fa2ce50df2c656b2551aef16cb2a5f41555",
+                "projectionSha256": "56d51573febdba782593f49259d847b8d2f0b0049a2de47bc89d6aff91ca6cb6"
+              }
+            },
+            "enrollmentClassification": "enrolled",
+            "enrollmentReason": null,
+            "clauseMappings": [],
+            "testcaseObservations": []
+          },
+          "submittedAt": "2026-09-17T05:27:25.827Z",
+          "submittedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "status": "awaiting_review"
+        }
+      }
+    ]
   },
   "resolution": {
     "configSha256": "7bc73fa79087e21f5579672cdae93a210e7bd8934505bdd31dc38223793a6c16",
@@ -2280,7 +2446,7 @@
       "label": "Intake",
       "order": 0,
       "defaultAgent": "product-owner",
-      "status": "in_progress",
+      "status": "awaiting_approval",
       "requiredArtifact": {
         "path": "artifacts/intake/intake.md",
         "kind": "requirements",
@@ -2333,7 +2499,7 @@
       },
       "qualityCommands": [],
       "startedAt": "2026-09-17T05:20:58.280Z",
-      "submittedAt": null,
+      "submittedAt": "2026-09-17T05:27:25.827Z",
       "approvedAt": null,
       "approvedBy": null,
       "rejectedAt": null,
@@ -2442,10 +2608,10 @@
           "kind": "document",
           "status": "pending",
           "exists": true,
-          "size": 9408,
-          "sha256": "f233831dd15b6c5138871c20dfc920062dd3515d10b3e5a0f1842a1b3c4707e8",
+          "size": 9490,
+          "sha256": "3d87e5331f50a559be312b0e0a7c4fde78f8fa33260c1940016a1f97dbe16391",
           "registeredAt": "2026-09-17T05:26:19.727Z",
-          "updatedAt": "2026-09-17T05:26:22.936Z"
+          "updatedAt": "2026-09-17T05:27:25.828Z"
         }
       ],
       "checks": [],
@@ -2494,7 +2660,10 @@
           "path": "singularity/work-items/y-story/context/claims/intake-gen1-planned.json",
           "sha256": "d68257694f261b454270e09cdfcc5fa54086fbe523973273d6c4a0e6653ed158"
         }
-      }
+      },
+      "generationCommit": "3c3463469b300def1a907b2f639851be82155e6f",
+      "publicationCommit": "3c3463469b300def1a907b2f639851be82155e6f",
+      "validationVerdict": "not-required"
     },
     "implementation": {
       "id": "implementation",
@@ -2869,6 +3038,14 @@
       "event": "phase_generated",
       "phase": "intake",
       "detail": "generation 1"
+    },
+    {
+      "at": "2026-09-17T05:27:25.827Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_submitted",
+      "phase": "intake",
+      "detail": "1 artifacts"
     }
   ],
   "measurement": {
@@ -3091,6 +3268,105 @@
           }
         },
         "createdAt": "2026-09-17T05:26:20.768Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "21bfa69f-7862-4715-9e21-bb06c2ff367e",
+        "type": "approval-requested",
+        "subject": {
+          "kind": "story",
+          "id": "y-story",
+          "branch": "y-story"
+        },
+        "phaseId": "intake",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "product-owner",
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-17T05:27:23.994Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "21bfa69f-7862-4715-9e21-bb06c2ff367e",
+        "eventType": "approval-requested",
+        "capabilityId": "anu-ui",
+        "subject": {
+          "branch": "y-story",
+          "generation": 1,
+          "phase": "intake",
+          "workId": "y-story",
+          "workType": "classic-delivery"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "product-owner",
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "57c667f951ea2d85be2fd66ff0238080078196487caf577cac71f2b89cef0591",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "7bc73fa79087e21f5579672cdae93a210e7bd8934505bdd31dc38223793a6c16",
+          "lifecycleEventId": "21bfa69f-7862-4715-9e21-bb06c2ff367e",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "d91d55500e7dbc30a388633bce723623157619bca0bbc9bbaf8e64dfd85308a8",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "21bfa69f-7862-4715-9e21-bb06c2ff367e",
+            "type": "approval-requested",
+            "subject": {
+              "kind": "story",
+              "id": "y-story",
+              "branch": "y-story"
+            },
+            "phaseId": "intake",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "product-owner",
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-17T05:27:23.994Z"
+          }
+        },
+        "createdAt": "2026-09-17T05:27:24.005Z"
       }
     }
   ],

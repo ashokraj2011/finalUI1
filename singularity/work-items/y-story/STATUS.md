@@ -9,12 +9,13 @@
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
-| 1 | Intake (`intake`) | product-owner | **in_progress** | 1 | 0 | unavailable |
+| 1 | Intake (`intake`) | product-owner | **awaiting_approval** | 1 | 0 | unavailable |
 | 2 | Code (`implementation`) | developer | **not_started** | 0 | 0 | unavailable |
 | 3 | Testing (`testing`) | qa | **not_started** | 0 | 0 | unavailable |
 | 4 | Code checking (`conformance`) | qa | **not_started** | 0 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-09-17T05:27:25.827Z — **phase_submitted** (intake) by ashokraj2011 · governed agent product-owner: 1 artifacts
 - 2026-09-17T05:26:22.988Z — **phase_generated** (intake) by ashokraj2011 · governed agent product-owner: generation 1
 - 2026-09-17T05:20:58.280Z — **work_started** (intake) by ashokraj2011 · governed agent product-owner: Created classic-delivery branch y-story

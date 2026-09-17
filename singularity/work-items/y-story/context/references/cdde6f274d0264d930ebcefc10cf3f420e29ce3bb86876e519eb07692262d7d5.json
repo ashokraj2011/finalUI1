@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/y-story/artifacts/intake/intake.md",
+    "phaseId": "intake"
+  },
+  "createdAt": "2026-09-17T05:27:25.913Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 9408,
+    "commitSha": "3c3463469b300def1a907b2f639851be82155e6f",
+    "sha256": "f233831dd15b6c5138871c20dfc920062dd3515d10b3e5a0f1842a1b3c4707e8"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "y-story",
+    "id": "y-story",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
