@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/y-story/artifacts/implementation/implementation-summary.md",
+    "phaseId": "implementation"
+  },
+  "createdAt": "2026-09-17T05:46:50.354Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 14738,
+    "commitSha": "3fa1f54eec531799775588b85f6073a3b73185a7",
+    "sha256": "4e3b25f6d35bedbeab29394fcf92e3b282cb6593ec07f03bffe7436c28d07e6e"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "y-story",
+    "id": "y-story",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}

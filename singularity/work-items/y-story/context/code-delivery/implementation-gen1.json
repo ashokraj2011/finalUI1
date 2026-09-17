@@ -70,30 +70,61 @@
       {
         "clauseId": "Y-STORY:AC-001",
         "testSource": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "Y-STORY:AC-002",
         "testSource": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "Y-STORY:AC-003",
         "testSource": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "Y-STORY:AC-004",
         "testSource": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": "angular-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       }
     ]
   },
-  "testExecutions": [],
+  "testExecutions": [
+    {
+      "commandId": "angular-tests",
+      "receiptPath": "singularity/work-items/y-story/context/code-delivery/tests/implementation-gen1-angular-tests.json",
+      "receiptSha256": "55184f74217881c28c7f1016e9b210e04ac3ab54375cd10c1dc1287c8d3797c9",
+      "status": "passed"
+    }
+  ],
   "tree": {
     "workingStateDigest": "sha256:ce17d5e8dbdaa39dfe561b68ebf82dc884209ffce1003e3deb5b6d2bfcf768d5",
-    "generationCommit": null,
-    "generationTree": null
+    "generationCommit": "3fa1f54eec531799775588b85f6073a3b73185a7",
+    "generationTree": "b33c41bf1b33d50227b16d6ea0ebb1e2b31b5ec2"
   },
   "model": {
     "task": "code",
@@ -112,6 +143,7 @@
     "observedAt": null,
     "generation": null
   },
-  "status": "pending-tests",
-  "capturedAt": "2026-09-17T05:40:13.640Z"
+  "status": "ready",
+  "capturedAt": "2026-09-17T05:40:13.640Z",
+  "validatedAt": "2026-09-17T05:46:50.120Z"
 }

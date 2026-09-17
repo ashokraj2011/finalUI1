@@ -11,12 +11,14 @@
 |---:|---|---|---|---:|---:|---:|
 | 1 | Intake (`intake`) | product-owner | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via product-approvers; agent product-owner | **warning** |  |  |  |
-| 2 | Code (`implementation`) | developer | **in_progress** | 1 | 0 | unavailable |
+| 2 | Code (`implementation`) | developer | **awaiting_approval** | 1 | 0 | unavailable |
 | 3 | Testing (`testing`) | qa | **not_started** | 0 | 0 | unavailable |
 | 4 | Code checking (`conformance`) | qa | **not_started** | 0 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-09-17T05:46:50.236Z — **phase_submitted** (implementation) by ashokraj2011 · governed agent developer: 3 artifacts
+- 2026-09-17T05:46:50.235Z — **work_interval_reconciled** (implementation) by system: review; 2 changed path(s)
 - 2026-09-17T05:40:13.760Z — **phase_generated** (implementation) by ashokraj2011 · governed agent developer: generation 1
 - 2026-09-17T05:30:02.733Z — **work_interval_started** (implementation) by system: baseline 259fbbe94a5c at 09f26b7bdc80
 - 2026-09-17T05:30:02.715Z — **phase_self_approved** (intake) by ashokraj2011 · governed agent product-owner: threshold reached; advanced to implementation

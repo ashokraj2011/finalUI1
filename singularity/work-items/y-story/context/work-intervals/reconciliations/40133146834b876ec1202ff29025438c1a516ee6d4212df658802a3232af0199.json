@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-reconciliation",
+  "workId": "y-story",
+  "workType": "classic-delivery",
+  "intervalId": "INT-implementation-G1-001",
+  "phaseId": "implementation",
+  "generation": 1,
+  "baselineSha256": "259fbbe94a5cc45c5dbdadd25b38e6fb1f8dab0cac9028481bf3ad8f330cebb4",
+  "baseline": {
+    "path": "singularity/work-items/y-story/context/work-intervals/implementation-gen1-baseline.json",
+    "sha256": "259fbbe94a5cc45c5dbdadd25b38e6fb1f8dab0cac9028481bf3ad8f330cebb4",
+    "verified": true,
+    "sourceBaseCommit": "09f26b7bdc8098990f496e72acb2c2d139b9ee41"
+  },
+  "sourceBaseCommit": "09f26b7bdc8098990f496e72acb2c2d139b9ee41",
+  "target": {
+    "branch": "y-story",
+    "head": "3fa1f54eec531799775588b85f6073a3b73185a7",
+    "includesWorktree": false,
+    "cleanApplicationTree": true,
+    "uncommittedApplicationPaths": []
+  },
+  "findings": [
+    {
+      "path": "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
+      "status": "present",
+      "sha256": "fcaafcc9ebdb4260f96f76e97830ec26dce796cae4ba7e8262e7792de5849b56",
+      "bytes": 4710,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "src/app/components/rule-canvas/rule-canvas.component.ts",
+      "status": "present",
+      "sha256": "453acd799f9bce2b6c784a90ab56051652d88b223a07f130dd7d398895764c97",
+      "bytes": 72408,
+      "verdict": "planned",
+      "clauseIds": [
+        "Y-STORY:AC-001",
+        "Y-STORY:AC-002",
+        "Y-STORY:AC-003",
+        "Y-STORY:AC-004",
+        "Y-STORY:REQ-001",
+        "Y-STORY:REQ-002",
+        "Y-STORY:REQ-003",
+        "Y-STORY:REQ-004"
+      ],
+      "protected": false
+    }
+  ],
+  "summary": {
+    "changedPaths": 2,
+    "planned": 1,
+    "unplanned": 1,
+    "protected": 0
+  },
+  "decision": {
+    "status": "review",
+    "summaryStatus": "attention",
+    "eligibleForSubmission": true,
+    "reasons": [],
+    "escalationTarget": null
+  },
+  "reconciliationSha256": "40133146834b876ec1202ff29025438c1a516ee6d4212df658802a3232af0199",
+  "reconciledAt": "2026-09-17T05:46:50.235Z",
+  "final": true,
+  "recordedAt": "2026-09-17T05:46:50.235Z",
+  "path": "singularity/work-items/y-story/context/work-intervals/reconciliations/40133146834b876ec1202ff29025438c1a516ee6d4212df658802a3232af0199.json"
+}

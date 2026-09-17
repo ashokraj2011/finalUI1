@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "kind": "observed",
+  "recordedAt": "2026-09-17T05:46:50.129Z",
+  "claims": {},
+  "workId": "y-story",
+  "phase": "implementation",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/y-story/context/code-delivery/implementation-gen1.json",
+    "sha256": "7e43e159666086c5da814c34e72181e32320f5129e595307eeb26c42d3257454",
+    "changeSetDigest": "sha256:89c462d0d057ad574ac498a6bdaf162b080c0bdc75a4aa2a586bb6616e95de93"
+  }
+}
