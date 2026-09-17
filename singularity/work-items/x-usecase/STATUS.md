@@ -5,7 +5,7 @@
 - Capability: **anuui** (`anu-ui`)
 - Capability map: `57c667f951ea2d85be2fd66ff0238080078196487caf577cac71f2b89cef0591`
 - Overall status: **in_progress**
-- Current phase: **testing**
+- Current phase: **conformance**
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
@@ -13,11 +13,13 @@
 |  | ⚠ self-approval | Ashok Raj via product-approvers; agent product-owner | **warning** |  |  |  |
 | 2 | Code (`implementation`) | developer | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via engineering-reviewers; agent developer | **warning** |  |  |  |
-| 3 | Testing (`testing`) | qa | **awaiting_approval** | 1 | 0 | unavailable |
-| 4 | Code checking (`conformance`) | qa | **not_started** | 0 | 0 | unavailable |
+| 3 | Testing (`testing`) | qa | **approved** | 1 | 1 | unavailable |
+|  | ⚠ self-approval | Ashok Raj via quality-reviewers; agent qa | **warning** |  |  |  |
+| 4 | Code checking (`conformance`) | qa | **in_progress** | 0 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-09-17T05:09:32.106Z — **phase_self_approved** (testing) by ashokraj2011 · governed agent qa: threshold reached; advanced to conformance
 - 2026-09-17T05:06:52.932Z — **phase_submitted** (testing) by ashokraj2011 · governed agent qa: 1 artifacts
 - 2026-09-17T05:05:50.333Z — **phase_generated** (testing) by ashokraj2011 · governed agent qa: generation 1
 - 2026-09-17T05:02:42.919Z — **phase_self_approved** (implementation) by ashokraj2011 · governed agent developer: threshold reached; advanced to testing

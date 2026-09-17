@@ -1,0 +1,44 @@
+{
+  "decision": "approved",
+  "phase": "testing",
+  "at": "2026-09-17T05:09:32.106Z",
+  "actor": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "qa",
+  "authorityGroup": "quality-reviewers",
+  "identityAssurance": "configured-local",
+  "channel": "copilot-selection-receipt",
+  "generation": 1,
+  "artifactSha256": [
+    {
+      "path": "singularity/work-items/x-usecase/artifacts/testing/test-evidence.md",
+      "sha256": "ddc627cf0720cc0898a2cb4dd568ae76a914ed53c04a7bd9e644e8805020cf63"
+    }
+  ],
+  "reviewPacketSha256": "4c86e6c05739a79504e34e94651bfefa3bd970701d395597019a6990908e8b44",
+  "evidenceCommit": "31f2a25221490d0de9f69e7780340dacea78fe8b",
+  "artifactSetSha256": "d07e126cec167043da987d98b62ec4e03cc956374be37f31794de6e8bba052f0",
+  "architectureIntent": null,
+  "architectureDecision": null,
+  "actionContext": {
+    "phase": "testing",
+    "label": "Testing",
+    "generation": 1,
+    "submittedAt": "2026-09-17T05:06:52.932Z",
+    "artifacts": [
+      {
+        "path": "singularity/work-items/x-usecase/artifacts/testing/test-evidence.md",
+        "sha256": "ddc627cf0720cc0898a2cb4dd568ae76a914ed53c04a7bd9e644e8805020cf63"
+      }
+    ],
+    "agentBriefs": [],
+    "reviewPacketSha256": "4c86e6c05739a79504e34e94651bfefa3bd970701d395597019a6990908e8b44",
+    "submittedSourceCommit": "ecf555e031340f9657e659d4991df31388e02062",
+    "planId": "373b4e8ec26fb5063d1475c3"
+  },
+  "selfApproval": true
+}
