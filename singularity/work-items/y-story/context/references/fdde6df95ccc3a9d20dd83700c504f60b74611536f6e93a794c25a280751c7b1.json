@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/y-story/artifacts/testing/test-evidence.md",
+    "phaseId": "testing"
+  },
+  "createdAt": "2026-09-17T06:33:06.045Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "finalui1",
+    "origin": "https://github.com/ashokraj2011/finalUI1.git"
+  },
+  "revision": {
+    "bytes": 19601,
+    "commitSha": "ffec2835a7cdcecc20b84e66be390ec7192f1d74",
+    "sha256": "7d28aed630012bb39f668eb1cca903febf4222dd4ea2ce3c0e98609a4ab4a430"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "y-story",
+    "id": "y-story",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
