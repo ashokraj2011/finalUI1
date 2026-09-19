@@ -1,6 +1,6 @@
 # logic-engine — light repository brief
 
-> Generated 16 September 2026 · zero model tokens · source `d0d69293f719`
+> Generated 19 September 2026 · zero model tokens · source `a3ee6068ca69`
 
 - Files indexed: 83
 - Languages: TypeScript (47), JavaScript (3)

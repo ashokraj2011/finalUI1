@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-09-16T15:56:51.331Z",
-  "generated_date": "16 September 2026",
+  "generated_at": "2026-09-19T12:48:17.671Z",
+  "generated_date": "19 September 2026",
   "builder_version": "2.1-light",
   "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
-  "repository_commit": "d0d69293f719cbf94b9aca782958fd746430931b",
-  "repository_branch": "ashok-filter",
-  "working_tree_clean": false,
-  "generated_for_phase": "implementation",
+  "repository_commit": "a3ee6068ca693d8d37be9e4b943b4deab25691aa",
+  "repository_branch": "sflow/govern/finalui1-5e4b873c",
+  "working_tree_clean": true,
+  "generated_for_phase": null,
   "analysis_depth": "light",
   "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
   "generator": {
@@ -26,7 +26,7 @@
         "status": "ready",
         "path": "core/summary.brief.md",
         "bytes": 680,
-        "sha256": "90e729a2b228d05a16d996043da49116eb2ac083ce883160c6205b16ed89eb71"
+        "sha256": "7fc630941171cc9b774adfa4a3db16b150df0ed449c130bc49e3775c57666134"
       },
       "full": {
         "status": "ready",
@@ -51,7 +51,7 @@
           "status": "ready",
           "path": "views/architecture.brief.md",
           "bytes": 293,
-          "sha256": "0b1a4cda5089c69140570033c21b9b814a49d5464251c2e821277302c2a03cc3"
+          "sha256": "d1ca99b2d9fdca36ad4efe60887bb7613fe52d201e77328478191c1815d509fa"
         },
         "full": {
           "status": "ready",
@@ -70,7 +70,7 @@
           "status": "ready",
           "path": "views/business.brief.md",
           "bytes": 280,
-          "sha256": "d8156b3eb9a8b4ef5ceef4a0181df9dc475655cfd929fafb2b7df6df3f6adca9"
+          "sha256": "f596294ed6d70ff99384a9bdfceb772bef8216d7ebe4bc3ffd92373b48bbf3f7"
         },
         "full": {
           "status": "ready",
@@ -89,7 +89,7 @@
           "status": "ready",
           "path": "views/development.brief.md",
           "bytes": 280,
-          "sha256": "b4c551fea01bab30e68c7944089b7d6122a0e7e63e8ed66007eb1cae3088b31a"
+          "sha256": "8867f3d44a3533893a0e84e79e403836d98474f683f06968ef401cdf2352b12d"
         },
         "full": {
           "status": "ready",
@@ -108,7 +108,7 @@
           "status": "ready",
           "path": "views/operations.brief.md",
           "bytes": 291,
-          "sha256": "f351c0d95f022912fa643fe1b6f7729862a01726f07502b5511a420336e9b28c"
+          "sha256": "e536b85c0b121127e6d5f335ec5ae935214128e700a74c6caceb3d54877001ad"
         },
         "full": {
           "status": "ready",
@@ -127,7 +127,7 @@
           "status": "ready",
           "path": "views/release.brief.md",
           "bytes": 281,
-          "sha256": "de2d2bc834bd65c3102085d06334711cf454cf51c00b1c705839f7dfb2423b3d"
+          "sha256": "a743bf954148bacf89eec88d870367273c187e1436c442d796dadf8eb253ed86"
         },
         "full": {
           "status": "ready",
@@ -146,7 +146,7 @@
           "status": "ready",
           "path": "views/security.brief.md",
           "bytes": 289,
-          "sha256": "ddbf4fc90d9d550a5f0575b4bff4185a4e43b02dfcb12c491457bd885b4f5c3c"
+          "sha256": "7ae423e77661862151c6ef851ddee543ff1c15d9a988a8a44f21b3989a879d8b"
         },
         "full": {
           "status": "ready",
@@ -165,7 +165,7 @@
           "status": "ready",
           "path": "views/testing.brief.md",
           "bytes": 326,
-          "sha256": "5319df0c526af416792186200da33b494570a65c1113e35bab4a9a48b96c3e5f"
+          "sha256": "c857dc6b969152321f17b1a744cbd7a33c3cbc6d5a302318fe5365dcf0f1790f"
         },
         "full": {
           "status": "ready",
@@ -199,7 +199,7 @@
   "evidence": {
     "path": "evidence/evidence.jsonl",
     "bytes": 398,
-    "sha256": "60a4ee02d71af149d7b2b8d9ed3657d63b6254dbff852812d3cb281fb1629662"
+    "sha256": "ccaa844bd959008f3d71865552eef32ccdab0ac50e9556a03aa40be479e0608e"
   },
   "generation": {
     "parallel": false,
@@ -251,6 +251,33 @@
         "security/full",
         "testing/brief",
         "testing/full"
+      ],
+      "reused": []
+    },
+    {
+      "id": "light-1789822099839",
+      "generated_at": "2026-09-19T12:48:17.671Z",
+      "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
+      "provider": null,
+      "requested": [
+        "architecture/brief",
+        "business/brief",
+        "core/brief",
+        "development/brief",
+        "operations/brief",
+        "release/brief",
+        "security/brief",
+        "testing/brief"
+      ],
+      "produced": [
+        "architecture/brief",
+        "business/brief",
+        "core/brief",
+        "development/brief",
+        "operations/brief",
+        "release/brief",
+        "security/brief",
+        "testing/brief"
       ],
       "reused": []
     }
