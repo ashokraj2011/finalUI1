@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-09-20T01:06:55.979Z",
+  "generated_at": "2026-09-20T06:11:00.112Z",
   "generated_date": "20 September 2026",
   "builder_version": "2.1-light",
   "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
@@ -199,7 +199,7 @@
   "evidence": {
     "path": "evidence/evidence.jsonl",
     "bytes": 398,
-    "sha256": "755d50c2e406074b69dac89ed0b713297bef56835b1e2dff9f7c89832fa04611"
+    "sha256": "b0a3d4a4ddc45bba5700cf2fe788f63aa620ae9884a7756a17a2bc4b70d13ea8"
   },
   "generation": {
     "parallel": false,
@@ -295,6 +295,33 @@
     {
       "id": "light-1789866418099",
       "generated_at": "2026-09-20T01:06:55.979Z",
+      "source_tree_sha256": "sha256:31397dc8f452a0639abed1cce3f8944251e2946bc6a63f3cb4f828c49715a639",
+      "provider": null,
+      "requested": [
+        "architecture/brief",
+        "business/brief",
+        "core/brief",
+        "development/brief",
+        "operations/brief",
+        "release/brief",
+        "security/brief",
+        "testing/brief"
+      ],
+      "produced": [
+        "architecture/brief",
+        "business/brief",
+        "core/brief",
+        "development/brief",
+        "operations/brief",
+        "release/brief",
+        "security/brief",
+        "testing/brief"
+      ],
+      "reused": []
+    },
+    {
+      "id": "light-1789884661808",
+      "generated_at": "2026-09-20T06:11:00.112Z",
       "source_tree_sha256": "sha256:31397dc8f452a0639abed1cce3f8944251e2946bc6a63f3cb4f828c49715a639",
       "provider": null,
       "requested": [
