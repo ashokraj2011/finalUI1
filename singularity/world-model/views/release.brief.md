@@ -1,6 +1,6 @@
 # release — light brief
 
-> 19 September 2026 · zero model tokens · source `a3ee6068ca69`
+> 20 September 2026 · zero model tokens · source `162f755566af`
 
 - `package.json`
 - `server/index.js`

@@ -1,24 +1,24 @@
 # logic-engine — deterministic light world model
 
-> Generated 16 September 2026 (2026-09-16T15:56:51.331Z) · source `d0d69293f719cbf94b9aca782958fd746430931b` · branch `ashok-filter`
+> Generated 20 September 2026 (2026-09-20T00:40:34.832Z) · source `162f755566af3231995b2decd4bb699964fc27d7` · branch `y-story`
 
 ## Repository shape
 
-- Files indexed: 83
-- Source-like files: 50
-- Test-like files: 8
+- Files indexed: 84
+- Source-like files: 51
+- Test-like files: 9
 - Build manifests: 2
 - Deployment/operations files: 0
-- Languages: TypeScript (47), JavaScript (3)
-- Top-level areas: src (62), (root) (14), server (4), .vscode (3)
+- Languages: TypeScript (48), JavaScript (3)
+- Top-level areas: src (63), (root) (14), server (4), .vscode (3)
 
 ## Facts {#core.facts}
 
 <!-- singularity-flow:repository-facts:start -->
 ```yaml
 # Derived from the repository, not inferred. Every path and line is checkable.
-files: 83
-languages_scanned: 50
+files: 84
+languages_scanned: 51
 frameworks: [Angular, Express, Tailwind CSS, TypeScript]
 entrypoints:
   - { path: server/index.js, declared: main, at: "server/package.json:5" }
@@ -43,6 +43,7 @@ most_depended_on:
   - { path: src/app/kernel/evaluate.ts, imported_by: 5 }
 # Commits touching each file in the last year, from Git history.
 most_changed:
+  - { path: src/app/components/rule-canvas/rule-canvas.component.ts, commits: 2 }
   - { path: .browserslistrc, commits: 1 }
   - { path: .editorconfig, commits: 1 }
   - { path: .env.example, commits: 1 }
@@ -50,7 +51,6 @@ most_changed:
   - { path: .npmrc, commits: 1 }
   - { path: .postcssrc.json, commits: 1 }
   - { path: .vscode/extensions.json, commits: 1 }
-  - { path: .vscode/launch.json, commits: 1 }
 # 66 exported top-level declarations; the most-depended-on files' are listed.
 key_symbols:
   - { name: isComparisonTerm, kind: function, at: "src/app/kernel/ast.ts:52" }
@@ -68,7 +68,7 @@ key_symbols:
   - { name: SAMPLE_SCHEMA, kind: binding, at: "src/app/kernel/schema.ts:89" }
   - { name: RuleEngineService, kind: class, at: "src/app/services/rule-engine.service.ts:35" }
   - { name: RuleStoreService, kind: class, at: "src/app/services/rule-store.service.ts:37" }
-tests: 8
+tests: 9
 ```
 <!-- singularity-flow:repository-facts:end -->
 

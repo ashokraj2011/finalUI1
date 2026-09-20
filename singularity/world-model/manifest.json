@@ -1,15 +1,15 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-09-19T12:52:55.741Z",
-  "generated_date": "19 September 2026",
+  "generated_at": "2026-09-20T00:40:34.832Z",
+  "generated_date": "20 September 2026",
   "builder_version": "2.1-light",
   "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
-  "repository_commit": "a3ee6068ca693d8d37be9e4b943b4deab25691aa",
-  "repository_branch": "sflow/govern/finalui1-5e4b873c",
+  "repository_commit": "162f755566af3231995b2decd4bb699964fc27d7",
+  "repository_branch": "y-story",
   "working_tree_clean": true,
   "generated_for_phase": null,
   "analysis_depth": "light",
-  "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
+  "source_tree_sha256": "sha256:31397dc8f452a0639abed1cce3f8944251e2946bc6a63f3cb4f828c49715a639",
   "generator": {
     "type": "deterministic-local",
     "model": null,
@@ -26,20 +26,20 @@
         "status": "ready",
         "path": "core/summary.brief.md",
         "bytes": 680,
-        "sha256": "7fc630941171cc9b774adfa4a3db16b150df0ed449c130bc49e3775c57666134"
+        "sha256": "ed2f76a126aa025f62837483e280b6aab76945777b1b07b3aef70c858db8bc47"
       },
       "full": {
         "status": "ready",
         "path": "core/summary.md",
-        "bytes": 4216,
-        "sha256": "ecfa4ad232bf7c6d053a6b30d9bf1c6179679932bb1ab2a865760bf0eac766a9"
+        "bytes": 4247,
+        "sha256": "5057640fe9b847805ebc25579bc8d1c802b27c63c479e870b37cc95e0521d668"
       }
     }
   },
   "path_index": {
     "path": "index/path-map.json",
-    "bytes": 2600,
-    "sha256": "9e6318169cbb0fff1c7b68257517ddc86046da988fdf24d66445a7902e61a862"
+    "bytes": 2668,
+    "sha256": "4d7fa7430cc655eeb9c4749d9393e73a89bb5e9fce614dc544e3533bf2cc619e"
   },
   "views": {
     "architecture": {
@@ -51,13 +51,13 @@
           "status": "ready",
           "path": "views/architecture.brief.md",
           "bytes": 293,
-          "sha256": "d1ca99b2d9fdca36ad4efe60887bb7613fe52d201e77328478191c1815d509fa"
+          "sha256": "7483f0d6d3cd1f86dd681c3c5c63a26ef874c8c481a2c10182d1f31030f47ded"
         },
         "full": {
-          "status": "ready",
+          "status": "missing",
           "path": "views/architecture.md",
-          "bytes": 1135,
-          "sha256": "2957620384fdae261fcf484e61718934083a099af11d0f64d469a5c4af6a5ed3"
+          "bytes": 0,
+          "sha256": null
         }
       }
     },
@@ -70,13 +70,13 @@
           "status": "ready",
           "path": "views/business.brief.md",
           "bytes": 280,
-          "sha256": "f596294ed6d70ff99384a9bdfceb772bef8216d7ebe4bc3ffd92373b48bbf3f7"
+          "sha256": "4eb80b8801a034570a078ba1e89ea5b01c3fd872d62222c4299708cbb0d007c5"
         },
         "full": {
-          "status": "ready",
+          "status": "missing",
           "path": "views/business.md",
-          "bytes": 884,
-          "sha256": "15cfbdc13a8bb2251c264da995a5bb4f5bc9d43b956e6219a7b41d1ab13e6445"
+          "bytes": 0,
+          "sha256": null
         }
       }
     },
@@ -89,13 +89,13 @@
           "status": "ready",
           "path": "views/development.brief.md",
           "bytes": 280,
-          "sha256": "8867f3d44a3533893a0e84e79e403836d98474f683f06968ef401cdf2352b12d"
+          "sha256": "fe7aba2e347b44fee11ce07266c95e480d6f7f43b57c829a898cf6f3fdde4630"
         },
         "full": {
-          "status": "ready",
+          "status": "missing",
           "path": "views/development.md",
-          "bytes": 1576,
-          "sha256": "808e549610aa64b123ef140d9e3c4659636663a0cfcf3cec2a6c0609d68fda34"
+          "bytes": 0,
+          "sha256": null
         }
       }
     },
@@ -108,13 +108,13 @@
           "status": "ready",
           "path": "views/operations.brief.md",
           "bytes": 291,
-          "sha256": "e536b85c0b121127e6d5f335ec5ae935214128e700a74c6caceb3d54877001ad"
+          "sha256": "4446533518ed45c3fc62d97d77609e75ad41c30f2a1c75081c196379805aee78"
         },
         "full": {
-          "status": "ready",
+          "status": "missing",
           "path": "views/operations.md",
-          "bytes": 1116,
-          "sha256": "aad3f28a3fa0379e1bd218df960e7b03b7c5265e9090e3572a38d5166e0860fa"
+          "bytes": 0,
+          "sha256": null
         }
       }
     },
@@ -127,13 +127,13 @@
           "status": "ready",
           "path": "views/release.brief.md",
           "bytes": 281,
-          "sha256": "a743bf954148bacf89eec88d870367273c187e1436c442d796dadf8eb253ed86"
+          "sha256": "7bef89f232973d7967b491394348a5b0adfc5b42ff9675ab9854acd3c1dde45f"
         },
         "full": {
-          "status": "ready",
+          "status": "missing",
           "path": "views/release.md",
-          "bytes": 840,
-          "sha256": "70d3fc9130bfde73c6f0d0fc4c7bfca28652ca8120e5c96d758133143bd9d1f9"
+          "bytes": 0,
+          "sha256": null
         }
       }
     },
@@ -146,13 +146,13 @@
           "status": "ready",
           "path": "views/security.brief.md",
           "bytes": 289,
-          "sha256": "7ae423e77661862151c6ef851ddee543ff1c15d9a988a8a44f21b3989a879d8b"
+          "sha256": "ac80d063ceb520bf5c9a79ffce70bc17d28782cad28b699cc132e72f2dbdb3ed"
         },
         "full": {
-          "status": "ready",
+          "status": "missing",
           "path": "views/security.md",
-          "bytes": 1125,
-          "sha256": "b29cec926998a5ae4733aa8d77ebeb3575c505e6568d1021b57ef89e4ee54ec2"
+          "bytes": 0,
+          "sha256": null
         }
       }
     },
@@ -164,14 +164,14 @@
         "brief": {
           "status": "ready",
           "path": "views/testing.brief.md",
-          "bytes": 326,
-          "sha256": "c857dc6b969152321f17b1a744cbd7a33c3cbc6d5a302318fe5365dcf0f1790f"
+          "bytes": 359,
+          "sha256": "d9fd4b161b341358c74196f13e1308c5fb282856a16f1e326423193d6bb39d17"
         },
         "full": {
-          "status": "ready",
+          "status": "missing",
           "path": "views/testing.md",
-          "bytes": 1193,
-          "sha256": "0610f09a77effaab9b292d6a4a06e551cf0d3a08ec8fcab5e9fa6b0231581899"
+          "bytes": 0,
+          "sha256": null
         }
       }
     }
@@ -199,7 +199,7 @@
   "evidence": {
     "path": "evidence/evidence.jsonl",
     "bytes": 398,
-    "sha256": "e4e72e3a13dc9306e26e395d603ed08608900c17ce71666bc9cc5e1bf1b6feed"
+    "sha256": "55b6f08b6aacfaf7f946e753638f07136070d0e99eae48a77339f769b6d5ae8f"
   },
   "generation": {
     "parallel": false,
@@ -212,133 +212,9 @@
   },
   "materializations": [
     {
-      "id": "light-1789574212584",
-      "generated_at": "2026-09-16T15:56:51.331Z",
-      "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
-      "provider": null,
-      "requested": [
-        "architecture/brief",
-        "architecture/full",
-        "business/brief",
-        "business/full",
-        "core/brief",
-        "core/full",
-        "development/brief",
-        "development/full",
-        "operations/brief",
-        "operations/full",
-        "release/brief",
-        "release/full",
-        "security/brief",
-        "security/full",
-        "testing/brief",
-        "testing/full"
-      ],
-      "produced": [
-        "architecture/brief",
-        "architecture/full",
-        "business/brief",
-        "business/full",
-        "core/brief",
-        "core/full",
-        "development/brief",
-        "development/full",
-        "operations/brief",
-        "operations/full",
-        "release/brief",
-        "release/full",
-        "security/brief",
-        "security/full",
-        "testing/brief",
-        "testing/full"
-      ],
-      "reused": []
-    },
-    {
-      "id": "light-1789822099839",
-      "generated_at": "2026-09-19T12:48:17.671Z",
-      "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
-      "provider": null,
-      "requested": [
-        "architecture/brief",
-        "business/brief",
-        "core/brief",
-        "development/brief",
-        "operations/brief",
-        "release/brief",
-        "security/brief",
-        "testing/brief"
-      ],
-      "produced": [
-        "architecture/brief",
-        "business/brief",
-        "core/brief",
-        "development/brief",
-        "operations/brief",
-        "release/brief",
-        "security/brief",
-        "testing/brief"
-      ],
-      "reused": []
-    },
-    {
-      "id": "light-1789822176461",
-      "generated_at": "2026-09-19T12:49:35.200Z",
-      "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
-      "provider": null,
-      "requested": [
-        "architecture/brief",
-        "business/brief",
-        "core/brief",
-        "development/brief",
-        "operations/brief",
-        "release/brief",
-        "security/brief",
-        "testing/brief"
-      ],
-      "produced": [
-        "architecture/brief",
-        "business/brief",
-        "core/brief",
-        "development/brief",
-        "operations/brief",
-        "release/brief",
-        "security/brief",
-        "testing/brief"
-      ],
-      "reused": []
-    },
-    {
-      "id": "light-1789822272593",
-      "generated_at": "2026-09-19T12:51:11.183Z",
-      "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
-      "provider": null,
-      "requested": [
-        "architecture/brief",
-        "business/brief",
-        "core/brief",
-        "development/brief",
-        "operations/brief",
-        "release/brief",
-        "security/brief",
-        "testing/brief"
-      ],
-      "produced": [
-        "architecture/brief",
-        "business/brief",
-        "core/brief",
-        "development/brief",
-        "operations/brief",
-        "release/brief",
-        "security/brief",
-        "testing/brief"
-      ],
-      "reused": []
-    },
-    {
-      "id": "light-1789822377064",
-      "generated_at": "2026-09-19T12:52:55.741Z",
-      "source_tree_sha256": "sha256:e8da1e2e8ef96accbe98ddc37d2e989ed47b60b6241150285cca3a58163117dd",
+      "id": "light-1789864836085",
+      "generated_at": "2026-09-20T00:40:34.832Z",
+      "source_tree_sha256": "sha256:31397dc8f452a0639abed1cce3f8944251e2946bc6a63f3cb4f828c49715a639",
       "provider": null,
       "requested": [
         "architecture/brief",
