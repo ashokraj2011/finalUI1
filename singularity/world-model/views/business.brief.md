@@ -1,6 +1,6 @@
 # business — light brief
 
-> 20 September 2026 · zero model tokens · source `162f755566af`
+> 21 September 2026 · zero model tokens · source `f1fb9b8d1963`
 
 - `README.md`
 - `package.json`

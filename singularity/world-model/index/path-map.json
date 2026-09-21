@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "bounded-light-index",
-  "totalPaths": 84,
+  "totalPaths": 83,
   "representativePaths": [
     "README.md",
     "package.json",
@@ -15,7 +15,6 @@
     "src/app/components/decision-table/decision-table.component.ts",
     "src/app/components/functions/functions.component.ts",
     "src/app/components/history-logs/history-logs.component.ts",
-    "src/app/components/rule-canvas/rule-canvas.component.spec.ts",
     "src/app/components/rule-canvas/rule-canvas.component.ts",
     "src/app/components/rule-config/rule-config.component.ts",
     "src/app/components/rule-sets/rule-sets.component.ts",

@@ -1,9 +1,9 @@
 # logic-engine — light repository brief
 
-> Generated 20 September 2026 · zero model tokens · source `162f755566af`
+> Generated 21 September 2026 · zero model tokens · source `f1fb9b8d1963`
 
-- Files indexed: 84
-- Languages: TypeScript (48), JavaScript (3)
+- Files indexed: 83
+- Languages: TypeScript (47), JavaScript (3)
 - Likely entry points: `server/index.js`, `src/app/kernel/index.ts`, `src/main.ts`
 - Validation commands: `npm run build`, `npm run client`, `npm run ng`, `npm run server`
 
