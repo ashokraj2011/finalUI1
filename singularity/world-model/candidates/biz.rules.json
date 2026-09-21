@@ -1,0 +1,30 @@
+{
+  "kind": "world-model-composition-candidate",
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "markdown": "- No registered deterministic producer supplied business-meaning for biz.rules@4 within the pinned scope. [F:FACT-11dacc4560d491c6]",
+      "sectionId": "registered-rules"
+    },
+    {
+      "markdown": "- No registered deterministic producer supplied business-meaning for biz.rules@4 within the pinned scope. [F:FACT-11dacc4560d491c6]",
+      "sectionId": "conditions-and-outcomes"
+    },
+    {
+      "markdown": "- No registered deterministic producer supplied business-meaning for biz.rules@4 within the pinned scope. [F:FACT-11dacc4560d491c6]",
+      "sectionId": "rule-locations"
+    },
+    {
+      "markdown": "- No registered deterministic producer supplied business-meaning for biz.rules@4 within the pinned scope. [F:FACT-11dacc4560d491c6]\n- No registered deterministic producer supplied rule-definition for biz.rules@4 within the pinned scope. [F:FACT-f52b6dc3a4ca5bb3]",
+      "sectionId": "conflicts-and-unavailable-meaning"
+    }
+  ],
+  "title": "Business rules",
+  "tldrMarkdown": "No registered deterministic producer supplied business-meaning for biz.rules@4 within the pinned scope. No registered deterministic producer supplied rule-definition for biz.rules@4 within the pinned scope. [F:FACT-11dacc4560d491c6,FACT-f52b6dc3a4ca5bb3]",
+  "usedFactIds": [
+    "FACT-11dacc4560d491c6",
+    "FACT-f52b6dc3a4ca5bb3"
+  ],
+  "view": "biz.rules",
+  "viewVersion": 4
+}

@@ -1,0 +1,63 @@
+{
+  "facts": [
+    {
+      "assurance": "not-applicable",
+      "claim": null,
+      "claimSha256": "sha256:38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "conflictsWith": [],
+      "derivationId": "DRV-c85b36c7d8d7827a",
+      "evidenceIds": [],
+      "factSha256": "sha256:09b05352a3a9460bf86f4ed5b22d9ec956fe21ee45a4ce819dba13b8e6c03f7f",
+      "factType": "business-meaning",
+      "id": "FACT-11dacc4560d491c6",
+      "reason": {
+        "attemptedProducer": "required-fact-coverage",
+        "code": "NO_REGISTERED_PRODUCER",
+        "detail": "No registered deterministic producer supplied business-meaning for biz.rules@4 within the pinned scope."
+      },
+      "scopeStatus": "inside",
+      "status": "unavailable",
+      "subject": {
+        "id": "biz.rules@4:business-meaning",
+        "kind": "analysis"
+      }
+    },
+    {
+      "assurance": "not-applicable",
+      "claim": null,
+      "claimSha256": "sha256:38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "conflictsWith": [],
+      "derivationId": "DRV-c85b36c7d8d7827a",
+      "evidenceIds": [],
+      "factSha256": "sha256:3598a53c2a0152dc8719bb29afdf16c806d7f6f42f8fb314aec1ecd81a3a5d2d",
+      "factType": "rule-definition",
+      "id": "FACT-f52b6dc3a4ca5bb3",
+      "reason": {
+        "attemptedProducer": "required-fact-coverage",
+        "code": "NO_REGISTERED_PRODUCER",
+        "detail": "No registered deterministic producer supplied rule-definition for biz.rules@4 within the pinned scope."
+      },
+      "scopeStatus": "inside",
+      "status": "unavailable",
+      "subject": {
+        "id": "biz.rules@4:rule-definition",
+        "kind": "analysis"
+      }
+    }
+  ],
+  "kind": "world-model-view-fact-ledger",
+  "ledgerSha256": "sha256:7c3258ab4eded8e9082281b7e8271828df9673c6ec29b192110afe830d2ca118",
+  "materialContradictionFactIds": [],
+  "requiredFactIds": [
+    "FACT-f52b6dc3a4ca5bb3"
+  ],
+  "requiredUnavailableFactIds": [
+    "FACT-11dacc4560d491c6"
+  ],
+  "schemaVersion": 1,
+  "selectionPolicySha256": "sha256:37166a1569ba1984c1e05117a6cf4b98f18186789a3e4d16797189e4f23685bc",
+  "sourceLedgerSha256": "sha256:e0eddc4f437e2318cd343061cebbd1a7de5d01ce8fb4e54ad5f8f6917c2470ad",
+  "viewId": "biz.rules",
+  "viewSpecSha256": "sha256:39cca8832e285cb7fd7b7b5a09deca629602e2c303908e0aace6032ccf2680b1",
+  "viewVersion": 4
+}

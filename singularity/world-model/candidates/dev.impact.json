@@ -1,0 +1,56 @@
+{
+  "kind": "world-model-composition-candidate",
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "markdown": "- src/main.ts imports the in-scope module src/app/app.config.ts. [F:FACT-0021cde11fa95571]\n- src/app/components/validator/coverage-tab/coverage-tab.component.ts imports the in-scope module src/app/kernel/index.ts. [F:FACT-06307a3d32d89834]\n- src/app/services/persistence.ts line 85 contains a lexical reference candidate to same-file declaration STORE_KEYS at line 58; semantic resolution is unavailable. [F:FACT-09ccfbd8ccb1f3aa]\n- src/app/components/validator/coverage-tab/coverage-tab.component.ts imports the in-scope module src/app/services/rule-engine.service.ts. [F:FACT-13738ea3f66958a0]\n- src/app/components/sidebar/sidebar.component.spec.ts lines 1-54 differ from the exact first-parent baseline; no semantic symbol boundary is inferred. [F:FACT-374f03431476d1a2]\n- src/app/kernel/diff.spec.ts lines 1-60 differ from the exact first-parent baseline; no semantic symbol boundary is inferred. [F:FACT-b854cc875ce9b931]",
+      "sectionId": "changed-structure"
+    },
+    {
+      "markdown": "- src/app/kernel/coverage.ts line 98 contains a lexical reference candidate to same-file declaration CoverageGap at line 92; semantic resolution is unavailable. [F:FACT-02046b3d3ac6b6a4]\n- src/app/kernel/lint.ts imports the in-scope module src/app/kernel/schema.ts. [F:FACT-075080499ea4c0f6]\n- src/app/components/validator/overview-tab/overview-tab.component.ts line 176 contains a lexical reference candidate to same-file declaration RuleHealth at line 9; semantic resolution is unavailable. [F:FACT-0acda99e8f0853b0]\n- src/app/kernel/schema.ts line 47 contains a lexical reference candidate to same-file declaration NamespaceDef at line 19; semantic resolution is unavailable. [F:FACT-1544a000a377fbff]\n- src/app/services/rule-engine.service.spec.ts lines 1-130 differ from the exact first-parent baseline; no semantic symbol boundary is inferred. [F:FACT-4fad48b9450681c8]\n- src/app/services/rule-store.service.spec.ts lines 1-169 differ from the exact first-parent baseline; no semantic symbol boundary is inferred. [F:FACT-d405bac277b2c89a]",
+      "sectionId": "dependency-impact"
+    },
+    {
+      "markdown": "- src/app/kernel/schema.ts line 23 contains a lexical reference candidate to same-file declaration AttrType at line 8; semantic resolution is unavailable. [F:FACT-03a1e06ef1d170e6]\n- src/app/components/sidebar/sidebar.component.spec.ts imports the in-scope module src/app/components/sidebar/sidebar.component.ts. [F:FACT-081b7b3d10a656d7]\n- src/app/kernel/coverage.ts line 39 contains a lexical reference candidate to same-file declaration CoverageReport at line 25; semantic resolution is unavailable. [F:FACT-0d20de3e680257db]\n- src/app/services/persistence.ts line 81 contains a lexical reference candidate to same-file declaration STORE_KEYS at line 58; semantic resolution is unavailable. [F:FACT-16219d5c4fe78c94]\n- src/app/services/mock-db.service.spec.ts lines 1-101 differ from the exact first-parent baseline; no semantic symbol boundary is inferred. [F:FACT-9998337de7d06a65]",
+      "sectionId": "affected-contracts"
+    },
+    {
+      "markdown": "- src/app/components/validator/coverage-tab/coverage-tab.component.ts imports the in-scope module src/app/models/types.ts. [F:FACT-03c394edadfc610b]\n- src/app/components/rule-sets/rule-sets.component.ts imports the in-scope module src/app/types.ts. [F:FACT-098bbc001ec72044]\n- src/app/kernel/evaluate.ts line 115 contains a lexical reference candidate to same-file declaration EvalResult at line 28; semantic resolution is unavailable. [F:FACT-11bc3d304e21ef69]\n- src/app/services/rule-store.service.ts imports the in-scope module src/app/validator-data/sample-rules.ts. [F:FACT-16cbf1b6f182137c]\n- src/app/services/persistence.spec.ts lines 1-77 differ from the exact first-parent baseline; no semantic symbol boundary is inferred. [F:FACT-b5fa9ca45a8da886]",
+      "sectionId": "test-impact"
+    },
+    {
+      "markdown": "- No registered deterministic producer supplied runtime-frequency for dev.impact@4 within the pinned scope. [F:FACT-374ead2c5ee323d4]\n- No registered deterministic producer supplied contract-change for dev.impact@4 within the pinned scope. [F:FACT-7d3561e3d65d4556]",
+      "sectionId": "unavailable-analysis"
+    }
+  ],
+  "title": "Development impact",
+  "tldrMarkdown": "src/main.ts imports the in-scope module src/app/app.config.ts. No registered deterministic producer supplied runtime-frequency for dev.impact@4 within the pinned scope. No registered deterministic producer supplied contract-change for dev.impact@4 within the pinned scope. [F:FACT-0021cde11fa95571,FACT-374ead2c5ee323d4,FACT-7d3561e3d65d4556]",
+  "usedFactIds": [
+    "FACT-0021cde11fa95571",
+    "FACT-02046b3d3ac6b6a4",
+    "FACT-03a1e06ef1d170e6",
+    "FACT-03c394edadfc610b",
+    "FACT-06307a3d32d89834",
+    "FACT-075080499ea4c0f6",
+    "FACT-081b7b3d10a656d7",
+    "FACT-098bbc001ec72044",
+    "FACT-09ccfbd8ccb1f3aa",
+    "FACT-0acda99e8f0853b0",
+    "FACT-0d20de3e680257db",
+    "FACT-11bc3d304e21ef69",
+    "FACT-13738ea3f66958a0",
+    "FACT-1544a000a377fbff",
+    "FACT-16219d5c4fe78c94",
+    "FACT-16cbf1b6f182137c",
+    "FACT-374ead2c5ee323d4",
+    "FACT-374f03431476d1a2",
+    "FACT-4fad48b9450681c8",
+    "FACT-7d3561e3d65d4556",
+    "FACT-9998337de7d06a65",
+    "FACT-b5fa9ca45a8da886",
+    "FACT-b854cc875ce9b931",
+    "FACT-d405bac277b2c89a"
+  ],
+  "view": "dev.impact",
+  "viewVersion": 4
+}

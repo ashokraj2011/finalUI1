@@ -1,0 +1,72 @@
+{
+  "kind": "world-model-context-manifest",
+  "manifestSha256": "sha256:a558b9950e0377ba970979863bd2e5f4ceb71162fd280438b1ddbe67ea9fad90",
+  "promptSha256": "sha256:01c1d844df3a6ac00d69b8efd5b696acbc257a6f926d3177e4084659af401cde",
+  "regions": [
+    {
+      "bytes": 2789,
+      "cacheClass": "stable-prefix",
+      "estimatedTokens": 698,
+      "id": "stable-core",
+      "sha256": "sha256:fdaa70bade7e5a477faa69be261ff677b6e3ba50f1211c5e6b3398c83ecfe0bf"
+    },
+    {
+      "bytes": 319,
+      "cacheClass": "stable-prefix",
+      "estimatedTokens": 80,
+      "id": "fact-reference-grammar",
+      "sha256": "sha256:51e16d1f1e7d9f6e9d1965625a2c8af165efe28dbe664a2f6cc8f2f49ef4f73d"
+    },
+    {
+      "bytes": 1362,
+      "cacheClass": "stable-prefix",
+      "estimatedTokens": 341,
+      "id": "composition-candidate-schema",
+      "sha256": "sha256:a375456e18154709d94f6f413d7bfbd740b72ebb48901c5e6faee3f9ee7305e7"
+    },
+    {
+      "bytes": 2181,
+      "cacheClass": "stable-view",
+      "estimatedTokens": 546,
+      "id": "view-contract",
+      "sha256": "sha256:923e47d042a4a907e818256beaca309a4c6902537635974f1bb3f49be9ba49e6"
+    },
+    {
+      "bytes": 363,
+      "cacheClass": "task",
+      "estimatedTokens": 91,
+      "id": "consumer-profile",
+      "sha256": "sha256:b75f8f0e5d33fdc8c8df4b2e5963d1a4a16f87f0dea7383218bb0dae53e7b3c4"
+    },
+    {
+      "bytes": 487,
+      "cacheClass": "task",
+      "estimatedTokens": 122,
+      "id": "output-budget",
+      "sha256": "sha256:ab76e4a96d781bf63dc223603c3027ebd41c49beefd646aa6687d3ee1753ae70"
+    },
+    {
+      "bytes": 745,
+      "cacheClass": "dynamic",
+      "estimatedTokens": 187,
+      "id": "scope-manifest",
+      "sha256": "sha256:3d1b83c9d111a0a82c7b4981b0df43171ebc2146e7a74608a2a1c30b7a6400b4"
+    },
+    {
+      "bytes": 4829,
+      "cacheClass": "dynamic",
+      "estimatedTokens": 1208,
+      "id": "composition-fact-packet",
+      "sha256": "sha256:62f3d9166e257fc75f9fe8b279c9bd46835fd701def5410e945b8b2280dc4f47"
+    },
+    {
+      "bytes": 86,
+      "cacheClass": "dynamic",
+      "estimatedTokens": 22,
+      "id": "evidence-catalog",
+      "sha256": "sha256:ff3e34e378add1b3a9419cf018c47f230a8e463e60414fd239ee9afe14e8e053"
+    }
+  ],
+  "schemaVersion": 1,
+  "viewId": "dev.hotspots"
+}

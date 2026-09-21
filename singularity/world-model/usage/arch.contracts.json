@@ -1,0 +1,23 @@
+{
+  "assurance": {
+    "estimatedTokens": "estimated",
+    "promptBytes": "exact",
+    "providerTokens": "unavailable"
+  },
+  "cost": {
+    "amount": null,
+    "assurance": "unavailable",
+    "currency": "USD"
+  },
+  "estimatedInputTokens": 0,
+  "estimatedOutputTokens": 6875,
+  "kind": "world-model-usage-observation",
+  "observationSha256": "sha256:ac38f755f769fd2affc290c04961a4cf687547a3aeb38befd81b388df84b34a7",
+  "outputBytes": 27499,
+  "promptBytes": 0,
+  "providerCachedTokens": null,
+  "providerInputTokens": null,
+  "providerOutputTokens": null,
+  "schemaVersion": 1,
+  "viewId": "arch.contracts"
+}

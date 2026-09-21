@@ -1,0 +1,13 @@
+{
+  "consumer": "developer",
+  "depth": "standard",
+  "kind": "world-model-consumer-profile",
+  "preferences": {
+    "includeContradictions": true,
+    "includeUnavailable": true,
+    "maximumExamples": 5,
+    "terminology": "source-native"
+  },
+  "profileSha256": "sha256:fb4fb979be6a33e230216917f33549d45eb02de9e27811a78d96d62b0222b599",
+  "schemaVersion": 1
+}

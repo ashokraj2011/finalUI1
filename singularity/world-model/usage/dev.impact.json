@@ -1,0 +1,23 @@
+{
+  "assurance": {
+    "estimatedTokens": "estimated",
+    "promptBytes": "exact",
+    "providerTokens": "unavailable"
+  },
+  "cost": {
+    "amount": null,
+    "assurance": "unavailable",
+    "currency": "USD"
+  },
+  "estimatedInputTokens": 0,
+  "estimatedOutputTokens": 6433,
+  "kind": "world-model-usage-observation",
+  "observationSha256": "sha256:aac27d9556e199faf3ff1e41b499c4ef535c1a9e3c327c659f968e3bf464bd14",
+  "outputBytes": 25729,
+  "promptBytes": 0,
+  "providerCachedTokens": null,
+  "providerInputTokens": null,
+  "providerOutputTokens": null,
+  "schemaVersion": 1,
+  "viewId": "dev.impact"
+}

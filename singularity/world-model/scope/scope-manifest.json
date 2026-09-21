@@ -1,0 +1,33 @@
+{
+  "allowedPaths": [
+    "**"
+  ],
+  "allowedSubjects": [
+    "analysis",
+    "configuration",
+    "contract",
+    "dependency-edge",
+    "directory",
+    "file",
+    "human-record",
+    "repository",
+    "rule",
+    "runtime-observation",
+    "symbol",
+    "test"
+  ],
+  "capabilityId": "repository-root",
+  "excludedPaths": [
+    ".git/**",
+    ".github/agents/**",
+    ".sflow/**",
+    ".singularity-flow/**",
+    "singularity/**"
+  ],
+  "kind": "world-model-scope-manifest",
+  "maximumTraversalDepth": 8,
+  "policySourceSha256": "sha256:f5dc73dede6fd2544c21b7c698cd4d114c53b9a01e2cc7b4abbe95917a68ed43",
+  "schemaVersion": 1,
+  "scopeSha256": "sha256:ef6e514a4d006db6aac321c12ca9cba1b61b065b81491ad2f9ffe7b91606e7f6",
+  "sharedPaths": []
+}

@@ -1,0 +1,16 @@
+{
+  "candidateSha256": "sha256:b17b02b31ec5436a35731c6aa2a6460c08452887b4f1cac98a80597a15be6d0a",
+  "contextManifestSha256": "sha256:692f1d32d246d0b6703535d93e2a95a1c21c67f447a4f372a756622ab7462fd5",
+  "executionSha256": "sha256:304eb44792aae3821a7b054b0616017f03b87cd6549a2723bb8b677601882c8e",
+  "executionUnitManifestSha256": "sha256:b344873ba90c35a6a1f662c3be148385735059ff26bec44eee577952daf59779",
+  "kind": "world-model-view-execution",
+  "publishedViewSha256": "sha256:9688d933a0f5d7913a3fee6c08680485cd4d422b38273045c9a70af25fe5ceff",
+  "requestSha256": "sha256:be616860f31b038b6492360afeac8a459cb095abbed5a2c0f51606acd3c95037",
+  "schemaVersion": 1,
+  "status": "completed",
+  "usageObservationSha256": "sha256:2f6a8dac65958ffed0cee39bcfceca628329f0e2d7b7596c48634dc070985ea4",
+  "validationReceiptSha256": "sha256:6fbcdc10f69615d0345b2d231bfa824a7dffc82572380d86c201e974ebdb5284",
+  "viewFactLedgerSha256": "sha256:7c3258ab4eded8e9082281b7e8271828df9673c6ec29b192110afe830d2ca118",
+  "viewId": "biz.rules",
+  "viewVersion": 4
+}

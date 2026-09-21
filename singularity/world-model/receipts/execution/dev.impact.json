@@ -1,0 +1,16 @@
+{
+  "candidateSha256": "sha256:cdbe6e2f05a3c4b8aa1f0381fad9ebda0f593d6680d2fdc308e9ab7dd8e50468",
+  "contextManifestSha256": "sha256:2c633890dd4482487ccffb417f0b8f540f59cb21ee95cfb0c13f167b0f761268",
+  "executionSha256": "sha256:a4f7d906c4b6f24228063d0ad9807147d79f19e6ec5361b6cf3a9cddbe3aaaad",
+  "executionUnitManifestSha256": "sha256:b344873ba90c35a6a1f662c3be148385735059ff26bec44eee577952daf59779",
+  "kind": "world-model-view-execution",
+  "publishedViewSha256": "sha256:91e2ac9fbf29c39d7fc1e8a2512f05fe36d8092b97c0105ba98b81a745b84082",
+  "requestSha256": "sha256:be616860f31b038b6492360afeac8a459cb095abbed5a2c0f51606acd3c95037",
+  "schemaVersion": 1,
+  "status": "completed",
+  "usageObservationSha256": "sha256:aac27d9556e199faf3ff1e41b499c4ef535c1a9e3c327c659f968e3bf464bd14",
+  "validationReceiptSha256": "sha256:ac9be86d0d3ae1f11c268f1b0a2eaddcb7851a1fca96f5752857d5584369684f",
+  "viewFactLedgerSha256": "sha256:528418948e8d5eef47a617bf3907dbfafd9d77abe74f85c1ab8a3a3588930fed",
+  "viewId": "dev.impact",
+  "viewVersion": 4
+}

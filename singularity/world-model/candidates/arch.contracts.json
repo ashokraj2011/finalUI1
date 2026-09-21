@@ -1,0 +1,60 @@
+{
+  "kind": "world-model-composition-candidate",
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "markdown": "- EvaluationNode is explicitly declared as an interface contract in src/app/models/types.ts at line 203. [F:FACT-000421a536ab9c76]\n- src/app/kernel/compare.ts declares export function compareTyped( at line 71. [F:FACT-01b48222193348a9]\n- RuleCondition declares protocol field value: string in src/app/types.ts at line 27. [F:FACT-0255629028d3141c]\n- CanvasNode declares protocol field selectionLogic?: string in src/app/types.ts at line 51. [F:FACT-06a3248e3dd42b6b]\n- RuleGrammar declares protocol field name: string in src/app/components/rule-sets/rule-sets.component.ts at line 32. [F:FACT-07f05219834015ee]\n- ExecutionTraceLog is explicitly declared as an interface contract in src/app/types.ts at line 67. [F:FACT-14519fa8f26ae467]\n- MemoryPort explicitly implements PersistencePort in src/app/services/persistence.ts at line 44. [F:FACT-22b06d26e6b6b981]\n- LocalStoragePort explicitly implements PersistencePort in src/app/services/persistence.ts at line 16. [F:FACT-53fd72e49466dd8b]\n- RuleSetsComponent is an explicit consumer of interface OnInit in src/app/components/rule-sets/rule-sets.component.ts. [F:FACT-99f0e6f1ddc10630]",
+      "sectionId": "public-contracts"
+    },
+    {
+      "markdown": "- src/app/app.component.ts declares export class AppComponent at line 46. [F:FACT-0117e44adc5a18af]\n- Rule declares protocol field name: string in src/app/kernel/ast.ts at line 46. [F:FACT-0222cdf43605c00c]\n- src/app/components/validator/validate-tab/validate-tab.component.ts declares export class ValidateTabComponent at line 27. [F:FACT-0362dc8c12101e25]\n- ComparisonTerm declares protocol field value: any in src/app/kernel/ast.ts at line 28. [F:FACT-06f772cd86e54885]\n- ConditionCoverage is explicitly declared as an interface contract in src/app/kernel/coverage.ts at line 12. [F:FACT-1369885527a34377]\n- ComparisonTerm is explicitly declared as an interface contract in src/app/kernel/ast.ts at line 24. [F:FACT-19c599cb4357f25e]\n- RuleSetsComponent explicitly implements OnInit in src/app/components/rule-sets/rule-sets.component.ts at line 513. [F:FACT-2dbc745c7be2f938]\n- LocalStoragePort is an explicit consumer of interface PersistencePort in src/app/services/persistence.ts. [F:FACT-5e3d49bb981297a9]\n- MemoryPort is an explicit consumer of interface PersistencePort in src/app/services/persistence.ts. [F:FACT-cd0f427376dce326]",
+      "sectionId": "implementations"
+    },
+    {
+      "markdown": "- src/app/models/types.ts declares export interface NamespaceConfig at line 42. [F:FACT-01455fdd08935afd]\n- src/app/data.ts declares export const INITIAL_CANVAS_NODES: CanvasNode[] at line 52. [F:FACT-0228434bb0d15f17]\n- src/app/models/types.ts declares export interface PendingCase at line 181. [F:FACT-04e4597c45dce641]\n- PendingCase declares protocol field description: string in src/app/models/types.ts at line 184. [F:FACT-077b44782f1de59d]\n- RuleFindings is explicitly declared as an interface contract in src/app/components/validator/validate-tab/validate-tab.component.ts at line 8. [F:FACT-144a2b2073fd8644]\n- GridRow is explicitly declared as an interface contract in src/app/components/validator/test-data-tab/test-data-tab.component.ts at line 10. [F:FACT-1c3cc3977b3d1cfb]\n- RuleCanvasComponent is an explicit consumer of interface OnInit in src/app/components/rule-canvas/rule-canvas.component.ts. [F:FACT-3ae30bd5e80b7849]\n- RuleCanvasComponent explicitly implements OnInit in src/app/components/rule-canvas/rule-canvas.component.ts at line 669. [F:FACT-5e4f4f2be444e8bb]",
+      "sectionId": "consumers"
+    },
+    {
+      "markdown": "- No registered deterministic producer supplied schema-contract for arch.contracts@4 within the pinned scope. [F:FACT-36fc31480546b14a]",
+      "sectionId": "contract-contradictions"
+    },
+    {
+      "markdown": "- No registered deterministic producer supplied schema-contract for arch.contracts@4 within the pinned scope. [F:FACT-36fc31480546b14a]\n- No registered deterministic producer supplied runtime-guarantee for arch.contracts@4 within the pinned scope. [F:FACT-f8df5ea05118e316]",
+      "sectionId": "unavailable-runtime-guarantees"
+    }
+  ],
+  "title": "Architecture contracts",
+  "tldrMarkdown": "EvaluationNode is explicitly declared as an interface contract in src/app/models/types.ts at line 203. No registered deterministic producer supplied schema-contract for arch.contracts@4 within the pinned scope. No registered deterministic producer supplied runtime-guarantee for arch.contracts@4 within the pinned scope. [F:FACT-000421a536ab9c76,FACT-36fc31480546b14a,FACT-f8df5ea05118e316]",
+  "usedFactIds": [
+    "FACT-000421a536ab9c76",
+    "FACT-0117e44adc5a18af",
+    "FACT-01455fdd08935afd",
+    "FACT-01b48222193348a9",
+    "FACT-0222cdf43605c00c",
+    "FACT-0228434bb0d15f17",
+    "FACT-0255629028d3141c",
+    "FACT-0362dc8c12101e25",
+    "FACT-04e4597c45dce641",
+    "FACT-06a3248e3dd42b6b",
+    "FACT-06f772cd86e54885",
+    "FACT-077b44782f1de59d",
+    "FACT-07f05219834015ee",
+    "FACT-1369885527a34377",
+    "FACT-144a2b2073fd8644",
+    "FACT-14519fa8f26ae467",
+    "FACT-19c599cb4357f25e",
+    "FACT-1c3cc3977b3d1cfb",
+    "FACT-22b06d26e6b6b981",
+    "FACT-2dbc745c7be2f938",
+    "FACT-36fc31480546b14a",
+    "FACT-3ae30bd5e80b7849",
+    "FACT-53fd72e49466dd8b",
+    "FACT-5e3d49bb981297a9",
+    "FACT-5e4f4f2be444e8bb",
+    "FACT-99f0e6f1ddc10630",
+    "FACT-cd0f427376dce326",
+    "FACT-f8df5ea05118e316"
+  ],
+  "view": "arch.contracts",
+  "viewVersion": 4
+}

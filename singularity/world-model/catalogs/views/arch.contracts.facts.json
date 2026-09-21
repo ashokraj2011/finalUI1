@@ -1,0 +1,1170 @@
+{
+  "facts": [
+    {
+      "assurance": "structurally-derived",
+      "claim": "EvaluationNode is explicitly declared as an interface contract in src/app/models/types.ts at line 203.",
+      "claimSha256": "sha256:37a33dc8273a06cc93bc3feb9d51435dbb6a3f79574e0e1fd197d94ffd945f28",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-fceed2b93fb7fc93"
+      ],
+      "factSha256": "sha256:3cbcb0a3c5743eb769f701575304299825c4cdd74e8c9cc07147da6537971d20",
+      "factType": "interface",
+      "id": "FACT-000421a536ab9c76",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#EvaluationNode",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/app.component.ts declares export class AppComponent at line 46.",
+      "claimSha256": "sha256:316fce76d46c31fd31cb49c6e15cfe269f42c427a1fba74b3970c6dd8ab98eed",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-4bfaaaab57dbfff9"
+      ],
+      "factSha256": "sha256:c3e351a878d6e4abbf57b583ed2c83429f2bee8b3b856072ff56c73f952ecb97",
+      "factType": "signature",
+      "id": "FACT-0117e44adc5a18af",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/app.component.ts#AppComponent",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/models/types.ts declares export interface NamespaceConfig at line 42.",
+      "claimSha256": "sha256:688e585902882a77e46199b520e2a28b4a45443cf7339a07d65fd8578d2bf410",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-62c229970b480a4f"
+      ],
+      "factSha256": "sha256:fdc1a5996ba6cc5f5745ad5d11312c6ec69fcab894ead12d5b0a6daa2d87f7e4",
+      "factType": "signature",
+      "id": "FACT-01455fdd08935afd",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#NamespaceConfig",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/kernel/compare.ts declares export function compareTyped( at line 71.",
+      "claimSha256": "sha256:f83149f30bc69c18222fc89716d6b1224c696235a72ba61b4fa5173510da40d8",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-459767937abae327"
+      ],
+      "factSha256": "sha256:656095290673e30280fa065da3aab398aa66b70856d4363395d4bd09faaacaa3",
+      "factType": "signature",
+      "id": "FACT-01b48222193348a9",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/compare.ts#compareTyped",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "Rule declares protocol field name: string in src/app/kernel/ast.ts at line 46.",
+      "claimSha256": "sha256:70282ef9a282618e68e4d35aa5b30a4b8da967b4668e9b14b1f9afd23c6677c7",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-368f4850fc55d44b"
+      ],
+      "factSha256": "sha256:05821f26a7b754aa8d3da2488e511f660d48ff7f645c034da5434ce605ccdd40",
+      "factType": "protocol-field",
+      "id": "FACT-0222cdf43605c00c",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/ast.ts#Rule.name",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/data.ts declares export const INITIAL_CANVAS_NODES: CanvasNode[] at line 52.",
+      "claimSha256": "sha256:5710a5bbb23335ca30fd2e1ed3211abe69a987c838ddad991775e14c50544c25",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-6645801d8112676e"
+      ],
+      "factSha256": "sha256:d1fa4e2f3e101debb4e02f5b441a23bfe5a5ae2d12d7d415a4932b7ba239f141",
+      "factType": "signature",
+      "id": "FACT-0228434bb0d15f17",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/data.ts#INITIAL_CANVAS_NODES",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "RuleCondition declares protocol field value: string in src/app/types.ts at line 27.",
+      "claimSha256": "sha256:a7815011281a614ee424cffdb673a07eeb074bbe2861aaf3cb08283008f6b66b",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-4a9faff714cdd688"
+      ],
+      "factSha256": "sha256:a90c20b9c097bd50c27d5f52f03fb05eecf5f7e68679a6ef6caa79202e6f5515",
+      "factType": "protocol-field",
+      "id": "FACT-0255629028d3141c",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/types.ts#RuleCondition.value",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/components/validator/validate-tab/validate-tab.component.ts declares export class ValidateTabComponent at line 27.",
+      "claimSha256": "sha256:0af18f4f1111279344c2079d719d8eec25da72ed871ed9884f399f0132201210",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-90dcaea7ef8ca37b"
+      ],
+      "factSha256": "sha256:0d5784b025df72f018e1ec300b988183b4d164c86090be9eb755d8c86fd4c7e6",
+      "factType": "signature",
+      "id": "FACT-0362dc8c12101e25",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/validator/validate-tab/validate-tab.component.ts#ValidateTabComponent",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/models/types.ts declares export interface PendingCase at line 181.",
+      "claimSha256": "sha256:83868e065185bdb9d0c234327df9b182d6d0c11b3429f1cf6bbd5cd19169ef01",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-a710c9c9df2a8633"
+      ],
+      "factSha256": "sha256:f4a89a317661cd37b93f9f8bc91cb810e3ffa19daba062f1762b5ab0b9a6adc3",
+      "factType": "signature",
+      "id": "FACT-04e4597c45dce641",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#PendingCase",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "CanvasNode declares protocol field selectionLogic?: string in src/app/types.ts at line 51.",
+      "claimSha256": "sha256:df3aa3e1dd9f274dfa5de2431ed9848a755e0f60d1d6dd21a1a9acecf2b176f4",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-9557719eb3f4feaf"
+      ],
+      "factSha256": "sha256:fe57e0307b93d4b9d4f30ffac8c8e216ab8473a2cb26a805b85da6560520b5fc",
+      "factType": "protocol-field",
+      "id": "FACT-06a3248e3dd42b6b",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/types.ts#CanvasNode.selectionLogic",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ComparisonTerm declares protocol field value: any in src/app/kernel/ast.ts at line 28.",
+      "claimSha256": "sha256:9e5ae1246d4ad5f0fb82fbfa0c2a733361fe777b00f4dc443270ea44094befdd",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-3e4b93a215bd47ea"
+      ],
+      "factSha256": "sha256:dfdd47eedd8ddfc50f19c44d40758aedc3e68412978af1fc6f1ec2bd7082e76d",
+      "factType": "protocol-field",
+      "id": "FACT-06f772cd86e54885",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/ast.ts#ComparisonTerm.value",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "PendingCase declares protocol field description: string in src/app/models/types.ts at line 184.",
+      "claimSha256": "sha256:5a97ac0a5c03f18a7825eb749df2d2295ed8d68a518cd7b70db1d55097e41316",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-557173803b268c2d"
+      ],
+      "factSha256": "sha256:9ca2edc6445f9c207606787cace6d0b3ad1d54bb175f1a09392e936528beb04b",
+      "factType": "protocol-field",
+      "id": "FACT-077b44782f1de59d",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#PendingCase.description",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "RuleGrammar declares protocol field name: string in src/app/components/rule-sets/rule-sets.component.ts at line 32.",
+      "claimSha256": "sha256:8fccede9e92c4aca3706b12891bcc54618753528b698fa642c1907a0363ca237",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-a24eeda828c486e4"
+      ],
+      "factSha256": "sha256:8e2feea87f526b44ecdd88a161e21b7a1365e70f53746c9cf29088ec3893f791",
+      "factType": "protocol-field",
+      "id": "FACT-07f05219834015ee",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-sets/rule-sets.component.ts#RuleGrammar.name",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/kernel/schema.ts declares export function typeLabel(t: AttrType): string at line 33.",
+      "claimSha256": "sha256:4b3d03654d825637909e98e1034b98848b556d2a9923b914ee51691ae47ef8c6",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-6cfff1f095f147eb"
+      ],
+      "factSha256": "sha256:d595df6903eb5bb51952fc551138d765e9592dbbf0a13c21bc0e1dca17ed2940",
+      "factType": "signature",
+      "id": "FACT-081fb20799b918d0",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/schema.ts#typeLabel",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/kernel/ast.ts declares export const SET_OPERATORS: ReadonlySet<ComparisonOperator> at line 79.",
+      "claimSha256": "sha256:818ea0a2f0bbc955386b2000740e39c2ac7243adae0ac21a7879cd20526eecfa",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-3dd608a0212d21ca"
+      ],
+      "factSha256": "sha256:4e220ca86c675dbccfbf86630c4ef6d3ba1fbc102ffad48bf54e4a7f62c39831",
+      "factType": "signature",
+      "id": "FACT-08879a1fddd2a3c3",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/ast.ts#SET_OPERATORS",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "TestCase declares protocol field dbKeys: Record<string, string> in src/app/models/types.ts at line 103.",
+      "claimSha256": "sha256:64c53a8eaf993b9d074a4da464da987faf1bcaf49a09b7400a4a8d9cae93f00a",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-3b5f938c9ea1199b"
+      ],
+      "factSha256": "sha256:75a9044d9d304d8df8d69abff20f4537f3c6c892e340a03051887a7d30ecc668",
+      "factType": "protocol-field",
+      "id": "FACT-08e92c3769e0d720",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#TestCase.dbKeys",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "GridRow declares protocol field cells: Record<string, string> in src/app/components/validator/test-data-tab/test-data-tab.component.ts at line 12.",
+      "claimSha256": "sha256:1349c40ef90493614cd363fe5ca51c0fc848cc5e6f31d2f54d4944def59f3765",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-2b37f84ac597d255"
+      ],
+      "factSha256": "sha256:918910f8e76169bff0b75339ff4e591511f59d1074d3437a8bfe5ff998b7e037",
+      "factType": "protocol-field",
+      "id": "FACT-09badd2a11780a45",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/validator/test-data-tab/test-data-tab.component.ts#GridRow.cells",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "Suite declares protocol field name: string in src/app/models/types.ts at line 70.",
+      "claimSha256": "sha256:e8531a9f42841465568a6cc1f19461383263c1ca05704e92ea32d9139c296d19",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-c87e06fac410c078"
+      ],
+      "factSha256": "sha256:8372db3cb393c86fad8aa0f61f33a9f8638481f92a07028ae62a9d39a984b58b",
+      "factType": "protocol-field",
+      "id": "FACT-09d6f3c7bc710538",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#Suite.name",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/components/validator/eval-node/eval-node.component.ts declares export class EvalNodeComponent at line 13.",
+      "claimSha256": "sha256:ca723431b7cad3bad5de4d064549f14cfd3a68d4e8522ac31e64fdb4fe049693",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-46d2a49b92951c27"
+      ],
+      "factSha256": "sha256:58495774d65fbaad76ecc566205411e072649efbc719b026e6c4613cc4da8bad",
+      "factType": "signature",
+      "id": "FACT-0ba9b062aa14c50f",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/validator/eval-node/eval-node.component.ts#EvalNodeComponent",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ExecutionTraceLog declares protocol field id: string in src/app/types.ts at line 68.",
+      "claimSha256": "sha256:691d95647c942916965fd4eebac9ecbaf9f468c07d4fde473eec813c89784091",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-6d552ff0e1d49b5b"
+      ],
+      "factSha256": "sha256:e389b45e3105fab60b9dc44a1faa5460d54d182aa2cc138ee8b48147da86a16c",
+      "factType": "protocol-field",
+      "id": "FACT-0c34dff290af0de3",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/types.ts#ExecutionTraceLog.id",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "Finding declares protocol field severity: Severity in src/app/kernel/lint.ts at line 27.",
+      "claimSha256": "sha256:6d72f41d304fbf635751363bd1d90f2674add53483bbb78d332a83b769d6ed58",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-142e79dae7c3dad6"
+      ],
+      "factSha256": "sha256:07d443a1a4d1471bf9d47bdda3977caba00fb60e4692588e5205a62183cb98dd",
+      "factType": "protocol-field",
+      "id": "FACT-0c63a1749a01e86a",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/lint.ts#Finding.severity",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "Term declares protocol field conditions: Condition[] in src/app/components/rule-sets/rule-sets.component.ts at line 27.",
+      "claimSha256": "sha256:3c017e3cd66a821617718ee9af9b09bed111b8738a4da1859ffb5b9d1d338552",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-efb1da0313a9dfbf"
+      ],
+      "factSha256": "sha256:1fe165d071677e83ee8a29365befc124db72ecaedbaf4286d737f5289c2bfe5d",
+      "factType": "protocol-field",
+      "id": "FACT-0ef0b3c4d4d0a757",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-sets/rule-sets.component.ts#Term.conditions",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "EvalOptions declares protocol field schema?: SchemaRegistry in src/app/kernel/evaluate.ts at line 53.",
+      "claimSha256": "sha256:5d007ed9bde7f59fc9da85451b050a4cb04018d1b341d3fd0d0e987299dcfefc",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-bb7c302f86228fe1"
+      ],
+      "factSha256": "sha256:21e00c74779be0a066171772cc1b299bad16889c52acb2d00f029100606e7cec",
+      "factType": "protocol-field",
+      "id": "FACT-0ef985efd0bc88cd",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/evaluate.ts#EvalOptions.schema",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/models/types.ts declares export interface NamespaceData at line 32.",
+      "claimSha256": "sha256:d94f316201a0072f884546c6ce3bb16c6b8e27e25c30affa13b763320b9ab4ec",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-310b5536ed08a618"
+      ],
+      "factSha256": "sha256:95c1cdc020a88977000bb54a75cb9f2d4f7f51f86227d2f2cb6a0cd02033706a",
+      "factType": "signature",
+      "id": "FACT-10b6a6a5e42e900e",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#NamespaceData",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ConditionCoverage declares protocol field attribute?: string in src/app/kernel/coverage.ts at line 15.",
+      "claimSha256": "sha256:91d6e3ac0517e1034acc1086fdfd6a04c5ab8b9a21dfad0207bb528c730839f3",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-f3988915adad284f"
+      ],
+      "factSha256": "sha256:9afd9d7c60e48747b6e8138f1a423ffdf7e52b21f81e9d5ad563ad0975125afa",
+      "factType": "protocol-field",
+      "id": "FACT-10ef0d7f2e2beadd",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/coverage.ts#ConditionCoverage.attribute",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/kernel/coverage.ts declares export function coverageGaps(report: CoverageReport): CoverageGap[] at line 98.",
+      "claimSha256": "sha256:a0353fb524aaf8f65acbfbb78389f77bc9afd479f8305731989537987fb79c3b",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-96150e765ba7408f"
+      ],
+      "factSha256": "sha256:15b7a23f682eaa306a9cdf324e8dc613cbb8f20d9dc4e2ad179ed51c76a34782",
+      "factType": "signature",
+      "id": "FACT-1100abe9201f5d38",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/coverage.ts#coverageGaps",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/models/types.ts declares export interface TestCaseRunResult at line 127.",
+      "claimSha256": "sha256:d9a409ce7345de8428f3174befeb7f573ab1c8cb5322bb66c4ff6135ec338ec0",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-338b103fbc5d0a2b"
+      ],
+      "factSha256": "sha256:00f41d8e18854f2a14a508f9955e55d0a7364c55c9064e37a4feea7981bf31d7",
+      "factType": "signature",
+      "id": "FACT-111f355e2e7090fe",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#TestCaseRunResult",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ConditionStats declares protocol field passed: number in src/app/models/types.ts at line 150.",
+      "claimSha256": "sha256:6ef70f5a1aadf3b2bd31bd0b84c3392b6afa2b5896658a8e4507d4855d2b38cf",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-8eb72b5378609f25"
+      ],
+      "factSha256": "sha256:f75d45ec74a31d3695eb4b580dc53b9236343f32a7e920eb68f3f626cc5e2217",
+      "factType": "protocol-field",
+      "id": "FACT-1121847e18e61424",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#ConditionStats.passed",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "Finding declares protocol field where?: string in src/app/kernel/lint.ts at line 31.",
+      "claimSha256": "sha256:444353ea04e64d363ac9cd9de054239d8417502ded85c2bb241472a7054675f0",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-37961657a5460778"
+      ],
+      "factSha256": "sha256:2e2d95f01e0824c454074050508d85160f84b934c0b3b01d5051dfcffd7e24b5",
+      "factType": "protocol-field",
+      "id": "FACT-1263c713b957b241",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/lint.ts#Finding.where",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ConditionCoverage is explicitly declared as an interface contract in src/app/kernel/coverage.ts at line 12.",
+      "claimSha256": "sha256:9ffb3c511194d7df863f1c60489f38d40a0f6148072762587d3ae864251c4d4f",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-11bad38f703058b1"
+      ],
+      "factSha256": "sha256:f764b66a197d47a1edab20c52e2ffa88c16f3967a18f42a0a4b2a4371ed89bc1",
+      "factType": "interface",
+      "id": "FACT-1369885527a34377",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/coverage.ts#ConditionCoverage",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "RuleFindings is explicitly declared as an interface contract in src/app/components/validator/validate-tab/validate-tab.component.ts at line 8.",
+      "claimSha256": "sha256:76b9429ed9f13684c5c0b9f5efc3906da73bf907a317d943036e9df68687fd77",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-a1b55a3743be377f"
+      ],
+      "factSha256": "sha256:939cf632df16c88c9a44c5da5a25990033d2811fcdb61c2e23053927b0b8ef85",
+      "factType": "interface",
+      "id": "FACT-144a2b2073fd8644",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/validator/validate-tab/validate-tab.component.ts#RuleFindings",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ExecutionTraceLog is explicitly declared as an interface contract in src/app/types.ts at line 67.",
+      "claimSha256": "sha256:ee395872383b656b040a0648433a8eb8d736033969e5f533e2f949850eeb3d9c",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-5a7b20918050bc27"
+      ],
+      "factSha256": "sha256:a9595ba28508be60746c9c6a584ef2a627fc3918abe8a53d0bf33cabeafd35ad",
+      "factType": "interface",
+      "id": "FACT-14519fa8f26ae467",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/types.ts#ExecutionTraceLog",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "CanvasConnection declares protocol field toPort?: string in src/app/types.ts at line 64.",
+      "claimSha256": "sha256:0e7eb251a76ad7e8a81427b0e1a39d68beb49059cba2ff499890f1aa109c1de3",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-94f56452ede13abf"
+      ],
+      "factSha256": "sha256:777ced01db49ecadd6051c670b7db3716fc35fd2cc6b3ba32c3bd4552cf12552",
+      "factType": "protocol-field",
+      "id": "FACT-1464dda6c042ecd5",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/types.ts#CanvasConnection.toPort",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/kernel/evaluate.ts declares export interface EvalOptions at line 51.",
+      "claimSha256": "sha256:1f7dc4ae687482e04b2f67acd4677bcf134ba698df77e8adb34543455d765c47",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-292ee6f78ec189d5"
+      ],
+      "factSha256": "sha256:3fcafb2b462b3ddad3ef935369daa8646210abbaea420934d352242e3cc33ec2",
+      "factType": "signature",
+      "id": "FACT-14f58dfdb11ee18c",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/evaluate.ts#EvalOptions",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/kernel/coverage.ts declares export interface ConditionCoverage at line 12.",
+      "claimSha256": "sha256:01fc0a26702082a42823b584faff17b46cedd496751305fcd95ba35916305df4",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-11bad38f703058b1"
+      ],
+      "factSha256": "sha256:e27a4a8f7749f16c2060baeac5531290ced12c5c4055506a893c181ceede20f7",
+      "factType": "signature",
+      "id": "FACT-16d4f5ee56a1dddc",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/coverage.ts#ConditionCoverage",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ComparisonTerm is explicitly declared as an interface contract in src/app/kernel/ast.ts at line 24.",
+      "claimSha256": "sha256:150e893cf4fd4a711ac29debd09424088eb1d649eb06517d5e3438ca7ada8ad1",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-5d77f3c33ef7a725"
+      ],
+      "factSha256": "sha256:62d8dc2e4a4cd380ada2976ce2706de73705bc26dcb00c9dac716f9a2902cfb7",
+      "factType": "interface",
+      "id": "FACT-19c599cb4357f25e",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/ast.ts#ComparisonTerm",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/components/validator/test-data-tab/test-data-tab.component.ts declares export class TestDataTabComponent at line 22.",
+      "claimSha256": "sha256:30c9a523cb09bbda669a778bd7b1423135ed0ee5e13b86369a05232e73b08126",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-acab94a616efa396"
+      ],
+      "factSha256": "sha256:c8237f0f438d9e57f50c4bf871951b139432a68d92bf182f4a34fb0fea16b8d2",
+      "factType": "signature",
+      "id": "FACT-1a72fa25dfb808ab",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/validator/test-data-tab/test-data-tab.component.ts#TestDataTabComponent",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "src/app/kernel/ast.ts declares export interface ComparisonTerm at line 24.",
+      "claimSha256": "sha256:678f4e28f3b0c5f34ec585865934096d75865426e79251675112792abbcc7ac5",
+      "conflictsWith": [],
+      "derivationId": "DRV-d2335093c7c3eb9e",
+      "evidenceIds": [
+        "EV-5d77f3c33ef7a725"
+      ],
+      "factSha256": "sha256:de440e0dffa853625cfad5d97181625ff95f53fbbe7b3a86f744c1d0567de09d",
+      "factType": "signature",
+      "id": "FACT-1b3973d38b55e032",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/ast.ts#ComparisonTerm",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "GridRow is explicitly declared as an interface contract in src/app/components/validator/test-data-tab/test-data-tab.component.ts at line 10.",
+      "claimSha256": "sha256:6f7a45e420020457227b6f7d01d4573f6877873a02bdab9f0f1354b346acf9e4",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-980f4e28cf412969"
+      ],
+      "factSha256": "sha256:4d0ac7fd7c5b904196187a65916c73965ef3f6aff43ce63493df9938fea76a8d",
+      "factType": "interface",
+      "id": "FACT-1c3cc3977b3d1cfb",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/validator/test-data-tab/test-data-tab.component.ts#GridRow",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ExtConnection is explicitly declared as an interface contract in src/app/components/rule-canvas/rule-canvas.component.ts at line 47.",
+      "claimSha256": "sha256:f2331532bb08ff4ccafbf6975540d4c9d58e88d79186e4689a1702fb2d13e9d2",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-c2a4df109608041e"
+      ],
+      "factSha256": "sha256:85db6dba6d8197c64145191809a07126bce18ee1f0ede9b2e5017d3503a61d84",
+      "factType": "interface",
+      "id": "FACT-1e1fb9a5e77a1dfb",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-canvas/rule-canvas.component.ts#ExtConnection",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "AttributeDef is explicitly declared as an interface contract in src/app/kernel/schema.ts at line 26.",
+      "claimSha256": "sha256:7a37354fb5886f4dc33272c9617afd87a408ff3e8dd52b4b02fc6448da04acd9",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-ef717508932fa80a"
+      ],
+      "factSha256": "sha256:b20277a94d2dba0c89c2f19a34c782557a6ffb4cbd50b69944fdb40ab065a5de",
+      "factType": "interface",
+      "id": "FACT-1e88c37314faa228",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/schema.ts#AttributeDef",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "MemoryPort explicitly implements PersistencePort in src/app/services/persistence.ts at line 44.",
+      "claimSha256": "sha256:557ddbdf9caa14157b257d48a1aaacc6c86728a3e8b72d4c104c2c582e529c1a",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-7937030d5bd296c0"
+      ],
+      "factSha256": "sha256:e8771ff1d83e9d6527b06d39138d7a6fcfabef03fc387bb6cb93356fa2bcc9e4",
+      "factType": "implementation",
+      "id": "FACT-22b06d26e6b6b981",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/services/persistence.ts#MemoryPort->PersistencePort",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "FlowTerm is explicitly declared as an interface contract in src/app/components/rule-canvas/rule-canvas.component.ts at line 19.",
+      "claimSha256": "sha256:05766bce629c61e4e9dad2e37e4bf6de5e91ba76ba9317990412512555814632",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-fdb39a4ff959cd53"
+      ],
+      "factSha256": "sha256:96fc63bd42bf116e699d7bfe2fa618f49965071b5105910b59d6f114c8e5444a",
+      "factType": "interface",
+      "id": "FACT-2b975f5703d71a8e",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-canvas/rule-canvas.component.ts#FlowTerm",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "RuleSetsComponent explicitly implements OnInit in src/app/components/rule-sets/rule-sets.component.ts at line 513.",
+      "claimSha256": "sha256:bf73e533a347e99818561448a11eb0950e742bf0ec08e4b701de62413868c0d8",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-e044c06f6c3c2367"
+      ],
+      "factSha256": "sha256:d778b275280a6b818e5bb58309b7573d9b389b2404b45a6f386f74de60cdad80",
+      "factType": "implementation",
+      "id": "FACT-2dbc745c7be2f938",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-sets/rule-sets.component.ts#RuleSetsComponent->OnInit",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ConditionDelta is explicitly declared as an interface contract in src/app/kernel/diff.ts at line 9.",
+      "claimSha256": "sha256:d8bc0ef1cdc22817bf79c001dbe67a292794404b423c88b8c5c320f78d84e53f",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-0230d15bbebad77a"
+      ],
+      "factSha256": "sha256:3d0d7c65b968464b836eed52d9e6415fc65999d22f390ae6caac9d8f1760cbe9",
+      "factType": "interface",
+      "id": "FACT-31592f35e61a0bac",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/diff.ts#ConditionDelta",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ScheduleConfig is explicitly declared as an interface contract in src/app/components/rule-sets/rule-sets.component.ts at line 15.",
+      "claimSha256": "sha256:0082d04cd288063b2fb2f626721d101b87d69c45227bf9d3da0daf9865b7464c",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-2806d8824fa257d9"
+      ],
+      "factSha256": "sha256:229c33e4a5b4ef159e8aa47070ed9c3162074bed6c3f794d93198dbc18ee314b",
+      "factType": "interface",
+      "id": "FACT-351ade77464be09c",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-sets/rule-sets.component.ts#ScheduleConfig",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "PendingCase is explicitly declared as an interface contract in src/app/models/types.ts at line 181.",
+      "claimSha256": "sha256:9f1efbd9f58df21c7d94620dce9082b5499a7b0d836f8de4e6d3b7be225126d8",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-a710c9c9df2a8633"
+      ],
+      "factSha256": "sha256:2449ad4d44a89249416babb18a4b50f1176e5b78bc32e4eb6e515d4a85590c0b",
+      "factType": "interface",
+      "id": "FACT-360800a603bac048",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#PendingCase",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "not-applicable",
+      "claim": null,
+      "claimSha256": "sha256:38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "conflictsWith": [],
+      "derivationId": "DRV-c85b36c7d8d7827a",
+      "evidenceIds": [],
+      "factSha256": "sha256:989d751bfe963640b74fdef0cef01126c6f5865ef668bd60a685356c67f67e92",
+      "factType": "schema-contract",
+      "id": "FACT-36fc31480546b14a",
+      "reason": {
+        "attemptedProducer": "required-fact-coverage",
+        "code": "NO_REGISTERED_PRODUCER",
+        "detail": "No registered deterministic producer supplied schema-contract for arch.contracts@4 within the pinned scope."
+      },
+      "scopeStatus": "inside",
+      "status": "unavailable",
+      "subject": {
+        "id": "arch.contracts@4:schema-contract",
+        "kind": "analysis"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "Suite is explicitly declared as an interface contract in src/app/models/types.ts at line 68.",
+      "claimSha256": "sha256:47128bf25d8c9abec7b65841778803150d56c63f17e0c142d90ee485f4835018",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-312f34a94816fbfa"
+      ],
+      "factSha256": "sha256:7fc823dd9f975de6961c4cee71dbb163e31ff04d11f73d222d8f8f358399ca62",
+      "factType": "interface",
+      "id": "FACT-3825185cf52035ed",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#Suite",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "RuleCanvasComponent is an explicit consumer of interface OnInit in src/app/components/rule-canvas/rule-canvas.component.ts.",
+      "claimSha256": "sha256:af02a0da062b35ab0bccf41aa46ed53bc80e22a7589e6cf10ab89ac2a7b6e1a6",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-25898a69735cfd1a"
+      ],
+      "factSha256": "sha256:a42609ce5206c7f2ba7ce60e179a10f5b59ae33eb042118bb3ff851b0df67566",
+      "factType": "consumer-dependency",
+      "id": "FACT-3ae30bd5e80b7849",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-canvas/rule-canvas.component.ts#RuleCanvasComponent->OnInit",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "DecisionLogic is explicitly declared as an interface contract in src/app/components/rule-canvas/rule-canvas.component.ts at line 25.",
+      "claimSha256": "sha256:3917895b5fe61aaba16ca8774b6fe63506a62cb94c27da172fef98fb312004c0",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-d29044b6d144b67e"
+      ],
+      "factSha256": "sha256:d4f6f53589298b50bb4e7a6d023f53eba326fe04196574514f3aaab44e58b269",
+      "factType": "interface",
+      "id": "FACT-3bc37ea55ddc3b69",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-canvas/rule-canvas.component.ts#DecisionLogic",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "ConditionStats is explicitly declared as an interface contract in src/app/models/types.ts at line 144.",
+      "claimSha256": "sha256:83a442eb8179d4f79540949b13ad8337e8059143144f1b3111f478648fdb4393",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-a32b792c49c233df"
+      ],
+      "factSha256": "sha256:96bb119e0396d4015b6716190426609f734dcbc829fcbfbe6c4220c92e450509",
+      "factType": "interface",
+      "id": "FACT-3d924f3a4325e841",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#ConditionStats",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "NamespaceConfig is explicitly declared as an interface contract in src/app/models/types.ts at line 42.",
+      "claimSha256": "sha256:23bdae6aafe35ad27bcc1ff3ced7d60a81cdfdd6eeb32d4d30c3aa7ba044a0b8",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-62c229970b480a4f"
+      ],
+      "factSha256": "sha256:f1433e5a10490e9af00e80648af8afc9fc633c558efde19b7ff8d40153bd0edc",
+      "factType": "interface",
+      "id": "FACT-478e07efe0d7787a",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/models/types.ts#NamespaceConfig",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "LogicalTerm is explicitly declared as an interface contract in src/app/kernel/ast.ts at line 32.",
+      "claimSha256": "sha256:b45c053d186ab478278021aa14153d965c9aa4c57fd812e98ddfb173b219bfcb",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-82ef30d47ae3db81"
+      ],
+      "factSha256": "sha256:d0976626960a10ebff14a3d72ea08b140308a86bbb236f0db402c367dd31f46e",
+      "factType": "interface",
+      "id": "FACT-4fdb3b0d3c5d95ab",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/kernel/ast.ts#LogicalTerm",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "LocalStoragePort explicitly implements PersistencePort in src/app/services/persistence.ts at line 16.",
+      "claimSha256": "sha256:1d5ffd8ec9b77c09902b74101538e8122d9e25ea8bd9628d3d4c1e76577351cc",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-def2915209b5d672"
+      ],
+      "factSha256": "sha256:444e1dedc839dc6fed395907aa7a2be53df99ddea6e59f9712cee646fb11fa5b",
+      "factType": "implementation",
+      "id": "FACT-53fd72e49466dd8b",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/services/persistence.ts#LocalStoragePort->PersistencePort",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "LocalStoragePort is an explicit consumer of interface PersistencePort in src/app/services/persistence.ts.",
+      "claimSha256": "sha256:c8d319eb0738f89d2af4400878e5b235e4b86f41c6763767506c19a784a947a8",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-def2915209b5d672"
+      ],
+      "factSha256": "sha256:f29327d833fbed6b596cd647dee62eeb51b34060aa019b8cbf4d3f20437e61c0",
+      "factType": "consumer-dependency",
+      "id": "FACT-5e3d49bb981297a9",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/services/persistence.ts#LocalStoragePort->PersistencePort",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "RuleCanvasComponent explicitly implements OnInit in src/app/components/rule-canvas/rule-canvas.component.ts at line 669.",
+      "claimSha256": "sha256:19d3f140c49d913a357b379cdb06c379688ac414f29d386e1a204a45977410dd",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-25898a69735cfd1a"
+      ],
+      "factSha256": "sha256:e8ebe348147d660f5c32f5801f6fac57e84d22c5192f31d92472a1e705d5a510",
+      "factType": "implementation",
+      "id": "FACT-5e4f4f2be444e8bb",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-canvas/rule-canvas.component.ts#RuleCanvasComponent->OnInit",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "RuleSetsComponent is an explicit consumer of interface OnInit in src/app/components/rule-sets/rule-sets.component.ts.",
+      "claimSha256": "sha256:35fc973d6fc469e750dfe89b2d6568b4b6b87b05ad29763f2b38fa9d093c91d9",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-e044c06f6c3c2367"
+      ],
+      "factSha256": "sha256:cbeb983881d1d3f72f6af81628c5a470654b390eb5ede535d6fb6a42ba7cc4a0",
+      "factType": "consumer-dependency",
+      "id": "FACT-99f0e6f1ddc10630",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/components/rule-sets/rule-sets.component.ts#RuleSetsComponent->OnInit",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "structurally-derived",
+      "claim": "MemoryPort is an explicit consumer of interface PersistencePort in src/app/services/persistence.ts.",
+      "claimSha256": "sha256:d3fa32532f2bc4fbc125c4336583d94c67f8723744d5f55c865f9eca828b42ff",
+      "conflictsWith": [],
+      "derivationId": "DRV-5dba42dcd4c7accd",
+      "evidenceIds": [
+        "EV-7937030d5bd296c0"
+      ],
+      "factSha256": "sha256:c6e04b366ae3437b241e4bc2dd975dfb8810a3f2fadae9f387edc960f56c8e70",
+      "factType": "consumer-dependency",
+      "id": "FACT-cd0f427376dce326",
+      "scopeStatus": "inside",
+      "status": "available",
+      "subject": {
+        "id": "src/app/services/persistence.ts#MemoryPort->PersistencePort",
+        "kind": "symbol"
+      }
+    },
+    {
+      "assurance": "not-applicable",
+      "claim": null,
+      "claimSha256": "sha256:38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "conflictsWith": [],
+      "derivationId": "DRV-c85b36c7d8d7827a",
+      "evidenceIds": [],
+      "factSha256": "sha256:a4f8e74ac0943741665211d33c99e659878b69c408b1841277c1adf542b57747",
+      "factType": "runtime-guarantee",
+      "id": "FACT-f8df5ea05118e316",
+      "reason": {
+        "attemptedProducer": "required-fact-coverage",
+        "code": "NO_RUNTIME_EVIDENCE",
+        "detail": "No registered deterministic producer supplied runtime-guarantee for arch.contracts@4 within the pinned scope."
+      },
+      "scopeStatus": "inside",
+      "status": "unavailable",
+      "subject": {
+        "id": "arch.contracts@4:runtime-guarantee",
+        "kind": "analysis"
+      }
+    }
+  ],
+  "kind": "world-model-view-fact-ledger",
+  "ledgerSha256": "sha256:f73b505816a517f572be24008c3c8a7e558b47f23251ca4df7602e5fe3c71413",
+  "materialContradictionFactIds": [],
+  "requiredFactIds": [
+    "FACT-000421a536ab9c76",
+    "FACT-0117e44adc5a18af",
+    "FACT-0222cdf43605c00c",
+    "FACT-22b06d26e6b6b981",
+    "FACT-36fc31480546b14a",
+    "FACT-3ae30bd5e80b7849"
+  ],
+  "requiredUnavailableFactIds": [
+    "FACT-f8df5ea05118e316"
+  ],
+  "schemaVersion": 1,
+  "selectionPolicySha256": "sha256:37166a1569ba1984c1e05117a6cf4b98f18186789a3e4d16797189e4f23685bc",
+  "sourceLedgerSha256": "sha256:e0eddc4f437e2318cd343061cebbd1a7de5d01ce8fb4e54ad5f8f6917c2470ad",
+  "viewId": "arch.contracts",
+  "viewSpecSha256": "sha256:13ff5bb50461e3b7a40d8e34e1785fd29ebd36b5134a59c7630fa5304d2997b0",
+  "viewVersion": 4
+}
