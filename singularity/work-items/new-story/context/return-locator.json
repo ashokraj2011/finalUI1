@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "return-locator",
+  "workId": "new-story",
+  "capabilityId": "anu-ui",
+  "originRepositoryId": "finalui1",
+  "repositories": [
+    {
+      "id": "finalui1",
+      "remote": "origin",
+      "required": true,
+      "url": "https://github.com/ashokraj2011/finalUI1.git",
+      "fingerprint": "ea1de2e95cdda642fd78896170bf3f73982e593149050c3fd5992522372e92b0",
+      "portability": "portable"
+    }
+  ],
+  "lifecycleRef": "refs/heads/new-story",
+  "workBranchRef": "refs/heads/new-story",
+  "configuration": {
+    "sha256": "52dc415dc7f2cd39a2d0bd055b64f28ad8fc803474dc9d95e478eda7e8b24e8a",
+    "branch": "sflow/config",
+    "commit": "e0b4ec848b4df7dc7ed67958f2ed02b2fecfcaa3"
+  },
+  "cloneStrategy": "existing-or-clone",
+  "integritySha256": "e1f0fd42e3006209240686ca696335f41ecb27d605a67e9ee249338e325f6650"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "capabilityId": "anu-ui",
+  "capabilityPath": [
+    "anu-ui"
+  ],
+  "capabilityMapSha256": "57c667f951ea2d85be2fd66ff0238080078196487caf577cac71f2b89cef0591",
+  "requiredViews": [
+    "arch.contracts",
+    "biz.rules",
+    "dev.hotspots",
+    "dev.impact"
+  ],
+  "maxBytes": 262144,
+  "bytes": 0,
+  "repositories": [
+    {
+      "id": "finalui1",
+      "status": "local-grounding"
+    }
+  ],
+  "files": [],
+  "warnings": [],
+  "recordedAt": "2026-09-27T22:55:45.471Z"
+}
