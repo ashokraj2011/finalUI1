@@ -1,0 +1,49 @@
+{
+  "drafts": [
+    {
+      "draftId": "WFD-616194ED719A",
+      "revisions": [
+        {
+          "content": {
+            "assetManifestSha256": "sha256:bc7cfce6f98fb3e7e7128e59b14dfd8f191c2afde4cd150857db2af07a499611",
+            "kind": "partial-workflow-package",
+            "payloadSha256": "sha256:ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+          },
+          "displayName": "Untitled workflow",
+          "draftId": "WFD-616194ED719A",
+          "kind": "workflow-authoring-draft-revision",
+          "lastEdit": {
+            "operationId": "a1286e47-eace-4043-84f5-725fabeb2a69",
+            "recordedAt": "2026-09-28T04:11:06.539Z"
+          },
+          "lifecycle": "live",
+          "lifecycleEpoch": 1,
+          "parentRevisionSha256": null,
+          "revision": 1,
+          "revisionSha256": "sha256:3c58eb0e60598b15b6864cff5e89a0f5168db93282a8580bf085326fc2553d3d",
+          "schemaVersion": 1,
+          "visibility": "repository-shared",
+          "workspaceId": "configuration"
+        }
+      ],
+      "tombstone": null
+    }
+  ],
+  "generation": 1,
+  "kind": "workflow-authoring-git-draft-store",
+  "operations": [
+    {
+      "draftId": "WFD-616194ED719A",
+      "generation": 1,
+      "kind": "create",
+      "operationId": "a1286e47-eace-4043-84f5-725fabeb2a69",
+      "parentHead": null,
+      "requestSha256": "sha256:85993908b5468535a11bb237d160e9e84585733dc8afb9cbe99e97fd75ea8c5e",
+      "revisionSha256": "sha256:3c58eb0e60598b15b6864cff5e89a0f5168db93282a8580bf085326fc2553d3d",
+      "tombstoneSha256": null
+    }
+  ],
+  "schemaVersion": 1,
+  "stateSha256": "sha256:04134032825dedf4c70cff06c4ece25daeb5d71a6dd84bd8199b1259be05b31a",
+  "workspaceId": "configuration"
+}
