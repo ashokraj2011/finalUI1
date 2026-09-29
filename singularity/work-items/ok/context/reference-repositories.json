@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "story-reference-repository-set",
+  "workId": "ok",
+  "repositories": [
+    {
+      "schemaVersion": 1,
+      "id": "k",
+      "repository": "https://github.com/ashokraj2011/singularityflow.git",
+      "repositorySha256": "sha256:690221c02124c2adec1d5da7a775ca7f90d26e6b39425b294c0cc64b51463ee1",
+      "requestedBranch": "main",
+      "commit": "7dec827ecb9b7add0310ac4eb59ca2adfe1caf6e",
+      "tree": "f6b28b08c8942fbc9afbd764e46ceeccdf5ce001",
+      "required": true,
+      "localPath": ".singularity-flow/reference-repositories/ok/k",
+      "pinnedAt": "2026-09-29T03:26:50.983Z"
+    }
+  ],
+  "setSha256": "sha256:9e898a1dc6492d4054b2100739beec7eca1b968b6c60e3b7a81bd3a41378e500"
+}
